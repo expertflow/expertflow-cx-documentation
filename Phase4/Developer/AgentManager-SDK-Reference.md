@@ -5,6 +5,7 @@ audience: [developer]
 product-area: [platform, sdk]
 doc-type: reference
 difficulty: advanced
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -86,4 +87,4 @@ Events for real-time collaboration and monitoring.
 
 ---
 
-*For exhaustive payload schemas, see the [Master Socket Events List](Socket-Events_2530728.html) or the [CIM Message Objects Reference](CIM-Messages_2530195.html).*
+*For exhaustive payload schemas, see the [Master Socket Events List](./Socket_Events/index.md) or the [CIM Message Objects Reference](CIM-Message-Schema/CIM-Messages.md).*

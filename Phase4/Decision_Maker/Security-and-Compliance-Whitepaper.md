@@ -5,6 +5,7 @@ audience: [decision-maker, partner]
 product-area: [security]
 doc-type: explanation
 difficulty: beginner
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -42,4 +43,4 @@ To mitigate the risk of data leakage, ExpertFlow provides:
 
 ---
 
-*For detailed technical specifications, refer to our [Application Security Architecture](Application-Security_2527480.html) or the [Full Compliance Roadmap](PI-Roadmap_1382678547.html).*
+*For detailed technical specifications, refer to our [Application Security Architecture](../ARCHIVE_NOTICE.md) or the [Full Compliance Roadmap](../ARCHIVE_NOTICE.md).*

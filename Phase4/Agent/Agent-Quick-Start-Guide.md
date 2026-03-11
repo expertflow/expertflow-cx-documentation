@@ -5,6 +5,7 @@ audience: [agent]
 product-area: [platform]
 doc-type: tutorial
 difficulty: beginner
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -50,4 +51,4 @@ Once the customer's issue is solved, you must "close" the interaction properly.
 
 ---
 
-*Ready for more? Explore the [Detailed Call Controls Guide](CTI-Call-Controls_140869685.html) or learn [How to Handle Multi-channel Chats](Handle-Multi-channel-Conversation_2528824.html).*
+*Ready for more? Explore the [Detailed Call Controls Guide](../Functional_Areas/Voice_Real-time_Media/CTI-Call-Controls.md) or learn [How to Handle Multi-channel Chats](Accept-a-Conversation.md).*

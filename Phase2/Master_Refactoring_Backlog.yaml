@@ -1,117 +1,267 @@
-# ExpertFlow CX Knowledge Base — Master Refactoring Backlog
-# This file is the Source of Truth for the Phase 4 Content Refactor
-
 refactoring_backlog:
-  - source_slug: "Expertflow-CX-Platform-Overview_1785790479"
-    target_title: "Platform Overview"
-    persona: [decision-maker, partner, reseller]
+- source_slug: Translation-support-at-customer-widget_946798639
+  target_title: 'Archived: Translation-support-at-customer-widget_946798639'
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Archived; redundant with Customer-Widget-Configuration-and-Translation-Management_148897858.
+- source_slug: Expertflow-CX-Platform-Overview_1785790479
+  target_title: Platform Overview
+  persona:
+  - decision-maker
+  - partner
+  - reseller
+  diataxis: explanation
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Remove 'How-to' steps from the end of the document. Keep
+    only the value proposition and architectural overview.
+- source_slug: Add-a-Customer-Widget_1553367051
+  target_title: Configuring the Customer Widget
+  persona:
+  - admin
+  diataxis: how-to
+  action: split
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Extract technical parameters (JSON/API) into a new Reference
+    page 'Widget-Technical-Parameters'. Focus this page on UI-based configuration.
+- source_slug: WhatsApp_2526019
+  target_title: WhatsApp Channel Overview
+  persona:
+  - admin
+  - supervisor
+  diataxis: explanation
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Update to state that WhatsApp Cloud API is fully supported.
+    Remove links to 360dialog/Twilio as the only options.
+- source_slug: CX-SIP-Proxy_31719845
+  target_title: SIP Proxy Architecture
+  persona:
+  - partner
+  diataxis: explanation
+  action: move
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Tag strictly for 'Partner (Host)'. Ensure it is hidden from
+    Agent/Supervisor navigation.
+- source_slug: CX-Release-Notes-5.2.0
+  target_title: Release Notes 5.2.0
+  persona:
+  - partner
+  - decision-maker
+  diataxis: reference
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Remove all internal Jira IDs (CIM-XXXX). Delete the 'Planned
+    Features' section. Keep only released features and security improvements.
+- source_slug: Conversation-List
+  target_title: Finding Conversations for Audit
+  persona:
+  - quentin
+  diataxis: reference
+  action: rename
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Focus on how the Quality Manager uses the filters to identify
+    calls for the Evaluator team.
+- source_slug: Contact-Center-Personas
+  target_title: ExpertFlow Personas & Goals
+  persona:
+  - decision-maker
+  diataxis: explanation
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Rewrite to align with the Final 12-Persona Model (Quentin,
+    Eva, Ian, etc.). Remove legacy 'Ops' definitions.
+- source_slug: OpenSearch-Deployment
+  target_title: Audit Trail Implementation (OpenSearch Pattern)
+  persona:
+  - partner
+  - integrator
+  diataxis: tutorial
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Clarify that OpenSearch is an optional 3rd-party pattern
+    for SIEM/Audit-trail. State that Partners may use any equivalent solution.
+- source_slug: joinAsBargin
+  target_title: 'Socket Event: joinAsBargeIn'
+  persona:
+  - developer
+  diataxis: reference
+  action: move
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Strictly for Developers. Ensure it is hidden from Supervisor
+    navigation.
+- source_slug: License-Consumption-Status
+  target_title: Monitoring Tenant License Consumption
+  persona:
+  - admin
+  diataxis: reference
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: 'Focus exclusively on the single-tenant view for Solution
+    Admins. Note: Reseller-level portal docs are a GAP (under development).'
+- source_slug: AI-Driven-Quality-Management_1153106262
+  target_title: Configuring AI-Powered Quality Audits
+  persona:
+  - ai-specialist
+  diataxis: how-to
+  action: rewrite
+  priority: high
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: JUMP TO TOP. Detailed guide for the NLU Specialist on setting
+    up LLM scoring, prompt tuning, and auto-audit rules.
+- source_slug: Cisco-Contact-center-integration_2525072
+  target_title: Cisco UCCE/X Integration Reference
+  persona:
+  - integrator
+  diataxis: reference
+  action: rewrite
+  priority: high
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: JUMP TO TOP. Clinical integration map. Remove all internal
+    Jira IDs. Focus on signal flow between CX and Finesse.
+- source_slug: Quorum-based-Cluster
+  target_title: Quorum Cluster (Legacy)
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to 'Archive > Legacy Architecture'. Not recommended
+    for current deployments.
+- source_slug: Twitter-Overview
+  target_title: 'Routing Strategy: Pull Mode'
+  persona:
+  - admin
+  - designer
+  diataxis: explanation
+  action: rewrite
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Genericize the PULL MODE explanation. State that it is a
+    channel-agnostic routing concept. Link to it from Twitter, Email, and SMS guides.
+- source_slug: CX-Analyser-Reports-Setup_1355743279
+  target_title: Setting Up CX Analyser Reports
+  persona:
+  - admin
+  diataxis: how-to
+  action: keep
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Ensure clinical step-by-step flow for importing report definitions.
+    Link to the 'Setup CX Analyser' guide as a prerequisite.
+- source_slug: CX-Analyser-Reports-Setup_1355743279
+  target_title: Setting Up CX Analyser Reports (Day 1)
+  persona:
+  - partner
+  - integrator
+  diataxis: how-to
+  action: move
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to 'Infrastructure > Component Setup'. Clearly state
+    that this is a required step after the core helm deployment to enable any reporting.
+- source_slug: Expertflow-CX-Release-Versioning_2525588
+  target_title: Understanding Versioning & Release Cycles
+  persona:
+  - decision-maker
+  - partner
+  diataxis: reference
+  action: move
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to 'Strategic Value' or 'Governance'. Ensure it clearly
+    defines the difference between Major, Minor, and Patch releases for ExpertFlow
+    CX.
+- source_slug: CX-SIP-Proxy-as-a-CUSP-replacement_687538868
+  target_title: 'Archived: CX-SIP-Proxy-as-a-CUSP-replacement_687538868'
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to Archive. User requested exclusion from active documentation.
+- source_slug: Call-Scenarios-for-CUSP-Replacement_687178260
+  target_title: 'Archived: Call-Scenarios-for-CUSP-Replacement_687178260'
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to Archive. User requested exclusion from active documentation.
+- source_slug: Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923
+  target_title: 'Archived: Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923'
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to Archive. User requested exclusion from active documentation.
+- source_slug: CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383
+  target_title: 'Archived: CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383'
+  persona:
+  - internal
+  diataxis: reference
+  action: archive
+  status: completed
+  completed_at: 2026-03-11
+  refactor_instructions: Move to Archive. User requested exclusion from active documentation.
+  - source_slug: "Parse-Rasa-Standard-Message-on-Bot-Framework_1731264556"
+    target_title: "Message Schema Interoperability: Rasa and CIM"
+    persona: [ai-specialist, developer]
     diataxis: explanation
     action: rewrite
-    refactor_instructions: "Remove 'How-to' steps from the end of the document. Keep only the value proposition and architectural overview."
-
-  - source_slug: "Add-a-Customer-Widget_1553367051"
-    target_title: "Configuring the Customer Widget"
-    persona: [admin]
+    status: completed
+    completed_at: 2026-03-11
+    refactor_instructions: "Explain the Parser Layer architecture. Include a schema comparison table. Highlight compatibility with RasaX UI and standalone Rasa instances."
+  - source_slug: "Scheduled-Activities_150503557"
+    target_title: "Scheduler API & Workflow Reference"
+    persona: [integrator, developer]
+    diataxis: reference
+    action: rewrite
+    status: completed
+    completed_at: 2026-03-11
+    refactor_instructions: "Document the Scheduler API lifecycle. Clarify the 10-step message flow. Highlight the webhook registration and status tracking features (Scheduled, Delivered, Failed)."
+  - source_slug: "Messages%2C-Events%2C-and-Activities_2528021"
+    target_title: "Interaction Model: Rooms, Actors, and Events"
+    persona: [developer, integrator]
+    diataxis: reference
+    action: rewrite
+    status: completed
+    completed_at: 2026-03-11
+    refactor_instructions: "Define the core abstractions (Room, Actor, CIMEvent). Document the exhaustive Conversation Events table. Explain the relationship between Events and stateful Activities."
+  - source_slug: "User-Inactivity-Logout_1481802143"
+    target_title: "Configuring User Inactivity Logout"
+    persona: [admin, agent]
     diataxis: how-to
-    action: split
-    refactor_instructions: "Extract technical parameters (JSON/API) into a new Reference page 'Widget-Technical-Parameters'. Focus this page on UI-based configuration."
-
-  - source_slug: "WhatsApp_2526019"
-    target_title: "WhatsApp Channel Overview"
-    persona: [admin, supervisor]
-    diataxis: explanation
     action: rewrite
-    refactor_instructions: "Update to state that WhatsApp Cloud API is fully supported. Remove links to 360dialog/Twilio as the only options."
-
-  - source_slug: "CX-SIP-Proxy_31719845"
-    target_title: "SIP Proxy Architecture"
-    persona: [partner]
-    diataxis: explanation
-    action: move
-    refactor_instructions: "Tag strictly for 'Partner (Host)'. Ensure it is hidden from Agent/Supervisor navigation."
-
-  - source_slug: "CX-Release-Notes-5.2.0"
-    target_title: "Release Notes 5.2.0"
-    persona: [partner, decision-maker]
-    diataxis: reference
-    action: rewrite
-    refactor_instructions: "Remove all internal Jira IDs (CIM-XXXX). Delete the 'Planned Features' section. Keep only released features and security improvements."
-
-  - source_slug: "Conversation-List"
-    target_title: "Finding Conversations for Audit"
-    persona: [quentin]
-    diataxis: reference
-    action: rename
-    refactor_instructions: "Focus on how the Quality Manager uses the filters to identify calls for the Evaluator team."
-
-  - source_slug: "Contact-Center-Personas"
-    target_title: "ExpertFlow Personas & Goals"
-    persona: [decision-maker]
-    diataxis: explanation
-    action: rewrite
-    refactor_instructions: "Rewrite to align with the Final 12-Persona Model (Quentin, Eva, Ian, etc.). Remove legacy 'Ops' definitions."
-  - source_slug: "OpenSearch-Deployment"
-    target_title: "Audit Trail Implementation (OpenSearch Pattern)"
-    persona: [partner, integrator]
-    diataxis: tutorial
-    action: rewrite
-    refactor_instructions: "Clarify that OpenSearch is an optional 3rd-party pattern for SIEM/Audit-trail. State that Partners may use any equivalent solution."
-  - source_slug: "joinAsBargin"
-    target_title: "Socket Event: joinAsBargeIn"
-    persona: [developer]
-    diataxis: reference
-    action: move
-    refactor_instructions: "Strictly for Developers. Ensure it is hidden from Supervisor navigation."
-
-  - source_slug: "License-Consumption-Status"
-    target_title: "Monitoring Tenant License Consumption"
-    persona: [admin]
-    diataxis: reference
-    action: rewrite
-    refactor_instructions: "Focus exclusively on the single-tenant view for Solution Admins. Note: Reseller-level portal docs are a GAP (under development)."
-
-  - source_slug: "AI-Driven-Quality-Management_1153106262"
-    target_title: "Configuring AI-Powered Quality Audits"
-    persona: [ai-specialist]
-    diataxis: how-to
-    action: rewrite
-    priority: high
-    refactor_instructions: "JUMP TO TOP. Detailed guide for the NLU Specialist on setting up LLM scoring, prompt tuning, and auto-audit rules."
-
-  - source_slug: "Cisco-Contact-center-integration_2525072"
-    target_title: "Cisco UCCE/X Integration Reference"
-    persona: [integrator]
-    diataxis: reference
-    action: rewrite
-    priority: high
-    refactor_instructions: "JUMP TO TOP. Clinical integration map. Remove all internal Jira IDs. Focus on signal flow between CX and Finesse."
-  - source_slug: "Quorum-based-Cluster"
-    target_title: "Quorum Cluster (Legacy)"
+    status: completed
+    completed_at: 2026-03-11
+    refactor_instructions: "Document the Admin setup (30-3600s range). Explain the 80% warning trigger and the conversation rerouting logic on logout. List inactivity exceptions (minimized window, active call)."
+  - source_slug: "Feedback-on-the-user-guide-of-Conversation-Search-via-GraphQL_1712979987"
+    target_title: "Archived: Documentation Feedback (GraphQL)"
     persona: [internal]
     diataxis: reference
     action: archive
-    refactor_instructions: "Move to 'Archive > Legacy Architecture'. Not recommended for current deployments."
-  - source_slug: "Twitter-Overview"
-    target_title: "Routing Strategy: Pull Mode"
-    persona: [admin, designer]
-    diataxis: explanation
-    action: rewrite
-    refactor_instructions: "Genericize the PULL MODE explanation. State that it is a channel-agnostic routing concept. Link to it from Twitter, Email, and SMS guides."
-  - source_slug: "CX-Analyser-Reports-Setup_1355743279"
-    target_title: "Setting Up CX Analyser Reports"
-    persona: [admin]
-    diataxis: how-to
-    action: keep
-    refactor_instructions: "Ensure clinical step-by-step flow for importing report definitions. Link to the 'Setup CX Analyser' guide as a prerequisite."
-  - source_slug: "CX-Analyser-Reports-Setup_1355743279"
-    target_title: "Setting Up CX Analyser Reports (Day 1)"
-    persona: [partner, integrator]
-    diataxis: how-to
-    action: move
-    refactor_instructions: "Move to 'Infrastructure > Component Setup'. Clearly state that this is a required step after the core helm deployment to enable any reporting."
-  - source_slug: "Expertflow-CX-Release-Versioning_2525588"
-    target_title: "Understanding Versioning & Release Cycles"
-    persona: [decision-maker, partner]
-    diataxis: reference
-    action: move
-    refactor_instructions: "Move to 'Strategic Value' or 'Governance'. Ensure it clearly defines the difference between Major, Minor, and Patch releases for ExpertFlow CX."
+    status: completed
+    completed_at: 2026-03-11
+    refactor_instructions: "Move to Archive. This is internal feedback on documentation structure and should not be public-facing."

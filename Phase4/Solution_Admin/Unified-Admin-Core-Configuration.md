@@ -5,6 +5,7 @@ audience: [admin]
 product-area: [platform, routing]
 doc-type: how-to
 difficulty: intermediate
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -51,7 +52,7 @@ Once the routing is ready, you must connect your communication channels.
 
 ### Digital Channels:
 - **WhatsApp/Facebook:** Configure your **Channel Providers** and **Connectors** to link your business accounts to the routing engine.
-- *For detailed channel setup, see the [Digital Channel Management](../../Functional_Areas/Digital_Channel_Management/index.md) section.*
+- *For detailed channel setup, see the [Digital Channel Management](../ARCHIVE_NOTICE.md) section.*
 
 ## 4. Operational Settings
 - **Reason Codes:** Add custom codes for "Not Ready" (e.g., Training, System Issue) and "Logout."
@@ -59,4 +60,4 @@ Once the routing is ready, you must connect your communication channels.
 
 ---
 
-*Looking for specialized guides? Check out [Managing Campaigns](../Solution_Admin/Campaign-Management.md) or [Managing the QA Workflow](../QM/Managing-the-Quality-Assurance-Workflow.md).*
+*Looking for specialized guides? Check out [Managing Campaigns](Managing-Outbound-Campaigns.md) or [Managing the QA Workflow](../QM/Managing-the-Quality-Assurance-Workflow.md).*

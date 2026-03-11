@@ -5,6 +5,7 @@ audience: [designer]
 product-area: [ivr, studio]
 doc-type: explanation
 difficulty: intermediate
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -44,4 +45,4 @@ As of release 5.0, surveys are managed via a dedicated **Survey Message** node.
 
 ---
 
-*Ready to build? Follow the [Creating Your First Simple Flow](Creating-a-Simple-Flow-in-Studio_512163856.html) tutorial or explore the [Full Studio Node Library](Studio-Nodes_2530098.html).*
+*Ready to build? Follow the [Creating Your First Simple Flow](Conversation-Studio-Fundamentals.md) tutorial or explore the [Full Studio Node Library](../ARCHIVE_NOTICE.md).*

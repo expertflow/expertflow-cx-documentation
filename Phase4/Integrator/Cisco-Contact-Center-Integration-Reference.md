@@ -5,6 +5,7 @@ audience: [integrator, partner]
 product-area: [integrations, voice]
 doc-type: reference
 difficulty: advanced
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -58,4 +59,4 @@ Agent state changes (Ready/Not Ready) are bi-directionally synchronized. A "Not 
 
 ---
 
-*For detailed version compatibility and component-level configuration, see the [Cisco Voice Channel Configuration Guide](Cisco-Voice-Channel-Configuration-Guide_2527992.html).*
+*For detailed version compatibility and component-level configuration, see the [Cisco Voice Channel Configuration Guide](Cisco-Voice-Channel-Configuration.md).*

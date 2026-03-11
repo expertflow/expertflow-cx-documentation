@@ -5,6 +5,7 @@ audience: [supervisor]
 product-area: [reporting, platform]
 doc-type: how-to
 difficulty: intermediate
+aliases: []
 last-updated: 2026-03-08
 ---
 
@@ -58,4 +59,4 @@ The system monitors your configured thresholds. If a KPI (like Wait Time) exceed
 - **Team Scope:** You will only see data for agents and queues assigned to your specific team in Keycloak.
 - **Persistence:** Your dashboard filters (Team/Queue) are saved in your browser cache and will remain active even if you navigate away.
 
-*Next Step: Learn how to analyze long-term trends in the [Historical Reporting Guide](Historical-Reports_1321664626.html).*
+*Next Step: Learn how to analyze long-term trends in the [Historical Reporting Guide](Historical-Reports-Reference.md).*

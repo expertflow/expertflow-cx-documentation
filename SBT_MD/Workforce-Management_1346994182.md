@@ -1,3 +1,0 @@
-# CX Knowledgebase : Workforce Management
-
-This describes a solution designed to optimize contact center operations by forecasting interaction volumes and anticipating future demand, enabling efficient resource allocation. It features flexible data import and integration with existing tools, ensuring smooth management for both large-scale and growing teams. The Workforce Management (WFM) solution streamlines workforce processes and enhances overall performance. For details, see the [datasheet](https://expertflow-docs.atlassian.net/wiki/spaces/kb/pages/464093250/Datasheet+-+WFM?atlOrigin=eyJpIjoiNjgzY2ExMDQ1ZTExNGM3NmE5OTdjMmZhM2Y1N2M5ZjIiLCJwIjoiYyJ9).

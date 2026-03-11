@@ -1,0 +1,4821 @@
+[
+  {
+    "slug": "Expertflow-CX-Platform-Overview_1785790479",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Expertflow-CX-Platform-Overview_1785790479.md",
+    "persona": [
+      "decision-maker",
+      "partner",
+      "reseller"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": "Remove 'How-to' steps from the end of the document. Keep only the value proposition and architectural overview.",
+    "target_title": "Platform Overview"
+  },
+  {
+    "slug": "Agent-Quick-Start-Guide",
+    "target_path": "Phase4/Getting_Started/Agent/Agent-Quick-Start-Guide.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Monitoring-Your-Team-in-Real-Time",
+    "target_path": "Phase4/Getting_Started/Supervisor/Monitoring-Your-Team-in-Real-Time.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Unified-Admin-Guide_2524407",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Unified-Admin-Guide_2524407.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Managing-the-Quality-Assurance-Workflow",
+    "target_path": "Phase4/Getting_Started/QM/Managing-the-Quality-Assurance-Workflow.md",
+    "persona": [
+      "qm"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Guide-for-Evaluator_818675746",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/User-Guide-for-Evaluator_818675746.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Security-and-Compliance-Whitepaper",
+    "target_path": "Phase4/Getting_Started/Decision_Maker/Security-and-Compliance-Whitepaper.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Desk-Developer-Guide_2523754",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Desk-Developer-Guide_2523754.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuration-Guide---Conversation-Studio_1017118849",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configuration-Guide---Conversation-Studio_1017118849.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Contact-Center-Integration-Reference",
+    "target_path": "Phase4/Getting_Started/Integrator/Cisco-Contact-Center-Integration-Reference.md",
+    "persona": [
+      "integrator"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuring-AI-Powered-Quality-Audits",
+    "target_path": "Phase4/Getting_Started/AI_Specialist/Configuring-AI-Powered-Quality-Audits.md",
+    "persona": [
+      "ai-specialist"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploying-the-RKE2-Control-Plane",
+    "target_path": "Phase4/Getting_Started/Partner/Deploying-the-RKE2-Control-Plane.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-State-Analysis-Report_2523192",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Agent-State-Analysis-Report_2523192.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-States_2531294",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Agent-States_2531294.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Change-Agent-State_2524603",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Change-Agent-State_2524603.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Rerouting-on-Agent-State-Change-to-Callback_1599766616",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Conversation-Rerouting-on-Agent-State-Change-to-Callback_1599766616.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Force-Logout-Agent_1181941884",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Force-Logout-Agent_1181941884.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Login-to-Agent-Desk_2529062",
+    "target_path": "Phase4/Role-Based_Guides/Agent/Login-to-Agent-Desk_2529062.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "changeAgentState_2531704",
+    "target_path": "Phase4/Role-Based_Guides/Agent/changeAgentState_2531704.md",
+    "persona": [
+      "agent"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Add-Agents%2C-Supervisors%2C-and-Teams_242909198",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Add-Agents%2C-Supervisors%2C-and-Teams_242909198.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent--Performance-Dashboard_1329233964",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Agent--Performance-Dashboard_1329233964.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Performance-Dashboard_1170604038",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Agent-Performance-Dashboard_1170604038.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Performance-Report_456130564",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Agent-Performance-Report_456130564.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Team-Dashboard_1328939121",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Agent-Team-Dashboard_1328939121.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "AgentTeam-ERD_1606221998",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/AgentTeam-ERD_1606221998.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-a-Supervisor_2528631",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/As-a-Supervisor_2528631.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Barge-in_2529322",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Barge-in_2529322.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Inactivity-SLA_246743058",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Customer-Inactivity-SLA_246743058.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Widget-Configuration-and-Translation-Management_148897858",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Customer-Widget-Configuration-and-Translation-Management_148897858.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Detailed-Dashboards_1322221656",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Detailed-Dashboards_1322221656.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "EFSwitch-Monitoring-Dashboards_262602756",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/EFSwitch-Monitoring-Dashboards_262602756.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Enable-Monitoring-on-MSSQL_879198209",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Enable-Monitoring-on-MSSQL_879198209.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Impact-of-Team-Structure-on-Dashboards_272334983",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Impact-of-Team-Structure-on-Dashboards_272334983.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "JoinAsSilentMonitor_2528276",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/JoinAsSilentMonitor_2528276.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Limitations-Agent-SLA_153715087",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Limitations-Agent-SLA_153715087.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Manage-Teams_1602027529",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Manage-Teams_1602027529.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Monitors-and-manages-CX-Voice-interactions_163676365",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Monitors-and-manages-CX-Voice-interactions_163676365.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Realtime-Reports-and-Dashboards_2529305",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Realtime-Reports-and-Dashboards_2529305.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "SLA-Calculations_2525629",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/SLA-Calculations_2525629.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Silent-Monitoring_2529320",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Silent-Monitoring_2529320.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Summary-Dashboard_1321533643",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Summary-Dashboard_1321533643.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Supervisor-AI-Assistance_1318289436",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Supervisor-AI-Assistance_1318289436.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Supervisor-Access-to-Unified-Admin_1160151146",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Supervisor-Access-to-Unified-Admin_1160151146.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Supervisor-Assistance_1342734385",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Supervisor-Assistance_1342734385.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Team-Announcements_2523883",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Team-Announcements_2523883.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Team-Comparison_1015546076",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Team-Comparison_1015546076.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Team-Stats-Dashboard_1329103041",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/Team-Stats-Dashboard_1329103041.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Translation-support-at-customer-widget_946798639",
+    "target_path": "archive/Translation-support-at-customer-widget_946798639.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": "Archived: redundant with Customer-Widget-Configuration-and-Translation-Management_148897858",
+    "action": "archive"
+  },
+  {
+    "slug": "View-Agent-Dashboards_283607081",
+    "target_path": "Phase4/Role-Based_Guides/Supervisor/View-Agent-Dashboards_283607081.md",
+    "persona": [
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-a-Quality-Manager_817889466",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/As-a-Quality-Manager_817889466.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-an-Evaluator_818708539",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/As-an-Evaluator_818708539.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Recording-Behavior_1107918913",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/CX-Voice-Recording-Behavior_1107918913.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Compatibility-Guide-Media-Recording_917695",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Compatibility-Guide-Media-Recording_917695.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Eleveo-Recording-Behavior_1114701825",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Eleveo-Recording-Behavior_1114701825.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Evaluator-Comparison_1015546105",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Evaluator-Comparison_1015546105.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Handle-Voice-Recording_796590157",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Handle-Voice-Recording_796590157.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Media-Recording_1343750181",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Media-Recording_1343750181.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Playing-Screen-Recordings-in-Quality-Management_1566900238",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Playing-Screen-Recordings-in-Quality-Management_1566900238.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Quality-Management_1345617939",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Quality-Management_1345617939.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Quality-Management---System-Limitations_920486105",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Quality-Management---System-Limitations_920486105.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Quality-Manager-as-a-CX-add-on----Prerequisites_1396310132",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Quality-Manager-as-a-CX-add-on----Prerequisites_1396310132.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Recording-Calls-in-CX-Voice_1070104782",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Recording-Calls-in-CX-Voice_1070104782.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Recording-Links-In-EF-CX_976846851",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Recording-Links-In-EF-CX_976846851.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "SIPrec-based-recording-using-a-drachtio-server%2C-and-FreeSWITCH-as-the-media-server_314867730",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/SIPrec-based-recording-using-a-drachtio-server%2C-and-FreeSWITCH-as-the-media-server_314867730.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Selective-Recording-Rules_1108770912",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Selective-Recording-Rules_1108770912.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Guide-for-Quality-Manager_818708526",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/User-Guide-for-Quality-Manager_818708526.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-Recording-Solution_138739776",
+    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/Voice-Recording-Solution_138739776.md",
+    "persona": [
+      "evaluator"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "AI-Driven-Quality-Management_1153106262",
+    "target_path": "Phase4/Role-Based_Guides/Quality_Manager/AI-Driven-Quality-Management_1153106262.md",
+    "persona": [
+      "ai-specialist"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": "JUMP TO TOP. Detailed guide for the NLU Specialist on setting up LLM scoring, prompt tuning, and auto-audit rules.",
+    "target_title": "Configuring AI-Powered Quality Audits"
+  },
+  {
+    "slug": "IAM-Configuration-For-QM_1221197922",
+    "target_path": "Phase4/Role-Based_Guides/Quality_Manager/IAM-Configuration-For-QM_1221197922.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "QM-Admin_1150156801",
+    "target_path": "Phase4/Role-Based_Guides/Quality_Manager/QM-Admin_1150156801.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Guide-for-Quality-Management-Admin_1153073466",
+    "target_path": "Phase4/Role-Based_Guides/Quality_Manager/User-Guide-for-Quality-Management-Admin_1153073466.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "2FA-Configuration-Guide---Email_1690927131",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/2FA-Configuration-Guide---Email_1690927131.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Productivity-By-Queue_2527642",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Agent-Productivity-By-Queue_2527642.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Queue-Mapping_2525979",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Agent-Queue-Mapping_2525979.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Archival-Configuration_1120894977",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Archival-Configuration_1120894977.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-a-Campaign-Manager_308510727",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/As-a-Campaign-Manager_308510727.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Browser-Microphone-Permission_675872915",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Browser-Microphone-Permission_675872915.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CC-User_2553563",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/CC-User_2553563.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Campaigns-Keycloak-Configuration_474120764",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/CX-Campaigns-Keycloak-Configuration_474120764.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Dialer-Environment-Configurations_284164220",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/CX-Dialer-Environment-Configurations_284164220.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Channel-Configuration-Guide_2529731",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/CX-Voice-Channel-Configuration-Guide_2529731.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Campaign-Calls-Detail-Report_1016234087",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Campaign-Calls-Detail-Report_1016234087.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Campaign-Channel-Configurations_434143283",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Campaign-Channel-Configurations_434143283.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Campaign-Summary_1016234024",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Campaign-Summary_1016234024.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ChannelConfig_2526559",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/ChannelConfig_2526559.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuration-Guide---Masking-Fields-Enablement-on-CCM_1614348404",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configuration-Guide---Masking-Fields-Enablement-on-CCM_1614348404.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuration-Guides_1260912785",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configuration-Guides_1260912785.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configurational-Guide_1658126350",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configurational-Guide_1658126350.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-AgentDesk-Settings_1578696774",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configure-AgentDesk-Settings_1578696774.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-Service-Based-Accounts-using-Vault_1341358201",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configure-Service-Based-Accounts-using-Vault_1341358201.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-Vault-for-PostgreSQL-Dynamic-Database-Credentials_1335066669",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configure-Vault-for-PostgreSQL-Dynamic-Database-Credentials_1335066669.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuring-Vault-for-Encryption_969506918",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configuring-Vault-for-Encryption_969506918.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-List_819101704",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Conversation-List_819101704.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-List_441450562",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Customer-List_441450562.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Widget-Admin-Guide_26838047",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Customer-Widget-Admin-Guide_26838047.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "DNC-Lists_739147899",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/DNC-Lists_739147899.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Encryption-at-Rest---Configuration-Guide_1209171997",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Encryption-at-Rest---Configuration-Guide_1209171997.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Facebook---Configuration-Guide_2531616",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Facebook---Configuration-Guide_2531616.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Feedback-on-the-user-guide-of-Conversation-Search-via-GraphQL_1712979987",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Feedback-on-the-user-guide-of-Conversation-Search-via-GraphQL_1712979987.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Form-Builder-User-Guide_946602145",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Form-Builder-User-Guide_946602145.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "IMAP-SMTP-based-Email-Configuration-Guide_112001145",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/IMAP-SMTP-based-Email-Configuration-Guide_112001145.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "IVR-Campaigns-with-CX---to-be-reviewed_1132560466",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/IVR-Campaigns-with-CX---to-be-reviewed_1132560466.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LinkedIn----Configuration-Guide_1271693696",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/LinkedIn----Configuration-Guide_1271693696.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "List-of-Open-source-Software_3322742",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/List-of-Open-source-Software_3322742.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "MS-Exchange-based-Email-Configuration-Guide_1028554830",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/MS-Exchange-based-Email-Configuration-Guide_1028554830.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Manage-Queues-and-Routing-Attributes_1567719455",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Manage-Queues-and-Routing-Attributes_1567719455.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Managing-Microphone-and-Camera-Permissions-in-the-Customer-Widget_1733230599",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Managing-Microphone-and-Camera-Permissions-in-the-Customer-Widget_1733230599.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Media-Server-Configurations-for-CX-Voice_1341259967",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Media-Server-Configurations-for-CX-Voice_1341259967.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Flows-Environment-Configurations_1469448386",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Outbound-Flows-Environment-Configurations_1469448386.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ParticipantRole_2525405",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/ParticipantRole_2525405.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Platform-Administration_2525605",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Platform-Administration_2525605.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Precision-Routing_2525641",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Precision-Routing_2525641.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Priority-Routing_2529105",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Priority-Routing_2529105.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Priority-Routing-Config_176357465",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Priority-Routing-Config_176357465.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Priority-Routing-and-Routing-Re-initiated-Chats-on-Priority_1340867",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Priority-Routing-and-Routing-Re-initiated-Chats-on-Priority_1340867.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Pull-Mode-Routing_2529097",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Pull-Mode-Routing_2529097.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-Flushed-Conversation-Count_2532043",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queue-Flushed-Conversation-Count_2532043.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-Priority_581730323",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queue-Priority_581730323.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-Stats-Today_2527826",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queue-Stats-Today_2527826.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-Wait-Time-And-Position_2530342",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queue-Wait-Time-And-Position_2530342.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-wise-Stats-Summary_2527840",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queue-wise-Stats-Summary_2527840.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queues_2550494",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Queues_2550494.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Reports---CX-Campaigns_1033338976",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Reports---CX-Campaigns_1033338976.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Retail-Queue-Management_687638585",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Retail-Queue-Management_687638585.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Routing_2525975",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Routing_2525975.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Routing-Attribute_2550492",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Routing-Attribute_2550492.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Routing-Engine-Developer-Guide_2531314",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Routing-Engine-Developer-Guide_2531314.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "SMPP-Configuration-Guide_2527143",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/SMPP-Configuration-Guide_2527143.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Skills-Assessment_1015971843",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Skills-Assessment_1015971843.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Subscribed-Lists_442204167",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Subscribed-Lists_442204167.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "System-level-Configurations-Limitations_1448968253",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/System-level-Configurations-Limitations_1448968253.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Transferred-Tasks-per-Queue_2532035",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Transferred-Tasks-per-Queue_2532035.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Two-Factor-Authentication---User-Guide_1685881100",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Two-Factor-Authentication---User-Guide_1685881100.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Understanding-Customer-List-View_434471010",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Understanding-Customer-List-View_434471010.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Use-case-with-Pull-based-Routing_2533129",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Use-case-with-Pull-based-Routing_2533129.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Inactivity-Logout_1481802143",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/User-Inactivity-Logout_1481802143.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Interface-Languages_1241416183",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/User-Interface-Languages_1241416183.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "User-Management_1602682928",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/User-Management_1602682928.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Vault-Configuration_1624473620",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Vault-Configuration_1624473620.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WFM---User-guide-for-Agent_1266090148",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/WFM---User-guide-for-Agent_1266090148.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-Channel-Configuration-Guide-not-to-publish_142835713",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/WebRTC-Channel-Configuration-Guide-not-to-publish_142835713.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-Configuration-Guide_687309794",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/WebRTC-Configuration-Guide_687309794.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "addPullModeSubscribedListRequests_2531698",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/addPullModeSubscribedListRequests_2531698.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "onPullModeSubscribedList_2531732",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/onPullModeSubscribedList_2531732.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "onPullModeSubscribedListRequest_2531734",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/onPullModeSubscribedListRequest_2531734.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "pullModeSubscribedListRequests_2531743",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/pullModeSubscribedListRequests_2531743.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "removePullModeSubscribedListRequests_2531746",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/removePullModeSubscribedListRequests_2531746.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "subscribePullModeList_2531752",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/subscribePullModeList_2531752.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "unsubscribePullModeList_2531766",
+    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/unsubscribePullModeList_2531766.md",
+    "persona": [
+      "solution-admin"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Application-Security_2527480",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Application-Security_2527480.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Release-Notes-5.1.0_1485439118",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/CX-Release-Notes-5.1.0_1485439118.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Release-Notes-5.2.0_1755447318",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/CX-Release-Notes-5.2.0_1755447318.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Surveys-Datasheet_448299062",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/CX-Surveys-Datasheet_448299062.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Datasheet---CX-Campaigns---to-be-merged-with-parent-and-deprecated-this-one_573407247",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Datasheet---CX-Campaigns---to-be-merged-with-parent-and-deprecated-this-one_573407247.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Datasheet---WFM_464093250",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Datasheet---WFM_464093250.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Datasheet-QM_543621127",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Datasheet-QM_543621127.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Implementing-Security-Policies_766214293",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Implementing-Security-Policies_766214293.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PI-Roadmap_1382678547",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/PI-Roadmap_1382678547.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PI-Roadmap---2025_702644228",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/PI-Roadmap---2025_702644228.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PI-Roadmap---2026_1359380481",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/PI-Roadmap---2026_1359380481.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-Calls-in-Expertflow-CX-Overview_1532362798",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Voice-Calls-in-Expertflow-CX-Overview_1532362798.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Expertflow-CX-Release-Versioning_2525588",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Expertflow-CX-Release-Versioning_2525588.md",
+    "persona": [
+      "decision-maker",
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": "Move to 'Strategic Value' or 'Governance'. Ensure it clearly defines the difference between Major, Minor, and Patch releases for ExpertFlow CX.",
+    "target_title": "Understanding Versioning & Release Cycles"
+  },
+  {
+    "slug": "Hardware-Sizing-and-System-Requirements_2524410",
+    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Hardware-Sizing-and-System-Requirements_2524410.md",
+    "persona": [
+      "decision-maker"
+    ],
+    "diataxis": "audit-needed",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Business-Calendar-API-Configurations_687572201",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Business-Calendar-API-Configurations_687572201.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CIM-Messages_2530195",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/CIM-Messages_2530195.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Media-Server-API_499253250",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/CX-Media-Server-API_499253250.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Related-Objects_276594689",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Channel-Related-Objects_276594689.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Objects_2528831",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Conversation-Objects_2528831.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Facing-SDK-for-Omnichannel-Communication_2526606",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Customer-Facing-SDK-for-Omnichannel-Communication_2526606.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Schema_2525665",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Customer-Schema_2525665.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Encryption-Schema-Guide_1028194322",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Encryption-Schema-Guide_1028194322.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Exchange-CIM-Message_2532551",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Exchange-CIM-Message_2532551.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Expertflow-CX-Objects_2553561",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Expertflow-CX-Objects_2553561.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Form-APIs_2532620",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Form-APIs_2532620.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "JavaScript-SDK-for-customer-facing-channels_1496743937",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/JavaScript-SDK-for-customer-facing-channels_1496743937.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Key-Objects_1241579630",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Key-Objects_1241579630.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Messages%2C-Events%2C-and-Activities_2528021",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Messages%2C-Events%2C-and-Activities_2528021.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Queue-Flushing-API_2526125",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Queue-Flushing-API_2526125.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Reporting-Database-Schema_2526317",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Reporting-Database-Schema_2526317.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Socket-Events_2530728",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Socket-Events_2530728.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Solution-API-Reference---CX-Campaigns---to-be-reviewed-and-updated_366575699",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Solution-API-Reference---CX-Campaigns---to-be-reviewed-and-updated_366575699.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Third-Party-Activies-API_2530063",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Third-Party-Activies-API_2530063.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Understanding-the-YouTube-Data-API-v3-Quota-System_1008467975",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Understanding-the-YouTube-Data-API-v3-Quota-System_1008467975.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "customer-object_2526154",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/customer-object_2526154.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "onCimEvent_2531728",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/onCimEvent_2531728.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "publishCimEvent_2531739",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/publishCimEvent_2531739.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "socketSessionRemoved_2531750",
+    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/socketSessionRemoved_2531750.md",
+    "persona": [
+      "developer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-a-Conversation-Designer_512098334",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/As-a-Conversation-Designer_512098334.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Flow-for-Outbound-Dialing-Modes---to-be-reviewed_1132265580",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/Conversation-Flow-for-Outbound-Dialing-Modes---to-be-reviewed_1132265580.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "IVR-Detail-Report_80150550",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/IVR-Detail-Report_80150550.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "IVR-Summary-Report_80183299",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/IVR-Summary-Report_80183299.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Flows-Limitations_1182433310",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/Outbound-Flows-Limitations_1182433310.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Tainting-a-Control-Plane-Node_77431234",
+    "target_path": "Phase4/Role-Based_Guides/Conversation_Designer/Tainting-a-Control-Plane-Node_77431234.md",
+    "persona": [
+      "designer"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "360-Connector-Configuration-Guide_2531584",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/360-Connector-Configuration-Guide_2531584.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Add-Bot-Connector_1580367873",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Add-Bot-Connector_1580367873.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Desk-Integration-with-Cisco-Finesse_342327334",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Agent-Desk-Integration-with-Cisco-Finesse_342327334.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Initiated-WebRTC-for-Cisco-Video-Call-Feature-Document-not-to-be-released-as-part-of-4.9%2C-4.10_941621415",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Agent-Initiated-WebRTC-for-Cisco-Video-Call-Feature-Document-not-to-be-released-as-part-of-4.9%2C-4.10_941621415.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Bot-Connector-Developer-Guide_2526409",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Bot-Connector-Developer-Guide_2526409.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CRM-Connectors_28410275",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/CRM-Connectors_28410275.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Connector-Configuration_2527073",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Channel-Connector-Configuration_2527073.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Connector-Developer-Guide_2528843",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Channel-Connector-Developer-Guide_2528843.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ChannelConnector_2525010",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/ChannelConnector_2525010.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Connector_1775796232",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Connector_1775796232.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Contact-Center-Integration-with-EF-CX-Cloud_220102772",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Contact-Center-Integration-with-EF-CX-Cloud_220102772.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Contact-center-integration_2525072",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Contact-center-integration_2525072.md",
+    "persona": [
+      "integrator"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": "JUMP TO TOP. Clinical integration map. Remove all internal Jira IDs. Focus on signal flow between CX and Finesse.",
+    "target_title": "Cisco UCCE/X Integration Reference"
+  },
+  {
+    "slug": "Cisco-Outbound-Connector_15630635",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Outbound-Connector_15630635.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Sync-Service_1203175476",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Sync-Service_1203175476.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Voice-Channel-Configuration-Guide_2527992",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Voice-Channel-Configuration-Guide_2527992.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Voice-Channel-Limitations_74514469",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Cisco-Voice-Channel-Limitations_74514469.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Custom-Connector-Bot-Communication_2527859",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Custom-Connector-Bot-Communication_2527859.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploying-Finesse-Gadget_2526405",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Deploying-Finesse-Gadget_2526405.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Environment-Configurations-for-Cisco_1021575170",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Environment-Configurations-for-Cisco_1021575170.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Facebook-Connector-Limitations_74350672",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Facebook-Connector-Limitations_74350672.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Instagram-Connector---Limitation_1022132245",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Instagram-Connector---Limitation_1022132245.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Integrations_27918741",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Integrations_27918741.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Logging-and-Tracing-Integration-with-OpenSearch_1614413879",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Logging-and-Tracing-Integration-with-OpenSearch_1614413879.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Meta---WhatsApp-Cloud-API_131006630",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Meta---WhatsApp-Cloud-API_131006630.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "QM-Connector-for-Cisco_1484488883",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/QM-Connector-for-Cisco_1484488883.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Register-Channel-Connector_2528408",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Register-Channel-Connector_2528408.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram-Connector-Configuration-in-Unified-Admin_2526699",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Telegram-Connector-Configuration-in-Unified-Admin_2526699.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram-Connector-Limitations_2551889",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Telegram-Connector-Limitations_2551889.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram-Connector-Media-Types-Support_67665941",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Telegram-Connector-Media-Types-Support_67665941.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Twitter-Social-Media-Connector-Configuration-Guide_22544715",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Twitter-Social-Media-Connector-Configuration-Guide_22544715.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Twitter-V2-Social-Media-Connector-Configuration-Guide_22511659",
+    "target_path": "Phase4/Role-Based_Guides/Integration_Specialist/Twitter-V2-Social-Media-Connector-Configuration-Guide_22511659.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "AI-Orchestration_1263992872",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/AI-Orchestration_1263992872.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Controller-Bot-Training_2527665",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Controller-Bot-Training_2527665.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploy-Rasa-for-Multitenancy_1226113282",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Deploy-Rasa-for-Multitenancy_1226113282.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Intent_478347287",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Intent_478347287.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Parse-Rasa-Standard-Message-on-Bot-Framework_1731264556",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Parse-Rasa-Standard-Message-on-Bot-Framework_1731264556.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Rasa-X_956989712",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Rasa-X_956989712.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Rasa-X-Configuration_2531579",
+    "target_path": "Phase4/Role-Based_Guides/AI_Quality_NLU_Specialist/Rasa-X-Configuration_2531579.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Accessing-Logs-from-Kubernetes-Pods_1607237654",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Accessing-Logs-from-Kubernetes-Pods_1607237654.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Dialer-Deployment-Guide_2529764",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Dialer-Deployment-Guide_2529764.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-SIP-Proxy-Deployment-Guide_31719857",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-SIP-Proxy-Deployment-Guide_31719857.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-SIP-Proxy-Installation-Guide_229539941",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-SIP-Proxy-Installation-Guide_229539941.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Solution-Helm-Uninstallation_813498613",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Solution-Helm-Uninstallation_813498613.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Deployment_1344510",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Deployment_1344510.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Recording-Components-Deployment-Guide_161842333",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Recording-Components-Deployment-Guide_161842333.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-Guides_268632072",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-Guides_268632072.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.10_1085931521",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.10_1085931521.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.10.X_1215954962",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.10.X_1215954962.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5_102006844",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5_102006844.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5.1_428802049",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5.1_428802049.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5.2_412549122",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5.2_412549122.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5.2-for-PTCL_487456793",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5.2-for-PTCL_487456793.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5.3_554827778",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5.3_554827778.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.5.3-for-PTCL_554827939",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.5.3-for-PTCL_554827939.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.6_596049921",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.6_596049921.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.6-for-PTCL_614170650",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.6-for-PTCL_614170650.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.7_721944577",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.7_721944577.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.7-for-PTCL_851181739",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.7-for-PTCL_851181739.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.7.1_941817857",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.7.1_941817857.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.8_941916161",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.8_941916161.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Upgrade-to-4.9.1_1047265281",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Voice-Upgrade-to-4.9.1_1047265281.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Change-Default-ActiveMQ-Passwords-Using-ConfigMap_654803006",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Change-Default-ActiveMQ-Passwords-Using-ConfigMap_654803006.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Outbound-Connector-Docker-Deployment-Guide_18582341",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Cisco-Outbound-Connector-Docker-Deployment-Guide_18582341.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Cisco-Outbound-Connector-Kubernetes-Deployment-Guide_246644853",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Cisco-Outbound-Connector-Kubernetes-Deployment-Guide_246644853.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Collection-Removal-from-MongoDB_2526725",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Collection-Removal-from-MongoDB_2526725.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-Vault-for-ActiveMQ_1375404115",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Configure-Vault-for-ActiveMQ_1375404115.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-Vault-for-MongoDB-Dynamic-Database-Credentials_1245216775",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Configure-Vault-for-MongoDB-Dynamic-Database-Credentials_1245216775.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configure-Vault-for-Redis-Database-Credentials_1369505803",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Configure-Vault-for-Redis-Database-Credentials_1369505803.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuring-dispatcher-in-CX-SIP-PROXY_725188626",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Configuring-dispatcher-in-CX-SIP-PROXY_725188626.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Configuring-load-balancer-in-CX-SIP-PROXY_724860997",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Configuring-load-balancer-in-CX-SIP-PROXY_724860997.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversion-of-Single-Node-MongoDB-to-ReplicaSet_774275117",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Conversion-of-Single-Node-MongoDB-to-ReplicaSet_774275117.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Widget-Deployment-Guide_2531544",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Customer-Widget-Deployment-Guide_2531544.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customizing-CX-Helm-Chart-Deployments_1223852083",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Customizing-CX-Helm-Chart-Deployments_1223852083.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deployment-of-Fluentbit_1794441219",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Deployment-of-Fluentbit_1794441219.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deployment-of-Logging-Operator_433422360",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Deployment-of-Logging-Operator_433422360.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deployment-of-Mongo-using-ReplicaSet_774569985",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Deployment-of-Mongo-using-ReplicaSet_774569985.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deployment-of-Opensearch-and-Opensearch-Dashboards_1277919276",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Deployment-of-Opensearch-and-Opensearch-Dashboards_1277919276.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "EF-CX-Helm-Chart_1573126166",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/EF-CX-Helm-Chart_1573126166.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "EasySIPp-Deployment-Guide_1696956477",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/EasySIPp-Deployment-Guide_1696956477.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Eleveo-Middleware-Deployment-Guide_914686010",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Eleveo-Middleware-Deployment-Guide_914686010.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Failover-Cluster-with-Replicated-Block-Volume_1320550500",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Failover-Cluster-with-Replicated-Block-Volume_1320550500.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Guide-for-Standard-Tier-Upgrade_911343642",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Guide-for-Standard-Tier-Upgrade_911343642.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "HA-in-EF-SIP-Proxy_173670574",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/HA-in-EF-SIP-Proxy_173670574.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Helm-based-Deployment-for-Expertflow-CX_2528431",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Helm-based-Deployment-for-Expertflow-CX_2528431.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Helm-based-Deployment-for-Expertflow-CX-Draft_1574043649",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Helm-based-Deployment-for-Expertflow-CX-Draft_1574043649.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "High-Availability-using-External-Load-Balancer_2528979",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/High-Availability-using-External-Load-Balancer_2528979.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Kubernetes-Distributions_64356591",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Kubernetes-Distributions_64356591.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LinkedIn-Connector-Deployment-using-Helm_923664968",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/LinkedIn-Connector-Deployment-using-Helm_923664968.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LinkedIn-Dev-Connector-Deployment-using-Helm_1653800961",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/LinkedIn-Dev-Connector-Deployment-using-Helm_1653800961.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LiveKit---Deployment-Guide_1786740744",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/LiveKit---Deployment-Guide_1786740744.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Load-balancing-in-EF-SIP-Proxy-through-the-dispatcher-module_178684103",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Load-balancing-in-EF-SIP-Proxy-through-the-dispatcher-module_178684103.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Logging-Solution-Deployment-Guide_396362236",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Logging-Solution-Deployment-Guide_396362236.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Media-Server-Deployment-Guide_1344451",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Media-Server-Deployment-Guide_1344451.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "MongoDB-slow-query-logs_273973273",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/MongoDB-slow-query-logs_273973273.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Monitoring-Solution-Deployment_2527132",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Monitoring-Solution-Deployment_2527132.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PTCL-CX-Voice-Upgrade-4.5.1-to-4.9.1_1203830785",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/PTCL-CX-Voice-Upgrade-4.5.1-to-4.9.1_1203830785.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "RASA-X-Deployment-using-helm-chart_42402346",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/RASA-X-Deployment-using-helm-chart_42402346.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "RKE2-Control-plane-Deployment_2528874",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/RKE2-Control-plane-Deployment_2528874.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "RKE2-uninstallation_2528626",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/RKE2-uninstallation_2528626.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Redis-Log-Monitoring-via-slowlogs_224952330",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Redis-Log-Monitoring-via-slowlogs_224952330.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Superset-Deployment-for-Reporting_49250583",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Superset-Deployment-for-Reporting_49250583.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "System-Behaviour-incase-of-Failover_1181614099",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/System-Behaviour-incase-of-Failover_1181614099.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Upgrade-Guide-CX4.10.6-to-CX4.10.7_1562116169",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Upgrade-Guide-CX4.10.6-to-CX4.10.7_1562116169.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Upgrade-Guide-CX5.0.2-to-CX5.1.0_1486520327",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Upgrade-Guide-CX5.0.2-to-CX5.1.0_1486520327.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Upgrade-Guide-CX5.1.0-to-CX5.2.0_1755447383",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Upgrade-Guide-CX5.1.0-to-CX5.2.0_1755447383.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Upgrade-to-Mongodb-Version-8.x--for-CX-Solution_904134972",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Upgrade-to-Mongodb-Version-8.x--for-CX-Solution_904134972.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-Connector-Deployment-Guide_48268951",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Voice-Connector-Deployment-Guide_48268951.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-Recording-Components-deployment-on-Kubernetes_348880955",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/Voice-Recording-Components-deployment-on-Kubernetes_348880955.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WFM-Auth-Component-Deployment-on-Kubernetes_407732264",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/WFM-Auth-Component-Deployment-on-Kubernetes_407732264.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WFM-Core-Component-Deployment-on-Kubernetes_407470084",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/WFM-Core-Component-Deployment-on-Kubernetes_407470084.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WFM-Reports-Component-Deployment-on-Kubernetes_403570714",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/WFM-Reports-Component-Deployment-on-Kubernetes_403570714.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-Deployment-Guide-not-to-publish_349634566",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/WebRTC-Deployment-Guide-not-to-publish_349634566.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Analyser-Reports-Setup_1355743279",
+    "target_path": "Phase4/Role-Based_Guides/Infrastructure_Hosting_(Partner)/CX-Analyser-Reports-Setup_1355743279.md",
+    "persona": [
+      "partner",
+      "integrator"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": "Move to 'Infrastructure > Component Setup'. Clearly state that this is a required step after the core helm deployment to enable any reporting.",
+    "target_title": "Setting Up CX Analyser Reports (Day 1)"
+  },
+  {
+    "slug": "Getting-the-Offline-License-Encrypted-file_66387975",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/Getting-the-Offline-License-Encrypted-file_66387975.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "License-Consumption-Status_985595918",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/License-Consumption-Status_985595918.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Register-new-Tenants-FQDN-on-Grafana-allowedHosts_1280868399",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/Register-new-Tenants-FQDN-on-Grafana-allowedHosts_1280868399.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Tenant_2524656",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/Tenant_2524656.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Tenant-Admin-Configurations_1541111833",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/Tenant-Admin-Configurations_1541111833.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Updating-Media-Server-Configs-in-Tenant-Settings_1668251717",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/Updating-Media-Server-Configs-in-Tenant-Settings_1668251717.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "topicSubscription_2531760",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/topicSubscription_2531760.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "topicUnsubscription_2531762",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/topicUnsubscription_2531762.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "topicUnsubscription__2531764",
+    "target_path": "Phase4/Role-Based_Guides/Reseller/topicUnsubscription__2531764.md",
+    "persona": [
+      "reseller"
+    ],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "360_1480392883",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/360_1480392883.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "AI-Assistant-handover-to-human-agent_1324417085",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/AI-Assistant-handover-to-human-agent_1324417085.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Accept-a-Conversation_2527849",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Accept-a-Conversation_2527849.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Action-Message_487227417",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Action-Message_487227417.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Add-Not-Ready-and-Logout-Reasons_1577418835",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Add-Not-Ready-and-Logout-Reasons_1577418835.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Add-Wrap-ups_1578434619",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Add-Wrap-ups_1578434619.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Add-a-Customer-Widget_1553367051",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Add-a-Customer-Widget_1553367051.md",
+    "persona": [
+      "admin"
+    ],
+    "diataxis": "how-to",
+    "refactor_instructions": "Extract technical parameters (JSON/API) into a new Reference page 'Widget-Technical-Parameters'. Focus this page on UI-based configuration.",
+    "target_title": "Configuring the Customer Widget"
+  },
+  {
+    "slug": "Add-a-Web-Channel_1496449025",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Add-a-Web-Channel_1496449025.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Assistance_1274970118",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Assistance_1274970118.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Desk-Localization_1241579818",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Desk-Localization_1241579818.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Hand-Raise_519569565",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Hand-Raise_519569565.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Not-Ready-Detail_436273153",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Not-Ready-Detail_436273153.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Not-Ready-Summary_436830209",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Not-Ready-Summary_436830209.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Response-Time_142540854",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Response-Time_142540854.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Task-Detail_2533148",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Task-Detail_2533148.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Task-Disposition_2529040",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Task-Disposition_2529040.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "AgentPresence_2530472",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/AgentPresence_2530472.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Answered-Chats-in-Time-Intervals_434634764",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Answered-Chats-in-Time-Intervals_434634764.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Apply-Wrap-up-and-Add-Notes_2528747",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Apply-Wrap-up-and-Add-Notes_2528747.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "As-an-Agent_2529298",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/As-an-Agent_2529298.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Assign-Labels-to-Customers_434667615",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Assign-Labels-to-Customers_434667615.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Audit-Logging_1578795038",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Audit-Logging_1578795038.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Auto-Sync-MRD-State_1025802251",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Auto-Sync-MRD-State_1025802251.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Backend-Support-for-Advanced-Filters_621117443",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Backend-Support-for-Advanced-Filters_621117443.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "BotFather_2526366",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/BotFather_2526366.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Browser-and-Sound-Notifications_2528129",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Browser-and-Sound-Notifications_2528129.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Bulk-Agent-attributes-Assignment_246251682",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Bulk-Agent-attributes-Assignment_246251682.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Business-Calendars_687244862",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Business-Calendars_687244862.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Business-Calendars-Limitations_686557229",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Business-Calendars-Limitations_686557229.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Business-Features_918121",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Business-Features_918121.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Button-Message_2532516",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Button-Message_2532516.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "C-Alerts_225476610",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/C-Alerts_225476610.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CCaaS-Provider-Guide_1387593741",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CCaaS-Provider-Guide_1387593741.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Customer-Widget-Embedding-Guide_2531378",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Customer-Widget-Embedding-Guide_2531378.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Data-Sheet_2530132",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Data-Sheet_2530132.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Enhancements_796557334",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Enhancements_796557334.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-High-Availability_2526662",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-High-Availability_2526662.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Media-Server_194379915",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Media-Server_194379915.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Release-History_2527987",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Release-History_2527987.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-SIP-Proxy_31719845",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-SIP-Proxy_31719845.md",
+    "persona": [
+      "partner"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": "Tag strictly for 'Partner (Host)'. Ensure it is hidden from Agent/Supervisor navigation.",
+    "target_title": "SIP Proxy Architecture"
+  },
+  {
+    "slug": "CX-SIP-Proxy-as-a-CUSP-replacement_687538868",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-SIP-Proxy-as-a-CUSP-replacement_687538868.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Core-platform_1261142050",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Core-platform_1261142050.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Core-100_1259962718",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX-Core-100_1259962718.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX4.10.7-Planned-Issues_1791131693",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX4.10.7-Planned-Issues_1791131693.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX5.1.0-Planned-Issues_1485439167",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX5.1.0-Planned-Issues_1485439167.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX5.2.0-Planned-Issues_1755447366",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/CX5.2.0-Planned-Issues_1755447366.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Carousel-Message_486408458",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Carousel-Message_486408458.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Change-Agent-Desk-Language_2529188",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Change-Agent-Desk-Language_2529188.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel_2525261",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Channel_2525261.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Session_93224974",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Channel-Session_93224974.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Session-Detail_2527421",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Channel-Session-Detail_2527421.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Stats-Graph_2532028",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Channel-Stats-Graph_2532028.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Channel-Stats-Summary_2528488",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Channel-Stats-Summary_2528488.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ChannelType_2528816",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/ChannelType_2528816.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Compatibility-Guides_85983333",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Compatibility-Guides_85983333.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ComponentType_493748319",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/ComponentType_493748319.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Connecting-to-Databases-with-TLS-Enabled_399049034",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Connecting-to-Databases-with-TLS-Enabled_399049034.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Consult%2C-Transfer-and-Conference_2528529",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Consult%2C-Transfer-and-Conference_2528529.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Contact-Center-Personas_932642857",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Contact-Center-Personas_932642857.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Contact-Message_2532495",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Contact-Message_2532495.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation_93192236",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Conversation_93192236.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Detail_2527060",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Conversation-Detail_2527060.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-View_822214946",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Conversation-View_822214946.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Volume-by-Disposition_2532031",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Conversation-Volume-by-Disposition_2532031.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ConversationData_2526208",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/ConversationData_2526208.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Create-Form_2532610",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Create-Form_2532610.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Create-an-evaluation-form_819232775",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Create-an-evaluation-form_819232775.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Create-self-signed-Certificates-for-Ingress_48400625",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Create-self-signed-Certificates-for-Ingress_48400625.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Creating-extensions-on-Media-Server_1341253",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Creating-extensions-on-Media-Server_1341253.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Custom-Message_488046598",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Custom-Message_488046598.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Advanced-Filters_645628037",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Customer-Advanced-Filters_645628037.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Interaction-History_1302069249",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Customer-Interaction-History_1302069249.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Labels_2529344",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Customer-Labels_2529344.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Widget_2526052",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Customer-Widget_2526052.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Customer-Widget-Localization_1241678195",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Customer-Widget-Localization_1241678195.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Data-Encryption_884932744",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Data-Encryption_884932744.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Delete-Form_2532606",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Delete-Form_2532606.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deleted-Notification_2525263",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Deleted-Notification_2525263.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Delivery-Notification-Message_2525330",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Delivery-Notification-Message_2525330.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploy-Fluentbit-for-Opensearch_1278410772",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Deploy-Fluentbit-for-Opensearch_1278410772.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploy-HAProxy-as-an-ELB_76021764",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Deploy-HAProxy-as-an-ELB_76021764.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Deploy-NGINX-as-an-ELB_75860951",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Deploy-NGINX-as-an-ELB_75860951.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Developer-Guide-of-Customer-Widget_1492484120",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Developer-Guide-of-Customer-Widget_1492484120.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Developer-Guides_2525609",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Developer-Guides_2525609.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Dialog-and-Profile-replication-in-a-cluster-in-EF-SIP-Proxy_176947233",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Dialog-and-Profile-replication-in-a-cluster-in-EF-SIP-Proxy_176947233.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Dialplan-implementation-in-EF-SIP-Proxy_168460320",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Dialplan-implementation-in-EF-SIP-Proxy_168460320.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Digital-Channels_151453751",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Digital-Channels_151453751.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Distribution-Rules_247988291",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Distribution-Rules_247988291.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "EFCX-Logs-Traversal-Guide_2525158",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/EFCX-Logs-Traversal-Guide_2525158.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ETCD-Backup-and-Restore_425164826",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/ETCD-Backup-and-Restore_425164826.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Edit-a-Text-Message_601915464",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Edit-a-Text-Message_601915464.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Email_112263260",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Email_112263260.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Email-Limitations_1028195237",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Email-Limitations_1028195237.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Email-Message_487227430",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Email-Message_487227430.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Embed-a-Webapp-in-Agent-Desk_635502601",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Embed-a-Webapp-in-Agent-Desk_635502601.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "End-PULL-based-Requests_2528595",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/End-PULL-based-Requests_2528595.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Evaluation-Volume_1014530193",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Evaluation-Volume_1014530193.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "FAQs-and-Troubleshooting_1680900127",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/FAQs-and-Troubleshooting_1680900127.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Facebook_1481932926",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Facebook_1481932926.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Facebook-Direct-Message_2526025",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Facebook-Direct-Message_2526025.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Facebook-Social-Media_2526031",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Facebook-Social-Media_2526031.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Form-Builder_866812373",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Form-Builder_866812373.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Forms_2531444",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Forms_2531444.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Forms-Developer-Guide_2526422",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Forms-Developer-Guide_2526422.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Forms-and-Form-Data_64487551",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Forms-and-Form-Data_64487551.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Get-Form_2532616",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Get-Form_2532616.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Get-Form-Validations_2532618",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Get-Form-Validations_2532618.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Google-Play-Store_1647443969",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Google-Play-Store_1647443969.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Handle-Email-Interactions_1102807045",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Handle-Email-Interactions_1102807045.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Handle-Multi-channel-Conversation_2528824",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Handle-Multi-channel-Conversation_2528824.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Handling-Superset-Session-Timeout_687671500",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Handling-Superset-Session-Timeout_687671500.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "High-Availability-with-DNS_2528935",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/High-Availability-with-DNS_2528935.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "High-Availability-with-Kube-VIP_2528948",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/High-Availability-with-Kube-VIP_2528948.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Historical-Conversation-Summary_2530933",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Historical-Conversation-Summary_2530933.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "How-To-get-Telegram-Bot-Token_2526378",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/How-To-get-Telegram-Bot-Token_2526378.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "How-to-customise-your-Telegram-Bot_2526374",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/How-to-customise-your-Telegram-Bot_2526374.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Insights_687505751",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Insights_687505751.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Instagram_1481080968",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Instagram_1481080968.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Instagram-Direct-Message_2528238",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Instagram-Direct-Message_2528238.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Instagram-Social-Media_2528131",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Instagram-Social-Media_2528131.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Interruptible-and-Non-Interruptible-Medias_556597289",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Interruptible-and-Non-Interruptible-Medias_556597289.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Join-Pull-based-Requests_2528122",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Join-Pull-based-Requests_2528122.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "JoinAsBargin_2523671",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/JoinAsBargin_2523671.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Leave-Conversation_2529047",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Leave-Conversation_2529047.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LetsEncrypt-SSL-for-EF-CX_32538676",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/LetsEncrypt-SSL-for-EF-CX_32538676.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LinkedIn_784007185",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/LinkedIn_784007185.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "LinkedIn-Account-Onboarding_823296100",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/LinkedIn-Account-Onboarding_823296100.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Location-Message_2532513",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Location-Message_2532513.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Logout_2525352",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Logout_2525352.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Make-a-Manual-Outbound-Contact_2528797",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Make-a-Manual-Outbound-Contact_2528797.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Manage-Channels-and-Channel-Categories_1562411043",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Manage-Channels-and-Channel-Categories_1562411043.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Maximum-Tasks-per-Agent-per-MRD_248348760",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Maximum-Tasks-per-Agent-per-MRD_248348760.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Message-Body_480149521",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Message-Body_480149521.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Message-Header_479952918",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Message-Header_479952918.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Messages_2526127",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Messages_2526127.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Metabase-Password-Reset_1355841549",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Metabase-Password-Reset_1355841549.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Multichannel-Session-Detail_436994049",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Multichannel-Session-Detail_436994049.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Multimedia-Messages_2525501",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Multimedia-Messages_2525501.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Notification-Message_2525594",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Notification-Message_2525594.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "OWASP-Top-Ten_2523208",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/OWASP-Top-Ten_2523208.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Omnichannel-Engagement_2529366",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Omnichannel-Engagement_2529366.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "On-Premise_1250722014",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/On-Premise_1250722014.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Onboarding-Guide_1511653389",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Onboarding-Guide_1511653389.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Opensearch-Setup-for-Logging-and-Tracing_1612415217",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Opensearch-Setup-for-Logging-and-Tracing_1612415217.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound_129499295",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Outbound_129499295.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Metrics_1135476739",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Outbound-Metrics_1135476739.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Result-Notifications---to-be-reviewed-and-updated_978747415",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Outbound-Result-Notifications---to-be-reviewed-and-updated_978747415.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PII-Data-Masking_884113585",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/PII-Data-Masking_884113585.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PII-Data-Masking-in-Logs_884441152",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/PII-Data-Masking-in-Logs_884441152.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PII-Data-Masking-of-Customer-Attributes-in-AgentDesk_698089579",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/PII-Data-Masking-of-Customer-Attributes-in-AgentDesk_698089579.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Participant_2525342",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Participant_2525342.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "ParticipantType_2525473",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/ParticipantType_2525473.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Patch-Release-CX4.10.7_1791131649",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Patch-Release-CX4.10.7_1791131649.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "People-and-groups-CX-Analyser_1317666981",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/People-and-groups-CX-Analyser_1317666981.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Personalized-Agent-Information-in-Customer-widget_453967896",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Personalized-Agent-Information-in-Customer-widget_453967896.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Plain-Text-Message_2532510",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Plain-Text-Message_2532510.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Planned-Releases_131006685",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Planned-Releases_131006685.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Platform_1241186391",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Platform_1241186391.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PostgresQL-DB-Creation-Guide_955154451",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/PostgresQL-DB-Creation-Guide_955154451.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Pre-Conversation-Forms_686525388",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Pre-Conversation-Forms_686525388.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Real-Time-Performance-Alerts_1153073447",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Real-Time-Performance-Alerts_1153073447.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Receipt-Message_487325734",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Receipt-Message_487325734.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Register-Custom-Bot_2529899",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Register-Custom-Bot_2529899.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Release-Items-v4.10.x-Merging-into-5.0-Analysis_1615921161",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Release-Items-v4.10.x-Merging-into-5.0-Analysis_1615921161.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Release-Management_1241186447",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Release-Management_1241186447.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Remote-Agent-Solutions_1653669930",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Remote-Agent-Solutions_1653669930.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Resources_1248624644",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Resources_1248624644.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Review-Screen_819593222",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Review-Screen_819593222.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Room_64356457",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Room_64356457.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Route-Re-initiated-Chats-on-Priority_2530181",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Route-Re-initiated-Chats-on-Priority_2530181.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "SMPP_2528799",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/SMPP_2528799.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Scheduled-Activities_150503557",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Scheduled-Activities_150503557.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Segregating-Facebook-DM-vs.-Social-Media-Message-in-Channel-Sessions_638681130",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Segregating-Facebook-DM-vs.-Social-Media-Message-in-Channel-Sessions_638681130.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Send-a-Media-message_2532588",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Send-a-Media-message_2532588.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Send-a-Message_142868924",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Send-a-Message_142868924.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Send-a-Whisper-Message_143458310",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Send-a-Whisper-Message_143458310.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Setup-Alerts-via-Gmail_440041483",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Setup-Alerts-via-Gmail_440041483.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Setup-CX-Analyser_1317994520",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Setup-CX-Analyser_1317994520.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Solutions_1241776176",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Solutions_1241776176.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Surveys_131432544",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Surveys_131432544.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Task_683180140",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Task_683180140.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Task-Priority_248119331",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Task-Priority_248119331.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Task-Reason-Codes_144212603",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Task-Reason-Codes_144212603.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Task-and-Task-States_296648753",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Task-and-Task-States_296648753.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram_2526302",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Telegram_2526302.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram-Bot-Creation-Guide_2526362",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Telegram-Bot-Creation-Guide_2526362.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Telegram-Bot-Token_2526370",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Telegram-Bot-Token_2526370.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Teneo_151814327",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Teneo_151814327.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "TroubleShooting-General-Guide_1526202379",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/TroubleShooting-General-Guide_1526202379.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Troubleshooting-Guides_2550703",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Troubleshooting-Guides_2550703.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Twilio_2529622",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Twilio_2529622.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Twitter_2549631",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Twitter_2549631.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "URL-Message_2532489",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/URL-Message_2532489.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Update-Form_2532608",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Update-Form_2532608.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Updating-the-Language-at-Agent-Desk_424214601",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Updating-the-Language-at-Agent-Desk_424214601.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Using-Traefik-as-Ingress-Controller_1443528719",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Using-Traefik-as-Ingress-Controller_1443528719.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Viber_68747283",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Viber_68747283.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "View-Conversation-Data_140869899",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/View-Conversation-Data_140869899.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "View-Conversation-Notifications_143654942",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/View-Conversation-Notifications_143654942.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Virtual-Agent_1264484374",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Virtual-Agent_1264484374.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Vulnerability-Assessments...to-be-discussed-and-move-to-CX_2523833",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Vulnerability-Assessments...to-be-discussed-and-move-to-CX_2523833.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Web-Published-Forms_392298524",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Web-Published-Forms_392298524.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WhatsApp_2526019",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/WhatsApp_2526019.md",
+    "persona": [
+      "admin",
+      "supervisor"
+    ],
+    "diataxis": "explanation",
+    "refactor_instructions": "Update to state that WhatsApp Cloud API is fully supported. Remove links to 360dialog/Twilio as the only options.",
+    "target_title": "WhatsApp Channel Overview"
+  },
+  {
+    "slug": "Whisper-Message_2529350",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Whisper-Message_2529350.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Wrap-up-Summary_2532039",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Wrap-up-Summary_2532039.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WrapUp-Message_2532492",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/WrapUp-Message_2532492.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "YouTube_786859078",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/YouTube_786859078.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "_DRAFT-Agent-Co-Pilot_1671266411",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/_DRAFT-Agent-Co-Pilot_1671266411.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "_Solutions-DRAFT_1629913095",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/_Solutions-DRAFT_1629913095.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "agentAssignedForAssistance_934346754",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentAssignedForAssistance_934346754.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "agentAssistanceRequestPlaced_935100417",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentAssistanceRequestPlaced_935100417.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "agentPresence__2531701",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentPresence__2531701.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "carouselMessageType_487948327",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/carouselMessageType_487948327.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "channelData_2528008",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/channelData_2528008.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "channelSession_2527365",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/channelSession_2527365.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "channelSessionState_2527123",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/channelSessionState_2527123.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "closeWrapup_933691394",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/closeWrapup_933691394.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "component_494108684",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/component_494108684.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "connect_error_2531707",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/connect_error_2531707.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "consulTransferRequestSuccess_934346772",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consulTransferRequestSuccess_934346772.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "consultConferenceRequest_933822483",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultConferenceRequest_933822483.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "consultRequest_933625882",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultRequest_933625882.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "consultTransferRequest_933691449",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultTransferRequest_933691449.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "conversationParticipant_2523889",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/conversationParticipant_2523889.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "deletePullModeRequest_2531709",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/deletePullModeRequest_2531709.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "directConferenceRequest_2531711",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/directConferenceRequest_2531711.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "directTransferRequest_2531715",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/directTransferRequest_2531715.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "errors_2531722",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/errors_2531722.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "joinAsWhisper_933691431",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/joinAsWhisper_933691431.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "joinPullModeRequest_2531724",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/joinPullModeRequest_2531724.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "onChannelTypes_2531726",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/onChannelTypes_2531726.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "onTopicData_2531736",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/onTopicData_2531736.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "pauseConversation_933822465",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/pauseConversation_933822465.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "resumeConversation_933691413",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/resumeConversation_933691413.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "revokeTask_2531748",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/revokeTask_2531748.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "taskRequest_2531754",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/taskRequest_2531754.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "topicClosed_2531758",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/topicClosed_2531758.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "wrapupTimerStarted_935100435",
+    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/wrapupTimerStarted_935100435.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Accessing-CX-Voice-Components_237207657",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Accessing-CX-Voice-Components_237207657.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Adding-Agent-Extensions-for-CX-Voice_2526927",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Adding-Agent-Extensions-for-CX-Voice_2526927.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Benchmarking-for-CX-Dialer_215023618",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Benchmarking-for-CX-Dialer_215023618.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Browser-Based-Calling_1653112868",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Browser-Based-Calling_1653112868.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CTI-Call-Controls_140869685",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/CTI-Call-Controls_140869685.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Dialer_2577878",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/CX-Dialer_2577878.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-Limitations_74448913",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/CX-Voice-Limitations_74448913.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Voice-platform-sizing_1261142096",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/CX-Voice-platform-sizing_1261142096.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Call-Forking-Concepts_130252894",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Call-Forking-Concepts_130252894.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Call-Scenarios-for-CUSP-Replacement_687178260",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Call-Scenarios-for-CUSP-Replacement_687178260.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Callback_687048605",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Callback_687048605.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Connected-Calls-Detail_1016234045",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Connected-Calls-Detail_1016234045.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Handle-WebRTC-Calls_1208254675",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Handle-WebRTC-Calls_1208254675.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Inbound-Calls_1537998859",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Inbound-Calls_1537998859.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Miscellaneous-Dialer-Call-Results_1086029830",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Miscellaneous-Dialer-Call-Results_1086029830.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Calls_1538293776",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Outbound-Calls_1538293776.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Releases-for-CX-Voice-Components_1342256",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Releases-for-CX-Voice-Components_1342256.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Troubleshooting-for-CX-Voice_160399426",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Troubleshooting-for-CX-Voice_160399426.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Updating-AgentDesk-Environment-Variables-for-CX-Voice_2529026",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Updating-AgentDesk-Environment-Variables-for-CX-Voice_2529026.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Updating-Environment-Variables-for-WebRTC_1186136178",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Updating-Environment-Variables-for-WebRTC_1186136178.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Video-Customer-Support_1653997581",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Video-Customer-Support_1653997581.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-Message_487227443",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Voice-Message_487227443.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Voice-and-Video_2527403",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Voice-and-Video_2527403.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-for-CX_687211264",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/WebRTC-for-CX_687211264.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-to-SIP_786497",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/WebRTC-to-SIP_786497.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Website-Click-to-Call_1651572804",
+    "target_path": "Phase4/Functional_Areas/Voice_Real-time_Media/Website-Click-to-Call_1651572804.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Review-Scheduler_817594518",
+    "target_path": "Phase4/Functional_Areas/Workforce_Schedule_Management/Review-Scheduler_817594518.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WFM-as-a-CX-add-on---Prerequisites_463962113",
+    "target_path": "Phase4/Functional_Areas/Workforce_Schedule_Management/WFM-as-a-CX-add-on---Prerequisites_463962113.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Workforce-Management_1346994182",
+    "target_path": "Phase4/Functional_Areas/Workforce_Schedule_Management/Workforce-Management_1346994182.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agent-Availability-Report_2527630",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Agent-Availability-Report_2527630.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Agents%27-Summary-Report_601915393",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Agents%27-Summary-Report_601915393.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "CX-Historical-Reports--Supporting-Tables_2527591",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/CX-Historical-Reports--Supporting-Tables_2527591.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Conversation-Analytics_1324089511",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Conversation-Analytics_1324089511.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Historical-Reports_1321664626",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Historical-Reports_1321664626.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Key-Reporting-Metrics_2526622",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Key-Reporting-Metrics_2526622.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Outbound-Summary-Report_1281261572",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Outbound-Summary-Report_1281261572.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Post-Conversation-Analytics_1266090075",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Post-Conversation-Analytics_1266090075.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Questions%27-Summary-Report_600866843",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Questions%27-Summary-Report_600866843.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Real-time-Contact-Center-Analytics_1324449868",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Real-time-Contact-Center-Analytics_1324449868.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Repeated-Caller-Report_755761153",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Repeated-Caller-Report_755761153.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Reports-and-Analytics_2526384",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Reports-and-Analytics_2526384.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "UTC-Offset---Reports_2526326",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/UTC-Offset---Reports_2526326.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Update-Reports-on-Superset-2.0_2525058",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/Update-Reports-on-Superset-2.0_2525058.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-Detail-Report_1064763393",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/WebRTC-Detail-Report_1064763393.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "WebRTC-Summary-Report_1064763418",
+    "target_path": "Phase4/Functional_Areas/Performance_Insights_Data/WebRTC-Summary-Report_1064763418.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "GDPR-Compliance_898498771",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/GDPR-Compliance_898498771.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "HIPAA-Compliance_826802235",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/HIPAA-Compliance_826802235.md",
+    "persona": [],
+    "diataxis": "reference",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "PCI-DSS-Compliance_608927784",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/PCI-DSS-Compliance_608927784.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Secure-OTP-Lifecycle-Management-and-Compliance-Adherence_1678016574",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/Secure-OTP-Lifecycle-Management-and-Compliance-Adherence_1678016574.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Security-and-Compliances_1108017201",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/Security-and-Compliances_1108017201.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "Security-and-Privacy-Compliances_2525094",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/Security-and-Privacy-Compliances_2525094.md",
+    "persona": [],
+    "diataxis": "explanation",
+    "refactor_instructions": ""
+  },
+  {
+    "slug": "VRS-PCI-DSS-Compliance_919711",
+    "target_path": "Phase4/Functional_Areas/Security_Compliances/VRS-PCI-DSS-Compliance_919711.md",
+    "persona": [],
+    "diataxis": "how-to",
+    "refactor_instructions": ""
+  }
+]
