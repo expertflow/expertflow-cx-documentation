@@ -669,6 +669,121 @@ navigation_tree:
     - title: Socket Events
       slug: Socket-Events_2530728
       type: reference
+      items:
+      - title: onCimEvent
+        slug: onCimEvent_2531728
+        type: reference
+      - title: publishCimEvent
+        slug: publishCimEvent_2531739
+        type: how-to
+      - title: socketSessionRemoved
+        slug: socketSessionRemoved_2531750
+        type: reference
+      - title: JoinAsBargin
+        slug: JoinAsBargin_2523671
+        type: reference
+      - title: JoinAsSilentMonitor
+        slug: JoinAsSilentMonitor_2528276
+        type: reference
+      - title: joinAsWhisper
+        slug: joinAsWhisper_933691431
+        type: reference
+      - title: agentAssignedForAssistance
+        slug: agentAssignedForAssistance_934346754
+        type: reference
+      - title: agentAssistanceRequestPlaced
+        slug: agentAssistanceRequestPlaced_935100417
+        type: reference
+      - title: agentPresence_
+        slug: agentPresence__2531701
+        type: how-to
+      - title: closeWrapup
+        slug: closeWrapup_933691394
+        type: how-to
+      - title: connect_error
+        slug: connect_error_2531707
+        type: explanation
+      - title: consulTransferRequestSuccess
+        slug: consulTransferRequestSuccess_934346772
+        type: explanation
+      - title: consultConferenceRequest
+        slug: consultConferenceRequest_933822483
+        type: reference
+      - title: consultRequest
+        slug: consultRequest_933625882
+        type: reference
+      - title: consultTransferRequest
+        slug: consultTransferRequest_933691449
+        type: reference
+      - title: deletePullModeRequest
+        slug: deletePullModeRequest_2531709
+        type: reference
+      - title: directConferenceRequest
+        slug: directConferenceRequest_2531711
+        type: reference
+      - title: directTransferRequest
+        slug: directTransferRequest_2531715
+        type: reference
+      - title: errors
+        slug: errors_2531722
+        type: explanation
+      - title: joinPullModeRequest
+        slug: joinPullModeRequest_2531724
+        type: reference
+      - title: onChannelTypes
+        slug: onChannelTypes_2531726
+        type: reference
+      - title: onTopicData
+        slug: onTopicData_2531736
+        type: reference
+      - title: pauseConversation
+        slug: pauseConversation_933822465
+        type: reference
+      - title: resumeConversation
+        slug: resumeConversation_933691413
+        type: reference
+      - title: revokeTask
+        slug: revokeTask_2531748
+        type: reference
+      - title: taskRequest
+        slug: taskRequest_2531754
+        type: reference
+      - title: topicClosed
+        slug: topicClosed_2531758
+        type: reference
+      - title: wrapupTimerStarted
+        slug: wrapupTimerStarted_935100435
+        type: reference
+      - title: topicSubscription
+        slug: topicSubscription_2531760
+        type: reference
+      - title: topicUnsubscription
+        slug: topicUnsubscription_2531762
+        type: reference
+      - title: topicUnsubscription_
+        slug: topicUnsubscription__2531764
+        type: reference
+      - title: addPullModeSubscribedListRequests
+        slug: addPullModeSubscribedListRequests_2531698
+        type: reference
+      - title: onPullModeSubscribedList
+        slug: onPullModeSubscribedList_2531732
+        type: reference
+      - title: onPullModeSubscribedListRequest
+        slug: onPullModeSubscribedListRequest_2531734
+        type: reference
+      - title: pullModeSubscribedListRequests
+        slug: pullModeSubscribedListRequests_2531743
+        type: reference
+      - title: removePullModeSubscribedListRequests
+        slug: removePullModeSubscribedListRequests_2531746
+        type: reference
+      - title: subscribePullModeList
+        slug: subscribePullModeList_2531752
+        type: reference
+      - title: unsubscribePullModeList
+        slug: unsubscribePullModeList_2531766
+        type: reference
     - title: Solution API Reference - CX Campaigns - to be reviewed and updated
       slug: Solution-API-Reference---CX-Campaigns---to-be-reviewed-and-updated_366575699
       type: explanation
@@ -677,15 +792,6 @@ navigation_tree:
       type: reference
     - title: Understanding the YouTube Data API v3 Quota System
       slug: Understanding-the-YouTube-Data-API-v3-Quota-System_1008467975
-      type: reference
-    - title: onCimEvent
-      slug: onCimEvent_2531728
-      type: reference
-    - title: publishCimEvent
-      slug: publishCimEvent_2531739
-      type: how-to
-    - title: socketSessionRemoved
-      slug: socketSessionRemoved_2531750
       type: reference
   - section: Conversation Designer (Dave)
     items:

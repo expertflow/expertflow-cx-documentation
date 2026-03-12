@@ -299,7 +299,7 @@
   },
   {
     "slug": "JoinAsSilentMonitor_2528276",
-    "target_path": "Phase4/Role-Based_Guides/Supervisor/JoinAsSilentMonitor_2528276.md",
+    "target_path": "Phase4/Developer/Socket_Events/JoinAsSilentMonitor_2528276.md",
     "persona": [
       "supervisor"
     ],
@@ -1274,7 +1274,7 @@
   },
   {
     "slug": "addPullModeSubscribedListRequests_2531698",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/addPullModeSubscribedListRequests_2531698.md",
+    "target_path": "Phase4/Developer/Socket_Events/addPullModeSubscribedListRequests_2531698.md",
     "persona": [
       "solution-admin"
     ],
@@ -1283,7 +1283,7 @@
   },
   {
     "slug": "onPullModeSubscribedList_2531732",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/onPullModeSubscribedList_2531732.md",
+    "target_path": "Phase4/Developer/Socket_Events/onPullModeSubscribedList_2531732.md",
     "persona": [
       "solution-admin"
     ],
@@ -1292,7 +1292,7 @@
   },
   {
     "slug": "onPullModeSubscribedListRequest_2531734",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/onPullModeSubscribedListRequest_2531734.md",
+    "target_path": "Phase4/Developer/Socket_Events/onPullModeSubscribedListRequest_2531734.md",
     "persona": [
       "solution-admin"
     ],
@@ -1301,7 +1301,7 @@
   },
   {
     "slug": "pullModeSubscribedListRequests_2531743",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/pullModeSubscribedListRequests_2531743.md",
+    "target_path": "Phase4/Developer/Socket_Events/pullModeSubscribedListRequests_2531743.md",
     "persona": [
       "solution-admin"
     ],
@@ -1310,7 +1310,7 @@
   },
   {
     "slug": "removePullModeSubscribedListRequests_2531746",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/removePullModeSubscribedListRequests_2531746.md",
+    "target_path": "Phase4/Developer/Socket_Events/removePullModeSubscribedListRequests_2531746.md",
     "persona": [
       "solution-admin"
     ],
@@ -1319,7 +1319,7 @@
   },
   {
     "slug": "subscribePullModeList_2531752",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/subscribePullModeList_2531752.md",
+    "target_path": "Phase4/Developer/Socket_Events/subscribePullModeList_2531752.md",
     "persona": [
       "solution-admin"
     ],
@@ -1328,7 +1328,7 @@
   },
   {
     "slug": "unsubscribePullModeList_2531766",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/unsubscribePullModeList_2531766.md",
+    "target_path": "Phase4/Developer/Socket_Events/unsubscribePullModeList_2531766.md",
     "persona": [
       "solution-admin"
     ],
@@ -1609,7 +1609,7 @@
   },
   {
     "slug": "Socket-Events_2530728",
-    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/Socket-Events_2530728.md",
+    "target_path": "Phase4/Developer/Socket_Events/Socket-Events_2530728.md",
     "persona": [
       "developer"
     ],
@@ -1654,7 +1654,7 @@
   },
   {
     "slug": "onCimEvent_2531728",
-    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/onCimEvent_2531728.md",
+    "target_path": "Phase4/Developer/Socket_Events/onCimEvent_2531728.md",
     "persona": [
       "developer"
     ],
@@ -1663,7 +1663,7 @@
   },
   {
     "slug": "publishCimEvent_2531739",
-    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/publishCimEvent_2531739.md",
+    "target_path": "Phase4/Developer/Socket_Events/publishCimEvent_2531739.md",
     "persona": [
       "developer"
     ],
@@ -1672,7 +1672,7 @@
   },
   {
     "slug": "socketSessionRemoved_2531750",
-    "target_path": "Phase4/Role-Based_Guides/Frontend_Developer/socketSessionRemoved_2531750.md",
+    "target_path": "Phase4/Developer/Socket_Events/socketSessionRemoved_2531750.md",
     "persona": [
       "developer"
     ],
@@ -2753,7 +2753,7 @@
   },
   {
     "slug": "topicSubscription_2531760",
-    "target_path": "Phase4/Role-Based_Guides/Reseller/topicSubscription_2531760.md",
+    "target_path": "Phase4/Developer/Socket_Events/topicSubscription_2531760.md",
     "persona": [
       "reseller"
     ],
@@ -2762,7 +2762,7 @@
   },
   {
     "slug": "topicUnsubscription_2531762",
-    "target_path": "Phase4/Role-Based_Guides/Reseller/topicUnsubscription_2531762.md",
+    "target_path": "Phase4/Developer/Socket_Events/topicUnsubscription_2531762.md",
     "persona": [
       "reseller"
     ],
@@ -2771,7 +2771,7 @@
   },
   {
     "slug": "topicUnsubscription__2531764",
-    "target_path": "Phase4/Role-Based_Guides/Reseller/topicUnsubscription__2531764.md",
+    "target_path": "Phase4/Developer/Socket_Events/topicUnsubscription__2531764.md",
     "persona": [
       "reseller"
     ],
@@ -4253,21 +4253,21 @@
   },
   {
     "slug": "agentAssignedForAssistance_934346754",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentAssignedForAssistance_934346754.md",
+    "target_path": "Phase4/Developer/Socket_Events/agentAssignedForAssistance_934346754.md",
     "persona": [],
     "diataxis": "explanation",
     "refactor_instructions": ""
   },
   {
     "slug": "agentAssistanceRequestPlaced_935100417",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentAssistanceRequestPlaced_935100417.md",
+    "target_path": "Phase4/Developer/Socket_Events/agentAssistanceRequestPlaced_935100417.md",
     "persona": [],
     "diataxis": "explanation",
     "refactor_instructions": ""
   },
   {
     "slug": "agentPresence__2531701",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/agentPresence__2531701.md",
+    "target_path": "Phase4/Developer/Socket_Events/agentPresence__2531701.md",
     "persona": [],
     "diataxis": "how-to",
     "refactor_instructions": ""
@@ -4302,7 +4302,7 @@
   },
   {
     "slug": "closeWrapup_933691394",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/closeWrapup_933691394.md",
+    "target_path": "Phase4/Developer/Socket_Events/closeWrapup_933691394.md",
     "persona": [],
     "diataxis": "how-to",
     "refactor_instructions": ""
@@ -4316,35 +4316,35 @@
   },
   {
     "slug": "connect_error_2531707",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/connect_error_2531707.md",
+    "target_path": "Phase4/Developer/Socket_Events/connect_error_2531707.md",
     "persona": [],
     "diataxis": "explanation",
     "refactor_instructions": ""
   },
   {
     "slug": "consulTransferRequestSuccess_934346772",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consulTransferRequestSuccess_934346772.md",
+    "target_path": "Phase4/Developer/Socket_Events/consulTransferRequestSuccess_934346772.md",
     "persona": [],
     "diataxis": "explanation",
     "refactor_instructions": ""
   },
   {
     "slug": "consultConferenceRequest_933822483",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultConferenceRequest_933822483.md",
+    "target_path": "Phase4/Developer/Socket_Events/consultConferenceRequest_933822483.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "consultRequest_933625882",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultRequest_933625882.md",
+    "target_path": "Phase4/Developer/Socket_Events/consultRequest_933625882.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "consultTransferRequest_933691449",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/consultTransferRequest_933691449.md",
+    "target_path": "Phase4/Developer/Socket_Events/consultTransferRequest_933691449.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
@@ -4358,98 +4358,98 @@
   },
   {
     "slug": "deletePullModeRequest_2531709",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/deletePullModeRequest_2531709.md",
+    "target_path": "Phase4/Developer/Socket_Events/deletePullModeRequest_2531709.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "directConferenceRequest_2531711",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/directConferenceRequest_2531711.md",
+    "target_path": "Phase4/Developer/Socket_Events/directConferenceRequest_2531711.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "directTransferRequest_2531715",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/directTransferRequest_2531715.md",
+    "target_path": "Phase4/Developer/Socket_Events/directTransferRequest_2531715.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "errors_2531722",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/errors_2531722.md",
+    "target_path": "Phase4/Developer/Socket_Events/errors_2531722.md",
     "persona": [],
     "diataxis": "explanation",
     "refactor_instructions": ""
   },
   {
     "slug": "joinAsWhisper_933691431",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/joinAsWhisper_933691431.md",
+    "target_path": "Phase4/Developer/Socket_Events/joinAsWhisper_933691431.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "joinPullModeRequest_2531724",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/joinPullModeRequest_2531724.md",
+    "target_path": "Phase4/Developer/Socket_Events/joinPullModeRequest_2531724.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "onChannelTypes_2531726",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/onChannelTypes_2531726.md",
+    "target_path": "Phase4/Developer/Socket_Events/onChannelTypes_2531726.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "onTopicData_2531736",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/onTopicData_2531736.md",
+    "target_path": "Phase4/Developer/Socket_Events/onTopicData_2531736.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "pauseConversation_933822465",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/pauseConversation_933822465.md",
+    "target_path": "Phase4/Developer/Socket_Events/pauseConversation_933822465.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "resumeConversation_933691413",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/resumeConversation_933691413.md",
+    "target_path": "Phase4/Developer/Socket_Events/resumeConversation_933691413.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "revokeTask_2531748",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/revokeTask_2531748.md",
+    "target_path": "Phase4/Developer/Socket_Events/revokeTask_2531748.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "taskRequest_2531754",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/taskRequest_2531754.md",
+    "target_path": "Phase4/Developer/Socket_Events/taskRequest_2531754.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "topicClosed_2531758",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/topicClosed_2531758.md",
+    "target_path": "Phase4/Developer/Socket_Events/topicClosed_2531758.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
   },
   {
     "slug": "wrapupTimerStarted_935100435",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/wrapupTimerStarted_935100435.md",
+    "target_path": "Phase4/Developer/Socket_Events/wrapupTimerStarted_935100435.md",
     "persona": [],
     "diataxis": "reference",
     "refactor_instructions": ""
