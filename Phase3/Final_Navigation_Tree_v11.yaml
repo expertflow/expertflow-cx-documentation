@@ -1,2215 +1,2112 @@
 navigation_tree:
-- section: Getting Started
-  items:
-  - title: ExpertFlow CX Platform Overview
-    slug: Expertflow-CX-Platform-Overview_1785790479
-    type: explanation
-  - section: For Agents (Amy)
+  - section: Getting Started
     items:
-    - title: The Agent Quick-Start Guide
-      slug: Agent-Quick-Start-Guide
-      type: audit-needed
-  - section: For Supervisors (Sam)
-    items:
-    - title: Monitoring Your Team in Real-Time
-      slug: Monitoring-Your-Team-in-Real-Time
-      type: audit-needed
-  - section: For Solution Admins (Olivia)
-    items:
-    - title: Unified Admin Guide
-      slug: Unified-Admin-Guide_2524407
-      type: how-to
-  - section: For Quality Managers (Quentin)
-    items:
-    - title: Managing the QA Workflow
-      slug: Managing-the-Quality-Assurance-Workflow
-      type: audit-needed
-  - section: For Human Evaluators (Eva)
-    items:
-    - title: User Guide for Evaluator
-      slug: User-Guide-for-Evaluator_818675746
-      type: how-to
-  - section: For Decision Makers (CTO)
-    items:
-    - title: Security & Compliance Whitepaper
-      slug: Security-and-Compliance-Whitepaper
-      type: audit-needed
-  - section: For Frontend Developers (Dev)
-    items:
-    - title: AgentManager SDK Reference
-      slug: Agent-Desk-Developer-Guide_2523754
-      type: how-to
-  - section: For Conversation Designers (Dave)
-    items:
-    - title: Conversation Studio Overview
-      slug: Configuration-Guide---Conversation-Studio_1017118849
-      type: how-to
-  - section: For Integration Specialists (Ian)
-    items:
-    - title: Cisco UCCE/X Integration Reference
-      slug: Cisco-Contact-Center-Integration-Reference
-      type: audit-needed
-  - section: For AI Quality Specialists
-    items:
-    - title: Configuring AI-Powered Quality Audits
-      slug: Configuring-AI-Powered-Quality-Audits
-      type: audit-needed
-  - section: For Multi-tenant Partners (Host)
-    items:
-    - title: Deploying the RKE2 Control Plane
-      slug: Deploying-the-RKE2-Control-Plane
-      type: audit-needed
-  - section: For Resellers (Cloud)
-    items:
-    - title: Onboarding a New Tenant
-      slug: Tenant-Onboarding--To-be-removed_1015775291
-      type: explanation
-- section: Strategic Vision & Value
-  items: []
-- section: Role-Based Guides
-  items:
-  - section: Agent (Amy)
-    items:
-    - title: Agent State Analysis Report
-      slug: Agent-State-Analysis-Report_2523192
-      type: reference
-    - title: Agent States
-      slug: Agent-States_2531294
-      type: reference
-    - title: Change Agent State
-      slug: Change-Agent-State_2524603
-      type: reference
-    - title: Conversation Rerouting on Agent State Change to Callback
-      slug: Conversation-Rerouting-on-Agent-State-Change-to-Callback_1599766616
-      type: explanation
-    - title: Force Logout Agent
-      slug: Force-Logout-Agent_1181941884
-      type: how-to
-    - title: Login to Agent Desk
-      slug: Login-to-Agent-Desk_2529062
-      type: explanation
-    - title: changeAgentState
-      slug: changeAgentState_2531704
-      type: how-to
-  - section: Supervisor (Sam)
-    items:
-    - title: Add Agents, Supervisors, and Teams
-      slug: Add-Agents%2C-Supervisors%2C-and-Teams_242909198
-      type: reference
-    - title: Agent  Performance Dashboard
-      slug: Agent--Performance-Dashboard_1329233964
-      type: reference
-    - title: Agent Performance Dashboard
-      slug: Agent-Performance-Dashboard_1170604038
-      type: reference
-    - title: Agent Performance Report
-      slug: Agent-Performance-Report_456130564
-      type: reference
-    - title: Agent Team Dashboard
-      slug: Agent-Team-Dashboard_1328939121
-      type: explanation
-    - title: AgentTeam ERD
-      slug: AgentTeam-ERD_1606221998
-      type: explanation
-    - title: As a Supervisor
-      slug: As-a-Supervisor_2528631
-      type: reference
-    - title: Barge in
-      slug: Barge-in_2529322
-      type: explanation
-    - title: Customer Inactivity SLA
-      slug: Customer-Inactivity-SLA_246743058
-      type: how-to
-    - title: Customer Widget Configuration and Translation Management
-      slug: Customer-Widget-Configuration-and-Translation-Management_148897858
-      type: reference
-    - title: Detailed Dashboards
-      slug: Detailed-Dashboards_1322221656
-      type: reference
-    - title: EFSwitch Monitoring Dashboards
-      slug: EFSwitch-Monitoring-Dashboards_262602756
-      type: explanation
-    - title: Enable Monitoring on MSSQL
-      slug: Enable-Monitoring-on-MSSQL_879198209
-      type: explanation
-    - title: Impact of Team Structure on Dashboards
-      slug: Impact-of-Team-Structure-on-Dashboards_272334983
-      type: explanation
-    - title: JoinAsSilentMonitor
-      slug: JoinAsSilentMonitor_2528276
-      type: reference
-    - title: Limitations Agent SLA
-      slug: Limitations-Agent-SLA_153715087
-      type: explanation
-    - title: Manage Teams
-      slug: Manage-Teams_1602027529
-      type: reference
-    - title: Monitors and manages CX Voice interactions
-      slug: Monitors-and-manages-CX-Voice-interactions_163676365
-      type: explanation
-    - title: Realtime Reports and Dashboards
-      slug: Realtime-Reports-and-Dashboards_2529305
-      type: reference
-    - title: SLA Calculations
-      slug: SLA-Calculations_2525629
-      type: how-to
-    - title: Silent Monitoring
-      slug: Silent-Monitoring_2529320
-      type: explanation
-    - title: Summary Dashboard
-      slug: Summary-Dashboard_1321533643
-      type: reference
-    - title: Supervisor AI Assistance
-      slug: Supervisor-AI-Assistance_1318289436
-      type: explanation
-    - title: Supervisor Access to Unified Admin
-      slug: Supervisor-Access-to-Unified-Admin_1160151146
-      type: explanation
-    - title: Supervisor Assistance
-      slug: Supervisor-Assistance_1342734385
-      type: explanation
-    - title: Team Announcements
-      slug: Team-Announcements_2523883
-      type: reference
-    - title: Team Comparison
-      slug: Team-Comparison_1015546076
-      type: explanation
-    - title: Team Stats Dashboard
-      slug: Team-Stats-Dashboard_1329103041
-      type: explanation
-    - title: View Agent Dashboards
-      slug: View-Agent-Dashboards_283607081
-      type: explanation
-  - section: Human Evaluator (Eva)
-    items:
-    - title: As a Quality Manager
-      slug: As-a-Quality-Manager_817889466
-      type: how-to
-    - title: As an Evaluator
-      slug: As-an-Evaluator_818708539
-      type: explanation
-    - title: CX Voice Recording Behavior
-      slug: CX-Voice-Recording-Behavior_1107918913
-      type: reference
-    - title: Compatibility Guide-Media Recording
-      slug: Compatibility-Guide-Media-Recording_917695
-      type: reference
-    - title: Eleveo Recording Behavior
-      slug: Eleveo-Recording-Behavior_1114701825
-      type: reference
-    - title: Evaluator Comparison
-      slug: Evaluator-Comparison_1015546105
-      type: explanation
-    - title: Handle Voice Recording
-      slug: Handle-Voice-Recording_796590157
-      type: explanation
-    - title: Media Recording
-      slug: Media-Recording_1343750181
-      type: explanation
-    - title: Playing Screen Recordings in Quality Management
-      slug: Playing-Screen-Recordings-in-Quality-Management_1566900238
-      type: reference
-    - title: Quality Management
-      slug: Quality-Management_1345617939
-      type: reference
-    - title: Quality Management - System Limitations
-      slug: Quality-Management---System-Limitations_920486105
-      type: explanation
-    - title: Review Scheduler
-      slug: Recording-Calls-in-CX-Voice_1070104782
-      type: explanation
-    - title: Recording Links In EF CX
-      slug: Recording-Links-In-EF-CX_976846851
-      type: how-to
-    - title: SIPrec-based recording using a drachtio server, and FreeSWITCH as the
-        media server
-      slug: SIPrec-based-recording-using-a-drachtio-server%2C-and-FreeSWITCH-as-the-media-server_314867730
-      type: reference
-    - title: Selective Recording Rules
-      slug: Selective-Recording-Rules_1108770912
-      type: explanation
-    - title: User Guide for Evaluator
-      slug: User-Guide-for-Evaluator_818675746
-      type: how-to
-    - title: User Guide for Quality Manager
-      slug: User-Guide-for-Quality-Manager_818708526
-      type: explanation
-    - title: Voice Recording Solution
-      slug: Voice-Recording-Solution_138739776
-      type: explanation
-  - section: Quality Manager (Quentin)
-    items:
-    - title: AI-Driven Quality Management
-      slug: AI-Driven-Quality-Management_1153106262
-      type: explanation
-    - title: IAM Configuration For QM
-      slug: IAM-Configuration-For-QM_1221197922
-      type: how-to
-    - title: QM Admin
-      slug: QM-Admin_1150156801
-      type: explanation
-    - title: User Guide for Quality Management Admin
-      slug: User-Guide-for-Quality-Management-Admin_1153073466
-      type: how-to
-  - section: Solution Admin (Olivia)
-    items:
-    - title: 2FA Configuration Guide - Email
-      slug: 2FA-Configuration-Guide---Email_1690927131
-      type: explanation
-    - title: Agent Productivity By Queue
-      slug: Agent-Productivity-By-Queue_2527642
-      type: reference
-    - title: Agent-Queue Mapping
-      slug: Agent-Queue-Mapping_2525979
-      type: explanation
-    - title: Archival Configuration
-      slug: Archival-Configuration_1120894977
-      type: how-to
-    - title: As a Campaign Manager
-      slug: As-a-Campaign-Manager_308510727
-      type: how-to
-    - title: Browser Microphone Permission
-      slug: Browser-Microphone-Permission_675872915
-      type: explanation
-    - title: CX Campaigns Keycloak Configuration
-      slug: CX-Campaigns-Keycloak-Configuration_474120764
-      type: explanation
-    - title: CX Dialer Environment Configurations
-      slug: CX-Dialer-Environment-Configurations_284164220
-      type: reference
-    - title: CX Voice Channel Configuration Guide
-      slug: CX-Voice-Channel-Configuration-Guide_2529731
-      type: explanation
-    - title: Campaign Calls Detail Report
-      slug: Campaign-Calls-Detail-Report_1016234087
-      type: explanation
-    - title: Campaign Channel Configurations
-      slug: Campaign-Channel-Configurations_434143283
-      type: explanation
-    - title: Campaign Summary
-      slug: Campaign-Summary_1016234024
-      type: reference
-    - title: Configuration Guide - Conversation Studio
-      slug: Configuration-Guide---Conversation-Studio_1017118849
-      type: how-to
-    - title: Configuration Guide - Masking Fields Enablement on CCM
-      slug: Configuration-Guide---Masking-Fields-Enablement-on-CCM_1614348404
-      type: explanation
-    - title: Configuration Guides
-      slug: Configuration-Guides_1260912785
-      type: explanation
-    - title: Configurational Guide
-      slug: Configurational-Guide_1658126350
-      type: how-to
-    - title: Configure AgentDesk Settings
-      slug: Configure-AgentDesk-Settings_1578696774
-      type: reference
-    - title: Configure Service Based Accounts using Vault
-      slug: Configure-Service-Based-Accounts-using-Vault_1341358201
-      type: explanation
-    - title: Configure Vault for PostgreSQL Dynamic Database Credentials
-      slug: Configure-Vault-for-PostgreSQL-Dynamic-Database-Credentials_1335066669
-      type: explanation
-    - title: Configuring Vault for Encryption
-      slug: Configuring-Vault-for-Encryption_969506918
-      type: how-to
-    - title: Conversation List
-      slug: Conversation-List_819101704
-      type: explanation
-    - title: Customer List
-      slug: Customer-List_441450562
-      type: explanation
-    - title: Customer Widget Admin Guide
-      slug: Customer-Widget-Admin-Guide_26838047
-      type: reference
-    - title: DNC Lists
-      slug: DNC-Lists_739147899
-      type: explanation
-    - title: Encryption at Rest - Configuration Guide
-      slug: Encryption-at-Rest---Configuration-Guide_1209171997
-      type: how-to
-    - title: Facebook - Configuration Guide
-      slug: Facebook---Configuration-Guide_2531616
-      type: how-to
-    - title: Form Builder User Guide
-      slug: Form-Builder-User-Guide_946602145
-      type: explanation
-    - title: IMAP-SMTP based Email Configuration Guide
-      slug: IMAP-SMTP-based-Email-Configuration-Guide_112001145
-      type: how-to
-    - title: IVR Campaigns with CX - to be reviewed
-      slug: IVR-Campaigns-with-CX---to-be-reviewed_1132560466
-      type: explanation
-    - title: LinkedIn  - Configuration Guide
-      slug: LinkedIn----Configuration-Guide_1271693696
-      type: how-to
-    - title: List of Open-source Software
-      slug: List-of-Open-source-Software_3322742
-      type: reference
-    - title: MS Exchange based Email Configuration Guide
-      slug: MS-Exchange-based-Email-Configuration-Guide_1028554830
-      type: how-to
-    - title: Manage Queues and Routing Attributes
-      slug: Manage-Queues-and-Routing-Attributes_1567719455
-      type: reference
-    - title: Managing Microphone and Camera Permissions in the Customer Widget
-      slug: Managing-Microphone-and-Camera-Permissions-in-the-Customer-Widget_1733230599
-      type: explanation
-    - title: Media Server Configurations for CX Voice
-      slug: Media-Server-Configurations-for-CX-Voice_1341259967
-      type: how-to
-    - title: Outbound Flows Environment Configurations
-      slug: Outbound-Flows-Environment-Configurations_1469448386
-      type: reference
-    - title: Platform Administration
-      slug: Platform-Administration_2525605
-      type: explanation
-    - title: Precision Routing
-      slug: Precision-Routing_2525641
-      type: how-to
-    - title: Priority Routing
-      slug: Priority-Routing_2529105
-      type: explanation
-    - title: Priority Routing Config
-      slug: Priority-Routing-Config_176357465
-      type: how-to
-    - title: Priority Routing and Routing Re-initiated Chats on Priority
-      slug: Priority-Routing-and-Routing-Re-initiated-Chats-on-Priority_1340867
-      type: how-to
-    - title: Pull-Mode Routing
-      slug: Pull-Mode-Routing_2529097
-      type: explanation
-    - title: Queue Flushed Conversation Count
-      slug: Queue-Flushed-Conversation-Count_2532043
-      type: explanation
-    - title: Queue Priority
-      slug: Queue-Priority_581730323
-      type: how-to
-    - title: Queue Stats Today
-      slug: Queue-Stats-Today_2527826
-      type: reference
-    - title: Queue Wait Time And Position
-      slug: Queue-Wait-Time-And-Position_2530342
-      type: explanation
-    - title: Queue-wise Stats Summary
-      slug: Queue-wise-Stats-Summary_2527840
-      type: reference
-    - title: Queues
-      slug: Queues_2550494
-      type: how-to
-    - title: Reports - CX Campaigns
-      slug: Reports---CX-Campaigns_1033338976
-      type: explanation
-    - title: Routing
-      slug: Routing_2525975
-      type: reference
-    - title: Routing Attribute
-      slug: Routing-Attribute_2550492
-      type: explanation
-    - title: Routing Engine Developer Guide
-      slug: Routing-Engine-Developer-Guide_2531314
-      type: how-to
-    - title: SMPP Configuration Guide
-      slug: SMPP-Configuration-Guide_2527143
-      type: reference
-    - title: Skills Assessment
-      slug: Skills-Assessment_1015971843
-      type: explanation
-    - title: Subscribed Lists
-      slug: Subscribed-Lists_442204167
-      type: explanation
-    - title: System-level Configurations-Limitations
-      slug: System-level-Configurations-Limitations_1448968253
-      type: reference
-    - title: Transferred Tasks per Queue
-      slug: Transferred-Tasks-per-Queue_2532035
-      type: explanation
-    - title: Two Factor Authentication - User Guide
-      slug: Two-Factor-Authentication---User-Guide_1685881100
-      type: how-to
-    - title: Understanding Customer List View
-      slug: Understanding-Customer-List-View_434471010
-      type: explanation
-    - title: Unified Admin Guide
-      slug: Unified-Admin-Guide_2524407
-      type: how-to
-    - title: Use case with Pull-based Routing
-      slug: Use-case-with-Pull-based-Routing_2533129
-      type: explanation
-    - title: User Interface Languages
-      slug: User-Interface-Languages_1241416183
-      type: explanation
-    - title: User Management
-      slug: User-Management_1602682928
-      type: how-to
-    - title: Vault Configuration
-      slug: Vault-Configuration_1624473620
-      type: explanation
-    - title: WFM - User guide for Agent
-      slug: WFM---User-guide-for-Agent_1266090148
-      type: how-to
-    - title: WebRTC Channel Configuration Guide-not to publish
-      slug: WebRTC-Channel-Configuration-Guide-not-to-publish_142835713
-      type: how-to
-    - title: WebRTC Configuration Guide
-      slug: WebRTC-Configuration-Guide_687309794
-      type: explanation
-    - title: addPullModeSubscribedListRequests
-      slug: addPullModeSubscribedListRequests_2531698
-      type: reference
-    - title: onPullModeSubscribedList
-      slug: onPullModeSubscribedList_2531732
-      type: explanation
-    - title: onPullModeSubscribedListRequest
-      slug: onPullModeSubscribedListRequest_2531734
-      type: how-to
-    - title: pullModeSubscribedListRequests
-      slug: pullModeSubscribedListRequests_2531743
-      type: reference
-    - title: removePullModeSubscribedListRequests
-      slug: removePullModeSubscribedListRequests_2531746
-      type: reference
-    - title: subscribePullModeList
-      slug: subscribePullModeList_2531752
-      type: reference
-    - title: unsubscribePullModeList
-      slug: unsubscribePullModeList_2531766
-      type: reference
-    - title: User Inactivity Logout
-      slug: User-Inactivity-Logout_1481802143
-      type: explanation
-  - section: Decision Maker (CTO)
-    items:
-    - title: Application Security
-      slug: Application-Security_2527480
-      type: explanation
-    - title: CX Release Notes 5.1.0
-      slug: CX-Release-Notes-5.1.0_1485439118
-      type: reference
-    - title: CX Release Notes 5.2.0
-      slug: CX-Release-Notes-5.2.0_1755447318
-      type: reference
-    - title: CX Surveys Datasheet
-      slug: CX-Surveys-Datasheet_448299062
-      type: explanation
-    - title: Datasheet - CX Campaigns---to be merged with parent and deprecated this
-        one
-      slug: Datasheet---CX-Campaigns---to-be-merged-with-parent-and-deprecated-this-one_573407247
-      type: explanation
-    - title: Datasheet - WFM
-      slug: Datasheet---WFM_464093250
-      type: reference
-    - title: Datasheet-QM
-      slug: Datasheet-QM_543621127
-      type: reference
-    - title: Expertflow CX Platform Overview
-      slug: Expertflow-CX-Platform-Overview_1785790479
-      type: explanation
-    - title: Implementing Security Policies
-      slug: Implementing-Security-Policies_766214293
-      type: explanation
-    - title: Voice Calls in Expertflow CX Overview
-      slug: Voice-Calls-in-Expertflow-CX-Overview_1532362798
-      type: how-to
-    - title: Expertflow CX Release Versioning
-      slug: Expertflow-CX-Release-Versioning_2525588
-      type: reference
-    - title: Hardware Sizing and System Requirements
-      slug: Hardware-Sizing-and-System-Requirements_2524410
-      type: audit-needed
-  - section: Frontend Developer (Dev)
-    items:
-    - section: CIM Message Schema
-      items:
-      - title: CIM Messages
-        slug: CIM-Messages_2530195
+      - title: ExpertFlow CX Platform Overview
+        slug: Expertflow-CX-Platform-Overview_1785790479
         type: explanation
-      - title: Exchange CIM Message
-        slug: Exchange-CIM-Message_2532551
-        type: explanation
-      - title: Action Message
-        slug: Action-Message_487227417
-        type: reference
-      - title: Button Message
-        slug: Button-Message_2532516
-        type: explanation
-      - title: Carousel Message
-        slug: Carousel-Message_486408458
-        type: reference
-      - title: Contact Message
-        slug: Contact-Message_2532495
-        type: reference
-      - title: Custom Message
-        slug: Custom-Message_488046598
-        type: reference
-      - title: Delivery Notification Message
-        slug: Delivery-Notification-Message_2525330
-        type: explanation
-      - title: Email Message
-        slug: Email-Message_487227430
-        type: reference
-      - title: Location Message
-        slug: Location-Message_2532513
-        type: explanation
-      - title: Message Body
-        slug: Message-Body_480149521
-        type: reference
-      - title: Message Header
-        slug: Message-Header_479952918
-        type: reference
-      - title: Notification Message
-        slug: Notification-Message_2525594
-        type: reference
-      - title: Plain Text Message
-        slug: Plain-Text-Message_2532510
-        type: reference
-      - title: Receipt Message
-        slug: Receipt-Message_487325734
-        type: reference
-      - title: URL Message
-        slug: URL-Message_2532489
-        type: explanation
-      - title: WrapUp Message
-        slug: WrapUp-Message_2532492
-        type: explanation
-    - title: Platform Data Model & Objects
-      slug: Expertflow-CX-Objects_2553561
-      type: reference
-      items:
-      - title: CC User
-        slug: CC-User_2553563
-        type: reference
-      - title: ChannelConfig
-        slug: ChannelConfig_2526559
-        type: reference
-      - title: ParticipantRole
-        slug: ParticipantRole_2525405
-        type: reference
-      - title: customer object
-        slug: customer-object_2526154
-        type: reference
-      - title: ChannelConnector
-        slug: ChannelConnector_2525010
-        type: reference
-      - title: Tenant
-        slug: Tenant_2524656
-        type: reference
-      - title: AgentPresence
-        slug: AgentPresence_2530472
-        type: reference
-      - title: Channel
-        slug: Channel_2525261
-        type: reference
-      - title: ChannelType
-        slug: ChannelType_2528816
-        type: reference
-      - title: ComponentType
-        slug: ComponentType_493748319
-        type: reference
-      - title: Participant
-        slug: Participant_2525342
-        type: reference
-      - title: ParticipantType
-        slug: ParticipantType_2525473
-        type: reference
-      - title: carouselMessageType
-        slug: carouselMessageType_487948327
-        type: reference
-      - title: channelData
-        slug: channelData_2528008
-        type: reference
-      - title: channelSession
-        slug: channelSession_2527365
-        type: reference
-      - title: channelSessionState
-        slug: channelSessionState_2527123
-        type: how-to
-      - title: component
-        slug: component_494108684
-        type: reference
-      - title: conversationParticipant
-        slug: conversationParticipant_2523889
-        type: reference
-    - title: Business Calendar API Configurations
-      slug: Business-Calendar-API-Configurations_687572201
-      type: explanation
-    - title: CX Media Server API
-      slug: CX-Media-Server-API_499253250
-      type: how-to
-    - title: Channel Related Objects
-      slug: Channel-Related-Objects_276594689
-      type: explanation
-    - title: Conversation Objects
-      slug: Conversation-Objects_2528831
-      type: explanation
-    - title: Customer Facing SDK for Omnichannel Communication
-      slug: Customer-Facing-SDK-for-Omnichannel-Communication_2526606
-      type: explanation
-    - title: Customer Schema
-      slug: Customer-Schema_2525665
-      type: explanation
-    - title: Encryption Schema Guide
-      slug: Encryption-Schema-Guide_1028194322
-      type: explanation
-    - title: Form APIs
-      slug: Form-APIs_2532620
-      type: explanation
-    - title: JavaScript SDK for customer-facing channels
-      slug: JavaScript-SDK-for-customer-facing-channels_1496743937
-      type: reference
-    - title: Key Objects
-      slug: Key-Objects_1241579630
-      type: explanation
-    - title: Queue Flushing API
-      slug: Queue-Flushing-API_2526125
-      type: explanation
-    - title: Reporting Database Schema
-      slug: Reporting-Database-Schema_2526317
-      type: reference
-    - title: Socket Events
-      slug: Socket-Events_2530728
-      type: reference
-      items:
-      - title: onCimEvent
-        slug: onCimEvent_2531728
-        type: reference
-      - title: publishCimEvent
-        slug: publishCimEvent_2531739
-        type: how-to
-      - title: socketSessionRemoved
-        slug: socketSessionRemoved_2531750
-        type: reference
-      - title: JoinAsBargin
-        slug: JoinAsBargin_2523671
-        type: reference
-      - title: JoinAsSilentMonitor
-        slug: JoinAsSilentMonitor_2528276
-        type: reference
-      - title: joinAsWhisper
-        slug: joinAsWhisper_933691431
-        type: reference
-      - title: agentAssignedForAssistance
-        slug: agentAssignedForAssistance_934346754
-        type: reference
-      - title: agentAssistanceRequestPlaced
-        slug: agentAssistanceRequestPlaced_935100417
-        type: reference
-      - title: agentPresence_
-        slug: agentPresence__2531701
-        type: how-to
-      - title: closeWrapup
-        slug: closeWrapup_933691394
-        type: how-to
-      - title: connect_error
-        slug: connect_error_2531707
-        type: explanation
-      - title: consulTransferRequestSuccess
-        slug: consulTransferRequestSuccess_934346772
-        type: explanation
-      - title: consultConferenceRequest
-        slug: consultConferenceRequest_933822483
-        type: reference
-      - title: consultRequest
-        slug: consultRequest_933625882
-        type: reference
-      - title: consultTransferRequest
-        slug: consultTransferRequest_933691449
-        type: reference
-      - title: deletePullModeRequest
-        slug: deletePullModeRequest_2531709
-        type: reference
-      - title: directConferenceRequest
-        slug: directConferenceRequest_2531711
-        type: reference
-      - title: directTransferRequest
-        slug: directTransferRequest_2531715
-        type: reference
-      - title: errors
-        slug: errors_2531722
-        type: explanation
-      - title: joinPullModeRequest
-        slug: joinPullModeRequest_2531724
-        type: reference
-      - title: onChannelTypes
-        slug: onChannelTypes_2531726
-        type: reference
-      - title: onTopicData
-        slug: onTopicData_2531736
-        type: reference
-      - title: pauseConversation
-        slug: pauseConversation_933822465
-        type: reference
-      - title: resumeConversation
-        slug: resumeConversation_933691413
-        type: reference
-      - title: revokeTask
-        slug: revokeTask_2531748
-        type: reference
-      - title: taskRequest
-        slug: taskRequest_2531754
-        type: reference
-      - title: topicClosed
-        slug: topicClosed_2531758
-        type: reference
-      - title: wrapupTimerStarted
-        slug: wrapupTimerStarted_935100435
-        type: reference
-      - title: topicSubscription
-        slug: topicSubscription_2531760
-        type: reference
-      - title: topicUnsubscription
-        slug: topicUnsubscription_2531762
-        type: reference
-      - title: topicUnsubscription_
-        slug: topicUnsubscription__2531764
-        type: reference
-      - title: addPullModeSubscribedListRequests
-        slug: addPullModeSubscribedListRequests_2531698
-        type: reference
-      - title: onPullModeSubscribedList
-        slug: onPullModeSubscribedList_2531732
-        type: reference
-      - title: onPullModeSubscribedListRequest
-        slug: onPullModeSubscribedListRequest_2531734
-        type: reference
-      - title: pullModeSubscribedListRequests
-        slug: pullModeSubscribedListRequests_2531743
-        type: reference
-      - title: removePullModeSubscribedListRequests
-        slug: removePullModeSubscribedListRequests_2531746
-        type: reference
-      - title: subscribePullModeList
-        slug: subscribePullModeList_2531752
-        type: reference
-      - title: unsubscribePullModeList
-        slug: unsubscribePullModeList_2531766
-        type: reference
-    - title: Solution API Reference - CX Campaigns - to be reviewed and updated
-      slug: Solution-API-Reference---CX-Campaigns---to-be-reviewed-and-updated_366575699
-      type: explanation
-    - title: Third Party Activies API
-      slug: Third-Party-Activies-API_2530063
-      type: reference
-    - title: Understanding the YouTube Data API v3 Quota System
-      slug: Understanding-the-YouTube-Data-API-v3-Quota-System_1008467975
-      type: reference
-  - section: Conversation Designer (Dave)
-    items:
-    - title: As a Conversation Designer
-      slug: As-a-Conversation-Designer_512098334
-      type: explanation
-    - title: Conversation Flow for Outbound Dialing Modes - to be reviewed
-      slug: Conversation-Flow-for-Outbound-Dialing-Modes---to-be-reviewed_1132265580
-      type: how-to
-    - title: IVR Detail Report
-      slug: IVR-Detail-Report_80150550
-      type: reference
-    - title: IVR Summary Report
-      slug: IVR-Summary-Report_80183299
-      type: reference
-    - title: Outbound Flows Limitations
-      slug: Outbound-Flows-Limitations_1182433310
-      type: how-to
-    - title: Tainting a Control Plane Node
-      slug: Tainting-a-Control-Plane-Node_77431234
-      type: explanation
-  - section: Integration Specialist (Ian)
-    items:
-    - title: 360-Connector Configuration Guide
-      slug: 360-Connector-Configuration-Guide_2531584
-      type: reference
-    - title: Add Bot Connector
-      slug: Add-Bot-Connector_1580367873
-      type: explanation
-    - title: Agent Desk Integration with Cisco Finesse
-      slug: Agent-Desk-Integration-with-Cisco-Finesse_342327334
-      type: reference
-    - title: Agent Initiated WebRTC for Cisco Video Call Feature Document-not to be
-        released as part of 4.9, 4.10
-      slug: Agent-Initiated-WebRTC-for-Cisco-Video-Call-Feature-Document-not-to-be-released-as-part-of-4.9%2C-4.10_941621415
-      type: how-to
-    - title: Bot Connector Developer Guide
-      slug: Bot-Connector-Developer-Guide_2526409
-      type: explanation
-    - title: CRM Connectors
-      slug: CRM-Connectors_28410275
-      type: explanation
-    - title: Channel Connector Configuration
-      slug: Channel-Connector-Configuration_2527073
-      type: reference
-    - title: Channel Connector Developer Guide
-      slug: Channel-Connector-Developer-Guide_2528843
-      type: reference
-    - title: Cisco Connector
-      slug: Cisco-Connector_1775796232
-      type: explanation
-    - title: Cisco Contact Center Integration with EF CX Cloud
-      slug: Cisco-Contact-Center-Integration-with-EF-CX-Cloud_220102772
-      type: explanation
-    - title: Cisco Contact center integration
-      slug: Cisco-Contact-center-integration_2525072
-      type: reference
-    - title: Cisco Outbound Connector
-      slug: Cisco-Outbound-Connector_15630635
-      type: how-to
-    - title: Cisco Sync Service
-      slug: Cisco-Sync-Service_1203175476
-      type: explanation
-    - title: Cisco Voice Channel Configuration Guide
-      slug: Cisco-Voice-Channel-Configuration-Guide_2527992
-      type: explanation
-    - title: Cisco Voice Channel Limitations
-      slug: Cisco-Voice-Channel-Limitations_74514469
-      type: reference
-    - title: Custom Connector-Bot Communication
-      slug: Custom-Connector-Bot-Communication_2527859
-      type: how-to
-    - title: Deploying Finesse Gadget
-      slug: Deploying-Finesse-Gadget_2526405
-      type: how-to
-    - title: Environment Configurations for Cisco
-      slug: Environment-Configurations-for-Cisco_1021575170
-      type: explanation
-    - title: Facebook Connector Limitations
-      slug: Facebook-Connector-Limitations_74350672
-      type: explanation
-    - title: Instagram Connector - Limitation
-      slug: Instagram-Connector---Limitation_1022132245
-      type: reference
-    - title: Integrations
-      slug: Integrations_27918741
-      type: explanation
-    - title: Logging and Tracing Integration with OpenSearch
-      slug: Logging-and-Tracing-Integration-with-OpenSearch_1614413879
-      type: explanation
-    - title: Meta - WhatsApp Cloud API
-      slug: Meta---WhatsApp-Cloud-API_131006630
-      type: explanation
-    - title: QM Connector for Cisco
-      slug: QM-Connector-for-Cisco_1484488883
-      type: how-to
-    - title: Register Channel Connector
-      slug: Register-Channel-Connector_2528408
-      type: reference
-    - title: Telegram Connector Configuration in Unified Admin
-      slug: Telegram-Connector-Configuration-in-Unified-Admin_2526699
-      type: how-to
-    - title: Telegram Connector Limitations
-      slug: Telegram-Connector-Limitations_2551889
-      type: how-to
-    - title: Telegram Connector Media Types Support
-      slug: Telegram-Connector-Media-Types-Support_67665941
-      type: reference
-    - title: Twitter Social Media Connector Configuration Guide
-      slug: Twitter-Social-Media-Connector-Configuration-Guide_22544715
-      type: explanation
-    - title: Twitter V2 Social Media Connector Configuration Guide
-      slug: Twitter-V2-Social-Media-Connector-Configuration-Guide_22511659
-      type: explanation
-    - title: Scheduled Activities
-      slug: Scheduled-Activities_150503557
-      type: how-to
-  - section: AI Quality & NLU Specialist
-    items:
-    - title: AI Orchestration
-      slug: AI-Orchestration_1263992872
-      type: explanation
-    - title: Controller Bot Training
-      slug: Controller-Bot-Training_2527665
-      type: reference
-    - title: Deploy Rasa for Multitenancy
-      slug: Deploy-Rasa-for-Multitenancy_1226113282
-      type: explanation
-    - title: Intent
-      slug: Intent_478347287
-      type: reference
-    - title: Rasa-X
-      slug: Rasa-X_956989712
-      type: explanation
-    - title: Rasa-X Configuration
-      slug: Rasa-X-Configuration_2531579
-      type: explanation
-    - title: Parse Rasa Standard Message on Bot-Framework
-      slug: Parse-Rasa-Standard-Message-on-Bot-Framework_1731264556
-      type: explanation
-  - section: Infrastructure & Hosting (Partner)
-    items:
-    - title: Accessing Logs from Kubernetes Pods
-      slug: Accessing-Logs-from-Kubernetes-Pods_1607237654
-      type: explanation
-    - title: CX Dialer Deployment Guide
-      slug: CX-Dialer-Deployment-Guide_2529764
-      type: reference
-    - title: CX SIP Proxy Deployment Guide
-      slug: CX-SIP-Proxy-Deployment-Guide_31719857
-      type: how-to
-    - title: CX SIP Proxy Installation Guide
-      slug: CX-SIP-Proxy-Installation-Guide_229539941
-      type: explanation
-    - title: CX Solution Helm Uninstallation
-      slug: CX-Solution-Helm-Uninstallation_813498613
-      type: explanation
-    - title: CX Voice Deployment
-      slug: CX-Voice-Deployment_1344510
-      type: explanation
-    - title: CX Voice Recording Components Deployment Guide
-      slug: CX-Voice-Recording-Components-Deployment-Guide_161842333
-      type: how-to
-    - title: CX Voice Upgrade Guides
-      slug: CX-Voice-Upgrade-Guides_268632072
-      type: explanation
-    - title: CX Voice Upgrade to 4.10
-      slug: CX-Voice-Upgrade-to-4.10_1085931521
-      type: how-to
-    - title: CX Voice Upgrade to 4.10.X
-      slug: CX-Voice-Upgrade-to-4.10.X_1215954962
-      type: how-to
-    - title: CX Voice Upgrade to 4.5
-      slug: CX-Voice-Upgrade-to-4.5_102006844
-      type: how-to
-    - title: CX Voice Upgrade to 4.5.1
-      slug: CX-Voice-Upgrade-to-4.5.1_428802049
-      type: how-to
-    - title: CX Voice Upgrade to 4.5.2
-      slug: CX-Voice-Upgrade-to-4.5.2_412549122
-      type: how-to
-    - title: CX Voice Upgrade to 4.5.2 for PTCL
-      slug: CX-Voice-Upgrade-to-4.5.2-for-PTCL_487456793
-      type: how-to
-    - title: CX Voice Upgrade to 4.5.3
-      slug: CX-Voice-Upgrade-to-4.5.3_554827778
-      type: how-to
-    - title: CX Voice Upgrade to 4.5.3 for PTCL
-      slug: CX-Voice-Upgrade-to-4.5.3-for-PTCL_554827939
-      type: how-to
-    - title: CX Voice Upgrade to 4.6
-      slug: CX-Voice-Upgrade-to-4.6_596049921
-      type: how-to
-    - title: CX Voice Upgrade to 4.6 for PTCL
-      slug: CX-Voice-Upgrade-to-4.6-for-PTCL_614170650
-      type: how-to
-    - title: CX Voice Upgrade to 4.7
-      slug: CX-Voice-Upgrade-to-4.7_721944577
-      type: how-to
-    - title: CX Voice Upgrade to 4.7 for PTCL
-      slug: CX-Voice-Upgrade-to-4.7-for-PTCL_851181739
-      type: how-to
-    - title: CX Voice Upgrade to 4.7.1
-      slug: CX-Voice-Upgrade-to-4.7.1_941817857
-      type: how-to
-    - title: CX Voice Upgrade to 4.8
-      slug: CX-Voice-Upgrade-to-4.8_941916161
-      type: how-to
-    - title: CX Voice Upgrade to 4.9.1
-      slug: CX-Voice-Upgrade-to-4.9.1_1047265281
-      type: how-to
-    - title: Change Default ActiveMQ Passwords Using ConfigMap
-      slug: Change-Default-ActiveMQ-Passwords-Using-ConfigMap_654803006
-      type: explanation
-    - title: Cisco Outbound Connector Docker Deployment Guide
-      slug: Cisco-Outbound-Connector-Docker-Deployment-Guide_18582341
-      type: reference
-    - title: Cisco Outbound Connector Kubernetes Deployment Guide
-      slug: Cisco-Outbound-Connector-Kubernetes-Deployment-Guide_246644853
-      type: how-to
-    - title: Collection Removal from MongoDB
-      slug: Collection-Removal-from-MongoDB_2526725
-      type: explanation
-    - title: Configure Vault for ActiveMQ
-      slug: Configure-Vault-for-ActiveMQ_1375404115
-      type: explanation
-    - title: Configure Vault for MongoDB Dynamic Database Credentials
-      slug: Configure-Vault-for-MongoDB-Dynamic-Database-Credentials_1245216775
-      type: explanation
-    - title: Configure Vault for Redis Database Credentials
-      slug: Configure-Vault-for-Redis-Database-Credentials_1369505803
-      type: explanation
-    - title: Configuring dispatcher in CX SIP PROXY
-      slug: Configuring-dispatcher-in-CX-SIP-PROXY_725188626
-      type: how-to
-    - title: Configuring load balancer in CX SIP PROXY
-      slug: Configuring-load-balancer-in-CX-SIP-PROXY_724860997
-      type: how-to
-    - title: Conversion of Single Node MongoDB to ReplicaSet
-      slug: Conversion-of-Single-Node-MongoDB-to-ReplicaSet_774275117
-      type: explanation
-    - title: Customer Widget Deployment Guide
-      slug: Customer-Widget-Deployment-Guide_2531544
-      type: how-to
-    - title: Customizing CX Helm Chart Deployments
-      slug: Customizing-CX-Helm-Chart-Deployments_1223852083
-      type: explanation
-    - title: Deployment of Fluentbit
-      slug: Deployment-of-Fluentbit_1794441219
-      type: explanation
-    - title: Deployment of Logging Operator
-      slug: Deployment-of-Logging-Operator_433422360
-      type: explanation
-    - title: Deployment of Mongo using ReplicaSet
-      slug: Deployment-of-Mongo-using-ReplicaSet_774569985
-      type: explanation
-    - title: Deployment of Opensearch and Opensearch Dashboards
-      slug: Deployment-of-Opensearch-and-Opensearch-Dashboards_1277919276
-      type: reference
-    - title: EF CX Helm Chart
-      slug: EF-CX-Helm-Chart_1573126166
-      type: reference
-    - title: EasySIPp Deployment Guide
-      slug: EasySIPp-Deployment-Guide_1696956477
-      type: how-to
-    - title: Eleveo Middleware Deployment Guide
-      slug: Eleveo-Middleware-Deployment-Guide_914686010
-      type: how-to
-    - title: Failover Cluster with Replicated Block Volume
-      slug: Failover-Cluster-with-Replicated-Block-Volume_1320550500
-      type: reference
-    - title: Guide for Standard Tier Upgrade
-      slug: Guide-for-Standard-Tier-Upgrade_911343642
-      type: explanation
-    - title: HA in EF SIP Proxy
-      slug: HA-in-EF-SIP-Proxy_173670574
-      type: how-to
-    - title: Helm-based Deployment for Expertflow CX
-      slug: Helm-based-Deployment-for-Expertflow-CX_2528431
-      type: how-to
-    - title: Helm-based Deployment for Expertflow CX-Draft
-      slug: Helm-based-Deployment-for-Expertflow-CX-Draft_1574043649
-      type: how-to
-    - title: High Availability using External Load Balancer
-      slug: High-Availability-using-External-Load-Balancer_2528979
-      type: how-to
-    - title: Kubernetes Distributions
-      slug: Kubernetes-Distributions_64356591
-      type: explanation
-    - title: LinkedIn Connector Deployment using Helm
-      slug: LinkedIn-Connector-Deployment-using-Helm_923664968
-      type: explanation
-    - title: LinkedIn Dev Connector Deployment using Helm
-      slug: LinkedIn-Dev-Connector-Deployment-using-Helm_1653800961
-      type: how-to
-    - title: LiveKit - Deployment Guide
-      slug: LiveKit---Deployment-Guide_1786740744
-      type: how-to
-    - title: Load balancing in EF SIP Proxy through the dispatcher module
-      slug: Load-balancing-in-EF-SIP-Proxy-through-the-dispatcher-module_178684103
-      type: explanation
-    - title: Logging Solution Deployment Guide
-      slug: Logging-Solution-Deployment-Guide_396362236
-      type: reference
-    - title: Media Server Deployment Guide
-      slug: Media-Server-Deployment-Guide_1344451
-      type: how-to
-    - title: MongoDB slow query logs
-      slug: MongoDB-slow-query-logs_273973273
-      type: explanation
-    - title: Monitoring Solution Deployment
-      slug: Monitoring-Solution-Deployment_2527132
-      type: reference
-    - title: PTCL CX Voice Upgrade 4.5.1 to 4.9.1
-      slug: PTCL-CX-Voice-Upgrade-4.5.1-to-4.9.1_1203830785
-      type: how-to
-    - title: RASA-X Deployment using helm chart
-      slug: RASA-X-Deployment-using-helm-chart_42402346
-      type: how-to
-    - title: RKE2 Control plane Deployment
-      slug: RKE2-Control-plane-Deployment_2528874
-      type: how-to
-    - title: RKE2 uninstallation
-      slug: RKE2-uninstallation_2528626
-      type: explanation
-    - title: Redis Log Monitoring via slowlogs
-      slug: Redis-Log-Monitoring-via-slowlogs_224952330
-      type: explanation
-    - title: Superset Deployment for Reporting
-      slug: Superset-Deployment-for-Reporting_49250583
-      type: explanation
-    - title: System Behaviour incase of Failover
-      slug: System-Behaviour-incase-of-Failover_1181614099
-      type: reference
-    - title: Upgrade Guide CX4.10.6 to CX4.10.7
-      slug: Upgrade-Guide-CX4.10.6-to-CX4.10.7_1562116169
-      type: explanation
-    - title: Upgrade Guide CX5.0.2 to CX5.1.0
-      slug: Upgrade-Guide-CX5.0.2-to-CX5.1.0_1486520327
-      type: how-to
-    - title: Upgrade Guide CX5.1.0 to CX5.2.0
-      slug: Upgrade-Guide-CX5.1.0-to-CX5.2.0_1755447383
-      type: how-to
-    - title: Upgrade to Mongodb Version 8.x  for CX Solution
-      slug: Upgrade-to-Mongodb-Version-8.x--for-CX-Solution_904134972
-      type: explanation
-    - title: Voice Connector Deployment Guide
-      slug: Voice-Connector-Deployment-Guide_48268951
-      type: reference
-    - title: Voice Recording Components deployment on Kubernetes
-      slug: Voice-Recording-Components-deployment-on-Kubernetes_348880955
-      type: how-to
-    - title: WFM-Auth Component Deployment on Kubernetes
-      slug: WFM-Auth-Component-Deployment-on-Kubernetes_407732264
-      type: how-to
-    - title: WFM-Core Component Deployment on Kubernetes
-      slug: WFM-Core-Component-Deployment-on-Kubernetes_407470084
-      type: how-to
-    - title: WFM-Reports Component Deployment on Kubernetes
-      slug: WFM-Reports-Component-Deployment-on-Kubernetes_403570714
-      type: how-to
-    - title: WebRTC Deployment Guide-not to publish
-      slug: WebRTC-Deployment-Guide-not-to-publish_349634566
-      type: how-to
-    - title: CX Analyser Reports Setup
-      slug: CX-Analyser-Reports-Setup_1355743279
-      type: explanation
-  - section: Reseller (Cloud)
-    items:
-    - title: Getting the Offline License Encrypted file
-      slug: Getting-the-Offline-License-Encrypted-file_66387975
-      type: explanation
-    - title: License Consumption Status
-      slug: License-Consumption-Status_985595918
-      type: reference
-    - title: Register new Tenants FQDN on Grafana allowedHosts
-      slug: Register-new-Tenants-FQDN-on-Grafana-allowedHosts_1280868399
-      type: how-to
-    - title: Tenant Admin Configurations
-      slug: Tenant-Admin-Configurations_1541111833
-      type: explanation
-    - title: Updating Media Server Configs in Tenant Settings
-      slug: Updating-Media-Server-Configs-in-Tenant-Settings_1668251717
-      type: explanation
-    - title: topicSubscription
-      slug: topicSubscription_2531760
-      type: reference
-    - title: topicUnsubscription
-      slug: topicUnsubscription_2531762
-      type: reference
-    - title: topicUnsubscription_
-      slug: topicUnsubscription__2531764
-      type: reference
-- section: Functional Areas
-  items:
-  - section: Digital Channel Management
-    items:
-    - title: '360'
-      slug: '360_1480392883'
-      type: explanation
-    - title: AI Assistant handover to human agent
-      slug: AI-Assistant-handover-to-human-agent_1324417085
-      type: explanation
-    - title: Accept a Conversation
-      slug: Accept-a-Conversation_2527849
-      type: explanation
-    - title: Add Not Ready and Logout Reasons
-      slug: Add-Not-Ready-and-Logout-Reasons_1577418835
-      type: explanation
-    - title: Add Wrap-ups
-      slug: Add-Wrap-ups_1578434619
-      type: explanation
-    - title: Add a Customer Widget
-      slug: Add-a-Customer-Widget_1553367051
-      type: explanation
-    - title: Add a Web Channel
-      slug: Add-a-Web-Channel_1496449025
-      type: explanation
-    - title: Agent Assistance
-      slug: Agent-Assistance_1274970118
-      type: explanation
-    - title: Agent Desk Developer Guide
-      slug: Agent-Desk-Developer-Guide_2523754
-      type: how-to
-    - title: Agent Desk Localization
-      slug: Agent-Desk-Localization_1241579818
-      type: explanation
-    - title: Agent Hand Raise
-      slug: Agent-Hand-Raise_519569565
-      type: explanation
-    - title: Agent Not Ready Detail
-      slug: Agent-Not-Ready-Detail_436273153
-      type: reference
-    - title: Agent Not-Ready Summary
-      slug: Agent-Not-Ready-Summary_436830209
-      type: reference
-    - title: Agent Response Time
-      slug: Agent-Response-Time_142540854
-      type: how-to
-    - title: Agent Task Detail
-      slug: Agent-Task-Detail_2533148
-      type: reference
-    - title: Agent Task Disposition
-      slug: Agent-Task-Disposition_2529040
-      type: explanation
-    - title: Answered Chats in Time Intervals
-      slug: Answered-Chats-in-Time-Intervals_434634764
-      type: reference
-    - title: Apply Wrap-up and Add Notes
-      slug: Apply-Wrap-up-and-Add-Notes_2528747
-      type: explanation
-    - title: As an Agent
-      slug: As-an-Agent_2529298
-      type: reference
-    - title: Assign Labels to Customers
-      slug: Assign-Labels-to-Customers_434667615
-      type: explanation
-    - title: Audit Logging
-      slug: Audit-Logging_1578795038
-      type: reference
-    - title: Auto-Sync MRD State
-      slug: Auto-Sync-MRD-State_1025802251
-      type: explanation
-    - title: Backend Support for Advanced Filters
-      slug: Backend-Support-for-Advanced-Filters_621117443
-      type: how-to
-    - title: BotFather
-      slug: BotFather_2526366
-      type: explanation
-    - title: Browser and Sound Notifications
-      slug: Browser-and-Sound-Notifications_2528129
-      type: explanation
-    - title: Bulk Agent attributes Assignment
-      slug: Bulk-Agent-attributes-Assignment_246251682
-      type: explanation
-    - title: Business Calendars
-      slug: Business-Calendars_687244862
-      type: how-to
-    - title: Business Calendars Limitations
-      slug: Business-Calendars-Limitations_686557229
-      type: explanation
-    - title: Business Features
-      slug: Business-Features_918121
-      type: explanation
-    - title: C-Alerts
-      slug: C-Alerts_225476610
-      type: explanation
-    - title: CCaaS Provider Guide
-      slug: CCaaS-Provider-Guide_1387593741
-      type: reference
-    - title: CX Customer Widget Embedding Guide
-      slug: CX-Customer-Widget-Embedding-Guide_2531378
-      type: how-to
-    - title: CX Enhancements
-      slug: CX-Enhancements_796557334
-      type: explanation
-    - title: CX High Availability
-      slug: CX-High-Availability_2526662
-      type: explanation
-    - title: CX Media Server
-      slug: CX-Media-Server_194379915
-      type: explanation
-    - title: CX Release History
-      slug: CX-Release-History_2527987
-      type: reference
-    - title: CX SIP Proxy
-      slug: CX-SIP-Proxy_31719845
-      type: reference
-    - title: CX4.10.7 Planned Issues
-      slug: CX4.10.7-Planned-Issues_1791131693
-      type: reference
-    - title: CX5.1.0 Planned Issues
-      slug: CX5.1.0-Planned-Issues_1485439167
-      type: reference
-    - title: CX5.2.0 Planned Issues
-      slug: CX5.2.0-Planned-Issues_1755447366
-      type: reference
-    - title: Change Agent Desk Language
-      slug: Change-Agent-Desk-Language_2529188
-      type: explanation
-    - title: Channel Session
-      slug: Channel-Session_93224974
-      type: explanation
-    - title: Channel Session Detail
-      slug: Channel-Session-Detail_2527421
-      type: reference
-    - title: Channel Stats Graph
-      slug: Channel-Stats-Graph_2532028
-      type: explanation
-    - title: Channel Stats Summary
-      slug: Channel-Stats-Summary_2528488
-      type: reference
-    - title: Compatibility Guides
-      slug: Compatibility-Guides_85983333
-      type: reference
-    - title: Connecting to Databases with TLS Enabled
-      slug: Connecting-to-Databases-with-TLS-Enabled_399049034
-      type: how-to
-    - title: Consult, Transfer and Conference
-      slug: Consult%2C-Transfer-and-Conference_2528529
-      type: how-to
-    - title: Contact Center Personas
-      slug: Contact-Center-Personas_932642857
-      type: reference
-    - title: Conversation
-      slug: Conversation_93192236
-      type: reference
-    - title: Conversation Detail
-      slug: Conversation-Detail_2527060
-      type: reference
-    - title: Conversation View
-      slug: Conversation-View_822214946
-      type: explanation
-    - title: Conversation Volume by Disposition
-      slug: Conversation-Volume-by-Disposition_2532031
-      type: explanation
-    - title: ConversationData
-      slug: ConversationData_2526208
-      type: explanation
-    - title: Create Form
-      slug: Create-Form_2532610
-      type: how-to
-    - title: Create an evaluation form
-      slug: Create-an-evaluation-form_819232775
-      type: explanation
-    - title: Create self-signed Certificates for Ingress
-      slug: Create-self-signed-Certificates-for-Ingress_48400625
-      type: how-to
-    - title: Creating extensions on Media Server
-      slug: Creating-extensions-on-Media-Server_1341253
-      type: explanation
-    - title: Customer Advanced Filters
-      slug: Customer-Advanced-Filters_645628037
-      type: explanation
-    - title: Customer Labels
-      slug: Customer-Labels_2529344
-      type: explanation
-    - title: Customer Widget
-      slug: Customer-Widget_2526052
-      type: explanation
-    - title: Customer Widget Localization
-      slug: Customer-Widget-Localization_1241678195
-      type: explanation
-    - title: Data Encryption
-      slug: Data-Encryption_884932744
-      type: explanation
-    - title: Delete Form
-      slug: Delete-Form_2532606
-      type: explanation
-    - title: Deleted Notification
-      slug: Deleted-Notification_2525263
-      type: explanation
-    - title: Deploy Fluentbit for Opensearch
-      slug: Deploy-Fluentbit-for-Opensearch_1278410772
-      type: explanation
-    - title: Deploy HAProxy as an ELB
-      slug: Deploy-HAProxy-as-an-ELB_76021764
-      type: explanation
-    - title: Deploy NGINX as an ELB
-      slug: Deploy-NGINX-as-an-ELB_75860951
-      type: explanation
-    - title: Developer Guide of Customer Widget
-      slug: Developer-Guide-of-Customer-Widget_1492484120
-      type: explanation
-    - title: Developer Guides
-      slug: Developer-Guides_2525609
-      type: explanation
-    - title: Dialog and Profile replication in a cluster in EF SIP Proxy
-      slug: Dialog-and-Profile-replication-in-a-cluster-in-EF-SIP-Proxy_176947233
-      type: explanation
-    - title: Dialplan implementation in EF SIP Proxy
-      slug: Dialplan-implementation-in-EF-SIP-Proxy_168460320
-      type: explanation
-    - title: Digital Channels
-      slug: Digital-Channels_151453751
-      type: reference
-    - title: Distribution Rules
-      slug: Distribution-Rules_247988291
-      type: explanation
-    - title: EFCX Logs Traversal Guide
-      slug: EFCX-Logs-Traversal-Guide_2525158
-      type: reference
-    - title: ETCD Backup and Restore
-      slug: ETCD-Backup-and-Restore_425164826
-      type: how-to
-    - title: Edit a Text Message
-      slug: Edit-a-Text-Message_601915464
-      type: explanation
-    - title: Email
-      slug: Email_112263260
-      type: reference
-    - title: Email Limitations
-      slug: Email-Limitations_1028195237
-      type: explanation
-    - title: Embed a Webapp in Agent Desk
-      slug: Embed-a-Webapp-in-Agent-Desk_635502601
-      type: explanation
-    - title: End PULL-based Requests
-      slug: End-PULL-based-Requests_2528595
-      type: explanation
-    - title: Evaluation Volume
-      slug: Evaluation-Volume_1014530193
-      type: explanation
-    - title: FAQs and Troubleshooting
-      slug: FAQs-and-Troubleshooting_1680900127
-      type: explanation
-    - title: Facebook
-      slug: Facebook_1481932926
-      type: explanation
-    - title: Facebook Direct Message
-      slug: Facebook-Direct-Message_2526025
-      type: explanation
-    - title: Facebook Social Media
-      slug: Facebook-Social-Media_2526031
-      type: explanation
-    - title: Form Builder
-      slug: Form-Builder_866812373
-      type: reference
-    - title: Forms
-      slug: Forms_2531444
-      type: how-to
-    - title: Forms Developer Guide
-      slug: Forms-Developer-Guide_2526422
-      type: explanation
-    - title: Forms and Form Data
-      slug: Forms-and-Form-Data_64487551
-      type: explanation
-    - title: Get Form
-      slug: Get-Form_2532616
-      type: explanation
-    - title: Get Form Validations
-      slug: Get-Form-Validations_2532618
-      type: reference
-    - title: Google Play Store
-      slug: Google-Play-Store_1647443969
-      type: how-to
-    - title: Handle Email Interactions
-      slug: Handle-Email-Interactions_1102807045
-      type: how-to
-    - title: Handle Multi-channel Conversation
-      slug: Handle-Multi-channel-Conversation_2528824
-      type: explanation
-    - title: Handling Superset Session Timeout
-      slug: Handling-Superset-Session-Timeout_687671500
-      type: explanation
-    - title: High Availability with DNS
-      slug: High-Availability-with-DNS_2528935
-      type: how-to
-    - title: High Availability with Kube-VIP
-      slug: High-Availability-with-Kube-VIP_2528948
-      type: how-to
-    - title: Historical Conversation Summary
-      slug: Historical-Conversation-Summary_2530933
-      type: reference
-    - title: How To get Telegram Bot Token
-      slug: How-To-get-Telegram-Bot-Token_2526378
-      type: explanation
-    - title: How to customise your Telegram Bot
-      slug: How-to-customise-your-Telegram-Bot_2526374
-      type: explanation
-    - title: Insights
-      slug: Insights_687505751
-      type: explanation
-    - title: Instagram
-      slug: Instagram_1481080968
-      type: explanation
-    - title: Instagram Direct Message
-      slug: Instagram-Direct-Message_2528238
-      type: reference
-    - title: Instagram Social Media
-      slug: Instagram-Social-Media_2528131
-      type: explanation
-    - title: Interruptible and Non-Interruptible Medias
-      slug: Interruptible-and-Non-Interruptible-Medias_556597289
-      type: how-to
-    - title: Join Pull-based Requests
-      slug: Join-Pull-based-Requests_2528122
-      type: explanation
-    - title: JoinAsBargin
-      slug: JoinAsBargin_2523671
-      type: reference
-    - title: Leave Conversation
-      slug: Leave-Conversation_2529047
-      type: explanation
-    - title: LetsEncrypt SSL for EF-CX
-      slug: LetsEncrypt-SSL-for-EF-CX_32538676
-      type: explanation
-    - title: LinkedIn
-      slug: LinkedIn_784007185
-      type: explanation
-    - title: LinkedIn Account Onboarding
-      slug: LinkedIn-Account-Onboarding_823296100
-      type: explanation
-    - title: Logout
-      slug: Logout_2525352
-      type: explanation
-    - title: Make a Manual Outbound Contact
-      slug: Make-a-Manual-Outbound-Contact_2528797
-      type: how-to
-    - title: Manage Channels and Channel Categories
-      slug: Manage-Channels-and-Channel-Categories_1562411043
-      type: reference
-    - title: Maximum Tasks per Agent per MRD
-      slug: Maximum-Tasks-per-Agent-per-MRD_248348760
-      type: explanation
-    - title: Messages
-      slug: Messages_2526127
-      type: explanation
-    - title: Metabase Password Reset
-      slug: Metabase-Password-Reset_1355841549
-      type: explanation
-    - title: Multichannel Session Detail
-      slug: Multichannel-Session-Detail_436994049
-      type: reference
-    - title: Multimedia Messages
-      slug: Multimedia-Messages_2525501
-      type: reference
-    - title: OWASP Top Ten
-      slug: OWASP-Top-Ten_2523208
-      type: reference
-    - title: Omnichannel Engagement
-      slug: Omnichannel-Engagement_2529366
-      type: explanation
-    - title: On-Premise
-      slug: On-Premise_1250722014
-      type: explanation
-    - title: Onboarding Guide
-      slug: Onboarding-Guide_1511653389
-      type: how-to
-    - title: Opensearch Setup for Logging and Tracing
-      slug: Opensearch-Setup-for-Logging-and-Tracing_1612415217
-      type: how-to
-    - title: Outbound
-      slug: Outbound_129499295
-      type: reference
-    - title: Outbound Metrics
-      slug: Outbound-Metrics_1135476739
-      type: reference
-    - title: Outbound Result Notifications - to be reviewed and updated
-      slug: Outbound-Result-Notifications---to-be-reviewed-and-updated_978747415
-      type: reference
-    - title: PII Data Masking
-      slug: PII-Data-Masking_884113585
-      type: explanation
-    - title: PII Data Masking in Logs
-      slug: PII-Data-Masking-in-Logs_884441152
-      type: reference
-    - title: PII Data Masking of Customer Attributes in AgentDesk
-      slug: PII-Data-Masking-of-Customer-Attributes-in-AgentDesk_698089579
-      type: explanation
-    - title: Patch Release CX4.10.7
-      slug: Patch-Release-CX4.10.7_1791131649
-      type: reference
-    - title: People and groups CX Analyser
-      slug: People-and-groups-CX-Analyser_1317666981
-      type: explanation
-    - title: Personalized Agent Information in Customer widget
-      slug: Personalized-Agent-Information-in-Customer-widget_453967896
-      type: how-to
-    - title: Planned Releases
-      slug: Planned-Releases_131006685
-      type: reference
-    - title: Platform
-      slug: Platform_1241186391
-      type: explanation
-    - title: PostgresQL DB Creation Guide
-      slug: PostgresQL-DB-Creation-Guide_955154451
-      type: how-to
-    - title: Pre-Conversation Forms
-      slug: Pre-Conversation-Forms_686525388
-      type: explanation
-    - title: Real-Time Performance Alerts
-      slug: Real-Time-Performance-Alerts_1153073447
-      type: explanation
-    - title: Register Custom Bot
-      slug: Register-Custom-Bot_2529899
-      type: reference
-    - title: Release Management
-      slug: Release-Management_1241186447
-      type: explanation
-    - title: Remote Agent Solutions
-      slug: Remote-Agent-Solutions_1653669930
-      type: explanation
-    - title: Resources
-      slug: Resources_1248624644
-      type: explanation
-    - title: Review Screen
-      slug: Review-Screen_819593222
-      type: explanation
-    - title: Room
-      slug: Room_64356457
-      type: explanation
-    - title: Route Re-initiated Chats on Priority
-      slug: Route-Re-initiated-Chats-on-Priority_2530181
-      type: how-to
-    - title: SMPP
-      slug: SMPP_2528799
-      type: explanation
-    - title: Segregating Facebook DM vs. Social Media Message in Channel Sessions
-      slug: Segregating-Facebook-DM-vs.-Social-Media-Message-in-Channel-Sessions_638681130
-      type: explanation
-    - title: Send a Media message
-      slug: Send-a-Media-message_2532588
-      type: how-to
-    - title: Send a Message
-      slug: Send-a-Message_142868924
-      type: how-to
-    - title: Send a Whisper Message
-      slug: Send-a-Whisper-Message_143458310
-      type: explanation
-    - title: Setup Alerts via Gmail
-      slug: Setup-Alerts-via-Gmail_440041483
-      type: reference
-    - title: Setup CX Analyser
-      slug: Setup-CX-Analyser_1317994520
-      type: explanation
-    - title: Solutions
-      slug: Solutions_1241776176
-      type: explanation
-    - title: Surveys
-      slug: Surveys_131432544
-      type: how-to
-    - title: Task
-      slug: Task_683180140
-      type: reference
-    - title: Task Priority
-      slug: Task-Priority_248119331
-      type: explanation
-    - title: Task Reason Codes
-      slug: Task-Reason-Codes_144212603
-      type: reference
-    - title: Task and Task States
-      slug: Task-and-Task-States_296648753
-      type: explanation
-    - title: Telegram
-      slug: Telegram_2526302
-      type: explanation
-    - title: Telegram Bot Creation Guide
-      slug: Telegram-Bot-Creation-Guide_2526362
-      type: how-to
-    - title: Telegram Bot Token
-      slug: Telegram-Bot-Token_2526370
-      type: explanation
-    - title: Teneo
-      slug: Teneo_151814327
-      type: explanation
-    - title: TroubleShooting General Guide
-      slug: TroubleShooting-General-Guide_1526202379
-      type: explanation
-    - title: Troubleshooting Guides
-      slug: Troubleshooting-Guides_2550703
-      type: explanation
-    - title: Twilio
-      slug: Twilio_2529622
-      type: how-to
-    - title: Twitter
-      slug: Twitter_2549631
-      type: explanation
-    - title: Update Form
-      slug: Update-Form_2532608
-      type: how-to
-    - title: Updating the Language at Agent Desk
-      slug: Updating-the-Language-at-Agent-Desk_424214601
-      type: how-to
-    - title: Using Traefik as Ingress Controller
-      slug: Using-Traefik-as-Ingress-Controller_1443528719
-      type: explanation
-    - title: Viber
-      slug: Viber_68747283
-      type: explanation
-    - title: View Conversation Data
-      slug: View-Conversation-Data_140869899
-      type: explanation
-    - title: View Conversation Notifications
-      slug: View-Conversation-Notifications_143654942
-      type: explanation
-    - title: Virtual Agent
-      slug: Virtual-Agent_1264484374
-      type: explanation
-    - title: Vulnerability Assessments...to be discussed and move to CX
-      slug: Vulnerability-Assessments...to-be-discussed-and-move-to-CX_2523833
-      type: explanation
-    - title: Web Published Forms
-      slug: Web-Published-Forms_392298524
-      type: how-to
-    - title: WhatsApp
-      slug: WhatsApp_2526019
-      type: reference
-    - title: Whisper Message
-      slug: Whisper-Message_2529350
-      type: explanation
-    - title: Wrap-up Summary
-      slug: Wrap-up-Summary_2532039
-      type: explanation
-    - title: YouTube
-      slug: YouTube_786859078
-      type: reference
-    - title: _DRAFT Agent Co-Pilot
-      slug: _DRAFT-Agent-Co-Pilot_1671266411
-      type: explanation
-    - title: _Solutions DRAFT
-      slug: _Solutions-DRAFT_1629913095
-      type: explanation
-    - title: agentAssignedForAssistance
-      slug: agentAssignedForAssistance_934346754
-      type: explanation
-    - title: agentAssistanceRequestPlaced
-      slug: agentAssistanceRequestPlaced_935100417
-      type: explanation
-    - title: agentPresence_
-      slug: agentPresence__2531701
-      type: how-to
-    - title: closeWrapup
-      slug: closeWrapup_933691394
-      type: how-to
-    - title: connect_error
-      slug: connect_error_2531707
-      type: explanation
-    - title: consulTransferRequestSuccess
-      slug: consulTransferRequestSuccess_934346772
-      type: explanation
-    - title: consultConferenceRequest
-      slug: consultConferenceRequest_933822483
-      type: reference
-    - title: consultRequest
-      slug: consultRequest_933625882
-      type: reference
-    - title: consultTransferRequest
-      slug: consultTransferRequest_933691449
-      type: reference
-    - title: deletePullModeRequest
-      slug: deletePullModeRequest_2531709
-      type: reference
-    - title: directConferenceRequest
-      slug: directConferenceRequest_2531711
-      type: reference
-    - title: directTransferRequest
-      slug: directTransferRequest_2531715
-      type: reference
-    - title: errors
-      slug: errors_2531722
-      type: explanation
-    - title: joinAsWhisper
-      slug: joinAsWhisper_933691431
-      type: reference
-    - title: joinPullModeRequest
-      slug: joinPullModeRequest_2531724
-      type: reference
-    - title: onChannelTypes
-      slug: onChannelTypes_2531726
-      type: reference
-    - title: onTopicData
-      slug: onTopicData_2531736
-      type: reference
-    - title: pauseConversation
-      slug: pauseConversation_933822465
-      type: reference
-    - title: resumeConversation
-      slug: resumeConversation_933691413
-      type: reference
-    - title: revokeTask
-      slug: revokeTask_2531748
-      type: reference
-    - title: taskRequest
-      slug: taskRequest_2531754
-      type: reference
-    - title: topicClosed
-      slug: topicClosed_2531758
-      type: reference
-    - title: wrapupTimerStarted
-      slug: wrapupTimerStarted_935100435
-      type: reference
-  - section: Voice & Real-time Media
-    items:
-    - title: Accessing CX Voice Components
-      slug: Accessing-CX-Voice-Components_237207657
-      type: how-to
-    - title: Adding Agent Extensions for CX Voice
-      slug: Adding-Agent-Extensions-for-CX-Voice_2526927
-      type: explanation
-    - title: Benchmarking for CX Dialer
-      slug: Benchmarking-for-CX-Dialer_215023618
-      type: reference
-    - title: Browser-Based Calling
-      slug: Browser-Based-Calling_1653112868
-      type: explanation
-    - title: CTI Call Controls
-      slug: CTI-Call-Controls_140869685
-      type: reference
-    - title: CX Dialer
-      slug: CX-Dialer_2577878
-      type: how-to
-    - title: CX-Voice Limitations
-      slug: CX-Voice-Limitations_74448913
-      type: reference
-    - title: CX-Voice platform sizing
-      slug: CX-Voice-platform-sizing_1261142096
-      type: reference
-    - title: Call Forking Concepts
-      slug: Call-Forking-Concepts_130252894
-      type: explanation
-    - title: Connected Calls Detail
-      slug: Connected-Calls-Detail_1016234045
-      type: reference
-    - title: Handle WebRTC Calls
-      slug: Handle-WebRTC-Calls_1208254675
-      type: explanation
-    - title: Inbound Calls
-      slug: Inbound-Calls_1537998859
-      type: how-to
-    - title: Miscellaneous Dialer Call Results
-      slug: Miscellaneous-Dialer-Call-Results_1086029830
-      type: explanation
-    - title: Outbound Calls
-      slug: Outbound-Calls_1538293776
-      type: how-to
-    - title: Releases for CX Voice Components
-      slug: Releases-for-CX-Voice-Components_1342256
-      type: reference
-    - title: Troubleshooting for CX Voice
-      slug: Troubleshooting-for-CX-Voice_160399426
-      type: how-to
-    - title: Updating AgentDesk Environment Variables for CX Voice
-      slug: Updating-AgentDesk-Environment-Variables-for-CX-Voice_2529026
-      type: explanation
-    - title: Updating Environment Variables for WebRTC
-      slug: Updating-Environment-Variables-for-WebRTC_1186136178
-      type: explanation
-    - title: Video Customer Support
-      slug: Video-Customer-Support_1653997581
-      type: explanation
-    - title: Voice Message
-      slug: Voice-Message_487227443
-      type: reference
-    - title: Voice and Video
-      slug: Voice-and-Video_2527403
-      type: explanation
-    - title: WebRTC for CX
-      slug: WebRTC-for-CX_687211264
-      type: explanation
-    - title: WebRTC to SIP
-      slug: WebRTC-to-SIP_786497
-      type: reference
-    - title: Website Click-to-Call
-      slug: Website-Click-to-Call_1651572804
-      type: explanation
-  - section: Workforce & Schedule Management
-    items:
-    - title: Review Scheduler
-      slug: Review-Scheduler_817594518
-      type: how-to
-    - title: WFM as a CX add-on - Prerequisites
-      slug: WFM-as-a-CX-add-on---Prerequisites_463962113
-      type: reference
-    - title: Workforce Management
-      slug: Workforce-Management_1346994182
-      type: explanation
-  - section: Conversation Studio
+      - section: For Agents (Amy)
+        items:
+          - title: The Agent Quick-Start Guide
+            slug: Agent-Quick-Start-Guide
+            type: audit-needed
+      - section: For Supervisors (Sam)
+        items:
+          - title: Monitoring Your Team in Real-Time
+            slug: Monitoring-Your-Team-in-Real-Time
+            type: audit-needed
+      - section: For Solution Admins (Olivia)
+        items:
+          - title: Unified Admin Guide
+            slug: Unified-Admin-Guide_2524407
+            type: how-to
+      - section: For Quality Managers (Quentin)
+        items:
+          - title: Managing the QA Workflow
+            slug: Managing-the-Quality-Assurance-Workflow
+            type: audit-needed
+      - section: For Human Evaluators (Eva)
+        items:
+          - title: User Guide for Evaluator
+            slug: User-Guide-for-Evaluator_818675746
+            type: how-to
+      - section: For Decision Makers (CTO)
+        items:
+          - title: Security & Compliance Whitepaper
+            slug: Security-and-Compliance-Whitepaper
+            type: audit-needed
+      - section: For Frontend Developers (Dev)
+        items:
+          - title: AgentManager SDK Reference
+            slug: Agent-Desk-Developer-Guide_2523754
+            type: how-to
+      - section: For Conversation Designers (Dave)
+        items:
+          - title: Conversation Studio Overview
+            slug: Configuration-Guide---Conversation-Studio_1017118849
+            type: how-to
+      - section: For Integration Specialists (Ian)
+        items:
+          - title: Cisco UCCE/X Integration Reference
+            slug: Cisco-Contact-Center-Integration-Reference
+            type: audit-needed
+      - section: For AI Quality Specialists
+        items:
+          - title: Configuring AI-Powered Quality Audits
+            slug: Configuring-AI-Powered-Quality-Audits
+            type: audit-needed
+      - section: For Multi-tenant Partners (Host)
+        items:
+          - title: Deploying the RKE2 Control Plane
+            slug: Deploying-the-RKE2-Control-Plane
+            type: audit-needed
+      - section: For Resellers (Cloud)
+        items:
+          - title: Onboarding a New Tenant
+            slug: Tenant-Onboarding--To-be-removed_1015775291
+            type: explanation
+  - section: Strategic Vision & Value
     items: []
-  - section: Performance Insights & Data
+  - section: Role-Based Guides
     items:
-    - title: Agent Availability Report
-      slug: Agent-Availability-Report_2527630
-      type: reference
-    - title: Agents' Summary Report
-      slug: Agents%27-Summary-Report_601915393
-      type: explanation
-    - title: CX Historical Reports- Supporting Tables
-      slug: CX-Historical-Reports--Supporting-Tables_2527591
-      type: explanation
-    - title: Conversation Analytics
-      slug: Conversation-Analytics_1324089511
-      type: explanation
-    - title: Historical Reports
-      slug: Historical-Reports_1321664626
-      type: reference
-    - title: Key Reporting Metrics
-      slug: Key-Reporting-Metrics_2526622
-      type: reference
-    - title: Outbound Summary Report
-      slug: Outbound-Summary-Report_1281261572
-      type: reference
-    - title: Post Conversation Analytics
-      slug: Post-Conversation-Analytics_1266090075
-      type: explanation
-    - title: Questions' Summary Report
-      slug: Questions%27-Summary-Report_600866843
-      type: reference
-    - title: Real-time Contact Center Analytics
-      slug: Real-time-Contact-Center-Analytics_1324449868
-      type: explanation
-    - title: Repeated Caller Report
-      slug: Repeated-Caller-Report_755761153
-      type: reference
-    - title: Reports and Analytics
-      slug: Reports-and-Analytics_2526384
-      type: reference
-    - title: UTC Offset - Reports
-      slug: UTC-Offset---Reports_2526326
-      type: explanation
-    - title: Update Reports on Superset 2.0
-      slug: Update-Reports-on-Superset-2.0_2525058
-      type: explanation
-    - title: WebRTC Detail Report
-      slug: WebRTC-Detail-Report_1064763393
-      type: reference
-    - title: WebRTC Summary Report
-      slug: WebRTC-Summary-Report_1064763418
-      type: explanation
-  - section: Security & Compliances
+      - section: Agent (Amy)
+        items:
+          - title: Agent State Analysis Report
+            slug: Agent-State-Analysis-Report_2523192
+            type: reference
+          - title: Agent States
+            slug: Agent-States_2531294
+            type: reference
+          - title: Change Agent State
+            slug: Change-Agent-State_2524603
+            type: reference
+          - title: Conversation Rerouting on Agent State Change to Callback
+            slug: Conversation-Rerouting-on-Agent-State-Change-to-Callback_1599766616
+            type: explanation
+          - title: Force Logout Agent
+            slug: Force-Logout-Agent_1181941884
+            type: how-to
+          - title: Login to Agent Desk
+            slug: Login-to-Agent-Desk_2529062
+            type: explanation
+          - title: changeAgentState
+            slug: changeAgentState_2531704
+            type: how-to
+      - section: Supervisor (Sam)
+        items:
+          - title: Add Agents, Supervisors, and Teams
+            slug: Add-Agents%2C-Supervisors%2C-and-Teams_242909198
+            type: reference
+          - title: Agent  Performance Dashboard
+            slug: Agent--Performance-Dashboard_1329233964
+            type: reference
+          - title: Agent Performance Dashboard
+            slug: Agent-Performance-Dashboard_1170604038
+            type: reference
+          - title: Agent Performance Report
+            slug: Agent-Performance-Report_456130564
+            type: reference
+          - title: Agent Team Dashboard
+            slug: Agent-Team-Dashboard_1328939121
+            type: explanation
+          - title: AgentTeam ERD
+            slug: AgentTeam-ERD_1606221998
+            type: explanation
+          - title: As a Supervisor
+            slug: As-a-Supervisor_2528631
+            type: reference
+          - title: Barge in
+            slug: Barge-in_2529322
+            type: explanation
+          - title: Customer Inactivity SLA
+            slug: Customer-Inactivity-SLA_246743058
+            type: how-to
+          - title: Customer Widget Configuration and Translation Management
+            slug: Customer-Widget-Configuration-and-Translation-Management_148897858
+            type: reference
+          - title: Detailed Dashboards
+            slug: Detailed-Dashboards_1322221656
+            type: reference
+          - title: EFSwitch Monitoring Dashboards
+            slug: EFSwitch-Monitoring-Dashboards_262602756
+            type: explanation
+          - title: Enable Monitoring on MSSQL
+            slug: Enable-Monitoring-on-MSSQL_879198209
+            type: explanation
+          - title: Impact of Team Structure on Dashboards
+            slug: Impact-of-Team-Structure-on-Dashboards_272334983
+            type: explanation
+          - title: Limitations Agent SLA
+            slug: Limitations-Agent-SLA_153715087
+            type: explanation
+          - title: Manage Teams
+            slug: Manage-Teams_1602027529
+            type: reference
+          - title: Monitors and manages CX Voice interactions
+            slug: Monitors-and-manages-CX-Voice-interactions_163676365
+            type: explanation
+          - title: Realtime Reports and Dashboards
+            slug: Realtime-Reports-and-Dashboards_2529305
+            type: reference
+          - title: SLA Calculations
+            slug: SLA-Calculations_2525629
+            type: how-to
+          - title: Silent Monitoring
+            slug: Silent-Monitoring_2529320
+            type: explanation
+          - title: Summary Dashboard
+            slug: Summary-Dashboard_1321533643
+            type: reference
+          - title: Supervisor AI Assistance
+            slug: Supervisor-AI-Assistance_1318289436
+            type: explanation
+          - title: Supervisor Access to Unified Admin
+            slug: Supervisor-Access-to-Unified-Admin_1160151146
+            type: explanation
+          - title: Supervisor Assistance
+            slug: Supervisor-Assistance_1342734385
+            type: explanation
+          - title: Team Announcements
+            slug: Team-Announcements_2523883
+            type: reference
+          - title: Team Comparison
+            slug: Team-Comparison_1015546076
+            type: explanation
+          - title: Team Stats Dashboard
+            slug: Team-Stats-Dashboard_1329103041
+            type: explanation
+          - title: View Agent Dashboards
+            slug: View-Agent-Dashboards_283607081
+            type: explanation
+      - section: Human Evaluator (Eva)
+        items:
+          - title: As a Quality Manager
+            slug: As-a-Quality-Manager_817889466
+            type: how-to
+          - title: As an Evaluator
+            slug: As-an-Evaluator_818708539
+            type: explanation
+          - title: CX Voice Recording Behavior
+            slug: CX-Voice-Recording-Behavior_1107918913
+            type: reference
+          - title: Compatibility Guide-Media Recording
+            slug: Compatibility-Guide-Media-Recording_917695
+            type: reference
+          - title: Eleveo Recording Behavior
+            slug: Eleveo-Recording-Behavior_1114701825
+            type: reference
+          - title: Evaluator Comparison
+            slug: Evaluator-Comparison_1015546105
+            type: explanation
+          - title: Handle Voice Recording
+            slug: Handle-Voice-Recording_796590157
+            type: explanation
+          - title: Media Recording
+            slug: Media-Recording_1343750181
+            type: explanation
+          - title: Playing Screen Recordings in Quality Management
+            slug: Playing-Screen-Recordings-in-Quality-Management_1566900238
+            type: reference
+          - title: Quality Management
+            slug: Quality-Management_1345617939
+            type: reference
+          - title: Quality Management - System Limitations
+            slug: Quality-Management---System-Limitations_920486105
+            type: explanation
+          - title: Review Scheduler
+            slug: Recording-Calls-in-CX-Voice_1070104782
+            type: explanation
+          - title: Recording Links In EF CX
+            slug: Recording-Links-In-EF-CX_976846851
+            type: how-to
+          - title: SIPrec-based recording using a drachtio server, and FreeSWITCH
+              as the media server
+            slug: SIPrec-based-recording-using-a-drachtio-server%2C-and-FreeSWITCH-as-the-media-server_314867730
+            type: reference
+          - title: Selective Recording Rules
+            slug: Selective-Recording-Rules_1108770912
+            type: explanation
+          - title: User Guide for Evaluator
+            slug: User-Guide-for-Evaluator_818675746
+            type: how-to
+          - title: User Guide for Quality Manager
+            slug: User-Guide-for-Quality-Manager_818708526
+            type: explanation
+          - title: Voice Recording Solution
+            slug: Voice-Recording-Solution_138739776
+            type: explanation
+      - section: Quality Manager (Quentin)
+        items:
+          - title: AI-Driven Quality Management
+            slug: AI-Driven-Quality-Management_1153106262
+            type: explanation
+          - title: IAM Configuration For QM
+            slug: IAM-Configuration-For-QM_1221197922
+            type: how-to
+          - title: QM Admin
+            slug: QM-Admin_1150156801
+            type: explanation
+          - title: User Guide for Quality Management Admin
+            slug: User-Guide-for-Quality-Management-Admin_1153073466
+            type: how-to
+      - section: Solution Admin (Olivia)
+        items:
+          - title: 2FA Configuration Guide - Email
+            slug: 2FA-Configuration-Guide---Email_1690927131
+            type: explanation
+          - title: Agent Productivity By Queue
+            slug: Agent-Productivity-By-Queue_2527642
+            type: reference
+          - title: Agent-Queue Mapping
+            slug: Agent-Queue-Mapping_2525979
+            type: explanation
+          - title: Archival Configuration
+            slug: Archival-Configuration_1120894977
+            type: how-to
+          - title: As a Campaign Manager
+            slug: As-a-Campaign-Manager_308510727
+            type: how-to
+          - title: Browser Microphone Permission
+            slug: Browser-Microphone-Permission_675872915
+            type: explanation
+          - title: CX Campaigns Keycloak Configuration
+            slug: CX-Campaigns-Keycloak-Configuration_474120764
+            type: explanation
+          - title: CX Dialer Environment Configurations
+            slug: CX-Dialer-Environment-Configurations_284164220
+            type: reference
+          - title: CX Voice Channel Configuration Guide
+            slug: CX-Voice-Channel-Configuration-Guide_2529731
+            type: explanation
+          - title: Campaign Calls Detail Report
+            slug: Campaign-Calls-Detail-Report_1016234087
+            type: explanation
+          - title: Campaign Channel Configurations
+            slug: Campaign-Channel-Configurations_434143283
+            type: explanation
+          - title: Campaign Summary
+            slug: Campaign-Summary_1016234024
+            type: reference
+          - title: Configuration Guide - Conversation Studio
+            slug: Configuration-Guide---Conversation-Studio_1017118849
+            type: how-to
+          - title: Configuration Guide - Masking Fields Enablement on CCM
+            slug: Configuration-Guide---Masking-Fields-Enablement-on-CCM_1614348404
+            type: explanation
+          - title: Configuration Guides
+            slug: Configuration-Guides_1260912785
+            type: explanation
+          - title: Configurational Guide
+            slug: Configurational-Guide_1658126350
+            type: how-to
+          - title: Configure AgentDesk Settings
+            slug: Configure-AgentDesk-Settings_1578696774
+            type: reference
+          - title: Configure Service Based Accounts using Vault
+            slug: Configure-Service-Based-Accounts-using-Vault_1341358201
+            type: explanation
+          - title: Configure Vault for PostgreSQL Dynamic Database Credentials
+            slug: Configure-Vault-for-PostgreSQL-Dynamic-Database-Credentials_1335066669
+            type: explanation
+          - title: Configuring Vault for Encryption
+            slug: Configuring-Vault-for-Encryption_969506918
+            type: how-to
+          - title: Conversation List
+            slug: Conversation-List_819101704
+            type: explanation
+          - title: Customer List
+            slug: Customer-List_441450562
+            type: explanation
+          - title: Customer Widget Admin Guide
+            slug: Customer-Widget-Admin-Guide_26838047
+            type: reference
+          - title: DNC Lists
+            slug: DNC-Lists_739147899
+            type: explanation
+          - title: Encryption at Rest - Configuration Guide
+            slug: Encryption-at-Rest---Configuration-Guide_1209171997
+            type: how-to
+          - title: Facebook - Configuration Guide
+            slug: Facebook---Configuration-Guide_2531616
+            type: how-to
+          - title: Form Builder User Guide
+            slug: Form-Builder-User-Guide_946602145
+            type: explanation
+          - title: IMAP-SMTP based Email Configuration Guide
+            slug: IMAP-SMTP-based-Email-Configuration-Guide_112001145
+            type: how-to
+          - title: IVR Campaigns with CX - to be reviewed
+            slug: IVR-Campaigns-with-CX---to-be-reviewed_1132560466
+            type: explanation
+          - title: LinkedIn  - Configuration Guide
+            slug: LinkedIn----Configuration-Guide_1271693696
+            type: how-to
+          - title: List of Open-source Software
+            slug: List-of-Open-source-Software_3322742
+            type: reference
+          - title: MS Exchange based Email Configuration Guide
+            slug: MS-Exchange-based-Email-Configuration-Guide_1028554830
+            type: how-to
+          - title: Manage Queues and Routing Attributes
+            slug: Manage-Queues-and-Routing-Attributes_1567719455
+            type: reference
+          - title: Managing Microphone and Camera Permissions in the Customer Widget
+            slug: Managing-Microphone-and-Camera-Permissions-in-the-Customer-Widget_1733230599
+            type: explanation
+          - title: Media Server Configurations for CX Voice
+            slug: Media-Server-Configurations-for-CX-Voice_1341259967
+            type: how-to
+          - title: Outbound Flows Environment Configurations
+            slug: Outbound-Flows-Environment-Configurations_1469448386
+            type: reference
+          - title: Platform Administration
+            slug: Platform-Administration_2525605
+            type: explanation
+          - title: Precision Routing
+            slug: Precision-Routing_2525641
+            type: how-to
+          - title: Priority Routing
+            slug: Priority-Routing_2529105
+            type: explanation
+          - title: Priority Routing Config
+            slug: Priority-Routing-Config_176357465
+            type: how-to
+          - title: Priority Routing and Routing Re-initiated Chats on Priority
+            slug: Priority-Routing-and-Routing-Re-initiated-Chats-on-Priority_1340867
+            type: how-to
+          - title: Pull-Mode Routing
+            slug: Pull-Mode-Routing_2529097
+            type: explanation
+          - title: Queue Flushed Conversation Count
+            slug: Queue-Flushed-Conversation-Count_2532043
+            type: explanation
+          - title: Queue Priority
+            slug: Queue-Priority_581730323
+            type: how-to
+          - title: Queue Stats Today
+            slug: Queue-Stats-Today_2527826
+            type: reference
+          - title: Queue Wait Time And Position
+            slug: Queue-Wait-Time-And-Position_2530342
+            type: explanation
+          - title: Queue-wise Stats Summary
+            slug: Queue-wise-Stats-Summary_2527840
+            type: reference
+          - title: Queues
+            slug: Queues_2550494
+            type: how-to
+          - title: Reports - CX Campaigns
+            slug: Reports---CX-Campaigns_1033338976
+            type: explanation
+          - title: Routing
+            slug: Routing_2525975
+            type: reference
+          - title: Routing Attribute
+            slug: Routing-Attribute_2550492
+            type: explanation
+          - title: Routing Engine Developer Guide
+            slug: Routing-Engine-Developer-Guide_2531314
+            type: how-to
+          - title: SMPP Configuration Guide
+            slug: SMPP-Configuration-Guide_2527143
+            type: reference
+          - title: Skills Assessment
+            slug: Skills-Assessment_1015971843
+            type: explanation
+          - title: Subscribed Lists
+            slug: Subscribed-Lists_442204167
+            type: explanation
+          - title: System-level Configurations-Limitations
+            slug: System-level-Configurations-Limitations_1448968253
+            type: reference
+          - title: Transferred Tasks per Queue
+            slug: Transferred-Tasks-per-Queue_2532035
+            type: explanation
+          - title: Two Factor Authentication - User Guide
+            slug: Two-Factor-Authentication---User-Guide_1685881100
+            type: how-to
+          - title: Understanding Customer List View
+            slug: Understanding-Customer-List-View_434471010
+            type: explanation
+          - title: Unified Admin Guide
+            slug: Unified-Admin-Guide_2524407
+            type: how-to
+          - title: Use case with Pull-based Routing
+            slug: Use-case-with-Pull-based-Routing_2533129
+            type: explanation
+          - title: User Interface Languages
+            slug: User-Interface-Languages_1241416183
+            type: explanation
+          - title: User Management
+            slug: User-Management_1602682928
+            type: how-to
+          - title: Vault Configuration
+            slug: Vault-Configuration_1624473620
+            type: explanation
+          - title: WFM - User guide for Agent
+            slug: WFM---User-guide-for-Agent_1266090148
+            type: how-to
+          - title: WebRTC Channel Configuration Guide-not to publish
+            slug: WebRTC-Channel-Configuration-Guide-not-to-publish_142835713
+            type: how-to
+          - title: WebRTC Configuration Guide
+            slug: WebRTC-Configuration-Guide_687309794
+            type: explanation
+          - title: User Inactivity Logout
+            slug: User-Inactivity-Logout_1481802143
+            type: explanation
+      - section: Decision Maker (CTO)
+        items:
+          - title: Application Security
+            slug: Application-Security_2527480
+            type: explanation
+          - title: CX Release Notes 5.1.0
+            slug: CX-Release-Notes-5.1.0_1485439118
+            type: reference
+          - title: CX Release Notes 5.2.0
+            slug: CX-Release-Notes-5.2.0_1755447318
+            type: reference
+          - title: CX Surveys Datasheet
+            slug: CX-Surveys-Datasheet_448299062
+            type: explanation
+          - title: Datasheet - CX Campaigns---to be merged with parent and deprecated
+              this one
+            slug: Datasheet---CX-Campaigns---to-be-merged-with-parent-and-deprecated-this-one_573407247
+            type: explanation
+          - title: Datasheet - WFM
+            slug: Datasheet---WFM_464093250
+            type: reference
+          - title: Datasheet-QM
+            slug: Datasheet-QM_543621127
+            type: reference
+          - title: Expertflow CX Platform Overview
+            slug: Expertflow-CX-Platform-Overview_1785790479
+            type: explanation
+          - title: Implementing Security Policies
+            slug: Implementing-Security-Policies_766214293
+            type: explanation
+          - title: Voice Calls in Expertflow CX Overview
+            slug: Voice-Calls-in-Expertflow-CX-Overview_1532362798
+            type: how-to
+          - title: Expertflow CX Release Versioning
+            slug: Expertflow-CX-Release-Versioning_2525588
+            type: reference
+          - title: Hardware Sizing and System Requirements
+            slug: Hardware-Sizing-and-System-Requirements_2524410
+            type: audit-needed
+      - section: Frontend Developer (Dev)
+        items:
+          - section: CIM Message Schema
+            items:
+              - title: CIM Messages
+                slug: CIM-Messages_2530195
+                type: explanation
+              - title: Exchange CIM Message
+                slug: Exchange-CIM-Message_2532551
+                type: explanation
+              - title: Action Message
+                slug: Action-Message_487227417
+                type: reference
+              - title: Button Message
+                slug: Button-Message_2532516
+                type: explanation
+              - title: Carousel Message
+                slug: Carousel-Message_486408458
+                type: reference
+              - title: Contact Message
+                slug: Contact-Message_2532495
+                type: reference
+              - title: Custom Message
+                slug: Custom-Message_488046598
+                type: reference
+              - title: Delivery Notification Message
+                slug: Delivery-Notification-Message_2525330
+                type: explanation
+              - title: Email Message
+                slug: Email-Message_487227430
+                type: reference
+              - title: Location Message
+                slug: Location-Message_2532513
+                type: explanation
+              - title: Message Body
+                slug: Message-Body_480149521
+                type: reference
+              - title: Message Header
+                slug: Message-Header_479952918
+                type: reference
+              - title: Notification Message
+                slug: Notification-Message_2525594
+                type: reference
+              - title: Plain Text Message
+                slug: Plain-Text-Message_2532510
+                type: reference
+              - title: Receipt Message
+                slug: Receipt-Message_487325734
+                type: reference
+              - title: URL Message
+                slug: URL-Message_2532489
+                type: explanation
+              - title: WrapUp Message
+                slug: WrapUp-Message_2532492
+                type: explanation
+          - title: Platform Data Model & Objects
+            slug: Expertflow-CX-Objects_2553561
+            type: reference
+            items:
+              - title: CC User
+                slug: CC-User_2553563
+                type: reference
+              - title: ChannelConfig
+                slug: ChannelConfig_2526559
+                type: reference
+              - title: ParticipantRole
+                slug: ParticipantRole_2525405
+                type: reference
+              - title: customer object
+                slug: customer-object_2526154
+                type: reference
+              - title: ChannelConnector
+                slug: ChannelConnector_2525010
+                type: reference
+              - title: Tenant
+                slug: Tenant_2524656
+                type: reference
+              - title: AgentPresence
+                slug: AgentPresence_2530472
+                type: reference
+              - title: Channel
+                slug: Channel_2525261
+                type: reference
+              - title: ChannelType
+                slug: ChannelType_2528816
+                type: reference
+              - title: ComponentType
+                slug: ComponentType_493748319
+                type: reference
+              - title: Participant
+                slug: Participant_2525342
+                type: reference
+              - title: ParticipantType
+                slug: ParticipantType_2525473
+                type: reference
+              - title: carouselMessageType
+                slug: carouselMessageType_487948327
+                type: reference
+              - title: channelData
+                slug: channelData_2528008
+                type: reference
+              - title: channelSession
+                slug: channelSession_2527365
+                type: reference
+              - title: channelSessionState
+                slug: channelSessionState_2527123
+                type: how-to
+              - title: component
+                slug: component_494108684
+                type: reference
+              - title: conversationParticipant
+                slug: conversationParticipant_2523889
+                type: reference
+          - title: Business Calendar API Configurations
+            slug: Business-Calendar-API-Configurations_687572201
+            type: explanation
+          - title: CX Media Server API
+            slug: CX-Media-Server-API_499253250
+            type: how-to
+          - title: Channel Related Objects
+            slug: Channel-Related-Objects_276594689
+            type: explanation
+          - title: Conversation Objects
+            slug: Conversation-Objects_2528831
+            type: explanation
+          - title: Customer Facing SDK for Omnichannel Communication
+            slug: Customer-Facing-SDK-for-Omnichannel-Communication_2526606
+            type: explanation
+          - title: Customer Schema
+            slug: Customer-Schema_2525665
+            type: explanation
+          - title: Encryption Schema Guide
+            slug: Encryption-Schema-Guide_1028194322
+            type: explanation
+          - title: Form APIs
+            slug: Form-APIs_2532620
+            type: explanation
+          - title: JavaScript SDK for customer-facing channels
+            slug: JavaScript-SDK-for-customer-facing-channels_1496743937
+            type: reference
+          - title: Key Objects
+            slug: Key-Objects_1241579630
+            type: explanation
+          - title: Queue Flushing API
+            slug: Queue-Flushing-API_2526125
+            type: explanation
+          - title: Reporting Database Schema
+            slug: Reporting-Database-Schema_2526317
+            type: reference
+          - title: Socket Events
+            slug: Socket-Events-Index
+            type: reference
+            items:
+              - title: onCimEvent
+                slug: onCimEvent_2531728
+                type: reference
+              - title: publishCimEvent
+                slug: publishCimEvent_2531739
+                type: how-to
+              - title: socketSessionRemoved
+                slug: socketSessionRemoved_2531750
+                type: reference
+              - title: JoinAsBargin
+                slug: JoinAsBargin_2523671
+                type: reference
+              - title: JoinAsSilentMonitor
+                slug: JoinAsSilentMonitor_2528276
+                type: reference
+              - title: joinAsWhisper
+                slug: joinAsWhisper_933691431
+                type: reference
+              - title: agentAssignedForAssistance
+                slug: agentAssignedForAssistance_934346754
+                type: reference
+              - title: agentAssistanceRequestPlaced
+                slug: agentAssistanceRequestPlaced_935100417
+                type: reference
+              - title: agentPresence_
+                slug: agentPresence__2531701
+                type: how-to
+              - title: closeWrapup
+                slug: closeWrapup_933691394
+                type: how-to
+              - title: connect_error
+                slug: connect_error_2531707
+                type: explanation
+              - title: consulTransferRequestSuccess
+                slug: consulTransferRequestSuccess_934346772
+                type: explanation
+              - title: consultConferenceRequest
+                slug: consultConferenceRequest_933822483
+                type: reference
+              - title: consultRequest
+                slug: consultRequest_933625882
+                type: reference
+              - title: consultTransferRequest
+                slug: consultTransferRequest_933691449
+                type: reference
+              - title: deletePullModeRequest
+                slug: deletePullModeRequest_2531709
+                type: reference
+              - title: directConferenceRequest
+                slug: directConferenceRequest_2531711
+                type: reference
+              - title: directTransferRequest
+                slug: directTransferRequest_2531715
+                type: reference
+              - title: errors
+                slug: errors_2531722
+                type: explanation
+              - title: joinPullModeRequest
+                slug: joinPullModeRequest_2531724
+                type: reference
+              - title: onChannelTypes
+                slug: onChannelTypes_2531726
+                type: reference
+              - title: onTopicData
+                slug: onTopicData_2531736
+                type: reference
+              - title: pauseConversation
+                slug: pauseConversation_933822465
+                type: reference
+              - title: resumeConversation
+                slug: resumeConversation_933691413
+                type: reference
+              - title: revokeTask
+                slug: revokeTask_2531748
+                type: reference
+              - title: taskRequest
+                slug: taskRequest_2531754
+                type: reference
+              - title: topicClosed
+                slug: topicClosed_2531758
+                type: reference
+              - title: wrapupTimerStarted
+                slug: wrapupTimerStarted_935100435
+                type: reference
+              - title: topicSubscription
+                slug: topicSubscription_2531760
+                type: reference
+              - title: topicUnsubscription
+                slug: topicUnsubscription_2531762
+                type: reference
+              - title: topicUnsubscription_
+                slug: topicUnsubscription__2531764
+                type: reference
+              - title: addPullModeSubscribedListRequests
+                slug: addPullModeSubscribedListRequests_2531698
+                type: reference
+              - title: onPullModeSubscribedList
+                slug: onPullModeSubscribedList_2531732
+                type: reference
+              - title: onPullModeSubscribedListRequest
+                slug: onPullModeSubscribedListRequest_2531734
+                type: reference
+              - title: pullModeSubscribedListRequests
+                slug: pullModeSubscribedListRequests_2531743
+                type: reference
+              - title: removePullModeSubscribedListRequests
+                slug: removePullModeSubscribedListRequests_2531746
+                type: reference
+              - title: subscribePullModeList
+                slug: subscribePullModeList_2531752
+                type: reference
+              - title: unsubscribePullModeList
+                slug: unsubscribePullModeList_2531766
+                type: reference
+          - title: Solution API Reference - CX Campaigns - to be reviewed and updated
+            slug: Solution-API-Reference---CX-Campaigns---to-be-reviewed-and-updated_366575699
+            type: explanation
+          - title: Third Party Activies API
+            slug: Third-Party-Activies-API_2530063
+            type: reference
+          - title: Understanding the YouTube Data API v3 Quota System
+            slug: Understanding-the-YouTube-Data-API-v3-Quota-System_1008467975
+            type: reference
+      - section: Conversation Designer (Dave)
+        items:
+          - title: As a Conversation Designer
+            slug: As-a-Conversation-Designer_512098334
+            type: explanation
+          - title: Conversation Flow for Outbound Dialing Modes - to be reviewed
+            slug: Conversation-Flow-for-Outbound-Dialing-Modes---to-be-reviewed_1132265580
+            type: how-to
+          - title: IVR Detail Report
+            slug: IVR-Detail-Report_80150550
+            type: reference
+          - title: IVR Summary Report
+            slug: IVR-Summary-Report_80183299
+            type: reference
+          - title: Outbound Flows Limitations
+            slug: Outbound-Flows-Limitations_1182433310
+            type: how-to
+          - title: Tainting a Control Plane Node
+            slug: Tainting-a-Control-Plane-Node_77431234
+            type: explanation
+      - section: Integration Specialist (Ian)
+        items:
+          - title: 360-Connector Configuration Guide
+            slug: 360-Connector-Configuration-Guide_2531584
+            type: reference
+          - title: Add Bot Connector
+            slug: Add-Bot-Connector_1580367873
+            type: explanation
+          - title: Agent Desk Integration with Cisco Finesse
+            slug: Agent-Desk-Integration-with-Cisco-Finesse_342327334
+            type: reference
+          - title: Agent Initiated WebRTC for Cisco Video Call Feature Document-not
+              to be released as part of 4.9, 4.10
+            slug: Agent-Initiated-WebRTC-for-Cisco-Video-Call-Feature-Document-not-to-be-released-as-part-of-4.9%2C-4.10_941621415
+            type: how-to
+          - title: Bot Connector Developer Guide
+            slug: Bot-Connector-Developer-Guide_2526409
+            type: explanation
+          - title: CRM Connectors
+            slug: CRM-Connectors_28410275
+            type: explanation
+          - title: Channel Connector Configuration
+            slug: Channel-Connector-Configuration_2527073
+            type: reference
+          - title: Channel Connector Developer Guide
+            slug: Channel-Connector-Developer-Guide_2528843
+            type: reference
+          - title: Cisco Connector
+            slug: Cisco-Connector_1775796232
+            type: explanation
+          - title: Cisco Contact Center Integration with EF CX Cloud
+            slug: Cisco-Contact-Center-Integration-with-EF-CX-Cloud_220102772
+            type: explanation
+          - title: Cisco Contact center integration
+            slug: Cisco-Contact-center-integration_2525072
+            type: reference
+          - title: Cisco Outbound Connector
+            slug: Cisco-Outbound-Connector_15630635
+            type: how-to
+          - title: Cisco Sync Service
+            slug: Cisco-Sync-Service_1203175476
+            type: explanation
+          - title: Cisco Voice Channel Configuration Guide
+            slug: Cisco-Voice-Channel-Configuration-Guide_2527992
+            type: explanation
+          - title: Cisco Voice Channel Limitations
+            slug: Cisco-Voice-Channel-Limitations_74514469
+            type: reference
+          - title: Custom Connector-Bot Communication
+            slug: Custom-Connector-Bot-Communication_2527859
+            type: how-to
+          - title: Deploying Finesse Gadget
+            slug: Deploying-Finesse-Gadget_2526405
+            type: how-to
+          - title: Environment Configurations for Cisco
+            slug: Environment-Configurations-for-Cisco_1021575170
+            type: explanation
+          - title: Facebook Connector Limitations
+            slug: Facebook-Connector-Limitations_74350672
+            type: explanation
+          - title: Instagram Connector - Limitation
+            slug: Instagram-Connector---Limitation_1022132245
+            type: reference
+          - title: Integrations
+            slug: Integrations_27918741
+            type: explanation
+          - title: Logging and Tracing Integration with OpenSearch
+            slug: Logging-and-Tracing-Integration-with-OpenSearch_1614413879
+            type: explanation
+          - title: Meta - WhatsApp Cloud API
+            slug: Meta---WhatsApp-Cloud-API_131006630
+            type: explanation
+          - title: QM Connector for Cisco
+            slug: QM-Connector-for-Cisco_1484488883
+            type: how-to
+          - title: Register Channel Connector
+            slug: Register-Channel-Connector_2528408
+            type: reference
+          - title: Telegram Connector Configuration in Unified Admin
+            slug: Telegram-Connector-Configuration-in-Unified-Admin_2526699
+            type: how-to
+          - title: Telegram Connector Limitations
+            slug: Telegram-Connector-Limitations_2551889
+            type: how-to
+          - title: Telegram Connector Media Types Support
+            slug: Telegram-Connector-Media-Types-Support_67665941
+            type: reference
+          - title: Twitter Social Media Connector Configuration Guide
+            slug: Twitter-Social-Media-Connector-Configuration-Guide_22544715
+            type: explanation
+          - title: Twitter V2 Social Media Connector Configuration Guide
+            slug: Twitter-V2-Social-Media-Connector-Configuration-Guide_22511659
+            type: explanation
+          - title: Scheduled Activities
+            slug: Scheduled-Activities_150503557
+            type: how-to
+      - section: AI Quality & NLU Specialist
+        items:
+          - title: AI Orchestration
+            slug: AI-Orchestration_1263992872
+            type: explanation
+          - title: Controller Bot Training
+            slug: Controller-Bot-Training_2527665
+            type: reference
+          - title: Deploy Rasa for Multitenancy
+            slug: Deploy-Rasa-for-Multitenancy_1226113282
+            type: explanation
+          - title: Intent
+            slug: Intent_478347287
+            type: reference
+          - title: Rasa-X
+            slug: Rasa-X_956989712
+            type: explanation
+          - title: Rasa-X Configuration
+            slug: Rasa-X-Configuration_2531579
+            type: explanation
+          - title: Parse Rasa Standard Message on Bot-Framework
+            slug: Parse-Rasa-Standard-Message-on-Bot-Framework_1731264556
+            type: explanation
+      - section: Infrastructure & Hosting (Partner)
+        items:
+          - title: Accessing Logs from Kubernetes Pods
+            slug: Accessing-Logs-from-Kubernetes-Pods_1607237654
+            type: explanation
+          - title: CX Dialer Deployment Guide
+            slug: CX-Dialer-Deployment-Guide_2529764
+            type: reference
+          - title: CX SIP Proxy Deployment Guide
+            slug: CX-SIP-Proxy-Deployment-Guide_31719857
+            type: how-to
+          - title: CX SIP Proxy Installation Guide
+            slug: CX-SIP-Proxy-Installation-Guide_229539941
+            type: explanation
+          - title: CX Solution Helm Uninstallation
+            slug: CX-Solution-Helm-Uninstallation_813498613
+            type: explanation
+          - title: CX Voice Deployment
+            slug: CX-Voice-Deployment_1344510
+            type: explanation
+          - title: CX Voice Recording Components Deployment Guide
+            slug: CX-Voice-Recording-Components-Deployment-Guide_161842333
+            type: how-to
+          - title: CX Voice Upgrade Guides
+            slug: CX-Voice-Upgrade-Guides_268632072
+            type: explanation
+          - title: CX Voice Upgrade to 4.10
+            slug: CX-Voice-Upgrade-to-4.10_1085931521
+            type: how-to
+          - title: CX Voice Upgrade to 4.10.X
+            slug: CX-Voice-Upgrade-to-4.10.X_1215954962
+            type: how-to
+          - title: CX Voice Upgrade to 4.5
+            slug: CX-Voice-Upgrade-to-4.5_102006844
+            type: how-to
+          - title: CX Voice Upgrade to 4.5.1
+            slug: CX-Voice-Upgrade-to-4.5.1_428802049
+            type: how-to
+          - title: CX Voice Upgrade to 4.5.2
+            slug: CX-Voice-Upgrade-to-4.5.2_412549122
+            type: how-to
+          - title: CX Voice Upgrade to 4.5.2 for PTCL
+            slug: CX-Voice-Upgrade-to-4.5.2-for-PTCL_487456793
+            type: how-to
+          - title: CX Voice Upgrade to 4.5.3
+            slug: CX-Voice-Upgrade-to-4.5.3_554827778
+            type: how-to
+          - title: CX Voice Upgrade to 4.5.3 for PTCL
+            slug: CX-Voice-Upgrade-to-4.5.3-for-PTCL_554827939
+            type: how-to
+          - title: CX Voice Upgrade to 4.6
+            slug: CX-Voice-Upgrade-to-4.6_596049921
+            type: how-to
+          - title: CX Voice Upgrade to 4.6 for PTCL
+            slug: CX-Voice-Upgrade-to-4.6-for-PTCL_614170650
+            type: how-to
+          - title: CX Voice Upgrade to 4.7
+            slug: CX-Voice-Upgrade-to-4.7_721944577
+            type: how-to
+          - title: CX Voice Upgrade to 4.7 for PTCL
+            slug: CX-Voice-Upgrade-to-4.7-for-PTCL_851181739
+            type: how-to
+          - title: CX Voice Upgrade to 4.7.1
+            slug: CX-Voice-Upgrade-to-4.7.1_941817857
+            type: how-to
+          - title: CX Voice Upgrade to 4.8
+            slug: CX-Voice-Upgrade-to-4.8_941916161
+            type: how-to
+          - title: CX Voice Upgrade to 4.9.1
+            slug: CX-Voice-Upgrade-to-4.9.1_1047265281
+            type: how-to
+          - title: Change Default ActiveMQ Passwords Using ConfigMap
+            slug: Change-Default-ActiveMQ-Passwords-Using-ConfigMap_654803006
+            type: explanation
+          - title: Cisco Outbound Connector Docker Deployment Guide
+            slug: Cisco-Outbound-Connector-Docker-Deployment-Guide_18582341
+            type: reference
+          - title: Cisco Outbound Connector Kubernetes Deployment Guide
+            slug: Cisco-Outbound-Connector-Kubernetes-Deployment-Guide_246644853
+            type: how-to
+          - title: Collection Removal from MongoDB
+            slug: Collection-Removal-from-MongoDB_2526725
+            type: explanation
+          - title: Configure Vault for ActiveMQ
+            slug: Configure-Vault-for-ActiveMQ_1375404115
+            type: explanation
+          - title: Configure Vault for MongoDB Dynamic Database Credentials
+            slug: Configure-Vault-for-MongoDB-Dynamic-Database-Credentials_1245216775
+            type: explanation
+          - title: Configure Vault for Redis Database Credentials
+            slug: Configure-Vault-for-Redis-Database-Credentials_1369505803
+            type: explanation
+          - title: Configuring dispatcher in CX SIP PROXY
+            slug: Configuring-dispatcher-in-CX-SIP-PROXY_725188626
+            type: how-to
+          - title: Configuring load balancer in CX SIP PROXY
+            slug: Configuring-load-balancer-in-CX-SIP-PROXY_724860997
+            type: how-to
+          - title: Conversion of Single Node MongoDB to ReplicaSet
+            slug: Conversion-of-Single-Node-MongoDB-to-ReplicaSet_774275117
+            type: explanation
+          - title: Customer Widget Deployment Guide
+            slug: Customer-Widget-Deployment-Guide_2531544
+            type: how-to
+          - title: Customizing CX Helm Chart Deployments
+            slug: Customizing-CX-Helm-Chart-Deployments_1223852083
+            type: explanation
+          - title: Deployment of Fluentbit
+            slug: Deployment-of-Fluentbit_1794441219
+            type: explanation
+          - title: Deployment of Logging Operator
+            slug: Deployment-of-Logging-Operator_433422360
+            type: explanation
+          - title: Deployment of Mongo using ReplicaSet
+            slug: Deployment-of-Mongo-using-ReplicaSet_774569985
+            type: explanation
+          - title: Deployment of Opensearch and Opensearch Dashboards
+            slug: Deployment-of-Opensearch-and-Opensearch-Dashboards_1277919276
+            type: reference
+          - title: EF CX Helm Chart
+            slug: EF-CX-Helm-Chart_1573126166
+            type: reference
+          - title: EasySIPp Deployment Guide
+            slug: EasySIPp-Deployment-Guide_1696956477
+            type: how-to
+          - title: Eleveo Middleware Deployment Guide
+            slug: Eleveo-Middleware-Deployment-Guide_914686010
+            type: how-to
+          - title: Failover Cluster with Replicated Block Volume
+            slug: Failover-Cluster-with-Replicated-Block-Volume_1320550500
+            type: reference
+          - title: Guide for Standard Tier Upgrade
+            slug: Guide-for-Standard-Tier-Upgrade_911343642
+            type: explanation
+          - title: HA in EF SIP Proxy
+            slug: HA-in-EF-SIP-Proxy_173670574
+            type: how-to
+          - title: Helm-based Deployment for Expertflow CX
+            slug: Helm-based-Deployment-for-Expertflow-CX_2528431
+            type: how-to
+          - title: Helm-based Deployment for Expertflow CX-Draft
+            slug: Helm-based-Deployment-for-Expertflow-CX-Draft_1574043649
+            type: how-to
+          - title: High Availability using External Load Balancer
+            slug: High-Availability-using-External-Load-Balancer_2528979
+            type: how-to
+          - title: Kubernetes Distributions
+            slug: Kubernetes-Distributions_64356591
+            type: explanation
+          - title: LinkedIn Connector Deployment using Helm
+            slug: LinkedIn-Connector-Deployment-using-Helm_923664968
+            type: explanation
+          - title: LinkedIn Dev Connector Deployment using Helm
+            slug: LinkedIn-Dev-Connector-Deployment-using-Helm_1653800961
+            type: how-to
+          - title: LiveKit - Deployment Guide
+            slug: LiveKit---Deployment-Guide_1786740744
+            type: how-to
+          - title: Load balancing in EF SIP Proxy through the dispatcher module
+            slug: Load-balancing-in-EF-SIP-Proxy-through-the-dispatcher-module_178684103
+            type: explanation
+          - title: Logging Solution Deployment Guide
+            slug: Logging-Solution-Deployment-Guide_396362236
+            type: reference
+          - title: Media Server Deployment Guide
+            slug: Media-Server-Deployment-Guide_1344451
+            type: how-to
+          - title: MongoDB slow query logs
+            slug: MongoDB-slow-query-logs_273973273
+            type: explanation
+          - title: Monitoring Solution Deployment
+            slug: Monitoring-Solution-Deployment_2527132
+            type: reference
+          - title: PTCL CX Voice Upgrade 4.5.1 to 4.9.1
+            slug: PTCL-CX-Voice-Upgrade-4.5.1-to-4.9.1_1203830785
+            type: how-to
+          - title: RASA-X Deployment using helm chart
+            slug: RASA-X-Deployment-using-helm-chart_42402346
+            type: how-to
+          - title: RKE2 Control plane Deployment
+            slug: RKE2-Control-plane-Deployment_2528874
+            type: how-to
+          - title: RKE2 uninstallation
+            slug: RKE2-uninstallation_2528626
+            type: explanation
+          - title: Redis Log Monitoring via slowlogs
+            slug: Redis-Log-Monitoring-via-slowlogs_224952330
+            type: explanation
+          - title: Superset Deployment for Reporting
+            slug: Superset-Deployment-for-Reporting_49250583
+            type: explanation
+          - title: System Behaviour incase of Failover
+            slug: System-Behaviour-incase-of-Failover_1181614099
+            type: reference
+          - title: Upgrade Guide CX4.10.6 to CX4.10.7
+            slug: Upgrade-Guide-CX4.10.6-to-CX4.10.7_1562116169
+            type: explanation
+          - title: Upgrade Guide CX5.0.2 to CX5.1.0
+            slug: Upgrade-Guide-CX5.0.2-to-CX5.1.0_1486520327
+            type: how-to
+          - title: Upgrade Guide CX5.1.0 to CX5.2.0
+            slug: Upgrade-Guide-CX5.1.0-to-CX5.2.0_1755447383
+            type: how-to
+          - title: Upgrade to Mongodb Version 8.x  for CX Solution
+            slug: Upgrade-to-Mongodb-Version-8.x--for-CX-Solution_904134972
+            type: explanation
+          - title: Voice Connector Deployment Guide
+            slug: Voice-Connector-Deployment-Guide_48268951
+            type: reference
+          - title: Voice Recording Components deployment on Kubernetes
+            slug: Voice-Recording-Components-deployment-on-Kubernetes_348880955
+            type: how-to
+          - title: WFM-Auth Component Deployment on Kubernetes
+            slug: WFM-Auth-Component-Deployment-on-Kubernetes_407732264
+            type: how-to
+          - title: WFM-Core Component Deployment on Kubernetes
+            slug: WFM-Core-Component-Deployment-on-Kubernetes_407470084
+            type: how-to
+          - title: WFM-Reports Component Deployment on Kubernetes
+            slug: WFM-Reports-Component-Deployment-on-Kubernetes_403570714
+            type: how-to
+          - title: WebRTC Deployment Guide-not to publish
+            slug: WebRTC-Deployment-Guide-not-to-publish_349634566
+            type: how-to
+          - title: CX Analyser Reports Setup
+            slug: CX-Analyser-Reports-Setup_1355743279
+            type: explanation
+      - section: Reseller (Cloud)
+        items:
+          - title: Getting the Offline License Encrypted file
+            slug: Getting-the-Offline-License-Encrypted-file_66387975
+            type: explanation
+          - title: License Consumption Status
+            slug: License-Consumption-Status_985595918
+            type: reference
+          - title: Register new Tenants FQDN on Grafana allowedHosts
+            slug: Register-new-Tenants-FQDN-on-Grafana-allowedHosts_1280868399
+            type: how-to
+          - title: Tenant Admin Configurations
+            slug: Tenant-Admin-Configurations_1541111833
+            type: explanation
+          - title: Updating Media Server Configs in Tenant Settings
+            slug: Updating-Media-Server-Configs-in-Tenant-Settings_1668251717
+            type: explanation
+  - section: Functional Areas
     items:
-    - title: GDPR Compliance
-      slug: GDPR-Compliance_898498771
-      type: reference
-    - title: HIPAA Compliance
-      slug: HIPAA-Compliance_826802235
-      type: reference
-    - title: PCI DSS Compliance
-      slug: PCI-DSS-Compliance_608927784
-      type: how-to
-    - title: Secure OTP Lifecycle Management and Compliance Adherence
-      slug: Secure-OTP-Lifecycle-Management-and-Compliance-Adherence_1678016574
-      type: how-to
-    - title: Security and Compliances
-      slug: Security-and-Compliances_1108017201
-      type: explanation
-    - title: Security and Privacy Compliances
-      slug: Security-and-Privacy-Compliances_2525094
-      type: explanation
-    - title: VRS PCI DSS Compliance
-      slug: VRS-PCI-DSS-Compliance_919711
-      type: how-to
-  - section: Ecosystem Integrations
-    items: []
-- section: _Archive
-  items:
-  - title: Translation support at customer widget
-    slug: Translation-support-at-customer-widget_946798639
-    type: how-to
-    action: archive
-  - title: 4.10 CX Component Vulnerability Report
-    slug: 4.10-CX-Component-Vulnerability-Report_1224474625
-    type: reference
-  - title: 4.10.4 CX Component Vulnerability Report
-    slug: 4.10.4-CX-Component-Vulnerability-Report_1359446023
-    type: reference
-  - title: 4.9.4 CX Component Vulnerability Report
-    slug: 4.9.4-CX-Component-Vulnerability-Report_1182498855
-    type: reference
-  - title: AI & Self-Service
-    slug: '1722712091'
-    type: how-to
-  - title: Adding Languages & Timezones
-    slug: '1568538630'
-    type: explanation
-  - title: Agent & MRD States
-    slug: '966819860'
-    type: reference
-  - title: Agent & Team Leaderboard
-    slug: '1016234151'
-    type: explanation
-  - title: "Agent Co\u2011Pilot"
-    slug: '1647706118'
-    type: how-to
-  - title: Agent Task/Routing Task
-    slug: '2550490'
-    type: reference
-  - title: CRM/Agent Desk Post Message Events
-    slug: '1347988'
-    type: reference
-  - title: Callback
-    slug: Callback_687048605
-    type: explanation
-  - title: CX Data Sheet
-    slug: CX-Data-Sheet_2530132
-    type: reference
-  - title: CX-Core-100
-    slug: CX-Core-100_1259962718
-    type: explanation
-  - title: CX-Core platform
-    slug: CX-Core-platform_1261142050
-    type: reference
-  - title: CX Component Vulnerability Report - Template
-    slug: CX-Component-Vulnerability-Report---Template_1156415489
-    type: reference
-  - title: Challenges/Pain Points of a Contact Center Agent
-    slug: '1418428471'
-    type: explanation
-  - title: Channel Categories (Media Routing Domains)
-    slug: '2532738'
-    type: explanation
-  - title: 'Comparing Hybrid Chat 3.x and Expertflow CX: Features, Capabilities, and
-      Migration Insights'
-    slug: '1779662852'
-    type: reference
-  - title: Compatibility Guide - Workforce Management - To be updated after WFM Release(Nabeel)
-    slug: '464355484'
-    type: explanation
-  - title: Customer & Agent SLA Implementation Details
-    slug: '949321729'
-    type: how-to
-  - title: Customer Journey Orchestration (CJO)
-    slug: '1266876445'
-    type: explanation
-  - title: "Customer Widget \u2013 Features and Capabilities"
-    slug: '88277014'
-    type: explanation
-  - title: "Customers \u2013 CX Customer Interaction Profiles"
-    slug: '2525596'
-    type: how-to
-  - title: Delete Report from (Superset 2.0)
-    slug: '49479811'
-    type: how-to
-  - title: Dialing & Success Rate Summary - Campaign Wise
-    slug: '1016234129'
-    type: reference
-  - title: Duplicate of Media Server Configurations for CX Voice
-    slug: Duplicate-of-Media-Server-Configurations-for-CX-Voice_1468891146
-    type: how-to
-  - title: EFCX Reports Configuration (Superset)
-    slug: '1190953015'
-    type: explanation
-  - title: Extend TLS/SSL Certificates Expiry for RKE2 ( existing deployments )
-    slug: '1721434292'
-    type: how-to
-  - title: FAQs - WFM (To be updated by Nabeel after release)
-    slug: '483459084'
-    type: explanation
-  - title: Guide  for migrating Keycloak Groups/Teams to CX Teams
-    slug: '707494075'
-    type: reference
-  - title: Hardware sizing (to be deleted)
-    slug: '55215907'
-    type: reference
-  - title: IAM (Keycloak) Configuration 4.10.X
-    slug: '1545109510'
-    type: how-to
-  - title: Instagram Connector Configuration & Deployment Guide
-    slug: '2527673'
-    type: how-to
-  - title: Limitations for Pause/Resume Conversation
-    slug: '153747909'
-    type: explanation
-  - title: Logging & Monitoring
-    slug: '1448378401'
-    type: explanation
-  - title: Media Server Configurations for CX Voice (old)
-    slug: '75825154'
-    type: how-to
-  - title: Media Server Deployment and Configuration Guide (With Azure Transcription
-      Support)
-    slug: '466518189'
-    type: how-to
-  - title: Media Server Deployment and Configuration Guide (With Google Transcription
-      Support)
-    slug: '511967233'
-    type: how-to
-  - title: Meta - Whatsapp Cloud API - Configuration & Deployment Guide
-    slug: '130678954'
-    type: how-to
-  - title: Meta - Whatsapp Cloud API - Limitations & Key Highlights
-    slug: '1014169625'
-    type: reference
-  - title: Migrate EF IAM users to different instances/realms
-    slug: '1294434411'
-    type: how-to
-  - title: NLU / Digital Bots
-    slug: '150503736'
-    type: explanation
-  - title: Pause/Resume a Conversation
-    slug: '140869657'
-    type: how-to
-  - title: PI Roadmap
-    slug: PI-Roadmap_1382678547
-    type: explanation
-  - title: PI Roadmap - 2025
-    slug: PI-Roadmap---2025_702644228
-    type: explanation
-  - title: PI Roadmap - 2026
-    slug: PI-Roadmap---2026_1359380481
-    type: explanation
-  - title: Quality Manager as a CX add-on  - Prerequisites
-    slug: Quality-Manager-as-a-CX-add-on----Prerequisites_1396310132
-    type: explanation
-  - title: Quality Assurance /Quality Management Forms
-    slug: '687244139'
-    type: explanation
-  - title: Quorum-based Cluster
-    slug: Quorum-based-Cluster_1320452440
-    type: reference
-  - title: Reports Configuration (Superset 2.0)
-    slug: '2525731'
-    type: explanation
-  - title: Release Items v4.10.x Merging into 5.0 Analysis
-    slug: Release-Items-v4.10.x-Merging-into-5.0-Analysis_1615921161
-    type: reference
-  - title: Retail Queue Management
-    slug: Retail-Queue-Management_687638585
-    type: explanation
-  - title: Right to left (RTL) support on Agent Desk
-    slug: '1235976272'
-    type: explanation
-  - title: SMS / MMS via Twilio Connector Configuration
-    slug: '2529631'
-    type: how-to
-  - title: Setting Up a YouTube Project in the Google Developers Console (Production-Ready)
-    slug: '1008107533'
-    type: explanation
-  - title: Sizing Guidelines (not-public)
-    slug: '1260814352'
-    type: reference
-  - title: Superset - Alerts & Reports Feature Enablement
-    slug: '1070825519'
-    type: explanation
-  - title: Template Message
-    slug: Template-Message_488013839
-    type: reference
-  - title: Tenant Creation for Multi-tenant CX- To be removed
-    slug: Tenant-Creation-for-Multi-tenant-CX--To-be-removed_1372029057
-    type: how-to
-  - title: Tenant Onboarding- To be removed
-    slug: Tenant-Onboarding--To-be-removed_1015775291
-    type: explanation
-  - title: "Twitter Connector \u2013 Limitations & Key Highlights"
-    slug: '153714925'
-    type: explanation
-  - title: Two-Factor Authentication (2FA) Service
-    slug: '1687093262'
-    type: explanation
-  - title: "Two-Factor Authentication (2FA) \u2013 Business Overview"
-    slug: '1671463042'
-    type: how-to
-  - title: Untitled live doc 2025-11-20
-    slug: Untitled-live-doc-2025-11-20_1467351045
-    type: explanation
-  - title: Untitled whiteboard 2026-01-01
-    slug: Untitled-whiteboard-2026-01-01_1605435699
-    type: explanation
-  - title: Upgrade Guide CX5.1.0 to Surveys/Campaigns
-    slug: '1774714884'
-    type: explanation
-  - title: Viber Connector Configuration & Deployment
-    slug: '31719480'
-    type: how-to
-  - title: Voice Channel Configuration Limitations/Issues
-    slug: '2526400'
-    type: explanation
-  - title: Vulnerability Report for CX Components 5.0
-    slug: Vulnerability-Report-for-CX-Components-5.0_1434615887
-    type: reference
-  - title: WFM - User Guide for Admin/Supervisor
-    slug: '490668033'
-    type: how-to
-  - title: Web & App Calls
-    slug: '1536393246'
-    type: how-to
-  - title: "YouTube Connector \u2013 Limitations & Key Highlights"
-    slug: '1015316496'
-    type: explanation
-  - title: YouTube Integration & Configuration Guide (Developer Access)
-    slug: '679117567'
-    type: how-to
-  - title: CX SIP Proxy Configuration for Cisco Elements
-    slug: CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383
-    type: explanation
-    action: archive
-  - title: Cisco Elements Configurations for CX SIP Proxy
-    slug: Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923
-    type: explanation
-    action: archive
-  - title: CX SIP Proxy as a CUSP replacement
-    slug: CX-SIP-Proxy-as-a-CUSP-replacement_687538868
-    type: reference
-    action: archive
-  - title: Call Scenarios for CUSP Replacement
-    slug: Call-Scenarios-for-CUSP-Replacement_687178260
-    type: explanation
-    action: archive
-  - title: Feedback on the user guide of Conversation Search via GraphQL
-    slug: Feedback-on-the-user-guide-of-Conversation-Search-via-GraphQL_1712979987
-    type: reference
+      - section: Digital Channel Management
+        items:
+          - title: '360'
+            slug: '360_1480392883'
+            type: explanation
+          - title: AI Assistant handover to human agent
+            slug: AI-Assistant-handover-to-human-agent_1324417085
+            type: explanation
+          - title: Accept a Conversation
+            slug: Accept-a-Conversation_2527849
+            type: explanation
+          - title: Add Not Ready and Logout Reasons
+            slug: Add-Not-Ready-and-Logout-Reasons_1577418835
+            type: explanation
+          - title: Add Wrap-ups
+            slug: Add-Wrap-ups_1578434619
+            type: explanation
+          - title: Add a Customer Widget
+            slug: Add-a-Customer-Widget_1553367051
+            type: explanation
+          - title: Add a Web Channel
+            slug: Add-a-Web-Channel_1496449025
+            type: explanation
+          - title: Agent Assistance
+            slug: Agent-Assistance_1274970118
+            type: explanation
+          - title: Agent Desk Developer Guide
+            slug: Agent-Desk-Developer-Guide_2523754
+            type: how-to
+          - title: Agent Desk Localization
+            slug: Agent-Desk-Localization_1241579818
+            type: explanation
+          - title: Agent Hand Raise
+            slug: Agent-Hand-Raise_519569565
+            type: explanation
+          - title: Agent Not Ready Detail
+            slug: Agent-Not-Ready-Detail_436273153
+            type: reference
+          - title: Agent Not-Ready Summary
+            slug: Agent-Not-Ready-Summary_436830209
+            type: reference
+          - title: Agent Response Time
+            slug: Agent-Response-Time_142540854
+            type: how-to
+          - title: Agent Task Detail
+            slug: Agent-Task-Detail_2533148
+            type: reference
+          - title: Agent Task Disposition
+            slug: Agent-Task-Disposition_2529040
+            type: explanation
+          - title: Answered Chats in Time Intervals
+            slug: Answered-Chats-in-Time-Intervals_434634764
+            type: reference
+          - title: Apply Wrap-up and Add Notes
+            slug: Apply-Wrap-up-and-Add-Notes_2528747
+            type: explanation
+          - title: As an Agent
+            slug: As-an-Agent_2529298
+            type: reference
+          - title: Assign Labels to Customers
+            slug: Assign-Labels-to-Customers_434667615
+            type: explanation
+          - title: Audit Logging
+            slug: Audit-Logging_1578795038
+            type: reference
+          - title: Auto-Sync MRD State
+            slug: Auto-Sync-MRD-State_1025802251
+            type: explanation
+          - title: Backend Support for Advanced Filters
+            slug: Backend-Support-for-Advanced-Filters_621117443
+            type: how-to
+          - title: BotFather
+            slug: BotFather_2526366
+            type: explanation
+          - title: Browser and Sound Notifications
+            slug: Browser-and-Sound-Notifications_2528129
+            type: explanation
+          - title: Bulk Agent attributes Assignment
+            slug: Bulk-Agent-attributes-Assignment_246251682
+            type: explanation
+          - title: Business Calendars
+            slug: Business-Calendars_687244862
+            type: how-to
+          - title: Business Calendars Limitations
+            slug: Business-Calendars-Limitations_686557229
+            type: explanation
+          - title: Business Features
+            slug: Business-Features_918121
+            type: explanation
+          - title: C-Alerts
+            slug: C-Alerts_225476610
+            type: explanation
+          - title: CCaaS Provider Guide
+            slug: CCaaS-Provider-Guide_1387593741
+            type: reference
+          - title: CX Customer Widget Embedding Guide
+            slug: CX-Customer-Widget-Embedding-Guide_2531378
+            type: how-to
+          - title: CX Enhancements
+            slug: CX-Enhancements_796557334
+            type: explanation
+          - title: CX High Availability
+            slug: CX-High-Availability_2526662
+            type: explanation
+          - title: CX Media Server
+            slug: CX-Media-Server_194379915
+            type: explanation
+          - title: CX Release History
+            slug: CX-Release-History_2527987
+            type: reference
+          - title: CX SIP Proxy
+            slug: CX-SIP-Proxy_31719845
+            type: reference
+          - title: CX4.10.7 Planned Issues
+            slug: CX4.10.7-Planned-Issues_1791131693
+            type: reference
+          - title: CX5.1.0 Planned Issues
+            slug: CX5.1.0-Planned-Issues_1485439167
+            type: reference
+          - title: CX5.2.0 Planned Issues
+            slug: CX5.2.0-Planned-Issues_1755447366
+            type: reference
+          - title: Change Agent Desk Language
+            slug: Change-Agent-Desk-Language_2529188
+            type: explanation
+          - title: Channel Session
+            slug: Channel-Session_93224974
+            type: explanation
+          - title: Channel Session Detail
+            slug: Channel-Session-Detail_2527421
+            type: reference
+          - title: Channel Stats Graph
+            slug: Channel-Stats-Graph_2532028
+            type: explanation
+          - title: Channel Stats Summary
+            slug: Channel-Stats-Summary_2528488
+            type: reference
+          - title: Compatibility Guides
+            slug: Compatibility-Guides_85983333
+            type: reference
+          - title: Connecting to Databases with TLS Enabled
+            slug: Connecting-to-Databases-with-TLS-Enabled_399049034
+            type: how-to
+          - title: Consult, Transfer and Conference
+            slug: Consult%2C-Transfer-and-Conference_2528529
+            type: how-to
+          - title: Contact Center Personas
+            slug: Contact-Center-Personas_932642857
+            type: reference
+          - title: Conversation
+            slug: Conversation_93192236
+            type: reference
+          - title: Conversation Detail
+            slug: Conversation-Detail_2527060
+            type: reference
+          - title: Conversation View
+            slug: Conversation-View_822214946
+            type: explanation
+          - title: Conversation Volume by Disposition
+            slug: Conversation-Volume-by-Disposition_2532031
+            type: explanation
+          - title: ConversationData
+            slug: ConversationData_2526208
+            type: explanation
+          - title: Create Form
+            slug: Create-Form_2532610
+            type: how-to
+          - title: Create an evaluation form
+            slug: Create-an-evaluation-form_819232775
+            type: explanation
+          - title: Create self-signed Certificates for Ingress
+            slug: Create-self-signed-Certificates-for-Ingress_48400625
+            type: how-to
+          - title: Creating extensions on Media Server
+            slug: Creating-extensions-on-Media-Server_1341253
+            type: explanation
+          - title: Customer Advanced Filters
+            slug: Customer-Advanced-Filters_645628037
+            type: explanation
+          - title: Customer Labels
+            slug: Customer-Labels_2529344
+            type: explanation
+          - title: Customer Widget
+            slug: Customer-Widget_2526052
+            type: explanation
+          - title: Customer Widget Localization
+            slug: Customer-Widget-Localization_1241678195
+            type: explanation
+          - title: Data Encryption
+            slug: Data-Encryption_884932744
+            type: explanation
+          - title: Delete Form
+            slug: Delete-Form_2532606
+            type: explanation
+          - title: Deleted Notification
+            slug: Deleted-Notification_2525263
+            type: explanation
+          - title: Deploy Fluentbit for Opensearch
+            slug: Deploy-Fluentbit-for-Opensearch_1278410772
+            type: explanation
+          - title: Deploy HAProxy as an ELB
+            slug: Deploy-HAProxy-as-an-ELB_76021764
+            type: explanation
+          - title: Deploy NGINX as an ELB
+            slug: Deploy-NGINX-as-an-ELB_75860951
+            type: explanation
+          - title: Developer Guide of Customer Widget
+            slug: Developer-Guide-of-Customer-Widget_1492484120
+            type: explanation
+          - title: Developer Guides
+            slug: Developer-Guides_2525609
+            type: explanation
+          - title: Dialog and Profile replication in a cluster in EF SIP Proxy
+            slug: Dialog-and-Profile-replication-in-a-cluster-in-EF-SIP-Proxy_176947233
+            type: explanation
+          - title: Dialplan implementation in EF SIP Proxy
+            slug: Dialplan-implementation-in-EF-SIP-Proxy_168460320
+            type: explanation
+          - title: Digital Channels
+            slug: Digital-Channels_151453751
+            type: reference
+          - title: Distribution Rules
+            slug: Distribution-Rules_247988291
+            type: explanation
+          - title: EFCX Logs Traversal Guide
+            slug: EFCX-Logs-Traversal-Guide_2525158
+            type: reference
+          - title: ETCD Backup and Restore
+            slug: ETCD-Backup-and-Restore_425164826
+            type: how-to
+          - title: Edit a Text Message
+            slug: Edit-a-Text-Message_601915464
+            type: explanation
+          - title: Email
+            slug: Email_112263260
+            type: reference
+          - title: Email Limitations
+            slug: Email-Limitations_1028195237
+            type: explanation
+          - title: Embed a Webapp in Agent Desk
+            slug: Embed-a-Webapp-in-Agent-Desk_635502601
+            type: explanation
+          - title: End PULL-based Requests
+            slug: End-PULL-based-Requests_2528595
+            type: explanation
+          - title: Evaluation Volume
+            slug: Evaluation-Volume_1014530193
+            type: explanation
+          - title: FAQs and Troubleshooting
+            slug: FAQs-and-Troubleshooting_1680900127
+            type: explanation
+          - title: Facebook
+            slug: Facebook_1481932926
+            type: explanation
+          - title: Facebook Direct Message
+            slug: Facebook-Direct-Message_2526025
+            type: explanation
+          - title: Facebook Social Media
+            slug: Facebook-Social-Media_2526031
+            type: explanation
+          - title: Form Builder
+            slug: Form-Builder_866812373
+            type: reference
+          - title: Forms
+            slug: Forms_2531444
+            type: how-to
+          - title: Forms Developer Guide
+            slug: Forms-Developer-Guide_2526422
+            type: explanation
+          - title: Forms and Form Data
+            slug: Forms-and-Form-Data_64487551
+            type: explanation
+          - title: Get Form
+            slug: Get-Form_2532616
+            type: explanation
+          - title: Get Form Validations
+            slug: Get-Form-Validations_2532618
+            type: reference
+          - title: Google Play Store
+            slug: Google-Play-Store_1647443969
+            type: how-to
+          - title: Handle Email Interactions
+            slug: Handle-Email-Interactions_1102807045
+            type: how-to
+          - title: Handle Multi-channel Conversation
+            slug: Handle-Multi-channel-Conversation_2528824
+            type: explanation
+          - title: Handling Superset Session Timeout
+            slug: Handling-Superset-Session-Timeout_687671500
+            type: explanation
+          - title: High Availability with DNS
+            slug: High-Availability-with-DNS_2528935
+            type: how-to
+          - title: High Availability with Kube-VIP
+            slug: High-Availability-with-Kube-VIP_2528948
+            type: how-to
+          - title: Historical Conversation Summary
+            slug: Historical-Conversation-Summary_2530933
+            type: reference
+          - title: How To get Telegram Bot Token
+            slug: How-To-get-Telegram-Bot-Token_2526378
+            type: explanation
+          - title: How to customise your Telegram Bot
+            slug: How-to-customise-your-Telegram-Bot_2526374
+            type: explanation
+          - title: Insights
+            slug: Insights_687505751
+            type: explanation
+          - title: Instagram
+            slug: Instagram_1481080968
+            type: explanation
+          - title: Instagram Direct Message
+            slug: Instagram-Direct-Message_2528238
+            type: reference
+          - title: Instagram Social Media
+            slug: Instagram-Social-Media_2528131
+            type: explanation
+          - title: Interruptible and Non-Interruptible Medias
+            slug: Interruptible-and-Non-Interruptible-Medias_556597289
+            type: how-to
+          - title: Join Pull-based Requests
+            slug: Join-Pull-based-Requests_2528122
+            type: explanation
+          - title: Leave Conversation
+            slug: Leave-Conversation_2529047
+            type: explanation
+          - title: LetsEncrypt SSL for EF-CX
+            slug: LetsEncrypt-SSL-for-EF-CX_32538676
+            type: explanation
+          - title: LinkedIn
+            slug: LinkedIn_784007185
+            type: explanation
+          - title: LinkedIn Account Onboarding
+            slug: LinkedIn-Account-Onboarding_823296100
+            type: explanation
+          - title: Logout
+            slug: Logout_2525352
+            type: explanation
+          - title: Make a Manual Outbound Contact
+            slug: Make-a-Manual-Outbound-Contact_2528797
+            type: how-to
+          - title: Manage Channels and Channel Categories
+            slug: Manage-Channels-and-Channel-Categories_1562411043
+            type: reference
+          - title: Maximum Tasks per Agent per MRD
+            slug: Maximum-Tasks-per-Agent-per-MRD_248348760
+            type: explanation
+          - title: Messages
+            slug: Messages_2526127
+            type: explanation
+          - title: Metabase Password Reset
+            slug: Metabase-Password-Reset_1355841549
+            type: explanation
+          - title: Multichannel Session Detail
+            slug: Multichannel-Session-Detail_436994049
+            type: reference
+          - title: Multimedia Messages
+            slug: Multimedia-Messages_2525501
+            type: reference
+          - title: OWASP Top Ten
+            slug: OWASP-Top-Ten_2523208
+            type: reference
+          - title: Omnichannel Engagement
+            slug: Omnichannel-Engagement_2529366
+            type: explanation
+          - title: On-Premise
+            slug: On-Premise_1250722014
+            type: explanation
+          - title: Onboarding Guide
+            slug: Onboarding-Guide_1511653389
+            type: how-to
+          - title: Opensearch Setup for Logging and Tracing
+            slug: Opensearch-Setup-for-Logging-and-Tracing_1612415217
+            type: how-to
+          - title: Outbound
+            slug: Outbound_129499295
+            type: reference
+          - title: Outbound Metrics
+            slug: Outbound-Metrics_1135476739
+            type: reference
+          - title: Outbound Result Notifications - to be reviewed and updated
+            slug: Outbound-Result-Notifications---to-be-reviewed-and-updated_978747415
+            type: reference
+          - title: PII Data Masking
+            slug: PII-Data-Masking_884113585
+            type: explanation
+          - title: PII Data Masking in Logs
+            slug: PII-Data-Masking-in-Logs_884441152
+            type: reference
+          - title: PII Data Masking of Customer Attributes in AgentDesk
+            slug: PII-Data-Masking-of-Customer-Attributes-in-AgentDesk_698089579
+            type: explanation
+          - title: Patch Release CX4.10.7
+            slug: Patch-Release-CX4.10.7_1791131649
+            type: reference
+          - title: People and groups CX Analyser
+            slug: People-and-groups-CX-Analyser_1317666981
+            type: explanation
+          - title: Personalized Agent Information in Customer widget
+            slug: Personalized-Agent-Information-in-Customer-widget_453967896
+            type: how-to
+          - title: Planned Releases
+            slug: Planned-Releases_131006685
+            type: reference
+          - title: Platform
+            slug: Platform_1241186391
+            type: explanation
+          - title: PostgresQL DB Creation Guide
+            slug: PostgresQL-DB-Creation-Guide_955154451
+            type: how-to
+          - title: Pre-Conversation Forms
+            slug: Pre-Conversation-Forms_686525388
+            type: explanation
+          - title: Real-Time Performance Alerts
+            slug: Real-Time-Performance-Alerts_1153073447
+            type: explanation
+          - title: Register Custom Bot
+            slug: Register-Custom-Bot_2529899
+            type: reference
+          - title: Release Management
+            slug: Release-Management_1241186447
+            type: explanation
+          - title: Remote Agent Solutions
+            slug: Remote-Agent-Solutions_1653669930
+            type: explanation
+          - title: Resources
+            slug: Resources_1248624644
+            type: explanation
+          - title: Review Screen
+            slug: Review-Screen_819593222
+            type: explanation
+          - title: Room
+            slug: Room_64356457
+            type: explanation
+          - title: Route Re-initiated Chats on Priority
+            slug: Route-Re-initiated-Chats-on-Priority_2530181
+            type: how-to
+          - title: SMPP
+            slug: SMPP_2528799
+            type: explanation
+          - title: Segregating Facebook DM vs. Social Media Message in Channel Sessions
+            slug: Segregating-Facebook-DM-vs.-Social-Media-Message-in-Channel-Sessions_638681130
+            type: explanation
+          - title: Send a Media message
+            slug: Send-a-Media-message_2532588
+            type: how-to
+          - title: Send a Message
+            slug: Send-a-Message_142868924
+            type: how-to
+          - title: Send a Whisper Message
+            slug: Send-a-Whisper-Message_143458310
+            type: explanation
+          - title: Setup Alerts via Gmail
+            slug: Setup-Alerts-via-Gmail_440041483
+            type: reference
+          - title: Setup CX Analyser
+            slug: Setup-CX-Analyser_1317994520
+            type: explanation
+          - title: Solutions
+            slug: Solutions_1241776176
+            type: explanation
+          - title: Surveys
+            slug: Surveys_131432544
+            type: how-to
+          - title: Task
+            slug: Task_683180140
+            type: reference
+          - title: Task Priority
+            slug: Task-Priority_248119331
+            type: explanation
+          - title: Task Reason Codes
+            slug: Task-Reason-Codes_144212603
+            type: reference
+          - title: Task and Task States
+            slug: Task-and-Task-States_296648753
+            type: explanation
+          - title: Telegram
+            slug: Telegram_2526302
+            type: explanation
+          - title: Telegram Bot Creation Guide
+            slug: Telegram-Bot-Creation-Guide_2526362
+            type: how-to
+          - title: Telegram Bot Token
+            slug: Telegram-Bot-Token_2526370
+            type: explanation
+          - title: Teneo
+            slug: Teneo_151814327
+            type: explanation
+          - title: TroubleShooting General Guide
+            slug: TroubleShooting-General-Guide_1526202379
+            type: explanation
+          - title: Troubleshooting Guides
+            slug: Troubleshooting-Guides_2550703
+            type: explanation
+          - title: Twilio
+            slug: Twilio_2529622
+            type: how-to
+          - title: Twitter
+            slug: Twitter_2549631
+            type: explanation
+          - title: Update Form
+            slug: Update-Form_2532608
+            type: how-to
+          - title: Updating the Language at Agent Desk
+            slug: Updating-the-Language-at-Agent-Desk_424214601
+            type: how-to
+          - title: Using Traefik as Ingress Controller
+            slug: Using-Traefik-as-Ingress-Controller_1443528719
+            type: explanation
+          - title: Viber
+            slug: Viber_68747283
+            type: explanation
+          - title: View Conversation Data
+            slug: View-Conversation-Data_140869899
+            type: explanation
+          - title: View Conversation Notifications
+            slug: View-Conversation-Notifications_143654942
+            type: explanation
+          - title: Virtual Agent
+            slug: Virtual-Agent_1264484374
+            type: explanation
+          - title: Vulnerability Assessments...to be discussed and move to CX
+            slug: Vulnerability-Assessments...to-be-discussed-and-move-to-CX_2523833
+            type: explanation
+          - title: Web Published Forms
+            slug: Web-Published-Forms_392298524
+            type: how-to
+          - title: WhatsApp
+            slug: WhatsApp_2526019
+            type: reference
+          - title: Whisper Message
+            slug: Whisper-Message_2529350
+            type: explanation
+          - title: Wrap-up Summary
+            slug: Wrap-up-Summary_2532039
+            type: explanation
+          - title: YouTube
+            slug: YouTube_786859078
+            type: reference
+          - title: _DRAFT Agent Co-Pilot
+            slug: _DRAFT-Agent-Co-Pilot_1671266411
+            type: explanation
+          - title: _Solutions DRAFT
+            slug: _Solutions-DRAFT_1629913095
+            type: explanation
+      - section: Voice & Real-time Media
+        items:
+          - title: Accessing CX Voice Components
+            slug: Accessing-CX-Voice-Components_237207657
+            type: how-to
+          - title: Adding Agent Extensions for CX Voice
+            slug: Adding-Agent-Extensions-for-CX-Voice_2526927
+            type: explanation
+          - title: Benchmarking for CX Dialer
+            slug: Benchmarking-for-CX-Dialer_215023618
+            type: reference
+          - title: Browser-Based Calling
+            slug: Browser-Based-Calling_1653112868
+            type: explanation
+          - title: CTI Call Controls
+            slug: CTI-Call-Controls_140869685
+            type: reference
+          - title: CX Dialer
+            slug: CX-Dialer_2577878
+            type: how-to
+          - title: CX-Voice Limitations
+            slug: CX-Voice-Limitations_74448913
+            type: reference
+          - title: CX-Voice platform sizing
+            slug: CX-Voice-platform-sizing_1261142096
+            type: reference
+          - title: Call Forking Concepts
+            slug: Call-Forking-Concepts_130252894
+            type: explanation
+          - title: Connected Calls Detail
+            slug: Connected-Calls-Detail_1016234045
+            type: reference
+          - title: Handle WebRTC Calls
+            slug: Handle-WebRTC-Calls_1208254675
+            type: explanation
+          - title: Inbound Calls
+            slug: Inbound-Calls_1537998859
+            type: how-to
+          - title: Miscellaneous Dialer Call Results
+            slug: Miscellaneous-Dialer-Call-Results_1086029830
+            type: explanation
+          - title: Outbound Calls
+            slug: Outbound-Calls_1538293776
+            type: how-to
+          - title: Releases for CX Voice Components
+            slug: Releases-for-CX-Voice-Components_1342256
+            type: reference
+          - title: Troubleshooting for CX Voice
+            slug: Troubleshooting-for-CX-Voice_160399426
+            type: how-to
+          - title: Updating AgentDesk Environment Variables for CX Voice
+            slug: Updating-AgentDesk-Environment-Variables-for-CX-Voice_2529026
+            type: explanation
+          - title: Updating Environment Variables for WebRTC
+            slug: Updating-Environment-Variables-for-WebRTC_1186136178
+            type: explanation
+          - title: Video Customer Support
+            slug: Video-Customer-Support_1653997581
+            type: explanation
+          - title: Voice Message
+            slug: Voice-Message_487227443
+            type: reference
+          - title: Voice and Video
+            slug: Voice-and-Video_2527403
+            type: explanation
+          - title: WebRTC for CX
+            slug: WebRTC-for-CX_687211264
+            type: explanation
+          - title: WebRTC to SIP
+            slug: WebRTC-to-SIP_786497
+            type: reference
+          - title: Website Click-to-Call
+            slug: Website-Click-to-Call_1651572804
+            type: explanation
+      - section: Workforce & Schedule Management
+        items:
+          - title: Review Scheduler
+            slug: Review-Scheduler_817594518
+            type: how-to
+          - title: WFM as a CX add-on - Prerequisites
+            slug: WFM-as-a-CX-add-on---Prerequisites_463962113
+            type: reference
+          - title: Workforce Management
+            slug: Workforce-Management_1346994182
+            type: explanation
+      - section: Conversation Studio
+        items: []
+      - section: Performance Insights & Data
+        items:
+          - title: Agent Availability Report
+            slug: Agent-Availability-Report_2527630
+            type: reference
+          - title: Agents' Summary Report
+            slug: Agents%27-Summary-Report_601915393
+            type: explanation
+          - title: CX Historical Reports- Supporting Tables
+            slug: CX-Historical-Reports--Supporting-Tables_2527591
+            type: explanation
+          - title: Conversation Analytics
+            slug: Conversation-Analytics_1324089511
+            type: explanation
+          - title: Historical Reports
+            slug: Historical-Reports_1321664626
+            type: reference
+          - title: Key Reporting Metrics
+            slug: Key-Reporting-Metrics_2526622
+            type: reference
+          - title: Outbound Summary Report
+            slug: Outbound-Summary-Report_1281261572
+            type: reference
+          - title: Post Conversation Analytics
+            slug: Post-Conversation-Analytics_1266090075
+            type: explanation
+          - title: Questions' Summary Report
+            slug: Questions%27-Summary-Report_600866843
+            type: reference
+          - title: Real-time Contact Center Analytics
+            slug: Real-time-Contact-Center-Analytics_1324449868
+            type: explanation
+          - title: Repeated Caller Report
+            slug: Repeated-Caller-Report_755761153
+            type: reference
+          - title: Reports and Analytics
+            slug: Reports-and-Analytics_2526384
+            type: reference
+          - title: UTC Offset - Reports
+            slug: UTC-Offset---Reports_2526326
+            type: explanation
+          - title: Update Reports on Superset 2.0
+            slug: Update-Reports-on-Superset-2.0_2525058
+            type: explanation
+          - title: WebRTC Detail Report
+            slug: WebRTC-Detail-Report_1064763393
+            type: reference
+          - title: WebRTC Summary Report
+            slug: WebRTC-Summary-Report_1064763418
+            type: explanation
+      - section: Security & Compliances
+        items:
+          - title: GDPR Compliance
+            slug: GDPR-Compliance_898498771
+            type: reference
+          - title: HIPAA Compliance
+            slug: HIPAA-Compliance_826802235
+            type: reference
+          - title: PCI DSS Compliance
+            slug: PCI-DSS-Compliance_608927784
+            type: how-to
+          - title: Secure OTP Lifecycle Management and Compliance Adherence
+            slug: Secure-OTP-Lifecycle-Management-and-Compliance-Adherence_1678016574
+            type: how-to
+          - title: Security and Compliances
+            slug: Security-and-Compliances_1108017201
+            type: explanation
+          - title: Security and Privacy Compliances
+            slug: Security-and-Privacy-Compliances_2525094
+            type: explanation
+          - title: VRS PCI DSS Compliance
+            slug: VRS-PCI-DSS-Compliance_919711
+            type: how-to
+      - section: Ecosystem Integrations
+        items: []
+  - section: _Archive
+    items:
+      - title: Translation support at customer widget
+        slug: Translation-support-at-customer-widget_946798639
+        type: how-to
+        action: archive
+      - title: 4.10 CX Component Vulnerability Report
+        slug: 4.10-CX-Component-Vulnerability-Report_1224474625
+        type: reference
+      - title: 4.10.4 CX Component Vulnerability Report
+        slug: 4.10.4-CX-Component-Vulnerability-Report_1359446023
+        type: reference
+      - title: 4.9.4 CX Component Vulnerability Report
+        slug: 4.9.4-CX-Component-Vulnerability-Report_1182498855
+        type: reference
+      - title: AI & Self-Service
+        slug: '1722712091'
+        type: how-to
+      - title: Adding Languages & Timezones
+        slug: '1568538630'
+        type: explanation
+      - title: Agent & MRD States
+        slug: '966819860'
+        type: reference
+      - title: Agent & Team Leaderboard
+        slug: '1016234151'
+        type: explanation
+      - title: "Agent Co\u2011Pilot"
+        slug: '1647706118'
+        type: how-to
+      - title: Agent Task/Routing Task
+        slug: '2550490'
+        type: reference
+      - title: CRM/Agent Desk Post Message Events
+        slug: '1347988'
+        type: reference
+      - title: Callback
+        slug: Callback_687048605
+        type: explanation
+      - title: CX Data Sheet
+        slug: CX-Data-Sheet_2530132
+        type: reference
+      - title: CX-Core-100
+        slug: CX-Core-100_1259962718
+        type: explanation
+      - title: CX-Core platform
+        slug: CX-Core-platform_1261142050
+        type: reference
+      - title: CX Component Vulnerability Report - Template
+        slug: CX-Component-Vulnerability-Report---Template_1156415489
+        type: reference
+      - title: Challenges/Pain Points of a Contact Center Agent
+        slug: '1418428471'
+        type: explanation
+      - title: Channel Categories (Media Routing Domains)
+        slug: '2532738'
+        type: explanation
+      - title: 'Comparing Hybrid Chat 3.x and Expertflow CX: Features, Capabilities,
+          and Migration Insights'
+        slug: '1779662852'
+        type: reference
+      - title: Compatibility Guide - Workforce Management - To be updated after WFM
+          Release(Nabeel)
+        slug: '464355484'
+        type: explanation
+      - title: Customer & Agent SLA Implementation Details
+        slug: '949321729'
+        type: how-to
+      - title: Customer Journey Orchestration (CJO)
+        slug: '1266876445'
+        type: explanation
+      - title: "Customer Widget \u2013 Features and Capabilities"
+        slug: '88277014'
+        type: explanation
+      - title: "Customers \u2013 CX Customer Interaction Profiles"
+        slug: '2525596'
+        type: how-to
+      - title: Delete Report from (Superset 2.0)
+        slug: '49479811'
+        type: how-to
+      - title: Dialing & Success Rate Summary - Campaign Wise
+        slug: '1016234129'
+        type: reference
+      - title: Duplicate of Media Server Configurations for CX Voice
+        slug: Duplicate-of-Media-Server-Configurations-for-CX-Voice_1468891146
+        type: how-to
+      - title: EFCX Reports Configuration (Superset)
+        slug: '1190953015'
+        type: explanation
+      - title: Extend TLS/SSL Certificates Expiry for RKE2 ( existing deployments
+          )
+        slug: '1721434292'
+        type: how-to
+      - title: FAQs - WFM (To be updated by Nabeel after release)
+        slug: '483459084'
+        type: explanation
+      - title: Guide  for migrating Keycloak Groups/Teams to CX Teams
+        slug: '707494075'
+        type: reference
+      - title: Hardware sizing (to be deleted)
+        slug: '55215907'
+        type: reference
+      - title: IAM (Keycloak) Configuration 4.10.X
+        slug: '1545109510'
+        type: how-to
+      - title: Instagram Connector Configuration & Deployment Guide
+        slug: '2527673'
+        type: how-to
+      - title: Limitations for Pause/Resume Conversation
+        slug: '153747909'
+        type: explanation
+      - title: Logging & Monitoring
+        slug: '1448378401'
+        type: explanation
+      - title: Media Server Configurations for CX Voice (old)
+        slug: '75825154'
+        type: how-to
+      - title: Media Server Deployment and Configuration Guide (With Azure Transcription
+          Support)
+        slug: '466518189'
+        type: how-to
+      - title: Media Server Deployment and Configuration Guide (With Google Transcription
+          Support)
+        slug: '511967233'
+        type: how-to
+      - title: Meta - Whatsapp Cloud API - Configuration & Deployment Guide
+        slug: '130678954'
+        type: how-to
+      - title: Meta - Whatsapp Cloud API - Limitations & Key Highlights
+        slug: '1014169625'
+        type: reference
+      - title: Migrate EF IAM users to different instances/realms
+        slug: '1294434411'
+        type: how-to
+      - title: NLU / Digital Bots
+        slug: '150503736'
+        type: explanation
+      - title: Pause/Resume a Conversation
+        slug: '140869657'
+        type: how-to
+      - title: PI Roadmap
+        slug: PI-Roadmap_1382678547
+        type: explanation
+      - title: PI Roadmap - 2025
+        slug: PI-Roadmap---2025_702644228
+        type: explanation
+      - title: PI Roadmap - 2026
+        slug: PI-Roadmap---2026_1359380481
+        type: explanation
+      - title: Quality Manager as a CX add-on  - Prerequisites
+        slug: Quality-Manager-as-a-CX-add-on----Prerequisites_1396310132
+        type: explanation
+      - title: Quality Assurance /Quality Management Forms
+        slug: '687244139'
+        type: explanation
+      - title: Quorum-based Cluster
+        slug: Quorum-based-Cluster_1320452440
+        type: reference
+      - title: Reports Configuration (Superset 2.0)
+        slug: '2525731'
+        type: explanation
+      - title: Release Items v4.10.x Merging into 5.0 Analysis
+        slug: Release-Items-v4.10.x-Merging-into-5.0-Analysis_1615921161
+        type: reference
+      - title: Retail Queue Management
+        slug: Retail-Queue-Management_687638585
+        type: explanation
+      - title: Right to left (RTL) support on Agent Desk
+        slug: '1235976272'
+        type: explanation
+      - title: SMS / MMS via Twilio Connector Configuration
+        slug: '2529631'
+        type: how-to
+      - title: Setting Up a YouTube Project in the Google Developers Console (Production-Ready)
+        slug: '1008107533'
+        type: explanation
+      - title: Sizing Guidelines (not-public)
+        slug: '1260814352'
+        type: reference
+      - title: Superset - Alerts & Reports Feature Enablement
+        slug: '1070825519'
+        type: explanation
+      - title: Template Message
+        slug: Template-Message_488013839
+        type: reference
+      - title: Tenant Creation for Multi-tenant CX- To be removed
+        slug: Tenant-Creation-for-Multi-tenant-CX--To-be-removed_1372029057
+        type: how-to
+      - title: Tenant Onboarding- To be removed
+        slug: Tenant-Onboarding--To-be-removed_1015775291
+        type: explanation
+      - title: "Twitter Connector \u2013 Limitations & Key Highlights"
+        slug: '153714925'
+        type: explanation
+      - title: Two-Factor Authentication (2FA) Service
+        slug: '1687093262'
+        type: explanation
+      - title: "Two-Factor Authentication (2FA) \u2013 Business Overview"
+        slug: '1671463042'
+        type: how-to
+      - title: Untitled live doc 2025-11-20
+        slug: Untitled-live-doc-2025-11-20_1467351045
+        type: explanation
+      - title: Untitled whiteboard 2026-01-01
+        slug: Untitled-whiteboard-2026-01-01_1605435699
+        type: explanation
+      - title: Upgrade Guide CX5.1.0 to Surveys/Campaigns
+        slug: '1774714884'
+        type: explanation
+      - title: Viber Connector Configuration & Deployment
+        slug: '31719480'
+        type: how-to
+      - title: Voice Channel Configuration Limitations/Issues
+        slug: '2526400'
+        type: explanation
+      - title: Vulnerability Report for CX Components 5.0
+        slug: Vulnerability-Report-for-CX-Components-5.0_1434615887
+        type: reference
+      - title: WFM - User Guide for Admin/Supervisor
+        slug: '490668033'
+        type: how-to
+      - title: Web & App Calls
+        slug: '1536393246'
+        type: how-to
+      - title: "YouTube Connector \u2013 Limitations & Key Highlights"
+        slug: '1015316496'
+        type: explanation
+      - title: YouTube Integration & Configuration Guide (Developer Access)
+        slug: '679117567'
+        type: how-to
+      - title: CX SIP Proxy Configuration for Cisco Elements
+        slug: CX-SIP-Proxy-Configuration-for-Cisco-Elements_687670383
+        type: explanation
+        action: archive
+      - title: Cisco Elements Configurations for CX SIP Proxy
+        slug: Cisco-Elements-Configurations-for-CX-SIP-Proxy_686555923
+        type: explanation
+        action: archive
+      - title: CX SIP Proxy as a CUSP replacement
+        slug: CX-SIP-Proxy-as-a-CUSP-replacement_687538868
+        type: reference
+        action: archive
+      - title: Call Scenarios for CUSP Replacement
+        slug: Call-Scenarios-for-CUSP-Replacement_687178260
+        type: explanation
+        action: archive
+      - title: Feedback on the user guide of Conversation Search via GraphQL
+        slug: Feedback-on-the-user-guide-of-Conversation-Search-via-GraphQL_1712979987
+        type: reference
