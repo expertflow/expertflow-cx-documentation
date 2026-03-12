@@ -1,7 +1,7 @@
 [
   {
     "slug": "Expertflow-CX-Platform-Overview_1785790479",
-    "target_path": "Phase4/Role-Based_Guides/Decision_Maker/Expertflow-CX-Platform-Overview_1785790479.md",
+    "target_path": "Phase4/Getting_Started/Expertflow-CX-Platform-Overview_1785790479.md",
     "persona": [
       "decision-maker",
       "partner",
@@ -31,7 +31,7 @@
   },
   {
     "slug": "Unified-Admin-Guide_2524407",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Unified-Admin-Guide_2524407.md",
+    "target_path": "Phase4/Getting_Started/Solution_Admin/Unified-Admin-Guide_2524407.md",
     "persona": [
       "solution-admin"
     ],
@@ -49,7 +49,7 @@
   },
   {
     "slug": "User-Guide-for-Evaluator_818675746",
-    "target_path": "Phase4/Role-Based_Guides/Human_Evaluator/User-Guide-for-Evaluator_818675746.md",
+    "target_path": "Phase4/Getting_Started/Evaluator/User-Guide-for-Evaluator_818675746.md",
     "persona": [
       "evaluator"
     ],
@@ -67,14 +67,14 @@
   },
   {
     "slug": "Agent-Desk-Developer-Guide_2523754",
-    "target_path": "Phase4/Functional_Areas/Digital_Channel_Management/Agent-Desk-Developer-Guide_2523754.md",
+    "target_path": "Phase4/Getting_Started/Developer/Agent-Desk-Developer-Guide_2523754.md",
     "persona": [],
     "diataxis": "how-to",
     "refactor_instructions": ""
   },
   {
     "slug": "Configuration-Guide---Conversation-Studio_1017118849",
-    "target_path": "Phase4/Role-Based_Guides/Solution_Admin/Configuration-Guide---Conversation-Studio_1017118849.md",
+    "target_path": "Phase4/Getting_Started/Designer/Configuration-Guide---Conversation-Studio_1017118849.md",
     "persona": [
       "solution-admin"
     ],
