@@ -74,7 +74,7 @@ These events are **emitted by Agent Manager** and listened to by the Agent Desk.
 - [onCimEvent](./onCimEvent.md)
 - [publishCimEvent](./publishCimEvent.md)
 - [socketSessionRemoved](./socketSessionRemoved.md)
-- [Socket Event: joinAsBargeIn](./Socket-Event-joinAsBargeIn.md)
+- [joinAsBargeIn](./JoinAsBargeIn.md)
 - [CIM Messages](../CIM-Message-Schema/CIM-Messages.md)
 - [Agent Task Routing Lifecycle](../Agent-Task-Routing-Lifecycle.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)
