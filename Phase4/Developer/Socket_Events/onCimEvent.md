@@ -226,6 +226,6 @@ The Agent Manager sends real-time CIM Events to the agent through this event.
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [publishCimEvent](./publishCimEvent_2531739.md)
+- [publishCimEvent](./publishCimEvent.md)
 - [CIM Messages](../CIM-Message-Schema/CIM-Messages.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

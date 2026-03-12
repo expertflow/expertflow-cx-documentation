@@ -290,6 +290,6 @@ Event is triggered when an agent subscribes to a topic. Delivers comprehensive c
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [topicSubscription](./topicSubscription_2531760.md)
-- [taskRequest](./taskRequest_2531754.md)
+- [topicSubscription](./topicSubscription.md)
+- [taskRequest](./taskRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

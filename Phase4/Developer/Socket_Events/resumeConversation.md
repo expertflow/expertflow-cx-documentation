@@ -46,5 +46,5 @@ Event is emitted when an agent requests the Agent Manager to resume a paused or 
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [pauseConversation](./pauseConversation_933822465.md)
+- [pauseConversation](./pauseConversation.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

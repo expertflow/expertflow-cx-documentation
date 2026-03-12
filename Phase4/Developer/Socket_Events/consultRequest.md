@@ -256,6 +256,6 @@ Event is emitted when an agent wants to consult on a conversation and sends a co
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [consultConferenceRequest](./consultConferenceRequest_933822483.md)
-- [consultTransferRequest](./consultTransferRequest_933691449.md)
+- [consultConferenceRequest](./consultConferenceRequest.md)
+- [consultTransferRequest](./consultTransferRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

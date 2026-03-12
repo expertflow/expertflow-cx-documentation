@@ -256,6 +256,6 @@ Event is emitted when an agent requests another agent from a certain queue to jo
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [directTransferRequest](./directTransferRequest_2531715.md)
-- [consultConferenceRequest](./consultConferenceRequest_933822483.md)
+- [directTransferRequest](./directTransferRequest.md)
+- [consultConferenceRequest](./consultConferenceRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

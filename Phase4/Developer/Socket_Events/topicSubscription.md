@@ -123,6 +123,6 @@ Agent requests the Agent Manager to subscribe to a conversation topic by emittin
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [topicUnsubscription](./topicUnsubscription_2531762.md)
-- [topicClosed](./topicClosed_2531758.md)
+- [topicUnsubscription](./topicUnsubscription.md)
+- [topicClosed](./topicClosed.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

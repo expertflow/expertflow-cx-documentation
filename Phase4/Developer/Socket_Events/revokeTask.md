@@ -37,5 +37,5 @@ Event is triggered to revoke a new task request from the agent if not accepted w
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [taskRequest](./taskRequest_2531754.md)
+- [taskRequest](./taskRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

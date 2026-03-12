@@ -190,6 +190,6 @@ Each item in the returned array contains:
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [onPullModeSubscribedListRequest](./onPullModeSubscribedListRequest_2531734.md)
-- [subscribePullModeList](./subscribePullModeList_2531752.md)
+- [onPullModeSubscribedListRequest](./onPullModeSubscribedListRequest.md)
+- [subscribePullModeList](./subscribePullModeList.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

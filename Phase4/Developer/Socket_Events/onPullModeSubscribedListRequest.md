@@ -46,6 +46,6 @@ Event is triggered when a new chat is initiated by the customer in one of the ag
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [pullModeSubscribedListRequests](./pullModeSubscribedListRequests_2531743.md)
-- [subscribePullModeList](./subscribePullModeList_2531752.md)
+- [pullModeSubscribedListRequests](./pullModeSubscribedListRequests.md)
+- [subscribePullModeList](./subscribePullModeList.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

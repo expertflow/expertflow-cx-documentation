@@ -48,5 +48,5 @@ Event is triggered to start the wrapup timer after a conversation concludes.
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [closeWrapup](./closeWrapup_933691394.md)
+- [closeWrapup](./closeWrapup.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

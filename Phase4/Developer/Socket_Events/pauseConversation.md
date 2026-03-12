@@ -48,5 +48,5 @@ Event is emitted when an agent requests the Agent Manager to hold or pause the c
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [resumeConversation](./resumeConversation_933691413.md)
+- [resumeConversation](./resumeConversation.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

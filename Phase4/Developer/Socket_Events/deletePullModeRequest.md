@@ -29,5 +29,5 @@ Event is emitted when an agent ends a chat. The Agent Desk emits `deletePullMode
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [joinPullModeRequest](./joinPullModeRequest_2531724.md)
+- [joinPullModeRequest](./joinPullModeRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

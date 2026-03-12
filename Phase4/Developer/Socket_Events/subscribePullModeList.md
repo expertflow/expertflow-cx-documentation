@@ -122,6 +122,6 @@ When an agent subscribes to a list, the Agent Desk emits `subscribePullModeList`
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [unsubscribePullModeList](./unsubscribePullModeList_2531766.md)
-- [onPullModeSubscribedList](./onPullModeSubscribedList_2531732.md)
+- [unsubscribePullModeList](./unsubscribePullModeList.md)
+- [onPullModeSubscribedList](./onPullModeSubscribedList.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

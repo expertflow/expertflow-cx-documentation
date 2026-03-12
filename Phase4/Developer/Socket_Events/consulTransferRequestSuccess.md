@@ -41,5 +41,5 @@ Event is triggered when an agent is assigned to the conversation in response to 
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [consultTransferRequest](./consultTransferRequest_933691449.md)
+- [consultTransferRequest](./consultTransferRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

@@ -43,5 +43,5 @@ Event is emitted when an agent joins a chat. The Agent Desk emits `joinPullModeR
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [deletePullModeRequest](./deletePullModeRequest_2531709.md)
+- [deletePullModeRequest](./deletePullModeRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

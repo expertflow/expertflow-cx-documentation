@@ -44,6 +44,6 @@ Event is emitted when a supervisor requests the Agent Manager to whisper into an
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [JoinAsSilentMonitor](./JoinAsSilentMonitor_2528276.md)
-- [JoinAsBargeIn](./JoinAsBargin_2523671.md)
+- [JoinAsSilentMonitor](./JoinAsSilentMonitor.md)
+- [JoinAsBargeIn](./JoinAsBargeIn.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

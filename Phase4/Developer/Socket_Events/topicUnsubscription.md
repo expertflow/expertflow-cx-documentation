@@ -43,6 +43,6 @@ Event is triggered when an agent leaves the conversation. Returns a success mess
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [topicSubscription](./topicSubscription_2531760.md)
-- [topicClosed](./topicClosed_2531758.md)
+- [topicSubscription](./topicSubscription.md)
+- [topicClosed](./topicClosed.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

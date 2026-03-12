@@ -35,6 +35,6 @@ Event is triggered when an agent unsubscribes from a list. Returns the ID of the
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [addPullModeSubscribedListRequests](./addPullModeSubscribedListRequests_2531698.md)
-- [unsubscribePullModeList](./unsubscribePullModeList_2531766.md)
+- [addPullModeSubscribedListRequests](./addPullModeSubscribedListRequests.md)
+- [unsubscribePullModeList](./unsubscribePullModeList.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

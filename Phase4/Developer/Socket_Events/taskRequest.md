@@ -202,6 +202,6 @@ Event is triggered on a new conversation request. The Agent Manager emits this e
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [revokeTask](./revokeTask_2531748.md)
-- [topicSubscription](./topicSubscription_2531760.md)
+- [revokeTask](./revokeTask.md)
+- [topicSubscription](./topicSubscription.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

@@ -44,6 +44,6 @@ Agent requests the Agent Manager to unsubscribe from a conversation topic by emi
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [topicSubscription](./topicSubscription_2531760.md)
-- [topicUnsubscription](./topicUnsubscription_2531762.md)
+- [topicSubscription](./topicSubscription.md)
+- [topicUnsubscription](./topicUnsubscription.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

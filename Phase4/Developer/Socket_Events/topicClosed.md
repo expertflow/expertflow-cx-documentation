@@ -41,6 +41,6 @@ Event is triggered to notify the agent whenever a topic (conversation) is closed
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [topicSubscription](./topicSubscription_2531760.md)
-- [topicUnsubscription](./topicUnsubscription_2531762.md)
+- [topicSubscription](./topicSubscription.md)
+- [topicUnsubscription](./topicUnsubscription.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

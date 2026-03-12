@@ -256,6 +256,6 @@ Event is emitted when an agent wants to leave the conversation and transfer it t
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [directConferenceRequest](./directConferenceRequest_2531711.md)
-- [consultTransferRequest](./consultTransferRequest_933691449.md)
+- [directConferenceRequest](./directConferenceRequest.md)
+- [consultTransferRequest](./consultTransferRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

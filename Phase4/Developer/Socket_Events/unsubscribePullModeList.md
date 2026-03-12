@@ -122,6 +122,6 @@ When an agent unsubscribes from a list, the Agent Desk emits `unsubscribePullMod
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [subscribePullModeList](./subscribePullModeList_2531752.md)
-- [removePullModeSubscribedListRequests](./removePullModeSubscribedListRequests_2531746.md)
+- [subscribePullModeList](./subscribePullModeList.md)
+- [removePullModeSubscribedListRequests](./removePullModeSubscribedListRequests.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

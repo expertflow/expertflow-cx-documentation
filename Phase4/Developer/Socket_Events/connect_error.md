@@ -27,5 +27,5 @@ This event carries no structured payload properties. The error object is passed 
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [errors](./errors_2531722.md)
+- [errors](./errors.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

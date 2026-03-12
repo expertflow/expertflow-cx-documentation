@@ -256,6 +256,6 @@ Event is emitted when an agent requests another agent (from a certain queue) to 
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [consultRequest](./consultRequest_933625882.md)
-- [consultTransferRequest](./consultTransferRequest_933691449.md)
+- [consultRequest](./consultRequest.md)
+- [consultTransferRequest](./consultTransferRequest.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)
