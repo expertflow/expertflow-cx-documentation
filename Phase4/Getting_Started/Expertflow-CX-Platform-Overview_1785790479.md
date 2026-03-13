@@ -1,36 +1,77 @@
 ---
-title: "ExpertFlow CX: Vision and Capabilities"
-summary: "High-level overview of the ExpertFlow CX platform, highlighting its AI-native architecture, omnichannel engagement, and flexible deployment models."
-audience: [decision-maker, partner, reseller]
+
+## title: "Expertflow CX Platform Overview"
+summary: "A comprehensive guide to the Expertflow CX ecosystem, its core capabilities, user-centric benefits, and omnichannel integration landscape."
+audience: [decision-maker, partner, reseller, solution-admin]
 product-area: [platform, strategic]
 doc-type: explanation
 difficulty: beginner
-aliases: []
-last-updated: 2026-03-08
+last-updated: 2026-03-12
+
+# Expertflow CX: Unified AI-Native Omnichannel Platform
+
+Expertflow CX is a multi-tenant, customer-centric contact center solution designed to unify interactions across voice, digital, and social media channels. By combining high-performance routing with a "Bring Your Own AI" orchestration layer, it enables enterprises to deliver a consistent, intelligent customer experience while maintaining total data sovereignty.
+
+## 1. Core Platform Capabilities
+
+Expertflow CX is built on a modern, microservices-based architecture running on **Linux and Kubernetes (RKE2)**.
+
+- **Multi-tenant Isolation:** Support multiple virtually independent contact centers (tenants) on a single infrastructure. Each tenant maintains its own configurations, teams, data stores, and interaction history.
+- **Intelligent CX Routing:** 
+  - **Precision Routing (Push):** Automatically matches customer requests to the most suitable agent based on skills, priority, and wait time.
+  - **Pull-Mode Lists:** Allows agents to subscribe to specific channel queues and fetch requests on demand.
+- **AI Orchestration Layer:** A decoupled architecture that separates reasoning from execution. Plug in any LLM (OpenAI, Gemini, Ollama) or NLU engine (Rasa, Dialogflow) for real-time agent assistance, bots, and automated quality audits.
+
+## 2. User-Centric Benefits
+
+The platform provides tailored interfaces and tools for every role in the contact center:
+
+
+| Role               | Key Capabilities & Benefits                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Agents**         | A unified, browser-based **Agent Desk** with multi-session handling, RTL support, interaction history, CTI controls, and real-time AI assistance. |
+| **Supervisors**    | Real-time dashboards for monitoring queues and agent states, plus tools for **Silent Monitoring**, **Barge-in**, and **Whisper Mode**.            |
+| **Administrators** | A **Unified Admin Console** to manage licenses, routing logic, bot connectors, channel providers, and security settings via Keycloak IAM.         |
+| **AI Specialists** | Tools to configure RAG-based bots, sentiment-based handovers, and AI-powered quality evaluations.                                                 |
+
+
+*Learn more in the [Persona-Based Guides](../Role-Based_Guides/index.md) (Coming Soon).*
+
+## 3. Omnichannel Matrix
+
+Expertflow CX integrates with a vast array of channels, ensuring a unified context regardless of how the customer reaches out. Explore the functional specifications for each category:
+
+- **[Voice & Video](../Functional_Areas/Voice_Real-time_Media/Voice-and-Video-Overview.md):** Inbound/Outbound SIP-based voice, WebRTC-to-SIP, and [Video support](../Functional_Areas/Voice_Real-time_Media/Video-Customer-Support.md).
+- **Messaging & Social:**
+    - **[WhatsApp](../Solution_Admin/WhatsApp-Channel-Overview.md):** Meta Cloud & 360dialog integrations.
+    - **[Facebook & Instagram](../Functional_Areas/Digital_Channel_Management/Facebook-Channel-Overview.md):** Direct messaging and social media interaction management.
+    - **[Twitter](../Functional_Areas/Digital_Channel_Management/Twitter-Channel-Overview.md) & [LinkedIn](../Functional_Areas/Digital_Channel_Management/LinkedIn-Channel-Overview.md):** Enterprise-grade social connectors.
+    - **[Telegram](../Functional_Areas/Digital_Channel_Management/Telegram-Channel-Overview.md):** Full support for bot-based customer service.
+- **Digital Channels:**
+    - **[Web Chat](../Functional_Areas/Digital_Channel_Management/Customer-Widget-Features-Capabilities.md):** Real-time engagement via the customizable Customer Widget.
+    - **[Email](../Functional_Areas/Digital_Channel_Management/Email-Channel-Overview.md):** Unified handling for IMAP, SMTP, and MS Exchange.
+    - **[SMS/MMS](../Functional_Areas/Digital_Channel_Management/SMPP-Channel-Overview.md):** Support via Twilio and SMPP protocols.
+- **Custom Channels:** Extendable via the [Channel Connector Developer Guide](../Integrator/Channel-Connector-Developer-Guide.md) for proprietary or emerging media.
+
+## 4. Integration Ecosystem
+
+Protect existing investments by bridging Expertflow CX with your business core:
+
+- **CRM Connectors:** Bi-directional integration with Salesforce, Microsoft Dynamics, Oracle Siebel, SAP, ServiceNow, and Zoho.
+- **WFM Support:** Native workforce management components or integration with 3rd-party solutions like Calabrio and Verint.
+- **Cisco Integration:** Deep compatibility with Cisco UCCE/X and Finesse Gadgets for hybrid voice/digital environments.
+
+## 5. Deployment & Security
+
+- **Hybrid Deployment:** Available as a cloud subscription or on-premise Kubernetes installation.
+- **Enterprise Security:** Centralized Identity and Access Management (IAM) via Keycloak, TLS encryption on all components, and AES256 data encryption at rest.
+- **Compliance Ready:** Designed to support GDPR, HIPAA, and PCI-DSS compliance requirements.
+
 ---
 
-# ExpertFlow CX: Vision and Capabilities
+### Next Steps
 
-ExpertFlow CX is an AI-native omnichannel collaboration platform designed to unify customer interactions across voice, digital, and social media channels. It provides a cohesive ecosystem for routing, quality management, and AI orchestration, allowing enterprises to maintain control over their data while leveraging cutting-edge AI capabilities.
+- **Plan your deployment:** [Release Lifecycle and Versioning](../Decision_Maker/Release-Lifecycle-and-Versioning.md)
+- **Configure your first channel:** [Channel and Connector Setup](../Solution_Admin/Channel-and-Connector-Setup.md)
+- **Explore the API:** [AgentManager SDK Integration Guide](../Developer/AgentManager-SDK-Integration-Guide.md)
 
-## 1. Key Value Propositions
-- **Unified Omnichannel Experience:** Consistent routing and context handover across all touchpoints, ensuring customers never have to repeat themselves.
-- **AI-Native Intelligence:** Built-in real-time agent assistance, automated quality evaluations, and conversational IVR grounded in your actual knowledge base (RAG).
-- **Flexible AI Orchestration:** "Bring Your Own AI" architecture avoids vendor lock-in, supporting any LLM engine (OpenAI, Gemini, Ollama) and custom bot frameworks.
-- **Hybrid Deployment Models:** Deploy on-premise for data sovereignty, in the cloud for rapid time-to-value, or a hybrid model to meet regional compliance needs.
-
-## 2. Platform Architecture
-Running on **Linux and Kubernetes (RKE2)**, the platform combines a high-performance shared core with strict multi-tenant isolation.
-- **CX-Core:** Manages unified routing, agent presence, and digital channels.
-- **Data Layer:** Uses operational NoSQL for interaction data, with ETL pipelines into SQL for long-term analytics.
-- **Tenant Isolation:** Ensures every customer has their own dedicated configurations, teams, and data stores.
-
-## 3. Integration Ecosystem
-Protect your existing investments by bridging ExpertFlow CX with:
-- **Contact Center Platforms:** Deep integration with Cisco UCCE/X.
-- **Business Apps:** Bi-directional sync with CRMs (Salesforce, Dynamics) for screen-pops and automated logging.
-- **AI Engines:** Plug-and-play connectivity with TTS/ASR and LLM providers.
-
----
-
-*Ready to plan your deployment? See the [Release Lifecycle and Versioning](../Decision_Maker/Release-Lifecycle-and-Versioning.md) guide.*
