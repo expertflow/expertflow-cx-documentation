@@ -8,12 +8,12 @@ navigation_tree:
         items:
           - title: The Agent Quick-Start Guide
             slug: Agent-Quick-Start-Guide
-            type: audit-needed
+            type: tutorial
       - section: For Supervisors (Sam)
         items:
           - title: Monitoring Your Team in Real-Time
             slug: Monitoring-Your-Team-in-Real-Time
-            type: audit-needed
+            type: how-to
       - section: For Solution Admins (Olivia)
         items:
           - title: Unified Admin Guide
@@ -23,7 +23,7 @@ navigation_tree:
         items:
           - title: Managing the QA Workflow
             slug: Managing-the-Quality-Assurance-Workflow
-            type: audit-needed
+            type: how-to
       - section: For Human Evaluators (Eva)
         items:
           - title: User Guide for Evaluator
@@ -33,39 +33,57 @@ navigation_tree:
         items:
           - title: Security & Compliance Whitepaper
             slug: Security-and-Compliance-Whitepaper
-            type: audit-needed
+            type: explanation
       - section: For Frontend Developers (Dev)
         items:
           - title: AgentManager SDK Reference
             slug: Agent-Desk-Developer-Guide_2523754
-            type: how-to
+            type: reference
       - section: For Conversation Designers (Dave)
         items:
           - title: Conversation Studio Overview
             slug: Configuration-Guide---Conversation-Studio_1017118849
-            type: how-to
+            type: explanation
       - section: For Integration Specialists (Ian)
         items:
           - title: Cisco UCCE/X Integration Reference
             slug: Cisco-Contact-Center-Integration-Reference
-            type: audit-needed
+            type: reference
       - section: For AI Quality Specialists
         items:
           - title: Configuring AI-Powered Quality Audits
             slug: Configuring-AI-Powered-Quality-Audits
-            type: audit-needed
+            type: how-to
       - section: For Multi-tenant Partners (Host)
         items:
           - title: Deploying the RKE2 Control Plane
             slug: Deploying-the-RKE2-Control-Plane
-            type: audit-needed
+            type: how-to
       - section: For Resellers (Cloud)
         items:
           - title: Onboarding a New Tenant
-            slug: Tenant-Onboarding--To-be-removed_1015775291
-            type: explanation
+            slug: Onboarding-a-New-Tenant
+            type: how-to
+      - section: Before You Begin
+        items:
+          - title: Glossary of Key Terms
+            slug: Glossary-of-Key-Terms
+            type: reference
+            status: to-create
+          - title: What's New (Release Notes)
+            slug: Expertflow-CX-Release-Versioning_2525588
+            type: reference
   - section: Strategic Vision & Value
-    items: []
+    items:
+      - title: Platform Architecture & Scalability
+        slug: Platform-Architecture-and-Scalability
+        type: explanation
+      - title: AI & Automation Strategy
+        slug: Conversation-Analytics_1324089511
+        type: explanation
+      - title: Hardware Sizing & Resource Requirements
+        slug: Hardware-Sizing-and-System-Requirements_2524410
+        type: reference
   - section: Role-Based Guides
     items:
       - section: Agent (Amy)
