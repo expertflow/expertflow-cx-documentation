@@ -59,6 +59,6 @@ To receive real-time status updates, developers must register an endpoint via th
 ---
 
 ## Related Guides
-*   [CIM Message Schema Master](../Developer/CIM-Message-Schema/CIM-Messages.md)
-*   [Agent Task Routing Lifecycle](../Developer/Agent-Task-Routing-Lifecycle.md)
+*   [CIM Message Schema Master](CIM-Message-Schema/CIM-Messages.md)
+*   [Agent Task Routing Lifecycle](Agent-Task-Routing-Lifecycle.md)
 *   [Interaction Model Overview](../Developer/Socket_Events/index.md)

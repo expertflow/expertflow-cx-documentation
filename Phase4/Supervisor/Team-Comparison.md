@@ -35,7 +35,7 @@ Data is displayed across multiple time scales: **daily**, **weekly**, **monthly*
 
 ## Related Articles
 
-- [Quality Assurance Reports](../QM/Quality-Assurance-Reports.md)
-- [As a Quality Manager](../QM/As-a-Quality-Manager.md)
-- [Designing Evaluation Forms](../QM/Designing-Evaluation-Forms.md)
+- [Quality Assurance Reports](../Quality_Management/Quality-Assurance-Reports.md)
+- [As a Quality Manager](../Quality_Management/As-a-Quality-Manager.md)
+- [Designing Evaluation Forms](../Quality_Management/Designing-Evaluation-Forms.md)
 - [Managing Teams and Members](Managing-Teams-and-Members.md)

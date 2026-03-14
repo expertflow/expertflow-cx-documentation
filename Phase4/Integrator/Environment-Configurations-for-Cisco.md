@@ -118,6 +118,6 @@ Replace the IP and hostname with your actual Finesse server values.
 ## Related Articles
 
 - [Cisco Voice Channel Configuration](Cisco-Voice-Channel-Configuration.md)
-- [Cisco Contact Center Integration Reference](Cisco-Contact-Center-Integration-Reference.md)
+- [Cisco Contact Center Integration Reference](../Getting_Started/Cisco-Contact-Center-Integration-Reference.md)
 - [Synchronizing Cisco Users and Teams](Synchronizing-Cisco-Users-and-Teams.md)
 - [Finesse Integration Prerequisites](Finesse-Integration-Prerequisites.md)

@@ -31,4 +31,4 @@ If your database requires SSL:
 3. Edit your connection, go to the **Advanced Tab**, and paste the certificate into the **Root Certificate** field.
 4. Click **Finish** to save.
 
-For more details on enabling Alerts and Reports, see the [Superset Alerts Guide](../ARCHIVE_NOTICE.md).
+For more details on enabling Alerts and Reports, see the [Superset Alerts Guide](../Archive-Notice.md).

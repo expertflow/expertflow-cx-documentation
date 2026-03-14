@@ -70,6 +70,6 @@ The following table defines the primary events used across the platform's micros
 ---
 
 ## Related Guides
-*   [Platform Objects and Data Model](./Platform-Objects-and-Data-Model.md)
-*   [CIM Message Schema Master](./CIM-Message-Schema/CIM-Messages.md)
+*   [Platform Objects and Data Model](Platform-Objects-and-Data-Model.md)
+*   [CIM Message Schema Master](CIM-Message-Schema/CIM-Messages.md)
 *   [Socket Events Reference](./Socket_Events/index.md)

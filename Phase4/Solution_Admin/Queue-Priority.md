@@ -105,5 +105,5 @@ If only one agent is available and that agent enters a **Reserved** state for an
 - [Routing Attributes and Queues](Routing-Attributes-and-Queues.md)
 - [Precision Routing](Precision-Routing.md)
 - [Priority Routing](Priority-Routing.md)
-- [Pull-Mode Routing](Pull-Mode-Routing.md)
+- [Pull-Mode Routing](Routing-Strategy-Pull-Mode.md)
 - [Media Routing Domains (MRD) Overview](Media-Routing-Domains-MRD-Overview.md)

@@ -148,4 +148,4 @@ Apply the configuration: `kubectl apply -f ef-recording-middleware.yaml`.
 
 ## Related Guides
 *   [CX Voice Deployment Overview](CX-Voice-Deployment.md)
-*   [Managing the QA Workflow](../QM/Managing-the-Quality-Assurance-Workflow.md)
+*   [Managing the QA Workflow](../Getting_Started/Managing-the-Quality-Assurance-Workflow.md)

@@ -43,7 +43,7 @@ The following capabilities are available to supervisors only and are not accessi
 
 | Task | Article |
 |---|---|
-| Monitor real-time dashboards | [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md) |
+| Monitor real-time dashboards | [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md) |
 | Use the Summary Dashboard | [Summary Dashboard](Summary-Dashboard.md) |
 | Use detailed dashboards | [Realtime Detailed Dashboards](Realtime-Detailed-Dashboards.md) |
 | Silently monitor conversations | [Silent Monitoring](Silent-Monitoring.md) |

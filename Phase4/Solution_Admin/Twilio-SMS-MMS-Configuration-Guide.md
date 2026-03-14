@@ -48,6 +48,6 @@ To test WhatsApp for free:
 
 ## Related Articles
 - [Routing Strategy: Pull Mode](./Routing-Strategy-Pull-Mode.md)
-- [WhatsApp Channel Overview](./WhatsApp-Channel-Overview.md)
-- [Channel and Connector Setup](./Channel-and-Connector-Setup.md)
+- [WhatsApp Channel Overview](../Functional_Areas/Digital_Channel_Management/WhatsApp-Channel-Overview.md)
+- [Channel and Connector Setup](Channel-and-Connector-Setup.md)
 *

@@ -80,5 +80,5 @@ ExpertFlow provides CRM-CTI connectors for integrating contact center platforms 
 ## Related Articles
 
 - [Channel and Connector Setup](../Solution_Admin/Channel-and-Connector-Setup.md)
-- [Cisco Contact Center Integration Reference](Cisco-Contact-Center-Integration-Reference.md)
+- [Cisco Contact Center Integration Reference](../Getting_Started/Cisco-Contact-Center-Integration-Reference.md)
 - [Channel Connector Developer Guide](Channel-Connector-Developer-Guide.md)

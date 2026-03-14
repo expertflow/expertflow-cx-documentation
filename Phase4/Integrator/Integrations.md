@@ -36,7 +36,7 @@ See [Bot Connector Developer Guide](Bot-Connector-Developer-Guide.md) and [Add B
 
 Integrate CX with Cisco UCCX and UCCE for voice channel routing, agent state synchronization, outbound dialing, and screen pop.
 
-See [Cisco Contact Center Integration Reference](Cisco-Contact-Center-Integration-Reference.md) and [Cisco Voice Channel Configuration](Cisco-Voice-Channel-Configuration.md).
+See [Cisco Contact Center Integration Reference](../Getting_Started/Cisco-Contact-Center-Integration-Reference.md) and [Cisco Voice Channel Configuration](Cisco-Voice-Channel-Configuration.md).
 
 ---
 

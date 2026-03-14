@@ -90,8 +90,8 @@ Once active, the scheduler runs at the defined interval, assigns matching conver
 
 ## Related Articles
 
-- [Designing Evaluation Forms](../../QM/Designing-Evaluation-Forms.md)
-- [Managing the Quality Assurance Workflow](../../QM/Managing-the-Quality-Assurance-Workflow.md)
-- [Quality Assurance Reports](../../QM/Quality-Assurance-Reports.md)
+- [Designing Evaluation Forms](../../Quality_Management/Designing-Evaluation-Forms.md)
+- [Managing the Quality Assurance Workflow](../../Getting_Started/Managing-the-Quality-Assurance-Workflow.md)
+- [Quality Assurance Reports](../../Quality_Management/Quality-Assurance-Reports.md)
 - [Auditing and Scoring Conversations](../../Evaluator/Auditing-and-Scoring-Conversations.md)
 - [Workforce Management Overview](Workforce-Management-Overview.md)

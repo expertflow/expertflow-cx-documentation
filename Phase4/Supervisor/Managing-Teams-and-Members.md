@@ -39,4 +39,4 @@ All team management is performed under the **Teams** tab in Unified Admin.
 
 ---
 
-*Ready to start monitoring? Check the [Monitoring Your Team in Real-Time](Monitoring-Your-Team-in-Real-Time.md) guide.*
+*Ready to start monitoring? Check the [Monitoring Your Team in Real-Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md) guide.*

@@ -47,5 +47,5 @@ kubectl -n ef-ai port-forward svc/rasa-x 5002:5002
 ---
 
 ## Related Guides
-*   [Configuring AI-Powered Quality Audits](../AI_Specialist/Configuring-AI-Powered-Quality-Audits.md)
+*   [Configuring AI-Powered Quality Audits](../Getting_Started/Configuring-AI-Powered-Quality-Audits.md)
 *   [AI Orchestration and LLM Logic](../AI_Specialist/AI-Orchestration-and-LLM-Logic.md)

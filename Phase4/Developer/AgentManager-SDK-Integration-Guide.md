@@ -42,4 +42,4 @@ For mobile or background desktop applications, integrate with the FCM platform.
 
 ---
 
-*For exhaustive event schemas, see the [Socket Events Schema Reference](Socket-Events.md).*
+*For exhaustive event schemas, see the [Socket Events Schema Reference](Socket_Events/index.md).*

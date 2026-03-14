@@ -47,6 +47,6 @@ The evaluation form is embedded directly within the Conversation View — evalua
 
 ## Related Articles
 
-- [Designing Evaluation Forms](../../QM/Designing-Evaluation-Forms.md)
+- [Designing Evaluation Forms](../../Quality_Management/Designing-Evaluation-Forms.md)
 - [QA / QM Forms and Evaluation](../../Supervisor/QA-QM-Forms-Evaluation.md)
-- [Quality Assurance Reports](../../QM/Quality-Assurance-Reports.md)
+- [Quality Assurance Reports](../../Quality_Management/Quality-Assurance-Reports.md)

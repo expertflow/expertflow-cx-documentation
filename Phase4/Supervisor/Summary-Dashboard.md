@@ -88,5 +88,5 @@ Shows the number of active conversations currently being handled by the bot. Fil
 
 - [Realtime Detailed Dashboards](Realtime-Detailed-Dashboards.md)
 - [Team Stats Dashboard](Team-Stats-Dashboard.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)
 - [Key Reporting Metrics](../Functional_Areas/Performance_Insights_Data/Key-Reporting-Metrics.md)

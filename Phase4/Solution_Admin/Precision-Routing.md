@@ -74,6 +74,6 @@ The Routing Engine evaluates agents in sequence through the queue steps until a 
 ## Related Articles
 
 - [Routing Attributes and Queues](Routing-Attributes-and-Queues.md)
-- [Pull-Mode Routing](Pull-Mode-Routing.md)
+- [Pull-Mode Routing](Routing-Strategy-Pull-Mode.md)
 - [Priority Routing](Priority-Routing.md)
 - [Media Routing Domains (MRD) Overview](Media-Routing-Domains-MRD-Overview.md)

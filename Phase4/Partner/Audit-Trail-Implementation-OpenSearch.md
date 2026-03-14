@@ -63,5 +63,5 @@ Once configured, navigate to the **Discover** tab in OpenSearch Dashboards. You 
 
 ## Related Guides
 *   [Logging and Tracing Integration Reference](../Integrator/Logging-and-Tracing-OpenSearch.md)
-*   [Managing Audit Logs](../Functional_Areas/Security_Compliances/Audit-Logging.md)
-*   [Platform Security Overview](../Decision_Maker/Security-and-Compliance-Whitepaper.md)
+*   [Managing Audit Logs](../Functional_Areas/Security_Compliance/Audit-Logging.md)
+*   [Platform Security Overview](../Getting_Started/Security-and-Compliance-Whitepaper.md)

@@ -121,4 +121,4 @@ Displays the volume of calls routed to the queue over time — useful for identi
 - [Summary Dashboard](Summary-Dashboard.md)
 - [Realtime Detailed Dashboards](Realtime-Detailed-Dashboards.md)
 - [SLA Calculations](SLA-Calculations.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)

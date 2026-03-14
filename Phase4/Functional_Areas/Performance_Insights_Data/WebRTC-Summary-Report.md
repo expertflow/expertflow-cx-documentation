@@ -46,6 +46,6 @@ Compare **Total Failure** spikes against known events (platform releases, networ
 ## Related Articles
 
 - [WebRTC Detail Report](WebRTC-Detail-Report.md)
-- [Web App Calls Overview](../../Solution_Admin/Web-App-Calls-Overview.md)
+- [Web App Calls Overview](../Voice_Real_Time_Media/Web-App-Calls-Overview.md)
 - [Historical Reports Reference](../../Supervisor/Historical-Reports-Reference.md)
 - [Key Reporting Metrics](Key-Reporting-Metrics.md)

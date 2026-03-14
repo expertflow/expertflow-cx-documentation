@@ -92,6 +92,6 @@ Replace `[opensearch-host]`, `[opensearch-user]`, and `[opensearch-password]` wi
 
 ## Related Articles
 
-- [Audit Logging](../Functional_Areas/Security_Compliances/Audit-Logging.md)
+- [Audit Logging](../Functional_Areas/Security_Compliance/Audit-Logging.md)
 - [Accessing Kubernetes Logs](../Solution_Admin/Accessing-Kubernetes-Logs.md)
 - [RKE2 SSL Certificate Extension](../Solution_Admin/RKE2-SSL-Certificate-Extension.md)

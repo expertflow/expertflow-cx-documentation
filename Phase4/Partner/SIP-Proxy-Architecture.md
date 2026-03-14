@@ -53,7 +53,7 @@ When integrated with a Cisco Contact Center (UCCE/PCCE), the SIP Proxy maps the 
 ---
 
 ## Related Guides
-*   [CX SIP Proxy Installation Guide](./CX-SIP-Proxy-Installation-Guide.md)
-*   [Configuring the Dispatcher in CX SIP Proxy](./Configuring-Dispatcher-in-CX-SIP-Proxy.md)
-*   [HA in EF SIP Proxy](./HA-in-EF-SIP-Proxy.md)
-*   [Cisco Contact Center Integration Reference](../Integrator/Cisco-Contact-Center-Integration-Reference.md)
+*   [CX SIP Proxy Installation Guide](CX-SIP-Proxy-Installation-Guide.md)
+*   [Configuring the Dispatcher in CX SIP Proxy](Configuring-Dispatcher-in-CX-SIP-Proxy.md)
+*   [HA in EF SIP Proxy](HA-in-EF-SIP-Proxy.md)
+*   [Cisco Contact Center Integration Reference](../Getting_Started/Cisco-Contact-Center-Integration-Reference.md)

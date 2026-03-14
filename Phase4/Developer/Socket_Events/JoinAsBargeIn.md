@@ -47,5 +47,5 @@ The `joinAsBargeIn` event is emitted by the **Agent Desk** (on behalf of a super
 
 ## Related Events
 *   [JoinAsSilentMonitor](./JoinAsSilentMonitor.md)
-*   [onCimEvent](./onCimEvent.md)
-*   [publishCimEvent](./publishCimEvent.md)
+*   [onCimEvent](onCimEvent.md)
+*   [publishCimEvent](publishCimEvent.md)

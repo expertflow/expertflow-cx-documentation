@@ -80,5 +80,5 @@ Screen recording is currently available for:
 
 - [Handle Voice Recordings](Handle-Voice-Recording.md)
 - [Auditing and Scoring Conversations](Auditing-and-Scoring-Conversations.md)
-- [As an Evaluator](As-an-Evaluator.md)
+- [As an Evaluator](../Getting_Started/Evaluator-Guide.md)
 - [Compatibility Guide — Media Recording](Compatibility-Guide-Media-Recording.md)

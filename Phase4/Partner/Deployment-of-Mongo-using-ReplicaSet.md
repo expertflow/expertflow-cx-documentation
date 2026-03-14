@@ -80,4 +80,4 @@ mongo-mongodb-1   1/1     Running   0          6m
 
 ## Related Guides
 *   [Upgrade to MongoDB Version 8.x](Upgrade-to-MongoDB-Version-8.x.md)
-*   [Database Backup and Restore](../ARCHIVE_NOTICE.md)
+*   [Database Backup and Restore](../Archive-Notice.md)

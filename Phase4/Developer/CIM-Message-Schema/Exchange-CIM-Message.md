@@ -35,7 +35,7 @@ Agent Desk applications communicate with Agent Manager via Socket.IO:
 - **Agent Desk → Agent Manager**: Use the `publishCimEvent` socket event to send messages.
 - **Agent Manager → Agent Desk**: Use the `onCimEvent` socket event to receive messages.
 
-See [Socket Events](../Socket-Events.md) for the full event list.
+See [Socket Events](../Socket_Events/index.md) for the full event list.
 
 ### Channel Connector ↔ CCM (REST API)
 
@@ -60,7 +60,7 @@ Bot connectors also use REST:
 - [CIM Messages](CIM-Messages.md)
 - [Message Header](Message-Header.md)
 - [Message Body](Message-Body.md)
-- [Socket Events](../Socket-Events.md)
-- [publishCimEvent](../publishCimEvent.md)
-- [onCimEvent](../onCimEvent.md)
+- [Socket Events](../Socket_Events/index.md)
+- [publishCimEvent](../Socket_Events/publishCimEvent.md)
+- [onCimEvent](../Socket_Events/onCimEvent.md)
 - [Channel Connector Developer Guide](../../Integrator/Channel-Connector-Developer-Guide.md)

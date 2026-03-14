@@ -27,5 +27,5 @@ This event carries a generic error object. No fixed payload structure is defined
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [connect_error](./connect_error.md)
+- [connect_error](./connectError.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

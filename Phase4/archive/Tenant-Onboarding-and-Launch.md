@@ -33,7 +33,7 @@ Upon registration, the CX Tenant service automatically:
 
 ## 4. Final Handoff
 Once the bootstrap events are triggered, the tenant is **LIVE.**
-- Proceed with [Standard CX Configuration](../Solution_Admin/Unified-Admin-Core-Configuration.md) (Teams, Queues, Channels).
+- Proceed with [Standard CX Configuration](../Getting_Started/Unified-Admin-Guide.md) (Teams, Queues, Channels).
 - Upload the customer's [Master License Key](Monitoring-License-and-Renewals.md).
 
 ---

@@ -79,5 +79,5 @@ Formal testing and QA are executed with the following phones only.
 
 - [Playing Screen Recordings in Quality Management](Playing-Screen-Recordings.md)
 - [Handle Voice Recordings](Handle-Voice-Recording.md)
-- [As an Evaluator](As-an-Evaluator.md)
+- [As an Evaluator](../Getting_Started/Evaluator-Guide.md)
 - [Voice Recording and Compliance Features](../Decision_Maker/Voice-Recording-and-Compliance-Features.md)

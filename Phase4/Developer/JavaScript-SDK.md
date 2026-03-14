@@ -170,5 +170,5 @@ After calling `establishConnection()`, the following event listeners are active 
 - [Customer-Facing SDK for Omnichannel Communication](Customer-Facing-SDK.md)
 - [WebRTC Configuration Guide](../Solution_Admin/WebRTC-Configuration-Guide.md)
 - [CIM Messages](CIM-Message-Schema/CIM-Messages.md)
-- [Socket Events](Socket-Events.md)
+- [Socket Events](Socket_Events/index.md)
 - [Form APIs](Form-APIs.md)

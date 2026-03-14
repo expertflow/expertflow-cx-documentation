@@ -124,7 +124,7 @@ All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) sup
 | Medium (multi-tenant, 5–10 tenants) | up to 300 | 5–6 nodes (16 vCPU / 32 GB each) |
 | Large (multi-tenant, 20+ tenants) | 500+ | 8+ nodes, separate DB node pool |
 
-> For detailed sizing, see [Hardware Sizing & Resource Requirements](Hardware-Sizing-and-System-Requirements_2524410.md).
+> For detailed sizing, see [Hardware Sizing & Resource Requirements](../Solution_Admin/Sizing-Guidelines.md).
 
 ---
 
@@ -147,4 +147,4 @@ All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) sup
 
 ---
 
-*Related: [Security & Compliance Whitepaper](../Getting_Started/Decision_Maker/Security-and-Compliance-Whitepaper.md) · [Hardware Sizing & Resource Requirements](Hardware-Sizing-and-System-Requirements_2524410.md)*
+*Related: [Security & Compliance Whitepaper](../Getting_Started/Security-and-Compliance-Whitepaper.md) · [Hardware Sizing & Resource Requirements](../Solution_Admin/Sizing-Guidelines.md)*

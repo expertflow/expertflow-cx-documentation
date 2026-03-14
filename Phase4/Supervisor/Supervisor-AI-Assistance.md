@@ -68,5 +68,5 @@ After the AI Analyzer node, add one or both of the following assistant nodes dep
 
 - [Silent Monitoring](Silent-Monitoring.md)
 - [Barge-in and Intervention](Barge-in-and-Intervention.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)
 - [Real-time Contact Center Analytics](../Functional_Areas/Performance_Insights_Data/Real-time-Contact-Center-Analytics.md)

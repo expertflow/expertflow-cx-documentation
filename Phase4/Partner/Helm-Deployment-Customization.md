@@ -82,4 +82,4 @@ kubectl -n expertflow get pods -w
 
 ## Related Guides
 *   [Helm-Based Application Deployment](Helm-Based-Application-Deployment.md)
-*   [Deploying the RKE2 Control Plane](Deploying-the-RKE2-Control-Plane.md)
+*   [Deploying the RKE2 Control Plane](../Getting_Started/Deploying-the-RKE2-Control-Plane.md)

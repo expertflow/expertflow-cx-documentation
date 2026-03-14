@@ -42,4 +42,4 @@ You can fine-tune your availability for specific channels (e.g., being Ready for
 
 ---
 
-*New to the platform? Start with the [Agent Quick-Start Guide](Agent-Quick-Start-Guide.md).*
+*New to the platform? Start with the [Agent Quick-Start Guide](../Getting_Started/Agent-Quick-Start-Guide.md).*

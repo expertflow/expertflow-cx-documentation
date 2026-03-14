@@ -68,4 +68,4 @@ The Summary Dashboard theme stays in sync with Agent Desk:
 - [Summary Dashboard](Summary-Dashboard.md)
 - [Realtime Detailed Dashboards](Realtime-Detailed-Dashboards.md)
 - [Impact of Team Structure on Dashboards](Impact-of-Team-Structure-on-Dashboards.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)

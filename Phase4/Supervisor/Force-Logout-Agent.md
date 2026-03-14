@@ -84,4 +84,4 @@ The agent is immediately logged out with reason code `FORCED_LOGOUT_BY_SUPERVISO
 - [Silent Monitoring](Silent-Monitoring.md)
 - [Barge-in and Intervention](Barge-in-and-Intervention.md)
 - [Managing Teams and Members](Managing-Teams-and-Members.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)

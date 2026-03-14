@@ -100,4 +100,4 @@ Search for dashboards with names containing **"EFSwitch"** to confirm each dashb
 
 - [Accessing CX Voice Components](../Solution_Admin/Accessing-CX-Voice-Components.md)
 - [Media Server Configuration CX Voice](../Solution_Admin/Media-Server-Configuration-CX-Voice.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)

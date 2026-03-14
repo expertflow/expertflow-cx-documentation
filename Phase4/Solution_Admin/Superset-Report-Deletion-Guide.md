@@ -29,4 +29,4 @@ This procedure details how to completely remove EFCX reports and database connec
    - Type `DELETE` to confirm.
 
 ## Result
-All EFCX reporting metadata and connections are now removed. You may now proceed with importing a new package via the [Superset Import Guide](../ARCHIVE_NOTICE.md).
+All EFCX reporting metadata and connections are now removed. You may now proceed with importing a new package via the [Superset Import Guide](../Archive-Notice.md).

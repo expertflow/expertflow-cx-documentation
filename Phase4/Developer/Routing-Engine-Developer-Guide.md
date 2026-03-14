@@ -186,7 +186,7 @@ Incoming requests are broadcast to a List. Subscribed agents receive notificatio
 ## Related Articles
 
 - [Precision Routing](../Solution_Admin/Precision-Routing.md)
-- [Pull-Mode Routing](../Solution_Admin/Pull-Mode-Routing.md)
+- [Pull-Mode Routing](../Solution_Admin/Routing-Strategy-Pull-Mode.md)
 - [Agent Task Routing Lifecycle](Agent-Task-Routing-Lifecycle.md)
-- [Agent MRD States Reference](../Agent/Agent-MRD-States-Reference.md)
+- [Agent MRD States Reference](../Agent/Agent-States.md)
 - [Media Routing Domains (MRD) Overview](../Solution_Admin/Media-Routing-Domains-MRD-Overview.md)

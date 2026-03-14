@@ -31,4 +31,4 @@ When an agent sends a message via the Agent Desk:
 
 ---
 
-*For technical details on these specific Socket events, see the [AgentManager SDK Reference](../AgentManager-SDK-Reference.md).*
+*For technical details on these specific Socket events, see the [AgentManager SDK Reference](../AgentManager-SDK-Integration-Guide.md).*

@@ -48,6 +48,6 @@ A high **timeout** expiration reason rate indicates that generated links are not
 ## Related Articles
 
 - [WebRTC Summary Report](WebRTC-Summary-Report.md)
-- [Web App Calls Overview](../../Solution_Admin/Web-App-Calls-Overview.md)
+- [Web App Calls Overview](../Voice_Real_Time_Media/Web-App-Calls-Overview.md)
 - [Historical Reports Reference](../../Supervisor/Historical-Reports-Reference.md)
 - [Key Reporting Metrics](Key-Reporting-Metrics.md)

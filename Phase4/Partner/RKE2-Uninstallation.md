@@ -52,5 +52,5 @@ Reboot the node to clear any remaining kernel-level network state.
 ## Related Articles
 
 - [Kubernetes Distributions](Kubernetes-Distributions.md)
-- [Deploying the RKE2 Control Plane](Deploying-the-RKE2-Control-Plane.md)
+- [Deploying the RKE2 Control Plane](../Getting_Started/Deploying-the-RKE2-Control-Plane.md)
 - [CX Solution Helm Uninstallation](Helm-Based-Application-Deployment.md)

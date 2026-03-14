@@ -18,14 +18,14 @@ ExpertFlow CX fully supports the **WhatsApp Cloud API** from Meta. This is the r
 *   **High Performance:** Lower latency for message delivery and media processing.
 *   **Scalability:** Support for high-volume messaging and automated notifications.
 
-> For technical setup steps, see the [WhatsApp Cloud API Configuration Guide](./WhatsApp-Cloud-API-Configuration.md).
+> For technical setup steps, see the [WhatsApp Cloud API Configuration Guide](../../Solution_Admin/WhatsApp-Cloud-API-Configuration.md).
 
 ---
 
 ## 2. Key Features
 *   **Two-Way Messaging:** Agents can handle incoming customer queries and initiate outbound notifications using approved templates.
 *   **Rich Media Support:** Send and receive images, documents (PDF), and audio files.
-*   **Interactive Messages:** Use buttons and list pickers to guide customer journeys (requires [Conversation Studio](../Designer/Conversation-Studio-Fundamentals.md)).
+*   **Interactive Messages:** Use buttons and list pickers to guide customer journeys (requires [Conversation Studio](../../Getting_Started/Conversation-Studio-Configuration-Guide.md)).
 *   **Verified Profiles:** Support for the official WhatsApp "Green Tick" for verified business accounts.
 
 ---
@@ -35,7 +35,7 @@ While the WhatsApp Cloud API is the standard, ExpertFlow CX maintains a flexible
 
 ### **Enterprise Considerations**
 *   **Data Sovereignty:** All WhatsApp interaction data is stored within your private ExpertFlow CX instance (on-premise or private cloud).
-*   **Routing Logic:** Incoming WhatsApp messages can be routed based on keywords, sentiment, or customer priority using the [Universal Routing Engine](../Developer/Agent-Task-Routing-Lifecycle.md).
+*   **Routing Logic:** Incoming WhatsApp messages can be routed based on keywords, sentiment, or customer priority using the [Universal Routing Engine](../../Developer/Agent-Task-Routing-Lifecycle.md).
 
 ---
 
@@ -48,6 +48,5 @@ Supervisors can monitor real-time WhatsApp interactions through the **Team Dashb
 ---
 
 ## Related Guides
-*   [WhatsApp Cloud API Configuration](./WhatsApp-Cloud-API-Configuration.md)
-*   [Managing WhatsApp Message Templates](../Solution_Admin/Managing-Message-Templates.md)
-*   [WhatsApp Integration Limitations](./WhatsApp-Cloud-API-Limitations.md)
+*   [WhatsApp Cloud API Configuration](../../Solution_Admin/WhatsApp-Cloud-API-Configuration.md)
+*   [WhatsApp Integration Limitations](../../Solution_Admin/WhatsApp-Cloud-API-Limitations.md)

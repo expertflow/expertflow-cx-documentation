@@ -135,7 +135,7 @@ To update CTI config variables in the unified-agent config map, refer to the Upd
 
 ## Related Articles
 
-- [Web App Calls Overview](Web-App-Calls-Overview.md)
+- [Web App Calls Overview](../Functional_Areas/Voice_Real_Time_Media/Web-App-Calls-Overview.md)
 - [Accessing CX Voice Components](Accessing-CX-Voice-Components.md)
 - [Media Server Configuration CX Voice](Media-Server-Configuration-CX-Voice.md)
 - [Voice Channel Configuration Limitations](Voice-Channel-Configuration-Limitations.md)

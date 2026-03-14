@@ -44,4 +44,4 @@ Navigate to the specialized references below for granular property definitions:
 
 ---
 
-*Looking for real-time events? See the [AgentManager SDK Reference](../AgentManager-SDK-Reference.md).*
+*Looking for real-time events? See the [AgentManager SDK Reference](../AgentManager-SDK-Integration-Guide.md).*

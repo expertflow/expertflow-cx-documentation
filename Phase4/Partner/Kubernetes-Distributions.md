@@ -32,7 +32,7 @@ ExpertFlow CX requires a Kubernetes distribution for its core solution component
 
 ## Getting Started
 
-To set up RKE2 for an ExpertFlow CX deployment, see [RKE2 Control Plane Deployment](Deploying-the-RKE2-Control-Plane.md).
+To set up RKE2 for an ExpertFlow CX deployment, see [RKE2 Control Plane Deployment](../Getting_Started/Deploying-the-RKE2-Control-Plane.md).
 
 To learn more about Kubernetes concepts, see the [Kubernetes overview](https://kubernetes.io/docs/concepts/overview/).
 
@@ -40,6 +40,6 @@ To learn more about Kubernetes concepts, see the [Kubernetes overview](https://k
 
 ## Related Articles
 
-- [Deploying the RKE2 Control Plane](Deploying-the-RKE2-Control-Plane.md)
+- [Deploying the RKE2 Control Plane](../Getting_Started/Deploying-the-RKE2-Control-Plane.md)
 - [RKE2 Uninstallation](RKE2-Uninstallation.md)
 - [Helm-Based Application Deployment](Helm-Based-Application-Deployment.md)

@@ -177,6 +177,6 @@ Each question can have an **audio file attachment** for IVR prompt use cases:
 ## Related Articles
 
 - [Creating Survey Forms and Flows](../Designer/Creating-Survey-Forms-and-Flows.md)
-- [Designing Evaluation Forms](../QM/Designing-Evaluation-Forms.md)
+- [Designing Evaluation Forms](../Quality_Management/Designing-Evaluation-Forms.md)
 - [Configuring the Customer Widget](Configuring-the-Customer-Widget.md)
 - [Configuring Wrap-up Forms](Configuring-Wrap-up-Forms.md)

@@ -12,7 +12,7 @@ last-updated: 2026-03-11
 
 This guide details the mandatory "Day 1" and "Day 2" steps required to enable historical reporting in ExpertFlow CX. 
 
-> **Mandatory Prerequisite:** You must have already completed the [CX-Analyser Infrastructure Setup](./CX-Analyser-Infrastructure-Setup.md) (TLS certificates and SQL database schemas) before proceeding with this guide.
+> **Mandatory Prerequisite:** You must have already completed the [CX-Analyser Infrastructure Setup](CX-Analyser-Infrastructure-Setup.md) (TLS certificates and SQL database schemas) before proceeding with this guide.
 
 ---
 
@@ -51,6 +51,6 @@ A successful setup is confirmed when:
 ---
 
 ## Related Guides
-*   [CX-Analyser Infrastructure Setup](./CX-Analyser-Infrastructure-Setup.md)
+*   [CX-Analyser Infrastructure Setup](CX-Analyser-Infrastructure-Setup.md)
 *   [Superset Reports Configuration](../Solution_Admin/Superset-Reports-Configuration.md)
 *   [Historical Reports Reference](../Supervisor/Historical-Reports-Reference.md)

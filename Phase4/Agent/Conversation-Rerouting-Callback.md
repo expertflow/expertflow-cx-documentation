@@ -43,5 +43,5 @@ Once both steps are complete, the rerouting will trigger automatically whenever 
 ## Related Articles
 
 - [Managing Your Presence and States](Managing-Your-Presence-and-States.md)
-- [Agent MRD States Reference](Agent-MRD-States-Reference.md)
+- [Agent MRD States Reference](Agent-States.md)
 - [Configuring Reason Codes](../Solution_Admin/Configuring-Reason-Codes.md)

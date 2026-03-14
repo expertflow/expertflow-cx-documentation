@@ -1,42 +1,43 @@
 ---
-title: "topicUnsubscription"
-summary: "Emitted by Agent Manager when an agent leaves a conversation, returning a success message upon successful unsubscription."
+title: "topicUnsubscription_"
+summary: "Emitted by Agent Desk to Agent Manager when an agent requests to unsubscribe from a conversation topic."
 audience: [developer]
 product-area: [sdk, platform]
 doc-type: reference
 difficulty: advanced
-keywords: ["topicUnsubscription socket event CX", "topicUnsubscription Agent Manager CX", "Socket.IO CX"]
-aliases: ["topicUnsubscription event ExpertFlow", "topicUnsubscription socket CX"]
+keywords: ["topicUnsubscription_ socket event CX", "topicUnsubscription_ Agent Manager CX", "Socket.IO CX"]
+aliases: ["topicUnsubscription_ event ExpertFlow", "topicUnsubscription_ socket CX"]
 last-updated: 2026-03-12
 ---
 
-# topicUnsubscription
+# topicUnsubscription_
 
-Event is triggered when an agent leaves the conversation. Returns a success message in case of success.
+Agent requests the Agent Manager to unsubscribe from a conversation topic by emitting this event.
 
 | Property | Value |
 |---|---|
 | **Event Name** | `topicUnsubscription` |
-| **Emitter** | Agent Manager |
-| **Direction** | Agent Manager → Agent Desk |
+| **Emitter** | Agent Desk |
+| **Direction** | Agent Desk → Agent Manager |
 
 ## Payload Properties
 
 | Property | Type | Description |
 |---|---|---|
-| `task` | String | Value is `topicUnsubscription` for this event. |
-| `conversationId` | String | ID of the conversation that was unsubscribed. |
-| `statusCode` | Numeric | Return value `200` in case of successful unsubscription. |
-| `roomInfo` | Object | (Optional) Contains `id` (room ID) and `mode` (room mode). |
-| `reason` | String | (Optional) Reason for unsubscription. |
+| `conversationId` | String | ID of the conversation to unsubscribe from. |
+| `agentId` | String | ID of the agent for whom the event has been emitted. |
+| `roomInfo` | Object | Contains `id` (room ID) and `mode` (room mode). |
 
 ## Example Payload
 
 ```json
 {
-    "task": "topicUnsubscription",
-    "conversationId": "5d37c884-8495-49fd-b6d3-8ef43fe53dc7",
-    "statusCode": 200
+    "conversationId": "261c271a-58e6-4571-9d25-77ad26d745d6",
+    "agentId": "a13a49f4-7ec6-436b-91b0-0fd1be205799",
+    "roomInfo": {
+      "id": "65a625609487373651365bfb",
+      "mode": "CONTACT_CENTER"
+    }
 }
 ```
 
@@ -44,5 +45,5 @@ Event is triggered when an agent leaves the conversation. Returns a success mess
 
 - [Socket Events Overview](./index.md)
 - [topicSubscription](./topicSubscription.md)
-- [topicClosed](./topicClosed.md)
+- [topicUnsubscription](./topicUnsubscription.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

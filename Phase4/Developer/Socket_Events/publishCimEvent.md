@@ -326,6 +326,6 @@ Event is emitted when an agent requests the Agent Manager to publish in-conversa
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [onCimEvent](./onCimEvent.md)
+- [onCimEvent](onCimEvent.md)
 - [CIM Messages](../CIM-Message-Schema/CIM-Messages.md)
 - [AgentManager SDK Integration Guide](../AgentManager-SDK-Integration-Guide.md)

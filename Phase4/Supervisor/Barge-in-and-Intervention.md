@@ -39,4 +39,4 @@ Your role and interface change depending on the channel you are barging into.
 
 ---
 
-*Need to just listen in? See the guide on [Silent Monitoring and Coaching](../ARCHIVE_NOTICE.md).*
+*Need to just listen in? See the guide on [Silent Monitoring and Coaching](../Archive-Notice.md).*

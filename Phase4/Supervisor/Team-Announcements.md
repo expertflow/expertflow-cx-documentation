@@ -78,5 +78,5 @@ Announcements in any status (Scheduled, Active, or Expired) can be deleted.
 ## Related Articles
 
 - [Managing Teams and Members](Managing-Teams-and-Members.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)
 - [Browser and Sound Notifications](../Functional_Areas/Digital_Channel_Management/Browser-and-Sound-Notifications.md)

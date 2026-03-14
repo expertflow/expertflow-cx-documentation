@@ -45,4 +45,4 @@ Check the **Notifications bell** in the top right for:
 
 ---
 
-*Need help with a complex audit? Check the [Calibration Guidelines](../QM/Managing-the-Quality-Assurance-Workflow.md) or contact your Quality Manager.*
+*Need help with a complex audit? Check the [Calibration Guidelines](../Getting_Started/Managing-the-Quality-Assurance-Workflow.md) or contact your Quality Manager.*

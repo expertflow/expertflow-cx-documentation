@@ -112,4 +112,4 @@ WFM uses **PostgreSQL** for persistent data storage:
 - [Workforce Management Overview](Workforce-Management-Overview.md)
 - [WFM Admin and Supervisor Guide](../../Supervisor/WFM-Admin-Supervisor-Guide.md)
 - [Sizing Guidelines](../../Solution_Admin/Sizing-Guidelines.md)
-- [Deploying the RKE2 Control Plane](../../Partner/Deploying-the-RKE2-Control-Plane.md)
+- [Deploying the RKE2 Control Plane](../../Getting_Started/Deploying-the-RKE2-Control-Plane.md)

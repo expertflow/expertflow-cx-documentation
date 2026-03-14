@@ -171,4 +171,4 @@ See [Force Logout Agent](Force-Logout-Agent.md) for the full impact of forced lo
 - [Team Stats Dashboard](Team-Stats-Dashboard.md)
 - [Silent Monitoring](Silent-Monitoring.md)
 - [Force Logout Agent](Force-Logout-Agent.md)
-- [Monitoring Your Team in Real Time](Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real Time](../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)

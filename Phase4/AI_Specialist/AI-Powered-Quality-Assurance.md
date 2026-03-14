@@ -32,4 +32,4 @@ AI-generated scores flow directly into the standard **Quality Assurance Reports.
 
 ---
 
-*To configure the specific logic the AI uses, see [Configuring AI-Powered Quality Audits](Configuring-AI-Powered-Quality-Audits.md).*
+*To configure the specific logic the AI uses, see [Configuring AI-Powered Quality Audits](../Getting_Started/Configuring-AI-Powered-Quality-Audits.md).*

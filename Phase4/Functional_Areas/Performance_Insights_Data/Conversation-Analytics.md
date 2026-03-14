@@ -66,5 +66,5 @@ Both modes produce data accessible via the platform UI and API.
 - [Post-Conversation Analytics](Post-Conversation-Analytics.md)
 - [Real-time Contact Center Analytics](Real-time-Contact-Center-Analytics.md)
 - [AI Sentiment-Based Handover](../../Designer/AI-Sentiment-Based-Handover.md)
-- [Monitoring Your Team in Real-Time](../../Supervisor/Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real-Time](../../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)
 - [Historical Reports Reference](../../Supervisor/Historical-Reports-Reference.md)

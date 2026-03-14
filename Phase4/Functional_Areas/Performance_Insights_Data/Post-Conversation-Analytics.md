@@ -70,4 +70,4 @@ Post-conversation data can trigger automated workflows in **Conversation Studio*
 - [Historical Reports Reference](../../Supervisor/Historical-Reports-Reference.md)
 - [QA QM Forms Evaluation](../../Supervisor/QA-QM-Forms-Evaluation.md)
 - [AI Sentiment-Based Handover](../../Designer/AI-Sentiment-Based-Handover.md)
-- [Monitoring Your Team in Real-Time](../../Supervisor/Monitoring-Your-Team-in-Real-Time.md)
+- [Monitoring Your Team in Real-Time](../../Getting_Started/Monitoring-Your-Team-in-Real-Time.md)
