@@ -11,7 +11,7 @@ This report lists the critical missing or outdated content required to complete 
 | 3 | **Agent Tutorials** | Agent | Tutorial | **Create New.** Replace the "As an Agent" link list with "Handling Your First Call/Chat." |
 | 4 | **Hardware Sizing Calculator** | Partner | Reference | **Rewrite.** Convert vague prose into a clinical table (Agents vs. CPU/RAM). |
 | 5 | **Studio "Hello World"** | Designer | Tutorial | **Create New.** A step-by-step guide to building a simple IVR flow. |
-| 6 | **Reseller Lab Setup** | Reseller | Tutorial | **Create New.** A simplified version of the RKE2 guide for demo/lab environments. |
+| 6 | **Partner Lab / Demo Setup** | Infrastructure_Hosting_Partner | Tutorial | **Create New.** A simplified version of the RKE2 guide for partners to spin up demo/lab environments. |
 | 7 | **Report Catalog** | Supervisor | Reference | **Consolidate.** Merge the 10+ individual report pages into a single index table. |
 | 8 | **MTT Tenant Creation** | Partner | How-to | **Rewrite.** Update the "To be removed" guide with a production-ready version. |
 
