@@ -1,111 +1,13 @@
 # CX Platform Architecture
 
-A layered contact centre platform spanning digital channel ingestion, AI-driven orchestration, core platform services, and third-party integrations.  
+A layered contact centre platform spanning digital channel ingestion, AI-driven orchestration, core platform services, and third-party integrations.
 Cross-cutting concerns (SIEM, monitoring, secure data pipelines, and analytics) run across all layers.
 
 ---
 
 ## Diagram
 
-<p align="center">
-<svg width="740" viewBox="0 0 680 620" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, sans-serif">
-<defs>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-    <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </marker>
-</defs>
-
-<!-- Layer 1 -->
-<rect x="20" y="16" width="640" height="86" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-<text x="36" y="34" font-size="11" fill="#378ADD">Layer 1 · Digital and social media channels</text>
-<rect x="36" y="44" width="88" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<path d="M82 52 v-3 a3 3 0 0 1 3-3 h3 v5 h-3 v3 h3 l-0.5 5 h-2.5 v10 h-5 V57 h-2 v-5 h2 z" fill="#185FA5" stroke="none"/>
-<text x="80" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">Facebook</text>
-<rect x="134" y="44" width="90" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<circle cx="179" cy="60" r="7" fill="none" stroke="#185FA5" stroke-width="1.5"/>
-<path d="M173 67 l2-3" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M176 57 q1-2 3 0 q1 2-1 3 q2 1 2 3" fill="none" stroke="#185FA5" stroke-width="1.2" stroke-linecap="round"/>
-<text x="179" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">WhatsApp</text>
-<rect x="234" y="44" width="72" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<rect x="252" y="51" width="18" height="13" rx="3" fill="none" stroke="#185FA5" stroke-width="1.5"/>
-<path d="M255 64 l-1 4 l4-4" fill="none" stroke="#185FA5" stroke-width="1.2" stroke-linejoin="round"/>
-<text x="270" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">SMS</text>
-<rect x="316" y="44" width="72" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<rect x="330" y="52" width="24" height="16" rx="2" fill="none" stroke="#185FA5" stroke-width="1.5"/>
-<path d="M330 54 l12 8 l12-8" fill="none" stroke="#185FA5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="352" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">Email</text>
-<rect x="398" y="44" width="80" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<rect x="412" y="51" width="18" height="13" rx="3" fill="none" stroke="#185FA5" stroke-width="1.5"/>
-<path d="M414 64 l-1 4 l4-4" fill="none" stroke="#185FA5" stroke-width="1.2" stroke-linejoin="round"/>
-<rect x="420" y="56" width="18" height="13" rx="3" fill="none" stroke="#185FA5" stroke-width="1.5"/>
-<path d="M434 69 l1 4 l-4-4" fill="none" stroke="#185FA5" stroke-width="1.2" stroke-linejoin="round"/>
-<text x="438" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">Webchat</text>
-<rect x="488" y="44" width="156" height="48" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
-<path d="M549 54 l-6 8 l6 8" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M555 54 l6 8 l-6 8" fill="none" stroke="#185FA5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="566" y="81" font-size="11" fill="#0C447C" text-anchor="middle" dominant-baseline="central">SDK / Custom</text>
-
-<!-- Arrow L1 → GW -->
-<line x1="340" y1="102" x2="340" y2="118" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
-
-<!-- API Gateway -->
-<rect x="20" y="122" width="640" height="30" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
-<text x="340" y="138" font-size="13" font-weight="500" fill="#633806" text-anchor="middle" dominant-baseline="central">API Gateway</text>
-
-<!-- Arrow GW → L2 -->
-<line x1="340" y1="152" x2="340" y2="170" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
-
-<!-- IAM vertical column -->
-<rect x="20" y="156" width="36" height="344" rx="8" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="0.5"/>
-<text x="38" y="328" font-size="11" font-weight="500" fill="#2C2C2A" text-anchor="middle" dominant-baseline="central" transform="rotate(-90,38,328)">Identity and Access Management</text>
-
-<!-- Layer 2: Orchestration -->
-<rect x="62" y="174" width="562" height="110" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-<text x="78" y="192" font-size="11" fill="#7F77DD">Layer 2 · Orchestration layer</text>
-<rect x="74" y="202" width="258" height="72" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text x="203" y="240" font-size="13" font-weight="500" fill="#3C3489" text-anchor="middle" dominant-baseline="central">AI Orchestrator</text>
-<rect x="354" y="202" width="258" height="72" rx="8" fill="#CECBF6" stroke="#534AB7" stroke-width="0.5"/>
-<text x="483" y="228" font-size="13" font-weight="500" fill="#3C3489" text-anchor="middle" dominant-baseline="central">Conversation Studio</text>
-<text x="483" y="248" font-size="11" fill="#534AB7" text-anchor="middle" dominant-baseline="central">Flow Builder · IVR Flow</text>
-
-<!-- Arrow L2 → L3 -->
-<line x1="340" y1="284" x2="340" y2="302" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
-
-<!-- Layer 3: Platform -->
-<rect x="62" y="306" width="562" height="194" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
-<text x="78" y="324" font-size="11" fill="#1D9E75">Layer 3 · Platform layer</text>
-<rect x="74" y="334" width="258" height="154" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
-<text x="203" y="368" font-size="13" font-weight="500" fill="#085041" text-anchor="middle" dominant-baseline="central">CX-Core</text>
-<text x="203" y="392" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">Routing</text>
-<text x="203" y="412" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">Conversation control</text>
-<text x="203" y="432" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">Secure activities</text>
-<rect x="354" y="334" width="258" height="154" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
-<text x="483" y="368" font-size="13" font-weight="500" fill="#085041" text-anchor="middle" dominant-baseline="central">Voice platform</text>
-<text x="483" y="392" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">Media Server</text>
-<text x="483" y="412" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">SIP Proxy</text>
-<text x="483" y="432" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">Voice Gateway</text>
-
-<!-- Arrow L3 → L4 -->
-<line x1="340" y1="500" x2="340" y2="518" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
-
-<!-- Layer 4: Integration -->
-<rect x="20" y="522" width="604" height="78" rx="12" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
-<text x="36" y="540" font-size="11" fill="#D85A30">Layer 4 · Integration layer</text>
-<rect x="32" y="550" width="184" height="40" rx="8" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
-<text x="124" y="564" font-size="13" font-weight="500" fill="#712B13" text-anchor="middle" dominant-baseline="central">CRM</text>
-<text x="124" y="580" font-size="11" fill="#993C1D" text-anchor="middle" dominant-baseline="central">Salesforce · MS CRM · Siebel</text>
-<rect x="228" y="550" width="200" height="40" rx="8" fill="#FAC775" stroke="#BA7517" stroke-width="0.5"/>
-<text x="328" y="564" font-size="13" font-weight="500" fill="#412402" text-anchor="middle" dominant-baseline="central">Voice platforms</text>
-<text x="328" y="580" font-size="11" fill="#633806" text-anchor="middle" dominant-baseline="central">Cisco · Genesys · MS Teams</text>
-<rect x="440" y="550" width="172" height="40" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
-<text x="526" y="564" font-size="13" font-weight="500" fill="#04342C" text-anchor="middle" dominant-baseline="central">BYOI</text>
-<text x="526" y="580" font-size="11" fill="#0F6E56" text-anchor="middle" dominant-baseline="central">LLMs · NLU · STT · TTS</text>
-
-<!-- Right vertical bar -->
-<rect x="636" y="156" width="34" height="444" rx="8" fill="#F7C1C1" stroke="#A32D2D" stroke-width="0.5"/>
-<text x="653" y="378" font-size="11" font-weight="500" fill="#501313" text-anchor="middle" dominant-baseline="central" transform="rotate(-90,653,378)">SIEM · Monitoring · Secure Data Pipelines · Analyzer</text>
-</svg>
-</p>
+![CX Platform Architecture](./cx_architecture.svg)
 
 ---
 
