@@ -1,23 +1,65 @@
 ---
-title: "Platform Architecture & Scalability"
-summary: "A technical deep-dive into ExpertFlow CX's microservices topology, multi-tenancy isolation model, data tier design, and horizontal scaling capabilities."
+title: "Platform Architecture"
+summary: "A layered overview of ExpertFlow CX's architecture — channel ingestion, AI orchestration, core platform services, integrations, and the microservices and data tier that underpin them."
 audience: [decision-maker, partner]
 product-area: [platform, strategic]
 doc-type: explanation
 difficulty: intermediate
 aliases: []
-last-updated: 2026-03-13
+last-updated: 2026-03-17
 ---
 
-ExpertFlow CX is built as a cloud-native, microservices platform running on **Kubernetes**. While we recommend **RKE2** for its security and ease of use, ExpertFlow CX is compatible with any CNCF-certified Kubernetes distribution. This article explains the architectural decisions that give the platform its resilience, multi-tenancy, and horizontal scalability — the properties that matter most when evaluating it for enterprise or multi-tenant deployment.
-
----
-
-
+ExpertFlow CX is a cloud-native contact centre platform built on **Kubernetes**. It spans digital channel ingestion, AI-driven orchestration, core platform services, and third-party integrations — with cross-cutting concerns (security, monitoring, analytics) running across every layer.
 
 ---
 
-## 1. Microservices Topology
+## Platform Overview
+
+![CX Platform Architecture](./cx_architecture.svg)
+
+| # | Layer | Components |
+|---|-------|------------|
+| 1 | Digital and Social Media Channels | Facebook, WhatsApp, SMS, Email, Webchat, SDK / Custom |
+| — | API Gateway | Single entry point — auth, rate limiting, SSL termination, routing |
+| 2 | Orchestration | AI Orchestrator, Conversation Studio (Flow Builder, IVR Flow) |
+| 3 | Platform | CX-Core, Voice Platform — governed by Identity and Access Management |
+| 4 | Integration | CRM (Salesforce, MS CRM, Siebel) · Voice Platforms (Cisco, Genesys, MS Teams) · BYOI (LLMs, NLU, STT, TTS) |
+
+### Cross-Cutting Concerns
+
+Span all layers — not specific to any single tier.
+
+| Concern | Responsibility |
+|---------|----------------|
+| SIEM | Security event collection and alerting |
+| Monitoring | Infrastructure and application health |
+| Secure Data Pipelines | Encrypted, auditable data transport |
+| Analyzer | Reporting, observability, BI dashboards |
+
+---
+
+## Layer Reference
+
+### Layer 2 · Orchestration
+
+- **AI Orchestrator** — Routes requests to the appropriate AI model or workflow. Stateless coordinator between channels and platform services.
+- **Conversation Studio** — Visual flow designer for conversation trees and IVR. No coding required for flow changes.
+
+### Layer 3 · Platform
+
+- **CX-Core** — Stateful conversation engine. Handles routing logic, session control, and execution of secure activities (e.g. payment capture).
+- **Voice Platform** — Real-time voice session management. SIP Proxy handles carrier interconnect; Voice Gateway bridges SIP to internal services.
+- **Identity and Access Management** — Spans the full platform layer. All CX-Core and Voice Platform calls are authenticated here.
+
+### Layer 4 · Integration
+
+- **CRM** — Read/write access to customer records. Salesforce is primary; MS CRM and Siebel supported via adapter pattern.
+- **Voice Platforms** — Federation layer for external voice infrastructure. Cisco and Genesys for on-prem; MS Teams for cloud voice.
+- **BYOI (Bring Your Own AI)** — Pluggable AI provider interface. Swap LLM, NLU, STT, or TTS vendors without platform changes.
+
+---
+
+## Microservices Topology
 
 The platform is composed of loosely coupled services, each owning a specific domain:
 
@@ -36,29 +78,7 @@ Services communicate over **REST** (synchronous) and **Redis Pub/Sub** (asynchro
 
 ---
 
-## 2. Multi-Tenancy Isolation Model
-
-ExpertFlow CX supports **logical multi-tenancy**: multiple tenants on shared infrastructure, with strict data and configuration isolation.
-
-### What is isolated per tenant
-
-- **Keycloak realm** — separate identity store, roles, and SSO configuration
-- **MongoDB namespace** — all documents are partitioned by `tenantId`
-- **Redis keyspace** — tenant-prefixed keys prevent cross-tenant event leakage
-- **Minio bucket** — separate storage bucket per tenant for recordings, attachments, and channel icons
-- **Ingress routing** — subdomain-based routing (`tenantId.root-domain`) directs traffic to the correct Keycloak realm and tenant context before it reaches any application service
-
-### What is shared
-
-- Kubernetes node pool and cluster control plane
-- Core microservice deployments (one instance set serves all tenants, differentiating via `tenantId` in each request)
-- Ingress controller and TLS termination layer
-
-This model gives operators the cost efficiency of a shared cluster while providing tenants the security guarantees of isolated namespaces.
-
----
-
-## 3. Data Tier Architecture
+## Data Tier
 
 ```text
 ┌─────────────────────────────────────────┐
@@ -90,9 +110,9 @@ MongoDB replica sets (minimum 3 nodes: 1 primary, 2 secondaries) are the recomme
 
 ---
 
-## 4. AI Orchestration Architecture
+## AI Orchestration
 
-The AI layer is intentionally **decoupled from the interaction path**. This means a slow or unavailable AI provider never delays or blocks a live customer conversation.
+The AI layer is intentionally **decoupled from the interaction path**. A slow or unavailable AI provider never delays or blocks a live customer conversation.
 
 ```text
 Customer Interaction
@@ -112,40 +132,7 @@ The AI Orchestrator exposes a provider-agnostic interface. Operators configure w
 
 ---
 
-## 5. Scalability Patterns
-
-### Horizontal Pod Autoscaling (HPA)
-
-All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) support Kubernetes HPA. Under high load, additional pods are scheduled automatically within the cluster's available node capacity.
-
-### Services that require careful scaling
-
-- **AgentManager** — maintains WebSocket state per agent. Requires a sticky-session ingress rule (or a shared Redis session store) when running multiple replicas.
-- **Keycloak** — scales horizontally but requires an external database (PostgreSQL) and shared Infinispan cache configuration for session replication.
-
-### Typical sizing reference
-
-| Deployment Size | Concurrent Agents | Recommended Nodes |
-| --------------- | ----------------- | ----------------- |
-| Small (single-tenant) | up to 50 | 3 nodes (8 vCPU / 16 GB each) |
-| Medium (multi-tenant, 5–10 tenants) | up to 300 | 5–6 nodes (16 vCPU / 32 GB each) |
-| Large (multi-tenant, 20+ tenants) | 500+ | 8+ nodes, separate DB node pool |
-
-> For detailed sizing, see [Hardware Sizing & Resource Requirements](../Solution_Admin/Sizing-Guidelines.md).
-
----
-
-## 6. High Availability & Failover
-
-- **Control Plane HA:** Most CNCF-certified Kubernetes distributions support high availability for the control plane (e.g., RKE2 supports a 3-node etcd cluster).
-- **Ingress:** MetalLB or cloud load balancer in front of NGINX ingress. DNS failover supported via TTL management.
-- **Database:** MongoDB replica set with automatic primary election. Redis Sentinel or Cluster for cache/event bus HA.
-- **Stateless Services:** Any pod failure triggers Kubernetes self-healing (pod restart or rescheduling) within seconds.
-- **RTO/RPO:** With a properly configured replica set and daily MongoDB snapshots, Recovery Time Objective (RTO) is under 5 minutes; Recovery Point Objective (RPO) depends on snapshot frequency (default: 24 hours, configurable to near-zero with oplog shipping).
-
----
-
-## 7. Security Architecture
+## Security Architecture
 
 - **Network:** All inter-service communication is TLS-encrypted. mTLS is supported for sensitive service-to-service paths.
 - **Identity:** Keycloak enforces OAuth 2.0 / OIDC for all user sessions. Service accounts use client credential grants with short-lived JWTs.
@@ -154,4 +141,4 @@ All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) sup
 
 ---
 
-*Related: [Security & Compliance Whitepaper](../Getting_Started/Security-and-Compliance-Whitepaper.md) · [Hardware Sizing & Resource Requirements](../Solution_Admin/Sizing-Guidelines.md)*
+*Related: [Security & Compliance Whitepaper](../../Getting_Started/Security-and-Compliance-Whitepaper.md) · Scalability & Multi-Tenant Hosting (coming soon)*
