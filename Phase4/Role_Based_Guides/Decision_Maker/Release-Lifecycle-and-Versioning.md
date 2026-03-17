@@ -14,7 +14,7 @@ last-updated: 2026-03-08
 ExpertFlow CX follows a predictable release schedule and semantic versioning model to ensure that enterprises and partners can plan upgrades with minimal disruption.
 
 ## 1. How Versions Are Numbered
-We use the **CX <major>.<minor>.<patch>** format:
+We use the **CX \<major\>.\<minor\>.\<patch\>** format:
 - **Major (CX 5.0.0):** Includes breaking changes, significant architectural shifts, or new core modules. Usually released once per year.
 - **Minor (CX 5.1.0):** Includes new backward-compatible features and performance enhancements. Released quarterly.
 - **Maintenance (CX 5.1.1):** Addresses critical bugs, security vulnerabilities, and minor refinements. Applied as needed.

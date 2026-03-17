@@ -1,0 +1,40 @@
+/**
+ * ExpertFlow CX brand colors and global overrides.
+ * Primary: #1a50a3 (ExpertFlow Blue — hero background on expertflow.com)
+ * Font: Lato (matches expertflow.com)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root {
+  --ifm-color-primary: #1a50a3;
+  --ifm-color-primary-dark: #133b77;
+  --ifm-color-primary-darker: #0f3061;
+  --ifm-color-primary-darkest: #0c254b;
+  --ifm-color-primary-light: #2066cf;
+  --ifm-color-primary-lighter: #2b73de;
+  --ifm-color-primary-lightest: #4181e1;
+
+  --ifm-font-family-base: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-heading-font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability in dark mode, use a lighter shade of the brand blue */
+[data-theme='dark'] {
+  --ifm-color-primary: #4d8ce0;
+  --ifm-color-primary-dark: #3b7fd9;
+  --ifm-color-primary-darker: #2e74d4;
+  --ifm-color-primary-darkest: #1a57b5;
+  --ifm-color-primary-light: #6099e6;
+  --ifm-color-primary-lighter: #70a5e9;
+  --ifm-color-primary-lightest: #93bcef;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar logo sizing */
+.navbar__logo img {
+  height: 32px;
+  width: auto;
+}
