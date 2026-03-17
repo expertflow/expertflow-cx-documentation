@@ -9,9 +9,11 @@ aliases: []
 last-updated: 2026-03-13
 ---
 
-# Platform Architecture & Scalability
+ExpertFlow CX is built as a cloud-native, microservices platform running on **Kubernetes**. While we recommend **RKE2** for its security and ease of use, ExpertFlow CX is compatible with any CNCF-certified Kubernetes distribution. This article explains the architectural decisions that give the platform its resilience, multi-tenancy, and horizontal scalability — the properties that matter most when evaluating it for enterprise or multi-tenant deployment.
 
-ExpertFlow CX is built as a cloud-native, microservices platform running on **Kubernetes (RKE2)**. This article explains the architectural decisions that give the platform its resilience, multi-tenancy, and horizontal scalability — the properties that matter most when evaluating it for enterprise or multi-tenant deployment.
+---
+
+
 
 ---
 
@@ -20,7 +22,7 @@ ExpertFlow CX is built as a cloud-native, microservices platform running on **Ku
 The platform is composed of loosely coupled services, each owning a specific domain:
 
 | Service | Responsibility |
-|---------|---------------|
+| ------- | -------------- |
 | **CIM (Customer Interaction Manager)** | Central message broker. All interaction events (incoming, transferred, closed) flow through CIM as structured event objects. |
 | **Routing Engine** | Evaluates routing rules, skill matching, and queue priorities. Operates in push (precision) or pull (list) mode. |
 | **Agent Desk / AgentManager** | WebSocket-based real-time UI server. Maintains per-agent session state and pushes events to browser clients. |
@@ -38,14 +40,16 @@ Services communicate over **REST** (synchronous) and **Redis Pub/Sub** (asynchro
 
 ExpertFlow CX supports **logical multi-tenancy**: multiple tenants on shared infrastructure, with strict data and configuration isolation.
 
-### What is isolated per tenant:
+### What is isolated per tenant
+
 - **Keycloak realm** — separate identity store, roles, and SSO configuration
 - **MongoDB namespace** — all documents are partitioned by `tenantId`
 - **Redis keyspace** — tenant-prefixed keys prevent cross-tenant event leakage
 - **Minio bucket** — separate storage bucket per tenant for recordings, attachments, and channel icons
 - **Ingress routing** — subdomain-based routing (`tenantId.root-domain`) directs traffic to the correct Keycloak realm and tenant context before it reaches any application service
 
-### What is shared:
+### What is shared
+
 - Kubernetes node pool and cluster control plane
 - Core microservice deployments (one instance set serves all tenants, differentiating via `tenantId` in each request)
 - Ingress controller and TLS termination layer
@@ -56,7 +60,7 @@ This model gives operators the cost efficiency of a shared cluster while providi
 
 ## 3. Data Tier Architecture
 
-```
+```text
 ┌─────────────────────────────────────────┐
 │              MongoDB (Primary Data)      │
 │  - Config (queues, skills, channels)    │
@@ -90,7 +94,7 @@ MongoDB replica sets (minimum 3 nodes: 1 primary, 2 secondaries) are the recomme
 
 The AI layer is intentionally **decoupled from the interaction path**. This means a slow or unavailable AI provider never delays or blocks a live customer conversation.
 
-```
+```text
 Customer Interaction
        │
        ▼
@@ -111,15 +115,18 @@ The AI Orchestrator exposes a provider-agnostic interface. Operators configure w
 ## 5. Scalability Patterns
 
 ### Horizontal Pod Autoscaling (HPA)
+
 All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) support Kubernetes HPA. Under high load, additional pods are scheduled automatically within the cluster's available node capacity.
 
-### Services that require careful scaling:
+### Services that require careful scaling
+
 - **AgentManager** — maintains WebSocket state per agent. Requires a sticky-session ingress rule (or a shared Redis session store) when running multiple replicas.
 - **Keycloak** — scales horizontally but requires an external database (PostgreSQL) and shared Infinispan cache configuration for session replication.
 
-### Typical sizing reference:
+### Typical sizing reference
+
 | Deployment Size | Concurrent Agents | Recommended Nodes |
-|----------------|------------------|-------------------|
+| --------------- | ----------------- | ----------------- |
 | Small (single-tenant) | up to 50 | 3 nodes (8 vCPU / 16 GB each) |
 | Medium (multi-tenant, 5–10 tenants) | up to 300 | 5–6 nodes (16 vCPU / 32 GB each) |
 | Large (multi-tenant, 20+ tenants) | 500+ | 8+ nodes, separate DB node pool |
@@ -130,7 +137,7 @@ All stateless services (CIM, Routing Engine, AI Orchestrator, Unified Admin) sup
 
 ## 6. High Availability & Failover
 
-- **Control Plane HA:** RKE2 supports a 3-node etcd cluster for control plane fault tolerance.
+- **Control Plane HA:** Most CNCF-certified Kubernetes distributions support high availability for the control plane (e.g., RKE2 supports a 3-node etcd cluster).
 - **Ingress:** MetalLB or cloud load balancer in front of NGINX ingress. DNS failover supported via TTL management.
 - **Database:** MongoDB replica set with automatic primary election. Redis Sentinel or Cluster for cache/event bus HA.
 - **Stateless Services:** Any pod failure triggers Kubernetes self-healing (pod restart or rescheduling) within seconds.
