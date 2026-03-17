@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'DocWithGeminiCLI/docs-site/**'
-      - 'DocWithGeminiCLI/Phase4/**'
+      - 'docs-site/**'
+      - 'Phase4/**'
   workflow_dispatch:
 
 permissions:
@@ -36,17 +36,17 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        working-directory: DocWithGeminiCLI/docs-site
+        working-directory: docs-site
         run: npm ci
 
       - name: Build site
-        working-directory: DocWithGeminiCLI/docs-site
+        working-directory: docs-site
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: DocWithGeminiCLI/docs-site/build
+          path: docs-site/build
 
   deploy:
     environment:
