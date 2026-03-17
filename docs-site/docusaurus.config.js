@@ -77,10 +77,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'ExpertFlow CX',
+        title: '',
         logo: {
           alt: 'ExpertFlow Logo',
-          src: 'img/ef-logo.png',
+          src: 'img/ef-logo.svg',
         },
         items: [
           {

@@ -1,19 +1,25 @@
 /**
  * ExpertFlow CX brand colors and global overrides.
- * Primary: #1a50a3 (ExpertFlow Blue — hero background on expertflow.com)
+ * Primary:   #1A50A3 (dark blue — hero background on expertflow.com)
+ * Secondary: #2491E5 (bright blue — links, hover, accents)
  * Font: Lato (matches expertflow.com)
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root {
+  /* Primary shades — anchored to #1A50A3, stepping toward #2491E5 */
   --ifm-color-primary: #1a50a3;
-  --ifm-color-primary-dark: #133b77;
-  --ifm-color-primary-darker: #0f3061;
-  --ifm-color-primary-darkest: #0c254b;
-  --ifm-color-primary-light: #2066cf;
-  --ifm-color-primary-lighter: #2b73de;
-  --ifm-color-primary-lightest: #4181e1;
+  --ifm-color-primary-dark: #163f80;
+  --ifm-color-primary-darker: #133670;
+  --ifm-color-primary-darkest: #0d2550;
+  --ifm-color-primary-light: #1d6dc0;
+  --ifm-color-primary-lighter: #2491e5;
+  --ifm-color-primary-lightest: #4da8ed;
+
+  /* Secondary color used for links and hover accents */
+  --ifm-link-color: #2491e5;
+  --ifm-link-hover-color: #1d6dc0;
 
   --ifm-font-family-base: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --ifm-heading-font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -21,20 +27,24 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability in dark mode, use a lighter shade of the brand blue */
+/* Dark mode — shift both blues lighter for legibility on dark backgrounds */
 [data-theme='dark'] {
-  --ifm-color-primary: #4d8ce0;
-  --ifm-color-primary-dark: #3b7fd9;
-  --ifm-color-primary-darker: #2e74d4;
-  --ifm-color-primary-darkest: #1a57b5;
-  --ifm-color-primary-light: #6099e6;
-  --ifm-color-primary-lighter: #70a5e9;
-  --ifm-color-primary-lightest: #93bcef;
+  --ifm-color-primary: #2491e5;
+  --ifm-color-primary-dark: #1d6dc0;
+  --ifm-color-primary-darker: #1a5fa8;
+  --ifm-color-primary-darkest: #1a50a3;
+  --ifm-color-primary-light: #4da8ed;
+  --ifm-color-primary-lighter: #6db8f1;
+  --ifm-color-primary-lightest: #93ccf5;
+
+  --ifm-link-color: #4da8ed;
+  --ifm-link-hover-color: #6db8f1;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 /* Navbar logo sizing */
 .navbar__logo img {
-  height: 32px;
+  height: 36px;
   width: auto;
 }
