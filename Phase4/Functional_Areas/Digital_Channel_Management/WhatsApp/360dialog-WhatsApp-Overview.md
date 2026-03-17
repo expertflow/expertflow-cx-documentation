@@ -15,4 +15,4 @@ The **360-connector** allows businesses to integrate WhatsApp as a customer chan
 - **Unified Management**: Configured directly through the Unified Admin interface alongside other channels.
 
 ## Next Steps
-To begin your deployment, follow the [360-Connector Configuration Guide](../../Solution_Admin/360-Connector-Configuration-Guide.md).
+To begin your deployment, follow the [360-Connector Configuration Guide](../../../Role_Based_Guides/Solution_Admin/360-Connector-Configuration-Guide.md).

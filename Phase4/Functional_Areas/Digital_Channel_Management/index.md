@@ -18,7 +18,7 @@ These channels allow for both synchronous and asynchronous engagement with custo
 
 | Channel | Functional Overview | Key Capabilities |
 | :--- | :--- | :--- |
-| **WhatsApp** | [WhatsApp Channel Overview](./WhatsApp-Channel-Overview.md) | Support for Meta Cloud API and 360dialog, rich media, and templates. |
+| **WhatsApp** | [WhatsApp Channel Overview](./WhatsApp/index.md) | Support for Meta Cloud API and 360dialog, rich media, and templates. |
 | **Facebook & Instagram** | [Facebook Channel Overview](Facebook-Channel-Overview.md) | Direct messaging (DM) and social media comment-to-chat management. |
 | **Twitter (X)** | [Twitter Channel Overview](Twitter-Channel-Overview.md) | Manage direct messages and public mentions within the Agent Desk. |
 | **LinkedIn** | [LinkedIn Channel Overview](LinkedIn-Channel-Overview.md) | Integration for enterprise social engagement and customer support. |
