@@ -49,6 +49,6 @@ Multi-tenancy is built into the core, not bolted on. Each tenant gets its own Ke
 
 ## Where to Go Next
 
-- Understand the technical design: [Platform Architecture & Scalability](../Decision_Maker/Platform-Architecture-and-Scalability.md)
+- Understand the technical design: [Platform Architecture & Scalability](../Role_Based_Guides/Decision_Maker/Platform-Architecture.md)
 - Review security and compliance posture: [Security & Compliance Whitepaper](Security-and-Compliance-Whitepaper.md)
 - Start configuring: [Unified Admin Guide](Unified-Admin-Guide.md)

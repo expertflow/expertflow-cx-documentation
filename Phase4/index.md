@@ -21,7 +21,7 @@ Welcome to the ExpertFlow CX documentation. Find your role below to get started,
 | **Quality Manager** running QA workflows | [Managing the QA Workflow](Getting_Started/Managing-the-Quality-Assurance-Workflow.md) |
 | **Human Evaluator** scoring interactions | [User Guide for Evaluator](Getting_Started/Evaluator-Guide.md) |
 | **Decision Maker / CTO** evaluating the platform | [Security & Compliance Whitepaper](Getting_Started/Security-and-Compliance-Whitepaper.md) |
-| **Frontend Developer** building custom UIs | [AgentManager SDK Reference](Developer/AgentManager-SDK-Integration-Guide.md) |
+| **Frontend Developer** building custom UIs | [AgentManager SDK Reference](Role_Based_Guides/Frontend_Developer/AgentManager-SDK-Integration-Guide.md) |
 | **Conversation Designer** building flows | [Conversation Studio Overview](Getting_Started/Conversation-Studio-Configuration-Guide.md) |
 | **Integration Specialist** connecting systems | [Cisco UCCE/X Integration Reference](Getting_Started/Cisco-Contact-Center-Integration-Reference.md) |
 | **AI / NLU Specialist** tuning AI models | [Configuring AI-Powered Quality Audits](Getting_Started/Configuring-AI-Powered-Quality-Audits.md) |
