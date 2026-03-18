@@ -32,5 +32,14 @@ The project is organized into phases reflecting the documentation lifecycle:
 
 The project has completed the **Research** and **Strategy** phases. We are currently in the **Execution** phase, where the "Master Backlog" is being used to refactor the original content into the new persona-driven structure.
 
+## 🤝 Contributing
+
+We welcome contributions to the ExpertFlow CX documentation! We follow the **GitHub Flow** for all changes.
+
+Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
+*   How to create a branch.
+*   The PR process and review cycle.
+*   How to preview your changes locally using Docusaurus.
+
 ---
 *Created and maintained by the ExpertFlow Documentation Team.*
