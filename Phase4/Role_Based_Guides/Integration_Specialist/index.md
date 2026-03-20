@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# Integration Specialist Guide
 
 This guide covers the full integration surface of ExpertFlow CX — connecting to Cisco voice infrastructure, registering channel and bot connectors, integrating CRM systems, and setting up observability.
 

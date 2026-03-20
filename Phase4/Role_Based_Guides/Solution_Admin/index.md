@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# Solution Admin Guide
 
 This guide covers the full administrative surface of ExpertFlow CX for a solution admin (Olivia) — from initial platform setup and routing configuration to channel onboarding, security hardening, and ongoing operations.
 

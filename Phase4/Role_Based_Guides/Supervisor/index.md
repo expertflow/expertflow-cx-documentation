@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-17
 ---
 
-# Supervisor Guide
 
 This guide covers everything a supervisor (Sam) needs to monitor agent performance, manage their team, maintain service levels, and analyze contact center operations — across digital, voice, and outbound channels.
 

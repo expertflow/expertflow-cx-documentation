@@ -14,6 +14,7 @@ As an Infrastructure & Hosting Partner, you are responsible for deploying and op
 
 Start here if you are setting up a new environment.
 
+- [Hardware Sizing Calculator](Hardware-Sizing-Calculator.md) — CPU/RAM/storage tables for CX Core, Voice, Database, and connectors by agent count and concurrent calls
 - [Kubernetes Distributions](Kubernetes-Distributions.md) — supported distributions (RKE2 recommended), K8s/kubeadm, Tanzu, K3s, MicroK8s
 - [Helm-Based Application Deployment](Helm-Based-Application-Deployment.md) — deploying CX application layers using Helm charts and custom values files
 - [Helm Deployment Customization](Helm-Deployment-Customization.md) — replica counts, resource limits, custom image tags

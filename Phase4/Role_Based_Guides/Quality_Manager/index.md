@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# Quality Manager Guide
 
 This guide covers the full QM workflow for a quality manager (Quentin) — from configuring the QM module and designing evaluation rubrics to assigning audits, reviewing scored conversations, and analyzing quality trends.
 
