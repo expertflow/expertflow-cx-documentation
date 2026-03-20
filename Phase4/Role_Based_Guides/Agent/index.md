@@ -11,7 +11,8 @@ Everything a contact center agent needs to handle conversations, manage availabi
 
 | Document | Description |
 | --- | --- |
-| [Accept a Conversation](Accept-a-Conversation.md) | How to receive and accept incoming interactions |
+| [Handling Your First Call](Handling-Your-First-Call.md) | Step-by-step tutorial for your first inbound voice call |
+| [Accept a Conversation](Accept-a-Conversation.md) | How to receive and accept incoming digital interactions |
 | [Handling Customer Interactions](Handling-Customer-Interactions.md) | End-to-end guide for managing live conversations |
 | [Understanding Response SLA](Understanding-Response-SLA.md) | How response time targets work and how to stay within them |
 

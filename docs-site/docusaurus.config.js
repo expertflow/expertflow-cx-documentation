@@ -104,11 +104,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/Phase4/Getting_Started',
+                to: '/docs/cx/Getting_Started',
               },
               {
                 label: 'Role-Based Guides',
-                to: '/docs/Phase4/Role_Based_Guides',
+                to: '/docs/cx/Role_Based_Guides',
               },
             ],
           },

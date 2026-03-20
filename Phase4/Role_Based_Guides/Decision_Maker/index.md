@@ -5,7 +5,6 @@ audience: [decision-maker]
 last-updated: 2026-03-16
 ---
 
-# Decision Maker / CTO Guide
 
 This guide walks you through ExpertFlow CX from a strategic perspective — what the platform can do, how it scales, and how it meets enterprise security and compliance requirements.
 

@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# Human Evaluator Guide
 
 This guide covers everything a human evaluator (Eva) needs to review interaction transcripts, score conversations against QA forms, and work with voice and screen recordings.
 

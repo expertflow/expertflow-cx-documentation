@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# AI / NLU Specialist Guide
 
 This guide covers the AI and NLU layer of ExpertFlow CX — how LLMs are orchestrated, how the Co-Pilot assists agents, how AI-driven quality scoring works, and how Rasa bot messages map to the CIM schema.
 

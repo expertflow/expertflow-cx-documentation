@@ -5,7 +5,6 @@ doc-type: landing
 last-updated: 2026-03-18
 ---
 
-# Frontend Developer Guide
 
 This guide covers the developer-facing surface of ExpertFlow CX — SDKs, APIs, message schemas, socket events, and the data model underpinning the routing and interaction lifecycle.
 
