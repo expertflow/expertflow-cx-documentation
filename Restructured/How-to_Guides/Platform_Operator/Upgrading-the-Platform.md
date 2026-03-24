@@ -4,7 +4,7 @@ summary: "Step-by-step guide for platform operators on upgrading an ExpertFlow C
 audience: [administrator, hosting-partner, platform-operator]
 doc-type: how-to
 difficulty: advanced
-keywords: []
+keywords: [upgrade, platform upgrade, migration]
 aliases: []
 last-updated: 2026-03-24
 status: placeholder

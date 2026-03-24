@@ -4,7 +4,7 @@ summary: "Onboarding guide for new hosting partners — covers environment prere
 audience: [hosting-partner]
 doc-type: tutorial
 difficulty: intermediate
-keywords: []
+keywords: [hosting partner, deployment, onboarding]
 aliases: []
 last-updated: 2026-03-24
 status: placeholder
