@@ -100,16 +100,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentation',
+            title: 'Get Started',
             items: [
-              {
-                label: 'Getting Started',
-                to: '/docs/cx/Getting_Started',
-              },
-              {
-                label: 'Role-Based Guides',
-                to: '/docs/cx/Role_Based_Guides',
-              },
+              { label: 'For Agents', to: '/docs/cx/Getting_Started/For_Agents' },
+              { label: 'For Administrators', to: '/docs/cx/Getting_Started/For_Administrators' },
+              { label: 'For Hosting Partners', to: '/docs/cx/Getting_Started/For_Hosting_Partners' },
+            ],
+          },
+          {
+            title: 'Explore',
+            items: [
+              { label: 'Platform Overview', to: '/docs/cx/Platform_Overview' },
+              { label: 'Capabilities', to: '/docs/cx/Capabilities' },
+              { label: 'How-to Guides', to: '/docs/cx/How-to_Guides' },
+              { label: 'Reference', to: '/docs/cx/Reference' },
             ],
           },
           {
