@@ -1,45 +1,71 @@
-# ExpertFlow CX Documentation Knowledge Base Restructure
+# ExpertFlow CX Documentation
 
-This project contains the complete architectural audit and redesign of the ExpertFlow CX Knowledge Base. It represents a transition from a feature-centric Confluence hierarchy to a **Persona-Driven, Diátaxis-compliant framework**.
+This repository contains the ExpertFlow CX platform documentation, restructured from a legacy Confluence knowledge base into a persona-driven, Diátaxis-compliant framework published via Docusaurus.
 
-## 🚀 Project Overview
+## Current Status
 
-The ExpertFlow CX Knowledge Base has been restructured to ensure that technical implementation details are isolated from operational paths for business users. The new structure is organized into four primary pillars:
+Restructure project in progress — see [Phase3/Restructure_Project_Plan.md](Phase3/Restructure_Project_Plan.md) for milestone status.
 
-1.  **Role-Based Guides:** Focused on onboarding and daily operations for personas like Agents, Supervisors, and Quality Managers.
-2.  **Implementation & Specialist Technicals:** Focused on professional services, developers, and AI specialists.
-3.  **Infrastructure & Hosting:** Targeted at partners and resellers managing RKE2, clusters, and multi-tenancy.
-4.  **Security & Compliances:** Centralized trust and data sovereignty information (GDPR, HIPAA, PCI).
+| Milestone | Status |
+| --- | --- |
+| M1 — Persona Model & Navigation Design | ✅ Complete |
+| M2 — Full Content Mapping | ✅ Complete |
+| M3 — Folder Restructure | ✅ Complete |
+| M4 — Metadata Re-tagging | ✅ Complete |
+| M5 — Content Gap Filling (placeholders) | ✅ Complete |
+| M6 — Navigation Config Update | ✅ Complete |
+| M7 — Cross-link Audit | 🔲 Not started |
 
-## 📂 Project Structure
+## Navigation Structure
 
-The project is organized into phases reflecting the documentation lifecycle:
+The documentation is organised into 5 top-level sections:
 
-*   **`Phase1/`**: Exhaustive inventory and raw mapping of the original 662 documentation pages.
-*   **`Phase2/`**: Audit summaries and the **Master Refactoring Backlog**, which contains machine-readable instructions for content cleanup.
-*   **`Phase3/`**: Final navigation trees, persona models, and gap analysis.
-*   **`Phase4/`**: Sample refactored content organized by persona (Agent, Developer, Supervisor, etc.).
-*   **`SBT_MD/`**: The source markdown files (600+) from the original documentation export.
+| # | Section | Purpose |
+| --- | --- | --- |
+| 1 | **Getting Started** | Role-based entry points — one path per persona |
+| 2 | **Platform Overview** | Evaluation and orientation content |
+| 3 | **Capabilities** | Topic-based browsing — what the platform can do |
+| 4 | **How-to Guides** | Task-based guides organised by persona |
+| 5 | **Reference** | Schemas, APIs, glossary |
 
-## 🛠 Key Artifacts
+Personas: Agent · Administrator · Supervisor & QA Lead · Conversation Designer / AI Specialist · Developer / Integrator · Hosting Partner · Platform Operator (cross-cutting sub-path)
 
-*   **`FINAL_PROJECT_REPORT_ExpertFlow_CX.md`**: Executive summary of the restructure project.
-*   **`personas-CX_Documentation-2026-03-05.md`**: Detailed definitions of the 12-persona model.
-*   **`Phase2/Master_Refactoring_Backlog.yaml`**: The "instruction set" for surgical content refactoring.
-*   **`Phase3/Final_Navigation_Tree_v11.yaml`**: The master hierarchy for the new documentation site.
+## Repository Structure
 
-## 📈 Current Status
+```text
+DocWithGeminiCLI/
+├── Restructured/          # Live content — source of truth for the docs site
+│   ├── Getting_Started/
+│   ├── Platform_Overview/
+│   ├── Capabilities/
+│   ├── How-to_Guides/
+│   └── Reference/
+├── Phase3/                # Restructure project artefacts
+│   ├── Restructure_Project_Plan.md
+│   ├── Revised_Persona_Model.md
+│   ├── Navigation_Skeleton_Tree.md
+│   └── Content_Mapping_Table.csv
+├── Phase4/                # Previous structure (source for M3 migration — do not edit)
+├── docs-site/             # Docusaurus site configuration
+├── scripts/               # Migration and maintenance scripts
+│   ├── migrate_m3.py      # M3 folder restructure
+│   ├── retag_m4.py        # M4 metadata re-tagging
+│   ├── generate_content_map.py  # M2 content mapping
+│   ├── check_links.py     # M7 link checker
+│   ├── repair_links.py    # M7 link repair
+│   └── archive/           # Superseded scripts from earlier phases
+└── archive/               # Historical project reports and prompts
+```
 
-The project has completed the **Research** and **Strategy** phases. We are currently in the **Execution** phase, where the "Master Backlog" is being used to refactor the original content into the new persona-driven structure.
+## Running the Docs Site Locally
 
-## 🤝 Contributing
+```bash
+cd docs-site
+npm install
+npm run start      # Dev server at http://localhost:3000
+npm run build      # Production build
+```
 
-We welcome contributions to the ExpertFlow CX documentation! We follow the **GitHub Flow** for all changes.
+## Contributing
 
-Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
-*   How to create a branch.
-*   The PR process and review cycle.
-*   How to preview your changes locally using Docusaurus.
-
----
-*Created and maintained by the ExpertFlow Documentation Team.*
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the branch and PR workflow.
