@@ -4,7 +4,7 @@ summary: "How-to guide for platform operators — covers the key health checks, 
 audience: [administrator, hosting-partner, platform-operator]
 doc-type: how-to
 difficulty: intermediate
-keywords: []
+keywords: [monitoring, health checks, platform operations]
 aliases: []
 last-updated: 2026-03-24
 status: placeholder

@@ -4,7 +4,7 @@ summary: "Onboarding guide for new conversation designers — covers accessing C
 audience: [conversation-designer]
 doc-type: tutorial
 difficulty: beginner
-keywords: []
+keywords: [conversation designer, onboarding, quick start]
 aliases: []
 last-updated: 2026-03-24
 status: placeholder

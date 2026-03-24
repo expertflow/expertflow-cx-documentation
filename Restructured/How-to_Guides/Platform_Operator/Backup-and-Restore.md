@@ -4,7 +4,7 @@ summary: "How-to guide for platform operators — covers backup scope, backup co
 audience: [administrator, hosting-partner, platform-operator]
 doc-type: how-to
 difficulty: intermediate
-keywords: []
+keywords: [backup, restore, data recovery]
 aliases: []
 last-updated: 2026-03-24
 status: placeholder
