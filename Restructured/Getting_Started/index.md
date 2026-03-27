@@ -17,7 +17,7 @@ New to ExpertFlow CX? Start with the [Platform Overview](../Platform_Overview/Ex
 | Role | First stop |
 | --- | --- |
 | **Agent** — handling customer interactions | [Agent Quick-Start Guide](For_Agents/Agent-Quick-Start-Guide.md) |
-| **Supervisor & QA Lead** — monitoring teams and running quality workflows | [Monitoring Your Team in Real-Time](For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time.md) |
+| **Supervisor & QA Lead** — monitoring teams and running quality workflows | [Supervisor & QA Lead Quick Start](For_Supervisors_and_QA_Leads/Supervisor-and-QA-Lead-Quick-Start.md) |
 
 The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and reporting — previously split across Supervisor, Human Evaluator, and Quality Manager roles.
 
@@ -30,9 +30,8 @@ The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and re
 | Role | First stop |
 | --- | --- |
 | **Administrator** — configuring a single-tenant installation | [Unified Admin Guide](For_Administrators/Unified-Admin-Guide.md) |
-| **Hosting / Reseller Partner** — deploying, hosting, or reselling ExpertFlow CX | [Partners & Resellers Quick Start](For_Hosting_Partners/Hosting-Partner-Quick-Start.md) |
-
-Both paths lead into the **Hosting Partner** section of How-to Guides (monitoring, upgrades, backup/restore).
+| **Platform Operator** — deploying and hosting ExpertFlow CX infrastructure | [Platform Operator Quick Start](For_Hosting_Partners/Platform-Operator-Quick-Start.md) |
+| **Reseller Partner** — selling and provisioning ExpertFlow CX subscriptions | [Reseller Partner Quick Start](For_Hosting_Partners/Reseller-Partner-Quick-Start.md) |
 
 ---
 
