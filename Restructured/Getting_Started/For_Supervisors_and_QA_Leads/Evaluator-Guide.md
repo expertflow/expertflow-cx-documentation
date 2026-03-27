@@ -1,4 +1,5 @@
 ---
+sidebar_position: 3
 title: "As an Evaluator"
 summary: "Overview of the Evaluator role in ExpertFlow CX Quality Management — covering the QM workflow, how to access assigned evaluations, review conversations, complete evaluation forms, and submit assessments."
 audience: [supervisor-qa]

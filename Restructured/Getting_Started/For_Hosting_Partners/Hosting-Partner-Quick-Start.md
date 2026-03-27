@@ -1,51 +1,43 @@
 ---
-title: "Quick Start for Hosting Partners"
-summary: "Onboarding guide for new hosting partners — covers environment prerequisites, first deployment steps, tenant provisioning, and handoff to the solution admin."
-audience: [hosting-partner]
+sidebar_position: 0
+title: "Quick Start for Partners & Resellers"
+summary: "Entry point for hosting partners and reseller partners — find your track and where to go next in the knowledge base."
+audience: [hosting-partner, reseller-partner]
 doc-type: tutorial
 difficulty: intermediate
-keywords: [hosting partner, deployment, onboarding]
-aliases: []
-last-updated: 2026-03-24
+keywords: ["hosting partner", "reseller", "partner quick start", "deployment", "tenant onboarding"]
+aliases: ["partner quick start", "reseller quick start"]
+last-updated: 2026-03-26
 status: placeholder
 ---
 
-# Quick Start for Hosting Partners
+ExpertFlow CX is deployed and distributed through two partner types. Find your track below.
 
-> **Placeholder** — This document needs to be written. See the outline below for intended content.
+---
 
-This guide walks a new hosting partner through spinning up their first ExpertFlow CX environment from scratch, up to the point where a tenant is ready for a solution admin to log in.
+## I am a Hosting Partner
 
-## Prerequisites
+You deploy, host, and operate ExpertFlow CX environments for one or more tenants. You own the infrastructure.
 
-- [ ] List infrastructure requirements (CPU, RAM, storage)
-- [ ] Required access: cloud account / bare-metal, DNS, SSL certificates
-- [ ] Networking prerequisites (ports, firewall rules)
+**Your path:**
 
-## Step 1 — Deploy the RKE2 Control Plane
+1. **Deploy the platform** — Start with [Helm-Based Application Deployment](../../How-to_Guides/Hosting_Partner/Helm-Based-Application-Deployment.md)
+2. **Onboard your first tenant** — [Onboarding a New Tenant](../../How-to_Guides/Hosting_Partner/Onboarding-a-New-Tenant.md)
+3. **Operate the platform** — [Monitoring the Platform](../../How-to_Guides/Hosting_Partner/Monitoring-the-Platform.md), [Backup and Restore](../../How-to_Guides/Hosting_Partner/Backup-and-Restore.md), [Upgrading the Platform](../../How-to_Guides/Hosting_Partner/Upgrading-the-Platform.md)
 
-_Cross-reference: [Deploying the RKE2 Control Plane](Deploying-the-RKE2-Control-Plane.md)_
+→ Full reference: [How-to Guides — Hosting Partner](../../How-to_Guides/Hosting_Partner/index.md)
 
-Brief summary of what this step covers and any hosting-partner-specific notes.
+---
 
-## Step 2 — Install ExpertFlow CX
+## I am a Reseller Partner
 
-- Helm chart / installer walkthrough (high level)
-- Configuration values to set before first boot
+You sell and provision ExpertFlow CX subscriptions to end customers. You do not manage the underlying infrastructure — that is handled by a Hosting Partner or Expertflow directly.
 
-## Step 3 — Onboard Your First Tenant
+**Your path:**
 
-_Cross-reference: [Onboarding a New Tenant](Onboarding-a-New-Tenant.md)_
+1. **Get set up** — [Reseller Quick Start](../../How-to_Guides/Reseller_Partner/Reseller-Quickstart.md)
+2. **Manage subscriptions** — [Subscription Tiers and Capacity Planning](../../How-to_Guides/Reseller_Partner/Subscription-Tiers-and-Capacity-Planning.md)
+3. **Manage tenants** — [Tenant Lifecycle Management](../../How-to_Guides/Reseller_Partner/Tenant-Lifecycle-Management.md)
+4. **White-label the interface** — [White-Labeling the Interface](../../How-to_Guides/Reseller_Partner/White-Labeling-the-Interface.md)
 
-- What the hosting partner does vs what the solution admin does
-- Credential handoff checklist
-
-## Step 4 — Verify the Deployment
-
-- Health check commands / URLs
-- What a successful deployment looks like
-
-## Next Steps
-
-- [Platform Operator: Monitoring the Platform](../../How-to_Guides/Platform_Operator/Monitoring-the-Platform.md)
-- [Platform Operator: Backup and Restore](../../How-to_Guides/Platform_Operator/Backup-and-Restore.md)
+→ Full reference: [How-to Guides — Reseller Partner](../../How-to_Guides/Reseller_Partner/index.md)

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: "Managing the Quality Assurance Workflow"
 summary: "Guide for Quality Managers to orchestrate human and AI evaluation processes, set thresholds, and manage alerts."
 audience: [supervisor-qa]

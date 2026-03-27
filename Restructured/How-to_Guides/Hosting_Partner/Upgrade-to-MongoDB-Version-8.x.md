@@ -20,8 +20,8 @@ This guide is valid for **ExpertFlow CX 4.6 and higher**, where AUTH and TLS cap
 
 ### Mandatory Backup
 Before starting, perform a full backup of your MongoDB data. Choose the method appropriate for your environment:
-*   **Small Datasets:** [Manual PostgreSQL/MongoDB Backup](../../_unmapped/Archive-Notice.md)
-*   **Large Datasets:** [Velero Kubernetes Backup/Restore](../../_unmapped/Archive-Notice.md)
+*   **Small Datasets:** [Manual PostgreSQL/MongoDB Backup](../../Reference/Archive-Notice.md)
+*   **Large Datasets:** [Velero Kubernetes Backup/Restore](../../Reference/Archive-Notice.md)
 
 ---
 

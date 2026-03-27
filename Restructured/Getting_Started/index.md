@@ -1,33 +1,55 @@
 ---
-summary: "Entry points for every persona and the reference material you need before you begin."
+summary: "Role-based entry points for every persona cluster — find your path and start here."
 doc-type: landing
-last-updated: 2026-03-13
+last-updated: 2026-03-24
 ---
 
 # Getting Started
 
-New to ExpertFlow CX? Start with the [Platform Overview](../Platform_Overview/Expertflow-CX-Platform-Overview.md) for a conceptual introduction to what the platform is and how it fits together.
-
-Then find your role below for a guided first experience.
+New to ExpertFlow CX? Start with the [Platform Overview](../Platform_Overview/Expertflow-CX-Platform-Overview.md) for a conceptual introduction, then find your cluster below.
 
 ---
 
-## By Role
+## I work in a contact center
 
-| Role | Entry Point |
+*Handling interactions, monitoring teams, or managing quality.*
+
+| Role | First stop |
 | --- | --- |
-| **Agent (Amy)** | [The Agent Quick-Start Guide](For_Agents/Agent-Quick-Start-Guide.md) |
-| **Supervisor (Sam)** | [Monitoring Your Team in Real-Time](For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time.md) |
-| **Solution Admin (Olivia)** | [Unified Admin Guide](For_Administrators/Unified-Admin-Guide.md) |
-| **Quality Manager (Quentin)** | [Managing the QA Workflow](For_Supervisors_and_QA_Leads/Managing-the-Quality-Assurance-Workflow.md) |
-| **Human Evaluator (Eva)** | [User Guide for Evaluator](For_Supervisors_and_QA_Leads/Evaluator-Guide.md) |
-| **Decision Maker / CTO** | [Decision Maker Guide](../Platform_Overview/index.md) |
-| **Frontend Developer (Dev)** | [AgentManager SDK Reference](../How-to_Guides/Developer_Integrator/AgentManager-SDK-Integration-Guide.md) |
-| **Conversation Designer (Dave)** | [Conversation Studio Overview](For_Conversation_Designers/Conversation-Studio-Configuration-Guide.md) |
-| **Integration Specialist (Ian)** | [Cisco UCCE/X Integration Reference](../How-to_Guides/Developer_Integrator/Cisco-Contact-Center-Integration-Reference.md) |
-| **AI / NLU Specialist** | [Configuring AI-Powered Quality Audits](../How-to_Guides/Conversation_Designer/Configuring-AI-Powered-Quality-Audits.md) |
-| **Multi-tenant Partner (Host)** | [Deploying the RKE2 Control Plane](For_Hosting_Partners/Deploying-the-RKE2-Control-Plane.md) |
-| **Reseller (Cloud)** | [Onboarding a New Tenant](For_Hosting_Partners/Onboarding-a-New-Tenant.md) |
+| **Agent** — handling customer interactions | [Agent Quick-Start Guide](For_Agents/Agent-Quick-Start-Guide.md) |
+| **Supervisor & QA Lead** — monitoring teams and running quality workflows | [Monitoring Your Team in Real-Time](For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time.md) |
+
+The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and reporting — previously split across Supervisor, Human Evaluator, and Quality Manager roles.
+
+---
+
+## I manage or run the platform
+
+*Configuration, hosting, or day-to-day operations.*
+
+| Role | First stop |
+| --- | --- |
+| **Administrator** — configuring a single-tenant installation | [Unified Admin Guide](For_Administrators/Unified-Admin-Guide.md) |
+| **Hosting / Reseller Partner** — deploying, hosting, or reselling ExpertFlow CX | [Partners & Resellers Quick Start](For_Hosting_Partners/Hosting-Partner-Quick-Start.md) |
+
+Both paths lead into the **Hosting Partner** section of How-to Guides (monitoring, upgrades, backup/restore).
+
+---
+
+## I'm building on ExpertFlow
+
+*Designing conversation flows, building custom UIs, or integrating external systems.*
+
+| Role | First stop |
+| --- | --- |
+| **Conversation Designer / AI Specialist** — building flows and tuning NLU models | [Conversation Designer Quick Start](For_Conversation_Designers/Conversation-Designer-Quick-Start.md) |
+| **Developer / Integrator** — building custom UIs, SDKs, and system integrations | [Developer & Integrator Quick Start](For_Developers_and_Integrators/Developer-and-Integrator-Quick-Start.md) |
+
+---
+
+## Evaluating the platform?
+
+If you are assessing ExpertFlow CX rather than using it, see the [Platform Overview](../Platform_Overview/Expertflow-CX-Platform-Overview.md) — architecture, security & compliance, AI capabilities, and release policy.
 
 ---
 

@@ -46,4 +46,4 @@ The following configuration must be added to the `tenantSettings` object via the
 - **Enrollment**: Upon the next login, users will be prompted to enter and verify the email address where they wish to receive OTPs.
 - **Verification**: After entering username/password, the system will challenge the user for the 6-digit OTP sent to their registered email.
 
-For troubleshooting and common issues, refer to the [2FA Technical Reference](../../_unmapped/Archive-Notice.md).
+For troubleshooting and common issues, refer to the [2FA Technical Reference](../../Reference/Archive-Notice.md).
