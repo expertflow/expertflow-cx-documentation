@@ -9,7 +9,7 @@ aliases: []
 last-updated: 2026-03-13
 ---
 
-ExpertFlow CX is an AI-native omnichannel contact center platform that unifies inbound and outbound customer interactions across voice, digital, and social media channels. Rather than assembling separate tools for routing, quality management, workforce optimization, and AI, ExpertFlow CX consolidates all of these into a single, cohesive platform running on an open, extensible architecture.
+ExpertFlow CX is an AI-native omnichannel customer collaboration platform that unifies customer interactions across voice, digital, and social media channels — and gives you the tools to define and orchestrate the entire customer journey workflow, from first contact to resolution. Rather than assembling separate tools for routing, quality management, workforce optimization, and AI, ExpertFlow CX consolidates all of these into a single, cohesive platform running on an open, extensible architecture.
 
 The platform is designed for enterprises, managed service providers, and system integrators who need to control their data, integrate with existing infrastructure, and scale without vendor lock-in.
 

@@ -52,7 +52,7 @@ Once the routing is ready, you must connect your communication channels.
 
 ### Digital Channels:
 - **WhatsApp/Facebook:** Configure your **Channel Providers** and **Connectors** to link your business accounts to the routing engine.
-- *For detailed channel setup, see the [Digital Channel Management](../../_unmapped/Archive-Notice.md) section.*
+- *For detailed channel setup, see [Digital Channels](../../Capabilities/Digital_Channels/index.md).*
 
 ## 4. Operational Settings
 - **Reason Codes:** Add custom codes for "Not Ready" (e.g., Training, System Issue) and "Logout."

@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: "Monitoring Your Team in Real-Time"
 summary: "Operational guide for Supervisors to use real-time dashboards for queue monitoring and agent management."
 audience: [supervisor-qa]

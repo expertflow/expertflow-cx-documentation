@@ -65,6 +65,6 @@ If any of these components go down:
 
 ## Related Articles
 
-- [Failover Cluster with Replicated Block Volume](../../_unmapped/Archive-Notice.md)
+- [Failover Cluster with Replicated Block Volume](../../Reference/Archive-Notice.md)
 - [Kubernetes Distributions](Kubernetes-Distributions.md)
 - [Deploying the RKE2 Control Plane](../../Getting_Started/For_Hosting_Partners/Deploying-the-RKE2-Control-Plane.md)

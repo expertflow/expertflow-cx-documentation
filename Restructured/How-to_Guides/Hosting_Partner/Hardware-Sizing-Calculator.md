@@ -14,7 +14,7 @@ last-updated: 2026-03-21
 
 Use this reference to size hardware for a new ExpertFlow CX deployment. Tables are organised by component and scaled against the two primary sizing drivers: **concurrent agents** and **concurrent voice calls**.
 
-> All figures are minimum recommended specs for production. Add 20–30% headroom for peak traffic and OS overhead. Development and lab environments may use lower specs — see [Partner Lab / Demo Setup](Partner-Lab-Demo-Setup.md).
+> All figures are minimum recommended specs for production. Add 20–30% headroom for peak traffic and OS overhead. Development and lab environments may use lower specs.
 
 ---
 

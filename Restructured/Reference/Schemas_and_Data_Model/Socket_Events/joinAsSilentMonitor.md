@@ -31,6 +31,6 @@ Event is emitted when a supervisor requests the Agent Manager to join an active 
 ## Related Articles
 
 - [Socket Events Overview](./index.md)
-- [JoinAsBargeIn](./JoinAsBargeIn.md)
+- [JoinAsBargeIn](./joinAsBargeIn.md)
 - [joinAsWhisper](./joinAsWhisper.md)
 - [AgentManager SDK Integration Guide](../../../How-to_Guides/Developer_Integrator/AgentManager-SDK-Integration-Guide.md)
