@@ -46,6 +46,6 @@ Agents can assign labels to customers from the customer profile panel during an 
 
 ## Related Articles
 
-- [Assign Labels to Customers](../../How-to_Guides/Agent/Handling-Customer-Interactions.md)
+- [Customer Management](index.md)
 - [Customer Advanced Filters](Customer-Advanced-Filters.md)
-- [Customer Interaction Profiles Overview](../../How-to_Guides/Administrator/Customer-Interaction-Profiles-Overview.md)
+- [Assign Labels to Customers](../../How-to_Guides/Agent/Handling-Customer-Interactions.md)

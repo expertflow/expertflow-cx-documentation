@@ -72,6 +72,6 @@ This type of filter can be saved and reused when running targeted campaigns agai
 
 ## Related Articles
 
+- [Customer Management](index.md)
 - [Customer Labels](Customer-Labels.md)
 - [Managing Outbound Campaigns](../../How-to_Guides/Administrator/Managing-Outbound-Campaigns.md)
-- [Customer Interaction Profiles Overview](../../How-to_Guides/Administrator/Customer-Interaction-Profiles-Overview.md)
