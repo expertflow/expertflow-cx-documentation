@@ -1,6 +1,6 @@
 ---
-audience: [platform-overview]
-doc-type: explanation
+audience: [administrator]
+doc-type: how-to
 difficulty: beginner
 aliases: []
 ---
