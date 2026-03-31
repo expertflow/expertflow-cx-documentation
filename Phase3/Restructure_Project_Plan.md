@@ -2,7 +2,7 @@
 
 **Project:** ExpertFlow CX Docs — Navigation & Persona Model Restructure
 **Started:** 2026-03-24
-**Last updated:** 2026-03-24 (M7 complete — all milestones done)
+**Last updated:** 2026-03-31 (Phase4 archived; migration journey documented)
 
 ---
 
@@ -220,12 +220,23 @@ Script: `scripts/audit_links_m7.py`  |  Full report: `Phase3/broken_links_report
 
 ---
 
+## Post-Migration
+
+**2026-03-31** — Phase4 archived to `archive/Phase4/`. `Restructured/` is now the sole active content tree.
+
+Migration history documented in `Phase3/Migration_Journey.md`.
+
+---
+
 ## Reference Files
 
 | File | Purpose |
 | --- | --- |
+| `Phase3/Migration_Journey.md` | Full migration narrative — why, what changed, how, open items |
 | `Phase3/Revised_Persona_Model.md` | Canonical persona definitions, golden paths, nav structure decisions |
 | `Phase3/Navigation_Skeleton_Tree.md` | 2-level nav skeleton with source mapping and gap analysis |
 | `Phase3/Content_Mapping_Table.csv` | Master mapping: every file → new section, action, audience tag |
+| `Phase3/broken_links_report.md` | Full M7 link audit results (508 found, 504 repaired, 4 unresolvable) |
 | `generate_content_map.py` | Script that produced the mapping table |
 | `check_links.py` / `repair_links.py` | Existing link audit/repair scripts (reuse in M7) |
+| `archive/Phase4/` | Original Phase4 content tree (archived 2026-03-31) |
