@@ -41,8 +41,7 @@ Before diving into a specific track, these foundational articles cover the platf
 
 ## Reference docs
 
-- [JavaScript SDK](../../How-to_Guides/Developer_Integrator/JavaScript-SDK.md)
-- [Customer-Facing SDK](../../How-to_Guides/Developer_Integrator/Customer-Facing-SDK.md)
+- [JavaScript SDK for Customer-Facing Channels](../../How-to_Guides/Developer_Integrator/JavaScript-SDK.md)
 - [Form APIs](../../How-to_Guides/Developer_Integrator/Form-APIs.md)
 - [Business Calendar API](../../How-to_Guides/Developer_Integrator/Business-Calendar-API.md)
 - [Queue Flushing API](../../How-to_Guides/Developer_Integrator/Queue-Flushing-API.md)

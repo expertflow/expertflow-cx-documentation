@@ -1,18 +1,43 @@
 ---
 title: "JavaScript SDK for Customer-Facing Channels"
-summary: "Developer reference for the ExpertFlow CX JavaScript SDK — covering configuration, all chat functions, WebRTC call functions, socket event listeners, chat resume scenarios, and customer data payload format."
+summary: "Complete guide to the ExpertFlow CX JavaScript SDK — covering supported capabilities, installation, configuration, chat functions, WebRTC calls, socket events, and chat resume scenarios."
 audience: [developer-integrator]
 product-area: [sdk, channels]
 doc-type: reference
-difficulty: advanced
-keywords: ["JavaScript SDK CX", "customer widget SDK CX", "chat SDK functions CX", "WebRTC SDK CX", "socket events SDK CX", "ExpertFlow JS SDK", "web chat SDK developer"]
-aliases: ["CX JS SDK", "JavaScript SDK customer-facing CX", "web SDK CX"]
-last-updated: 2026-03-10
+difficulty: intermediate
+keywords: ["JavaScript SDK CX", "customer facing SDK CX", "omnichannel SDK CX", "web chat SDK CX", "WebRTC SDK CX", "socket events SDK CX", "ExpertFlow JS SDK", "customer widget SDK CX"]
+aliases: ["CX JS SDK", "JavaScript SDK customer-facing CX", "web SDK CX", "customer-facing SDK CX", "omnichannel communication SDK CX"]
+last-updated: 2026-04-07
 ---
 
 # JavaScript SDK for Customer-Facing Channels
 
-The ExpertFlow CX JavaScript SDK enables embedding customer-facing communication — chat, WebRTC audio/video calls — in web and mobile applications. Developers use their own UI while the SDK handles the backend communication with ExpertFlow CX.
+The ExpertFlow CX JavaScript SDK enables developers to embed real-time communication features — web chat, audio calls, video calls, and screen sharing — into mobile (native or hybrid) and web applications.
+
+The SDK handles all backend communication with ExpertFlow CX while allowing developers to build and use a **fully custom user interface**.
+
+---
+
+## Supported Capabilities
+
+| Capability | Status |
+|---|---|
+| Web Chat | Available |
+| Audio Calls (WebRTC) | Available |
+| Video Calls (WebRTC) | Available |
+| Screen-sharing Calls | Available |
+| Contact Center Stats (queue depths, wait times) | Roadmap |
+| Contact Center Availability Timings | Roadmap |
+| Agent Availability Check | Roadmap |
+| Expected Waiting Time | Roadmap |
+
+---
+
+## Use Cases
+
+- **Custom chat widget**: Embed a branded chat experience in your website or mobile app without using the standard ExpertFlow widget.
+- **In-app calling**: Add WebRTC audio/video call capability to a mobile app using the SDK's call controls.
+- **Omnichannel customer experience**: Enable customers to switch between chat and voice within a single app session.
 
 ---
 
@@ -21,7 +46,11 @@ The ExpertFlow CX JavaScript SDK enables embedding customer-facing communication
 ### CDN (Web Applications)
 
 ```html
+<!-- Standard -->
 <script src="https://cdn.jsdelivr.net/gh/expertflow/sdk-for-customer-facing-channels@latest/sdk.js"></script>
+
+<!-- Minified -->
+<script src="https://cdn.jsdelivr.net/gh/expertflow/sdk-for-customer-facing-channels@latest/sdk.min.js"></script>
 ```
 
 ### NPM (Mobile / Native Apps)
@@ -29,6 +58,8 @@ The ExpertFlow CX JavaScript SDK enables embedding customer-facing communication
 ```bash
 npm i @expertflow/sdk-for-customer-facing-channels
 ```
+
+Full NPM package reference: `https://www.npmjs.com/package/@expertflow/sdk-for-customer-facing-channels`
 
 ---
 
@@ -167,7 +198,7 @@ After calling `establishConnection()`, the following event listeners are active 
 
 ## Related Articles
 
-- [Customer-Facing SDK for Omnichannel Communication](Customer-Facing-SDK.md)
+- [Customer Widget Features and Capabilities](../Administrator/Customer-Widget-Features-Capabilities.md)
 - [WebRTC Configuration Guide](../Administrator/WebRTC-Configuration-Guide.md)
 - [CIM Messages](../../Reference/Schemas_and_Data_Model/CIM_Message_Schema/CIM-Messages.md)
 - [Socket Events](../../Reference/Schemas_and_Data_Model/Socket_Events/index.md)
