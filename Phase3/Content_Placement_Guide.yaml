@@ -89,8 +89,11 @@ personas:
       backup, or infrastructure content with this value regardless of
       deployment model.
     owns:
+      - pre-installation environment validation (OS, network, ports, software compatibility)
       - installation and initial deployment (RKE2, Helm, networking, SSL)
+      - post-installation verification (pod health, ingress, TLS, smoke tests)
       - version upgrades and patch procedures
+      - post-upgrade verification (tenant config integrity, log review, smoke tests)
       - platform health monitoring and alerting
       - backup and restore
       - infrastructure troubleshooting and performance tuning

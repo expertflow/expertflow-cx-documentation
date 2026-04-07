@@ -1,7 +1,7 @@
 ---
 title: "Superset Deployment for Reporting"
 summary: "Procedures for deploying Apache Superset on Kubernetes to serve as the ExpertFlow CX analytics and reporting engine."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [analytics, reports]
 doc-type: how-to
 difficulty: advanced

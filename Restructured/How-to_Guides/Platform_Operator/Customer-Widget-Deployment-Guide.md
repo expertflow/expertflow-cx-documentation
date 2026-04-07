@@ -1,7 +1,7 @@
 ---
 title: "Customer Widget Deployment Guide"
 summary: "How-to guide for deploying the ExpertFlow Live Chat widget via Google Tag Manager — covering three deployment methods (GTM Tag Template, GitHub import, Custom HTML script), Google Analytics customer identification, and widget customization options."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [channels, digital]
 doc-type: how-to
 difficulty: intermediate

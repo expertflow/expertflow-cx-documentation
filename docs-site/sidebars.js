@@ -13,7 +13,15 @@ const sidebars = {
         { type: 'doc', id: 'cx/Getting_Started/For_Agents/index', label: 'For Agents' },
         { type: 'doc', id: 'cx/Getting_Started/For_Administrators/index', label: 'For Administrators' },
         { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/index', label: 'For Supervisors & QA Leads' },
-        { type: 'doc', id: 'cx/Getting_Started/For_Platform_Operators/index', label: 'For Platform Operators' },
+        {
+          type: 'category',
+          label: 'For Platform Operators',
+          link: { type: 'doc', id: 'cx/Getting_Started/For_Platform_Operators/index' },
+          items: [
+            { type: 'doc', id: 'cx/Getting_Started/For_Platform_Operators/Installation-Guide', label: 'Installation Guide' },
+            { type: 'doc', id: 'cx/Getting_Started/For_Platform_Operators/Upgrade-Guide', label: 'Upgrade Guide' },
+          ],
+        },
         { type: 'doc', id: 'cx/Getting_Started/For_Partners/index', label: 'For Partners' },
         { type: 'doc', id: 'cx/Getting_Started/For_Conversation_Designers/index', label: 'For Conversation Designers' },
         { type: 'doc', id: 'cx/Getting_Started/For_Developers_and_Integrators/index', label: 'For Developers & Integrators' },

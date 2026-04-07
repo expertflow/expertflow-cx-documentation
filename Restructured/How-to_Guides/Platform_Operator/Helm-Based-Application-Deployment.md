@@ -1,7 +1,7 @@
 ---
 title: "Helm-Based Application Deployment"
 summary: "Guide for Multi-tenant Partners to deploy the ExpertFlow CX application layers using Helm charts and customized values.yaml files."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [infrastructure, helm]
 doc-type: how-to
 difficulty: advanced

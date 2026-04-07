@@ -150,11 +150,3 @@ This guide covers the full administrative surface of ExpertFlow CX for a solutio
 | [Redis Log Monitoring via Slowlogs](./Redis-Slowlogs.md) | Use Redis SLOWLOG to identify and diagnose slow commands |
 
 ---
-
-## 12. Security Advisories
-
-| Document | Description |
-| :--- | :--- |
-| [Vulnerability Report — Release 4.10.4](../../Capabilities/Security_and_Compliance/Vulnerability-Report-4.10.4.md) | CVE disclosures and mitigations for ExpertFlow CX 4.10.4 |
-| [Vulnerability Report — Release 4.10](../../Capabilities/Security_and_Compliance/Vulnerability-Report-4.10.md) | CVE disclosures and mitigations for ExpertFlow CX 4.10 |
-| [Vulnerability Report — Release 4.9.4](../../Capabilities/Security_and_Compliance/Vulnerability-Report-4.9.4.md) | CVE disclosures and mitigations for ExpertFlow CX 4.9.4 |

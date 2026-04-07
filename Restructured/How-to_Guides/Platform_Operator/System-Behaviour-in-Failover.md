@@ -1,7 +1,7 @@
 ---
 title: "System Behaviour in Case of Failover"
 summary: "Reference analysis of failover behavior across ExpertFlow CX channels — covering Email and Web channel scenarios at each conversation stage, session recovery behavior, and known limitations with stateful components."
-audience: [hosting-partner, platform-operator]
+audience: [platform-operator]
 product-area: [platform]
 doc-type: reference
 difficulty: advanced

@@ -6,8 +6,6 @@ doc-type: landing
 last-updated: 2026-04-07
 ---
 
-# Platform Operator How-to Guides
-
 Guides for platform operators responsible for deploying, maintaining, and operating the ExpertFlow CX infrastructure.
 
 ## Deployment & Installation
@@ -37,3 +35,10 @@ Guides for platform operators responsible for deploying, maintaining, and operat
 ## Infrastructure Reference
 
 - [Hardware Sizing Calculator](../../Reference/Architecture_and_Infrastructure/Hardware-Sizing-Calculator.md)
+
+---
+
+New to ExpertFlow CX? Start here:
+
+→ [Installation Guide](../../Getting_Started/For_Platform_Operators/Installation-Guide.md)
+→ [Upgrade Guide](../../Getting_Started/For_Platform_Operators/Upgrade-Guide.md)

@@ -1,7 +1,7 @@
 ---
 title: "Audit Trail Implementation (OpenSearch Pattern)"
 summary: "Tutorial for implementing a centralized audit trail using the OpenSearch pattern. Note: OpenSearch is an optional pattern; partners may use any equivalent SIEM or logging solution."
-audience: [hosting-partner, platform-operator]
+audience: [platform-operator]
 product-area: [platform, security]
 doc-type: tutorial
 difficulty: advanced

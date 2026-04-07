@@ -1,7 +1,7 @@
 ---
 title: "Helm Chart Customization Guide"
 summary: "Advanced instructions for customizing ExpertFlow CX Helm charts, covering replica counts, resource limits, and custom image tags."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [platform, infrastructure]
 doc-type: how-to
 difficulty: advanced

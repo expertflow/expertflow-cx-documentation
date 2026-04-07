@@ -1,7 +1,7 @@
 ---
 title: "CX Voice Deployment Overview"
 summary: "High-level architectural overview and deployment sequence for the Voice components of ExpertFlow CX."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice]
 doc-type: explanation
 difficulty: intermediate

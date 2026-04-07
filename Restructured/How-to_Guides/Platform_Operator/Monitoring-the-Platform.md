@@ -1,7 +1,7 @@
 ---
 title: "Monitoring the Platform"
 summary: "How-to guide for platform operators — covers the key health checks, log locations, alerting setup, and dashboards for keeping an ExpertFlow CX deployment healthy."
-audience: [administrator, hosting-partner, platform-operator]
+audience: [administrator, platform-operator]
 doc-type: how-to
 difficulty: intermediate
 keywords: [monitoring, health checks, platform operations]

@@ -1,7 +1,7 @@
 ---
 title: "CX-Analyser Infrastructure Setup"
 summary: "Technical guide for configuring the reporting connector, TLS certificates, and database schemas for CX-Analyser."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [reporting, infrastructure, mysql]
 doc-type: how-to
 difficulty: advanced

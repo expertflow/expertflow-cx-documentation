@@ -1,7 +1,7 @@
 ---
 title: "Cisco Outbound Connector — Kubernetes Deployment"
 summary: "How-to guide for deploying the Cisco Outbound Connector on an RKE2 Kubernetes cluster — covering Redis setup, artifact cloning, ConfigMap configuration, Unified Admin channel setup, and Keycloak authentication for APISIX-enabled deployments."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, channels]
 doc-type: how-to
 difficulty: intermediate

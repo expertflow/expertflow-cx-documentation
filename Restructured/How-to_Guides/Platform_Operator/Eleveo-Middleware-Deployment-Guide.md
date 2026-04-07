@@ -1,7 +1,7 @@
 ---
 title: "Eleveo Middleware Deployment Guide"
 summary: "How-to guide for deploying the Eleveo Recording Middleware for ExpertFlow CX using Helm — covering custom values files for both the middleware and cronjob charts, all environment variable definitions, Keycloak authentication, and deployment commands."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: intermediate

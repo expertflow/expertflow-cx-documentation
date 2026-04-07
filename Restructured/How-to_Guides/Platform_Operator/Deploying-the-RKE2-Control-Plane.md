@@ -1,7 +1,7 @@
 ---
 title: "Deploying the RKE2 Control Plane"
 summary: "Technical guide for Multi-tenant Partners to prepare the environment and install the RKE2 Kubernetes control plane."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [infrastructure, kubernetes]
 doc-type: how-to
 difficulty: advanced

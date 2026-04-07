@@ -1,7 +1,7 @@
 ---
 title: "Configuring the Dispatcher in CX SIP Proxy"
 summary: "How-to guide for configuring the OpenSIPS Dispatcher module in the ExpertFlow CX SIP Proxy — covering Set IDs for each voice component (CVP, Cube, VVB, CUCM, Dialer), control panel configuration steps, and Dialplan attribute mapping."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: intermediate

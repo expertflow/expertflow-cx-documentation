@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Distributions"
 summary: "Reference guide for Kubernetes distributions supported by ExpertFlow CX — covering RKE2 (recommended), K8s/kubeadm, Tanzu Kubernetes Grid, K3s, and MicroK8s, with guidance on when to use each."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [platform]
 doc-type: explanation
 difficulty: beginner

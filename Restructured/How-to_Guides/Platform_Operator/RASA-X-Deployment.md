@@ -1,7 +1,7 @@
 ---
 title: "RASA-X Deployment Guide"
 summary: "Instructions for deploying Rasa-X using Helm charts to enable NLU model management and training."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [ai-features, nlu]
 doc-type: how-to
 difficulty: advanced

@@ -1,7 +1,7 @@
 ---
 title: "LiveKit Deployment Guide"
 summary: "How-to guide for deploying the ExpertFlow LiveKit AI voice agent integration on Debian 12 using Docker Compose — covering infrastructure, dashboard, AI agent configuration, SIP trunk setup via lk CLI and dashboard, dispatch rules, and FusionPBX routing."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: advanced

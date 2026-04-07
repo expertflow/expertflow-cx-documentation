@@ -1,7 +1,7 @@
 ---
 title: "Voice Connector Deployment Guide"
 summary: "Step-by-step instructions for deploying the Unified Voice Connector using Docker Compose, including ESL connectivity and security settings."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice]
 doc-type: how-to
 difficulty: intermediate

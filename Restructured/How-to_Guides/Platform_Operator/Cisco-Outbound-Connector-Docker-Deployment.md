@@ -1,7 +1,7 @@
 ---
 title: "Cisco Outbound Connector — Docker Deployment"
 summary: "How-to guide for deploying the Cisco Outbound Connector on Debian 12 using Docker Compose — covering prerequisites, Redis setup, port configuration, docker-compose.yml, and all environment variable definitions for CCX and CCE deployments."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, channels]
 doc-type: how-to
 difficulty: intermediate

@@ -1,7 +1,7 @@
 ---
 title: "Voice Recording Components Deployment Guide"
 summary: "Detailed instructions for deploying the Recording Link Uploader and Middleware components to enable call recording playback and management."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, quality-management]
 doc-type: how-to
 difficulty: advanced

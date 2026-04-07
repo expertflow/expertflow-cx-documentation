@@ -1,7 +1,7 @@
 ---
 title: "Setting Up CX Analyser Reports"
 summary: "Clinical step-by-step guide for importing report definitions and configuring the reporting scheduler after core platform deployment."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [reporting, analytics]
 doc-type: how-to
 difficulty: advanced

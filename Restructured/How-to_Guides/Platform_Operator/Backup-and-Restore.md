@@ -1,7 +1,7 @@
 ---
 title: "Backup and Restore"
 summary: "How-to guide for platform operators — covers backup scope, backup commands for each data store, restore procedures, and backup verification."
-audience: [administrator, hosting-partner, platform-operator]
+audience: [administrator, platform-operator]
 doc-type: how-to
 difficulty: intermediate
 keywords: [backup, restore, data recovery]
