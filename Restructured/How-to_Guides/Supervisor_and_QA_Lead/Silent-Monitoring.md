@@ -65,5 +65,5 @@ See [Barge-in and Intervention](Barge-in-and-Intervention.md) for full details o
 ## Related Articles
 
 - [Barge-in and Intervention](Barge-in-and-Intervention.md)
-- [Agent Hand Raise](../../Capabilities/Digital_Channels/Agent-Hand-Raise.md)
+- [Agent Hand Raise](../Agent/Agent-Hand-Raise.md)
 - [Monitoring Your Team in Real Time](../../Getting_Started/For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time.md)

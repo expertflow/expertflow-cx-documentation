@@ -133,4 +133,4 @@ For MSPs and SIs, multi-tenancy is built into the core of the platform. Each ten
 - Review integration options: [Integrations Overview](../How-to_Guides/Developer_Integrator/Integrations.md)
 - Understand the technical design: [Platform Architecture & Scalability](Platform-Architecture.md)
 - Review security and compliance posture: [Security & Compliance Whitepaper](Security-and-Compliance-Whitepaper.md)
-- Start configuring: [Unified Admin Guide](../Getting_Started/For_Administrators/Unified-Admin-Guide.md)
+- Start configuring: [Unified Admin Guide](../Getting_Started/For_Administrators/)

@@ -27,7 +27,7 @@ ExpertFlow CX supports two WhatsApp integration paths:
 
 *   **Two-Way Messaging:** Agents can handle incoming customer queries and initiate outbound notifications using approved templates.
 *   **Rich Media Support:** Send and receive images, documents (PDF), and audio files.
-*   **Interactive Messages:** Use buttons and list pickers to guide customer journeys (requires [Conversation Studio](../../../Getting_Started/For_Conversation_Designers/Conversation-Studio-Configuration-Guide.md)).
+*   **Interactive Messages:** Use buttons and list pickers to guide customer journeys (requires [Conversation Studio](../../../How-to_Guides/Conversation_Designer/Conversation-Studio-Authoring.md)).
 *   **Verified Profiles:** Support for the official WhatsApp "Green Tick" for verified business accounts.
 
 ---

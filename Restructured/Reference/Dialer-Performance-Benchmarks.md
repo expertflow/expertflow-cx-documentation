@@ -46,4 +46,4 @@ Tests were conducted using IVR-based outbound calls to 2,000 unique customer num
 
 ---
 
-*For detailed deployment instructions, see [Deploying the RKE2 Control Plane](../Getting_Started/For_Hosting_Partners/Deploying-the-RKE2-Control-Plane.md).*
+*For detailed deployment instructions, see [Deploying the RKE2 Control Plane](../How-to_Guides/Platform_Operator/Deploying-the-RKE2-Control-Plane.md).*

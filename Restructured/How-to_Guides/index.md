@@ -16,5 +16,5 @@ Step-by-step guides for every persona. Find your role below.
 | [Supervisor & QA Lead](Supervisor_and_QA_Lead/index.md) | Real-time monitoring, quality evaluation, reporting |
 | [Conversation Designer / AI Specialist](Conversation_Designer/index.md) | Building flows, bot connectors, NLU tuning |
 | [Developer / Integrator](Developer_Integrator/index.md) | SDKs, APIs, CRM connectors, custom UI development |
-| [Platform Operator](Hosting_Partner/index.md) | Infrastructure deployment, Helm, SIP proxy, HA |
-| [Reseller Partner](Reseller_Partner/index.md) | Tenant onboarding, licensing, commercial management |
+| [Platform Operator](Platform_Operator/index.md) | Infrastructure deployment, Helm, SIP proxy, HA |
+| [Reseller Partner](Partner/index.md) | Tenant onboarding, licensing, commercial management |

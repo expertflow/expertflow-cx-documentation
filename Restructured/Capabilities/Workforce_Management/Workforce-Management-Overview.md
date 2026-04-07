@@ -62,12 +62,12 @@ Agents and supervisors see WFM schedule information embedded in their existing t
 
 WFM is available as a **CX add-on** for both on-premise and cloud-hosted deployments. Before deploying, verify that your infrastructure meets the minimum hardware and software requirements.
 
-See [WFM Prerequisites](WFM-Prerequisites.md) for full hardware, software, and network requirements.
+See [WFM Prerequisites](../../Reference/Architecture_and_Infrastructure/WFM-Prerequisites.md) for full hardware, software, and network requirements.
 
 ## Related Articles
 
-- [WFM Prerequisites](WFM-Prerequisites.md)
+- [WFM Prerequisites](../../Reference/Architecture_and_Infrastructure/WFM-Prerequisites.md)
 - [WFM Admin and Supervisor Guide](../../How-to_Guides/Supervisor_and_QA_Lead/WFM-Admin-Supervisor-Guide.md)
 - [WFM FAQs](../../How-to_Guides/Supervisor_and_QA_Lead/WFM-FAQs.md)
-- [WFM Compatibility Guide](../../Platform_Overview/WFM-Compatibility-Guide.md)
-- [Review Scheduler](Review-Scheduler.md)
+- [WFM Compatibility Guide](../../Reference/WFM-Compatibility-Guide.md)
+- [Review Scheduler](../../How-to_Guides/Supervisor_and_QA_Lead/Review-Scheduler.md)

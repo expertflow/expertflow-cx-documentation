@@ -42,6 +42,6 @@ For the full media format compatibility matrix, see [Telegram Media Types Suppor
 
 ## Related Articles
 
-- [Telegram Channel Overview](Telegram-Channel-Overview.md)
+- [Telegram Channel Overview](index.md)
 - [Telegram Media Types Support](Telegram-Media-Types.md)
 - [Telegram Configuration Guide](Telegram-Configuration-Guide.md)

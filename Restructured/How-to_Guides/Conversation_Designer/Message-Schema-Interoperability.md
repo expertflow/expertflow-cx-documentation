@@ -53,5 +53,5 @@ The Parser Layer is designed to support various deployment scenarios:
 
 ## Related Guides
 *   [CIM Message Schema Master](../../Reference/Schemas_and_Data_Model/CIM_Message_Schema/CIM-Messages.md)
-*   [RASA-X Deployment Guide](../Hosting_Partner/RASA-X-Deployment.md)
+*   [RASA-X Deployment Guide](../Platform_Operator/RASA-X-Deployment.md)
 *   [Custom Bot Connector Development](../Developer_Integrator/Custom-Bot-Connector-Development.md)

@@ -76,6 +76,6 @@ After creating the bot, proceed to [Telegram Configuration Guide](Telegram-Confi
 
 ## Related Articles
 
-- [Telegram Channel Overview](Telegram-Channel-Overview.md)
+- [Telegram Channel Overview](index.md)
 - [Telegram Configuration Guide](Telegram-Configuration-Guide.md)
 - [Telegram Connector Limitations](Telegram-Connector-Limitations.md)

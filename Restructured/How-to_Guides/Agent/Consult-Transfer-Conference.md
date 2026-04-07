@@ -177,7 +177,7 @@ Agents can add additional agents to an ongoing conversation via a queue conferen
 
 ## Related Articles
 
-- [CTI Call Controls](../Voice_and_Video/CTI-Call-Controls.md)
+- [CTI Call Controls](../../Capabilities/Voice_and_Video/CTI-Call-Controls.md)
 - [Barge-in and Intervention](../../How-to_Guides/Supervisor_and_QA_Lead/Barge-in-and-Intervention.md)
 - [Agent Hand Raise](Agent-Hand-Raise.md)
 - [Handling Customer Interactions](../../How-to_Guides/Agent/Handling-Customer-Interactions.md)

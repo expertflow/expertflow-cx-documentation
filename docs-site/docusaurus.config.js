@@ -25,7 +25,7 @@ const config = {
   projectName: 'expertflow-cx-documentation',
   trailingSlash: false,
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
 
 
@@ -104,7 +104,7 @@ const config = {
             items: [
               { label: 'For Agents', to: '/docs/cx/Getting_Started/For_Agents' },
               { label: 'For Administrators', to: '/docs/cx/Getting_Started/For_Administrators' },
-              { label: 'For Hosting Partners', to: '/docs/cx/Getting_Started/For_Hosting_Partners' },
+              { label: 'For Partners', to: '/docs/cx/Getting_Started/For_Partners' },
             ],
           },
           {

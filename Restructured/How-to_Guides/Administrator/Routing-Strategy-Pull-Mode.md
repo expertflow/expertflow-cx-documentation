@@ -55,7 +55,8 @@ While frequently used for social media, Pull Mode can be applied to any digital 
 ---
 
 ## Related Guides
-*   [Twitter Channel Overview](../../Capabilities/Digital_Channels/Twitter-Channel-Overview.md)
-*   [Email Channel Overview](../../Capabilities/Digital_Channels/Email-Channel-Overview.md)
+
+*   [Twitter Channel Overview](../../Capabilities/Digital_Channels/Twitter/index.md)
+*   [Email Channel Overview](../../Capabilities/Digital_Channels/Email/index.md)
 *   [Twilio SMS/MMS Configuration](Twilio-SMS-MMS-Configuration-Guide.md)
 *   [Precision Routing (Push Mode)](Precision-Routing.md)

@@ -78,4 +78,4 @@ For the full list, see [Telegram Connector Limitations](Telegram-Connector-Limit
 - [Telegram Configuration Guide](Telegram-Configuration-Guide.md)
 - [Telegram Connector Limitations](Telegram-Connector-Limitations.md)
 - [Telegram Media Types Support](Telegram-Media-Types.md)
-- [Channel and Connector Setup](../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)
+- [Channel and Connector Setup](../../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)

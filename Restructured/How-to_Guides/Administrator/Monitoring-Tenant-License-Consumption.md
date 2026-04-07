@@ -49,5 +49,5 @@ If a newly purchased product (e.g., *Conversation Search* or *Outbound Dialer*) 
 ---
 
 ## Related Guides
-*   [Unified Admin Core Configuration](../../Getting_Started/For_Administrators/Unified-Admin-Guide.md)
+*   [Unified Admin Core Configuration](../../Getting_Started/For_Administrators/)
 *   [Agent Performance Dashboard](../Supervisor_and_QA_Lead/Agent-Performance-Dashboard-Reference.md)
