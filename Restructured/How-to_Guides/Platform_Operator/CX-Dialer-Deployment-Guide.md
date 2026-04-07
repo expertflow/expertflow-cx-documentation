@@ -1,7 +1,7 @@
 ---
 title: "CX Dialer Deployment Guide"
 summary: "Technical instructions for deploying the Outbound Dialer component using Docker Compose, including PostgreSQL database setup and network configuration."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, outbound]
 doc-type: how-to
 difficulty: advanced

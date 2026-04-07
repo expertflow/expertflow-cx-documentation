@@ -1,7 +1,7 @@
 ---
 title: "EasySIPp Deployment Guide"
 summary: "How-to guide for deploying EasySIPp — a web-based SIPp frontend for SIP load testing — using Docker Compose on Linux, including the custom UAC scenario for unique caller IDs and FusionPBX trust configuration."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: intermediate

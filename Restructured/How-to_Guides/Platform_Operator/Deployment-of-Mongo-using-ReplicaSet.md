@@ -1,7 +1,7 @@
 ---
 title: "Deploying MongoDB with Replica Sets"
 summary: "Guide for configuring MongoDB in Replica Set mode on Kubernetes to achieve high availability, redundancy, and read/write isolation."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [platform, database]
 doc-type: how-to
 difficulty: advanced

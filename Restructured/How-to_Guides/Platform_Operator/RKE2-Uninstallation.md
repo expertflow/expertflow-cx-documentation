@@ -1,7 +1,7 @@
 ---
 title: "RKE2 Uninstallation"
 summary: "How-to guide for completely uninstalling RKE2 from control plane and worker nodes — including the uninstall script, data cleanup, and system reboot."
-audience: [hosting-partner, platform-operator]
+audience: [platform-operator]
 product-area: [platform]
 doc-type: how-to
 difficulty: intermediate

@@ -1,7 +1,7 @@
 ---
 title: "Upgrading MongoDB to Version 8.x"
 summary: "Comprehensive procedure for upgrading MongoDB from version 6.x to 8.x, including the mandatory intermediate step through version 7.x and feature compatibility updates."
-audience: [hosting-partner, platform-operator]
+audience: [platform-operator]
 product-area: [platform, database]
 doc-type: how-to
 difficulty: advanced

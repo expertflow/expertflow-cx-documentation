@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn Connector Deployment using Helm"
 summary: "How-to guide for deploying the ExpertFlow CX LinkedIn Connector using Helm — covering repository setup, values.yaml customization with FQDN, and Channels Helm chart deployment."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [channels, digital]
 doc-type: how-to
 difficulty: intermediate

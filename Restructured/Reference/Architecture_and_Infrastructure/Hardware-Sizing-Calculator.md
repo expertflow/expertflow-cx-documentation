@@ -1,7 +1,7 @@
 ---
 title: "Hardware Sizing Calculator"
 summary: "Reference sizing tables for Infrastructure & Hosting Partners — CX Core, Voice Media Server, and Digital Channels — mapped to agent count and concurrent call volume."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [infrastructure]
 doc-type: reference
 difficulty: intermediate

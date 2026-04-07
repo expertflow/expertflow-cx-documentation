@@ -52,7 +52,7 @@ The **Payment Card Industry Data Security Standard (PCI DSS)** defines technical
 | Requirement | Status | ExpertFlow CX Implementation |
 |---|---|---|
 | Track and monitor all access to network resources and cardholder data. | ➡️ Not Applicable | Customer and partner responsibility for network-level monitoring. IAM event logging is available via Keycloak. |
-| Regularly test security systems and processes. | ✅ Compliant | Packaged releases are periodically scanned. Security maintenance releases address newly identified vulnerabilities. See [Vulnerability Reports](Vulnerability-Report-4.10.md). |
+| Regularly test security systems and processes. | ✅ Compliant | Packaged releases are periodically scanned. Security maintenance releases address newly identified vulnerabilities. |
 
 ### 6. Maintain an Information Security Policy
 
@@ -75,4 +75,3 @@ To reduce the number of systems in-scope for your PCI DSS assessment:
 - [HIPAA Compliance](HIPAA-Compliance.md)
 - [VRS PCI DSS Compliance](VRS-PCI-DSS-Compliance.md)
 - [Security and Compliance Whitepaper](../../Platform_Overview/Security-and-Compliance-Whitepaper.md)
-- [Vulnerability Report 4.10](Vulnerability-Report-4.10.md)

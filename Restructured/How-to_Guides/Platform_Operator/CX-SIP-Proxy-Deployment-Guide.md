@@ -1,7 +1,7 @@
 ---
 title: "CX SIP Proxy Deployment Guide"
 summary: "Overview and deployment index for the ExpertFlow CX SIP Proxy — covering single-node and HA deployment modes, hardware prerequisites, required ports, and links to installation and configuration guides."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: explanation
 difficulty: intermediate

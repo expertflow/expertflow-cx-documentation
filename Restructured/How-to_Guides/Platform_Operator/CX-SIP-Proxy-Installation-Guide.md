@@ -1,7 +1,7 @@
 ---
 title: "CX SIP Proxy Installation Guide"
 summary: "Step-by-step installation guide for the ExpertFlow CX SIP Proxy — covering OpenSIPS 3.4 installation on Debian 12, MariaDB database setup, and the OpenSIPS Control Panel (opensips-cp 9.3.4) with Apache2 and PHP 7.4."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: intermediate

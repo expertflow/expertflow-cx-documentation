@@ -1,7 +1,7 @@
 ---
 title: "Configuring the Load Balancer in CX SIP Proxy"
 summary: "How-to guide for configuring the OpenSIPS Load Balancer module in the ExpertFlow CX SIP Proxy — covering Group IDs for each voice component, channel resource limits, probe modes, and Dialplan attribute mapping."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: intermediate

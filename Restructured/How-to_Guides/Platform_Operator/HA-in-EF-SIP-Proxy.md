@@ -1,7 +1,7 @@
 ---
 title: "HA in EF SIP Proxy"
 summary: "Step-by-step guide for configuring High Availability in the ExpertFlow SIP Proxy — covering OpenSIPS clustering configuration, Keepalived/VRRP virtual IP setup, the PHP authentication fix for control panel SSH, and the keepalived reboot workaround."
-audience: [hosting-partner, platform-operator]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: advanced

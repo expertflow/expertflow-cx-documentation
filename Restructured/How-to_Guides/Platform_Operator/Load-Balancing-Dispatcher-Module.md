@@ -1,7 +1,7 @@
 ---
 title: "Load Balancing via the Dispatcher Module"
 summary: "How-to guide for configuring load balancing in opensips.cfg using the OpenSIPS Dispatcher module — covering module loading, route implementation with ds_select_dst, failure route with ds_mark_dst and ds_next_dst, control panel destination setup, and the SQL fix for opensips-cp 9.3.4."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: how-to
 difficulty: advanced

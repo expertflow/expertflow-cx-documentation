@@ -1,7 +1,7 @@
 ---
 title: "WFM Component Deployment Guide"
 summary: "Procedures for deploying the Workforce Management (WFM) microservices — including Auth, Core, and Reports — on a Kubernetes cluster."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [workforce-management]
 doc-type: how-to
 difficulty: advanced

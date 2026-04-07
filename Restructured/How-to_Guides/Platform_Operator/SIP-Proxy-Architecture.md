@@ -1,7 +1,7 @@
 ---
 title: "SIP Proxy Architecture"
 summary: "High-level architectural overview of the ExpertFlow CX SIP Proxy, explaining its role in signal flow, load balancing, and high availability for voice interactions."
-audience: [hosting-partner]
+audience: [platform-operator]
 product-area: [voice, platform]
 doc-type: explanation
 difficulty: intermediate

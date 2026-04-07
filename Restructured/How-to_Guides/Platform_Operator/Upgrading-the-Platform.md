@@ -1,7 +1,7 @@
 ---
 title: "Upgrading the Platform"
 summary: "Step-by-step guide for platform operators on upgrading an ExpertFlow CX deployment — covers pre-upgrade checks, component upgrade order, rollback procedure, and post-upgrade validation."
-audience: [administrator, hosting-partner, platform-operator]
+audience: [administrator, platform-operator]
 doc-type: how-to
 difficulty: advanced
 keywords: [upgrade, platform upgrade, migration]
