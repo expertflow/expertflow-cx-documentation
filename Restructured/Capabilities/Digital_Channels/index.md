@@ -16,10 +16,10 @@ Real-time and near-real-time text-based channels.
 
 | Channel | Overview | Configuration |
 | --- | --- | --- |
-| **Web Chat (Customer Widget)** | [Features & Capabilities](Customer-Widget-Features-Capabilities.md) | [Embedding Guide](Customer-Widget-Embedding-Guide.md) |
+| **Web Chat (Customer Widget)** | [Features & Capabilities](Customer-Widget-Features-Capabilities.md) | [Embedding Guide](../../How-to_Guides/Developer_Integrator/Customer-Widget-Embedding-Guide.md) |
 | **WhatsApp** | [WhatsApp Overview](WhatsApp/index.md) | [Cloud API](WhatsApp/WhatsApp-Cloud-API.md) · [360dialog](WhatsApp/360dialog-WhatsApp-Overview.md) |
 | **Telegram** | [Overview](Telegram-Channel-Overview.md) | [Bot Setup](Telegram-Bot-Creation-Guide.md) · [Configuration](Telegram-Configuration-Guide.md) · [Media Types](Telegram-Media-Types.md) |
-| **SMS / MMS (SMPP)** | [Overview](SMPP-Channel-Overview.md) | [Configuration](SMPP-Configuration-Guide.md) |
+| **SMS / MMS** | [Overview](SMS-Channel-Overview.md) | [Configuration](../../How-to_Guides/Administrator/SMPP-Configuration-Guide.md) |
 
 ---
 

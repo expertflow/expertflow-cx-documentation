@@ -1,5 +1,5 @@
 ---
-title: "ExpertFlow CX Platform Overview"
+title: "CX Platform Overview"
 summary: "A conceptual introduction to ExpertFlow CX — what it is, how its parts fit together, and why it is designed the way it is."
 audience: [platform-overview]
 product-area: [platform, strategic]

@@ -24,8 +24,9 @@ const sidebars = {
     {
       type: 'category',
       label: 'Platform Overview',
-      link: { type: 'doc', id: 'cx/Platform_Overview/Expertflow-CX-Platform-Overview' },
+      link: { type: 'doc', id: 'cx/Platform_Overview/index' },
       items: [
+        'cx/Platform_Overview/Expertflow-CX-Platform-Overview',
         'cx/Platform_Overview/Platform-Architecture',
         'cx/Platform_Overview/AI-Self-Service-Capabilities',
         'cx/Platform_Overview/Customer-Journey-Orchestration',
@@ -38,6 +39,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Capabilities',
+      link: { type: 'doc', id: 'cx/Capabilities/index' },
       items: [
         {
           type: 'category',
@@ -50,7 +52,6 @@ const sidebars = {
               label: 'Chat & Messaging',
               items: [
                 'cx/Capabilities/Digital_Channels/Customer-Widget-Features-Capabilities',
-                'cx/Capabilities/Digital_Channels/Customer-Widget-Embedding-Guide',
                 {
                   type: 'category',
                   label: 'WhatsApp',
@@ -60,13 +61,23 @@ const sidebars = {
                     'cx/Capabilities/Digital_Channels/WhatsApp/360dialog-WhatsApp-Overview',
                   ],
                 },
-                'cx/Capabilities/Digital_Channels/Telegram-Channel-Overview',
-                'cx/Capabilities/Digital_Channels/Telegram-Bot-Creation-Guide',
-                'cx/Capabilities/Digital_Channels/Telegram-Configuration-Guide',
-                'cx/Capabilities/Digital_Channels/Telegram-Media-Types',
-                'cx/Capabilities/Digital_Channels/Telegram-Connector-Limitations',
-                'cx/Capabilities/Digital_Channels/SMPP-Channel-Overview',
-                'cx/Capabilities/Digital_Channels/SMPP-Configuration-Guide',
+                {
+                  type: 'category',
+                  label: 'Telegram',
+                  link: { type: 'doc', id: 'cx/Capabilities/Digital_Channels/Telegram/index' },
+                  items: [
+                    'cx/Capabilities/Digital_Channels/Telegram/Telegram-Bot-Creation-Guide',
+                    'cx/Capabilities/Digital_Channels/Telegram/Telegram-Configuration-Guide',
+                    'cx/Capabilities/Digital_Channels/Telegram/Telegram-Media-Types',
+                    'cx/Capabilities/Digital_Channels/Telegram/Telegram-Connector-Limitations',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'SMS',
+                  link: { type: 'doc', id: 'cx/Capabilities/Digital_Channels/SMS/index' },
+                  items: [],
+                },
               ],
             },
             // ── Social Media ─────────────────────────────────────────────────
@@ -153,6 +164,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'How-to Guides',
+      link: { type: 'doc', id: 'cx/How-to_Guides/index' },
       items: [
         {
           type: 'category',
@@ -206,6 +218,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Reference',
+      link: { type: 'doc', id: 'cx/Reference/index' },
       items: [
         { type: 'doc', id: 'cx/Reference/Agent-Desk-Developer-Guide', label: 'AgentManager SDK Reference' },
         { type: 'doc', id: 'cx/Reference/Release-Lifecycle-and-Versioning', label: 'Release Lifecycle & Versioning' },

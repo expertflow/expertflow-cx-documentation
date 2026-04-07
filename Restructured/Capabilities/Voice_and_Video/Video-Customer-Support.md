@@ -109,4 +109,4 @@ No apps, accounts, or special configuration are required on the customer side.
 - [Website Click-to-Call](Website-Click-to-Call.md)
 - [Browser-Based Calling](Browser-Based-Calling.md)
 - [Voice and Video Overview](Voice-and-Video-Overview.md)
-- [Customer Widget Features and Capabilities](../Digital_Channels/Customer-Widget-Features-Capabilities.md)
+- [Customer Widget](../Digital_Channels/Customer-Widget-Features-Capabilities.md)

@@ -90,7 +90,7 @@ This guide covers the full administrative surface of ExpertFlow CX for a solutio
 | Document | Description |
 | :--- | :--- |
 | [Configuring the Customer Widget](./Configuring-the-Customer-Widget.md) | Customize and deploy the embeddable web chat widget |
-| [Customer Widget Features & Capabilities](./Customer-Widget-Features-Capabilities.md) | Full feature reference for the customer-facing web widget |
+| [Customer Widget](../../Capabilities/Digital_Channels/Customer-Widget-Features-Capabilities.md) | Full feature reference for the customer-facing web widget |
 
 ---
 
