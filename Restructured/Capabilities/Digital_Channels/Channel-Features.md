@@ -14,8 +14,8 @@ These capabilities are available across all digital channels. They are not speci
 
 | Feature | Description |
 | --- | --- |
-| [Conversation View](Conversation-View.md) | How agents and evaluators review interaction transcripts |
-| [Consult, Transfer & Conference](Consult-Transfer-Conference.md) | Transfer conversations, bring in colleagues, or conference across channels |
+| [Conversation View](../Conversation-View.md) | How agents and evaluators review interaction transcripts |
+| [Consult, Transfer & Conference](../../How-to_Guides/Agent/Consult-Transfer-Conference.md) | Transfer conversations, bring in colleagues, or conference across channels |
 
 ---
 
@@ -23,7 +23,7 @@ These capabilities are available across all digital channels. They are not speci
 
 | Feature | Description |
 | --- | --- |
-| [Agent Hand Raise](Agent-Hand-Raise.md) | How agents signal supervisors for help during live interactions |
+| [Agent Hand Raise](../../How-to_Guides/Agent/Agent-Hand-Raise.md) | How agents signal supervisors for help during live interactions |
 | [Browser & Sound Notifications](Browser-and-Sound-Notifications.md) | Browser and audio alerts for incoming interactions |
 
 ---
@@ -32,8 +32,8 @@ These capabilities are available across all digital channels. They are not speci
 
 | Feature | Description |
 | --- | --- |
-| [Customer Labels](Customer-Labels.md) | Tag customers by segment, type, or language |
-| [Customer Advanced Filters](Customer-Advanced-Filters.md) | Build and save custom filters for contact segmentation |
+| [Customer Labels](../Customer_Management/Customer-Labels.md) | Tag customers by segment, type, or language |
+| [Customer Advanced Filters](../Customer_Management/Customer-Advanced-Filters.md) | Build and save custom filters for contact segmentation |
 
 ---
 

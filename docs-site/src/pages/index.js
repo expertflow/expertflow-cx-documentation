@@ -29,16 +29,16 @@ const sections = [
 const roles = [
   { role: 'Agent handling customer interactions', link: '/docs/cx/Getting_Started/For_Agents/Agent-Quick-Start-Guide', label: 'Agent Quick-Start Guide' },
   { role: 'Supervisor managing a team', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time', label: 'Monitoring Your Team in Real-Time' },
-  { role: 'Solution Admin configuring the platform', link: '/docs/cx/Getting_Started/For_Administrators/Unified-Admin-Guide', label: 'Unified Admin Guide' },
+  { role: 'Solution Admin configuring the platform', link: '/docs/cx/Getting_Started/For_Administrators', label: 'Getting Started for Administrators' },
   { role: 'Quality Manager running QA workflows', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Managing-the-Quality-Assurance-Workflow', label: 'Managing the QA Workflow' },
   { role: 'Human Evaluator scoring interactions', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Evaluator-Guide', label: 'User Guide for Evaluator' },
   { role: 'Decision Maker / CTO evaluating the platform', link: '/docs/cx/Platform_Overview/Security-and-Compliance-Whitepaper', label: 'Security & Compliance Whitepaper' },
-  { role: 'Frontend Developer building custom UIs', link: '/docs/cx/Getting_Started/For_Developers_and_Integrators/Agent-Desk-Developer-Guide', label: 'Agent Desk Developer Guide' },
-  { role: 'Conversation Designer building flows', link: '/docs/cx/Getting_Started/For_Conversation_Designers/Conversation-Studio-Configuration-Guide', label: 'Conversation Studio Overview' },
+  { role: 'Frontend Developer building custom UIs', link: '/docs/cx/Reference/API_and_SDK/Agent-Desk-Developer-Guide', label: 'Agent Desk Developer Guide' },
+  { role: 'Conversation Designer building flows', link: '/docs/cx/Getting_Started/For_Conversation_Designers', label: 'Conversation Studio Overview' },
   { role: 'Integration Specialist connecting systems', link: '/docs/cx/How-to_Guides/Developer_Integrator/Cisco-Contact-Center-Integration-Reference', label: 'Cisco UCCE/X Integration Reference' },
   { role: 'AI / NLU Specialist tuning AI models', link: '/docs/cx/How-to_Guides/Conversation_Designer/Configuring-AI-Powered-Quality-Audits', label: 'Configuring AI-Powered Quality Audits' },
-  { role: 'Partner deploying the platform', link: '/docs/cx/Getting_Started/For_Hosting_Partners/Deploying-the-RKE2-Control-Plane', label: 'Deploying the RKE2 Control Plane' },
-  { role: 'Reseller onboarding tenants', link: '/docs/cx/Getting_Started/For_Hosting_Partners/Onboarding-a-New-Tenant', label: 'Onboarding a New Tenant' },
+  { role: 'Partner deploying the platform', link: '/docs/cx/How-to_Guides/Platform_Operator/Deploying-the-RKE2-Control-Plane', label: 'Deploying the RKE2 Control Plane' },
+  { role: 'Reseller onboarding tenants', link: '/docs/cx/How-to_Guides/Partner/Onboarding-a-New-Tenant', label: 'Onboarding a New Tenant' },
 ];
 
 function SectionCard({icon, title, description, link}) {

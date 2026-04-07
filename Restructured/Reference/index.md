@@ -11,7 +11,7 @@ Look-up content for developers, integrators, and architects. Single home for all
 
 | Section | What's covered |
 | --- | --- |
-| [AgentManager SDK](Agent-Desk-Developer-Guide.md) | Socket.io events, REST APIs, agent presence and task lifecycle |
+| [AgentManager SDK](API_and_SDK/Agent-Desk-Developer-Guide.md) | Socket.io events, REST APIs, agent presence and task lifecycle |
 | [CIM Message Schema](Schemas_and_Data_Model/CIM_Message_Schema/CIM-Messages.md) | All message types — plain text, button, carousel, email, location, and more |
 | [Socket Events](Schemas_and_Data_Model/Socket_Events/index.md) | Full socket event reference for Agent Desk integrations |
 | [Release Lifecycle & Versioning](Release-Lifecycle-and-Versioning.md) | Versioning policy, support windows, upgrade planning |

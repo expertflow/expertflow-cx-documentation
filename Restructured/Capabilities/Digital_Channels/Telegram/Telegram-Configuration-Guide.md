@@ -114,7 +114,7 @@ After successful webhook registration, customers can search for your bot by name
 ## Related Articles
 
 - [Telegram Bot Creation Guide](Telegram-Bot-Creation-Guide.md)
-- [Telegram Channel Overview](Telegram-Channel-Overview.md)
+- [Telegram Channel Overview](index.md)
 - [Telegram Connector Limitations](Telegram-Connector-Limitations.md)
 - [Telegram Media Types Support](Telegram-Media-Types.md)
-- [Channel and Connector Setup](../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)
+- [Channel and Connector Setup](../../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)

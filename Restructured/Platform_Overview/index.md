@@ -16,4 +16,4 @@ Orientation content for decision makers, architects, and anyone evaluating or ge
 | [AI & Self-Service Capabilities](AI-Self-Service-Capabilities.md) | Conversational self-service, agent co-pilot, AI-driven QM |
 | [Customer Journey Orchestration](Customer-Journey-Orchestration.md) | Unified context, intelligent routing, proactive engagement |
 | [Security & Compliance](Security-and-Compliance-Whitepaper.md) | GDPR, HIPAA, PCI DSS, encryption, OWASP posture |
-| [Conversation Studio](Conversation-Studio.md) | Low-code flow authoring environment overview |
+| [Conversation Studio](../Capabilities/Conversation-Studio.md) | Low-code flow authoring environment overview |

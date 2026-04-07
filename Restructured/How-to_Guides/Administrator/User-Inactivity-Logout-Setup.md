@@ -51,5 +51,5 @@ The inactivity timer **stops counting** (the agent remains "Active") in the foll
 
 ## Related Guides
 *   [Agent States and Reason Codes](../Agent/Agent-States.md)
-*   [Unified Admin Core Configuration](../../Getting_Started/For_Administrators/Unified-Admin-Guide.md)
+*   [Unified Admin Core Configuration](../../Getting_Started/For_Administrators/)
 *   [Security and Compliance Whitepaper](../../Platform_Overview/Security-and-Compliance-Whitepaper.md)

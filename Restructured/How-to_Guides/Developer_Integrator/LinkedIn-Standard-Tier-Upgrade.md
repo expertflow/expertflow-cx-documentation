@@ -133,5 +133,5 @@ Answer the compliance questions as follows:
 
 ## Related Articles
 
-- [LinkedIn Connector Deployment using Helm](../Hosting_Partner/LinkedIn-Connector-Deployment.md)
+- [LinkedIn Connector Deployment using Helm](../Platform_Operator/LinkedIn-Connector-Deployment.md)
 - [CRM Connectors](CRM-Connectors.md)

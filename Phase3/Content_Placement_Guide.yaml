@@ -1,0 +1,409 @@
+# Content Placement Guide — ExpertFlow CX Documentation
+# Version: 1.0
+# Date: 2026-04-07
+# Purpose: Rules for AI agents and human authors placing content into the doc structure.
+#          This is a rulebook, not an inventory. For the live file list, read Restructured/.
+#          For the rendered nav, read docs-site/sidebars.js.
+# Maintained alongside: Phase3/Persona_Model.md
+
+---
+
+personas:
+
+  agent:
+    canonical_name: Agent
+    audience_tag: agent
+    cluster: 1 - Contact Center Users
+    how_to_folder: How-to_Guides/Agent/
+    getting_started_folder: Getting_Started/For_Agents/
+    owns:
+      - handling inbound conversations (chat, voice, email, social)
+      - making manual outbound calls and messages
+      - managing presence and break states
+      - review customer information and conversation history during interactions
+      - applying customer labels and wrap-up codes after interactions
+      - using AI co-pilot features during interactions
+      - view personal performance metrics on dashboards
+      - applying wrap-up codes and notes
+      - using agent co-pilot features
+      - accessing conversation history and customer profile
+    not:
+      - queue and routing configuration (→ administrator)
+      - team and performance reporting (→ supervisor-qa)
+      - platform infrastructure (→ platform-operator)
+
+  supervisor-qa:
+    canonical_name: Supervisor / QA Lead
+    audience_tag: supervisor-qa
+    cluster: 1 - Contact Center Users
+    how_to_folder: How-to_Guides/Supervisor_and_QA_Lead/
+    getting_started_folder: Getting_Started/For_Supervisors_and_QA_Leads/
+    sub_paths:
+      monitoring: real-time dashboards, barge-in, availability management
+      quality: evaluation forms, audit assignment, transcript review, scoring
+      reporting: historical reports, KPI trend analysis
+      workforce_management: agent schedules, shift adherence, availability and time-off requests, WFM reports
+    owns:
+      - real-time team monitoring and dashboards
+      - quality evaluation forms and rubrics
+      - conversation transcript review and scoring
+      - QA workflow management
+      - historical performance reporting
+      - viewing agent schedules and shift adherence
+      - managing agent availability and time-off requests
+      - running WFM reports
+    not:
+      - business configuration — queues, routing, channels (→ administrator)
+      - platform infrastructure or deployment (→ platform-operator)
+      - bot or flow design (→ conversation-designer)
+      - WFM forecasting and capacity planning (→ administrator)
+
+  administrator:
+    canonical_name: Administrator
+    audience_tag: administrator
+    cluster: 2 - Platform People
+    how_to_folder: How-to_Guides/Administrator/
+    getting_started_folder: Getting_Started/For_Administrators/
+    owns:
+      - queue and routing configuration (skills, priorities, overflow rules)
+      - channel setup and configuration (WhatsApp, Facebook, Email, etc.)
+      - user, team, and agent management
+      - business hours and holiday calendars
+      - license consumption monitoring (single-tenant view)
+      - agent desk configuration and branding (tenant-level)
+    not:
+      - platform infrastructure, installation, or upgrades (→ platform-operator)
+      - tenant provisioning and lifecycle (→ partner)
+      - bot and flow design (→ conversation-designer)
+      - SDK or API integration (→ developer-integrator)
+
+  platform-operator:
+    canonical_name: Platform Operator
+    audience_tag: platform-operator
+    cluster: 2 - Platform People
+    how_to_folder: How-to_Guides/Platform_Operator/
+    getting_started_folder: Getting_Started/For_Platform_Operators/
+    note: >
+      Deployment-agnostic — this persona exists in both single-tenant and
+      multi-tenant deployments. Tag any installation, upgrade, monitoring,
+      backup, or infrastructure content with this value regardless of
+      deployment model.
+    owns:
+      - installation and initial deployment (RKE2, Helm, networking, SSL)
+      - version upgrades and patch procedures
+      - platform health monitoring and alerting
+      - backup and restore
+      - infrastructure troubleshooting and performance tuning
+      - Kubernetes cluster management
+      - component-level deployment (SIP proxy, dialer, LiveKit, WFM, etc.)
+    not:
+      - business configuration — queues, routing, channels (→ administrator)
+      - tenant management and provisioning (→ partner)
+      - hardware sizing lookup (→ Reference/Architecture_and_Infrastructure/)
+
+  partner:
+    canonical_name: Partner
+    audience_tag: partner
+    cluster: 2 - Platform People
+    how_to_folder: How-to_Guides/Partner/
+    getting_started_folder: Getting_Started/For_Partners/
+    note: >
+      Applies to multi-tenant and hosted deployments only. In a single-tenant
+      self-hosted deployment this function does not exist — the Administrator
+      owns all configuration directly.
+    retired_tags:
+      - hosting-partner    # retired — replace with platform-operator and/or partner
+      - reseller-partner   # retired — replace with partner
+    owns:
+      - tenant onboarding and provisioning
+      - tenant lifecycle management (suspend, upgrade, decommission)
+      - subscription tiers and capacity planning
+      - license management across tenants
+      - white-labeling the interface
+    not:
+      - platform infrastructure and deployment (→ platform-operator)
+      - single-tenant business configuration (→ administrator)
+
+  conversation-designer:
+    canonical_name: Conversation Designer / AI Specialist
+    audience_tag: conversation-designer
+    cluster: 3 - Builders
+    how_to_folder: How-to_Guides/Conversation_Designer/
+    getting_started_folder: Getting_Started/For_Conversation_Designers/
+    sub_paths:
+      flow_design: Conversation Studio, flow builder, handover logic, outbound dialing modes
+      ai_nlu: bot connector registration, NLU model tuning, AI-powered quality audits
+    owns:
+      - conversation flow design in Conversation Studio
+      - bot connector registration and configuration
+      - NLU model tuning and intent management
+      - AI-powered quality audit configuration
+      - handover logic (bot to human agent)
+      - outbound dialing flow design
+    not:
+      - platform infrastructure (→ platform-operator)
+      - API or SDK integration (→ developer-integrator)
+      - queue and routing business configuration (→ administrator)
+
+  developer-integrator:
+    canonical_name: Developer / Integrator
+    audience_tag: developer-integrator
+    cluster: 3 - Builders
+    how_to_folder: How-to_Guides/Developer_Integrator/
+    getting_started_folder: Getting_Started/For_Developers_and_Integrators/
+    sub_paths:
+      ui_sdk: AgentManager SDK, WebChannel SDK, widget embedding
+      integration: CRM connectors, webhooks, Third-party Activity API
+    owns:
+      - custom agent desktop UI development (AgentManager SDK)
+      - WebChannel (customer widget) embedding and customization
+      - CRM connector setup and configuration
+      - webhook configuration and event handling
+      - Third-party Activity API integration
+      - platform API usage
+    not:
+      - platform infrastructure (→ platform-operator)
+      - bot and flow design in Conversation Studio (→ conversation-designer)
+      - business configuration (→ administrator)
+
+---
+
+sections:
+
+  getting_started:
+    path: Getting_Started/
+    diataxis_type: tutorial
+    purpose: >
+      Role-based entry points — first steps for each persona. One quick-start
+      per persona. Readers arrive here to get oriented and take their first
+      actions on the platform.
+    rule: >
+      One quick-start document per persona. Content must be task-focused and
+      achievable in a single session. Link out to How-to Guides for deeper
+      task coverage, and to Capabilities for feature explanations.
+    not:
+      - detailed task guides longer than a single onboarding session (→ How-to Guides)
+      - feature explanations and capability overviews (→ Capabilities)
+      - technical reference material (→ Reference)
+    sub_folders:
+      For_Agents: agent
+      For_Administrators: administrator
+      For_Supervisors_and_QA_Leads: supervisor-qa
+      For_Platform_Operators: platform-operator
+      For_Partners: partner
+      For_Conversation_Designers: conversation-designer
+      For_Developers_and_Integrators: developer-integrator
+
+  platform_overview:
+    path: Platform_Overview/
+    diataxis_type: orientation
+    purpose: >
+      High-level summaries for evaluation and orientation. Not a persona path.
+      Readers arrive here to understand what ExpertFlow CX is and whether it
+      meets their needs before diving into persona-specific content.
+    rule: >
+      Orientation and evaluation content only. No step-by-step task
+      instructions. No detailed technical specs. If a document contains
+      specific numbers, port lists, diagram coordinates, or sizing tables,
+      it belongs in Reference — link to it from here.
+    not:
+      - step-by-step task instructions (→ How-to Guides)
+      - detailed architecture diagrams with exact deployment topology (→ Reference/Architecture_and_Infrastructure/)
+      - hardware sizing tables and port/network requirements (→ Reference/Architecture_and_Infrastructure/)
+      - feature-level explanations organised by topic (→ Capabilities)
+
+  capabilities:
+    path: Capabilities/
+    diataxis_type: explanation
+    purpose: >
+      Topic-based browsing — what the platform can do. Organised by feature
+      domain, not by persona. Readers arrive here to understand a capability
+      before deciding which how-to guide to follow.
+    rule: >
+      Feature-level explanations organised by capability topic. Tag with the
+      audience tags of every persona that would read it — do not create a
+      'capabilities' tag. When a document explains what a feature does, it
+      belongs here. When it explains how to configure or use the feature
+      step-by-step, it belongs in How-to Guides.
+    not:
+      - step-by-step task instructions (→ How-to Guides / appropriate persona folder)
+      - API specs, SDK references, schemas (→ Reference/API_and_SDK/ or Reference/Schemas_and_Data_Model/)
+      - deployment and infrastructure details (→ Reference/Architecture_and_Infrastructure/)
+    sub_folders:
+      Digital_Channels: channel overview and feature explanations  # each channel lives in its own subfolder with index.md as the overview
+      Voice_and_Video: voice/video capability explanations
+      Reporting_and_Analytics: reporting features and metric explanations
+      Security_and_Compliance: security posture and compliance explanations
+      Customer_Management: customer profile and label features
+      Workforce_Management: WFM capability explanations
+      AI_and_Automation: AI features — bots, co-pilot, NLU, quality audits
+      Quality_Management: QM capability explanations (how-to steps → Supervisor_and_QA_Lead)
+      Routing_and_Queue_Management: routing capability explanations (config steps → Administrator)
+      Integrations_and_Connectors: connector and integration capability explanations (config steps → Developer_Integrator)
+
+  how_to_guides:
+    path: How-to_Guides/
+    diataxis_type: how-to
+    purpose: >
+      Task-based guides organised by persona. Readers arrive here to complete
+      a specific task. Each guide answers "how do I do X?" for a particular
+      persona.
+    rule: >
+      Place in the folder of the primary persona who performs the task.
+      For multi-audience content, place in the primary audience folder and
+      add all audience tags in frontmatter. Do not duplicate content across
+      persona folders — link instead.
+    not:
+      - feature explanations and capability overviews (→ Capabilities)
+      - technical lookup content (→ Reference)
+      - first-time onboarding quick-starts (→ Getting_Started)
+    sub_folders:
+      Agent: agent persona
+      Administrator: administrator persona
+      Supervisor_and_QA_Lead: supervisor-qa persona
+      Conversation_Designer: conversation-designer persona
+      Developer_Integrator: developer-integrator persona
+      Platform_Operator: platform-operator persona
+      Partner: partner persona
+
+  reference:
+    path: Reference/
+    diataxis_type: reference
+    purpose: >
+      Technical look-up content. Single source of truth for specs, APIs, SDKs,
+      schemas, and infrastructure requirements. Linked from How-to Guides and
+      Platform Overview — not duplicated there.
+    rule: >
+      If a reader needs to look something up (a schema, a flag value, a port
+      number, a sizing table), it belongs here. Content is typically consulted,
+      not read linearly. No audience tag required for pure reference material —
+      it is accessed by whoever needs it.
+    not:
+      - step-by-step task guides (→ How-to Guides)
+      - feature explanations (→ Capabilities)
+      - first-steps orientation content (→ Getting_Started or Platform_Overview)
+    sub_folders:
+      Architecture_and_Infrastructure:
+        purpose: platform architecture diagrams, deployment topology, hardware sizing, port and network requirements
+        audience: primarily platform-operator and architect, but linked from any persona path that needs infrastructure numbers
+      API_and_SDK:
+        purpose: AgentManager SDK, WebChannel SDK, Third-party Activity API, REST API references
+        audience: developer-integrator
+      Schemas_and_Data_Model:
+        purpose: CIM message schema, socket events, platform objects and data model
+        audience: developer-integrator
+      Glossary:
+        purpose: canonical definitions for all ExpertFlow CX terms
+        audience: all
+
+---
+
+edge_cases:
+
+  hardware_sizing:
+    rule: Always Reference/Architecture_and_Infrastructure/ — never in a persona folder.
+    reason: >
+      Hardware sizing is lookup content used by multiple personas (platform-operator
+      reading their golden path, an architect evaluating the platform). Single source,
+      multiple arrival paths via links.
+
+  multi_audience_content:
+    rule: >
+      Place in the primary audience folder. Add all audience tags in frontmatter.
+      Do not duplicate the file in other folders — use links.
+    example: >
+      A monitoring guide relevant to both platform-operator and partner goes in
+      How-to_Guides/Platform_Operator/ with audience: [platform-operator, partner].
+      The Partner index links to it.
+
+  channel_naming_convention:
+    rule: >
+      Every channel under Capabilities/Digital_Channels/ must have its own
+      subfolder named after the channel (e.g. Facebook/, WhatsApp/, Email/).
+      The channel overview file is always index.md inside that subfolder.
+      Do not use <Channel-Name>-Channel-Overview.md at the flat Digital_Channels/ level.
+    examples:
+      correct:
+        - Capabilities/Digital_Channels/Facebook/index.md
+        - Capabilities/Digital_Channels/WhatsApp/index.md
+        - Capabilities/Digital_Channels/Email/index.md
+      incorrect:
+        - Capabilities/Digital_Channels/Facebook-Channel-Overview.md
+        - Capabilities/Digital_Channels/Email-Channel-Overview.md
+    reason: >-
+      index.md maps to the folder URL in Docusaurus (e.g. /digital-channels/facebook/)
+      without a redundant path segment. It is consistent with how WhatsApp, Telegram,
+      and SMS were already structured, and scales naturally if a channel folder grows
+      to contain additional files.
+
+  connector_docs:
+    overview: Capabilities/Integrations_and_Connectors/ — what the connector does and what it supports
+    configuration: How-to_Guides/Developer_Integrator/ — steps to deploy and configure it
+    reason: Explanation of capability vs. task instructions — different Diátaxis types, different sections.
+
+  conversation_studio:
+    overview: Capabilities/Conversation-Studio.md — what it is and what it can do
+    how_to: How-to_Guides/Conversation_Designer/ — step-by-step flow design tasks
+    platform_overview_pointer: >
+      Platform_Overview/index.md links to Capabilities/Conversation-Studio.md.
+      Do not place the Conversation-Studio overview file in Platform_Overview/.
+
+  routing_and_queues:
+    capability_overview: Capabilities/Routing_and_Queue_Management/ — how routing works
+    configuration_steps: How-to_Guides/Administrator/ — how to configure queues and routing rules
+
+  quality_management:
+    capability_overview: Capabilities/Quality_Management/ — what QM features exist
+    task_guides: How-to_Guides/Supervisor_and_QA_Lead/ — how to use QM features
+
+  platform_architecture:
+    orientation_summary: Platform_Overview/Platform-Architecture.md — what the layers are, how parts fit
+    detailed_reference: Reference/Architecture_and_Infrastructure/ — deployment topology, exact diagrams, port lists
+
+  retired_folder_names:
+    Hosting_Partner: deleted — was renamed; content split between Platform_Operator/ and Partner/
+    Reseller_Partner: deleted — renamed to Partner/
+    For_Hosting_Partners: deleted — split into For_Platform_Operators/ and For_Partners/
+
+---
+
+frontmatter_spec:
+
+  required_fields:
+    title:
+      type: string
+      description: Human-readable document title shown in the sidebar and page heading.
+    summary:
+      type: string
+      description: One-sentence description of what the document covers. Used in search and landing page tables.
+    doc-type:
+      type: string
+      valid_values:
+        - how-to       # step-by-step task guide
+        - tutorial     # first-steps, getting-started content
+        - explanation  # capability or concept overview
+        - reference    # technical lookup content
+        - landing      # section index page, not primary content
+    last-updated:
+      type: date       # ISO 8601: YYYY-MM-DD
+
+  optional_fields:
+    audience:
+      type: list
+      valid_values:
+        - agent
+        - supervisor-qa
+        - administrator
+        - platform-operator
+        - partner
+        - conversation-designer
+        - developer-integrator
+      note: >
+        Omit for pure reference content (schemas, hardware specs, glossary)
+        that is accessed by whoever needs it rather than persona-specific.
+        Do not use retired tags: hosting-partner, reseller-partner, platform-overview.
+
+  retired_audience_tags:
+    - hosting-partner    # split into platform-operator and/or partner
+    - reseller-partner   # replaced by partner
+    - platform-overview  # was never a persona; do not use as audience tag

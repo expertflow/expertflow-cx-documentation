@@ -77,5 +77,5 @@ This ensures a seamless handoff with no need for the customer to repeat themselv
 - [Reports and Analytics](Reports-and-Analytics.md)
 - [Agent Performance Dashboard Reference](../../How-to_Guides/Supervisor_and_QA_Lead/Agent-Performance-Dashboard-Reference.md)
 - [Barge-in and Intervention](../../How-to_Guides/Supervisor_and_QA_Lead/Barge-in-and-Intervention.md)
-- [Agent Hand Raise](../Digital_Channels/Agent-Hand-Raise.md)
+- [Agent Hand Raise](../../How-to_Guides/Agent/Agent-Hand-Raise.md)
 - [Key Reporting Metrics](Key-Reporting-Metrics.md)

@@ -58,7 +58,7 @@ Customers with no labels assigned receive the system default priority of **1** â
 
 ## Related Articles
 
-- [Customer Labels](../../Capabilities/Digital_Channels/Customer-Labels.md)
+- [Customer Labels](../../Capabilities/Customer_Management/Customer-Labels.md)
 - [Precision Routing](Precision-Routing.md)
 - [Pull-Mode Routing](Routing-Strategy-Pull-Mode.md)
 - [Routing Attributes and Queues](Routing-Attributes-and-Queues.md)

@@ -134,7 +134,7 @@ After completing Unified Admin configuration, register the webhook to activate t
 
 ## Related Articles
 
-- [Email Channel Overview](Email-Channel-Overview.md)
+- [Email Channel Overview](Email/index.md)
 - [Email Configuration — IMAP/SMTP](Email-Configuration-IMAP-SMTP.md)
 - [Email Limitations](Email-Limitations.md)
 - [Channel and Connector Setup](../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)

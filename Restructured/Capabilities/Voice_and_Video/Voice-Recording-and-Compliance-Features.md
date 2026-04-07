@@ -32,4 +32,4 @@ To meet strict financial and healthcare standards (PCI-DSS, HIPAA), VRS includes
 
 ---
 
-*For technical sizing guidelines, see [Dialer Performance Benchmarks](Dialer-Performance-Benchmarks.md).*
+*For technical sizing guidelines, see [Dialer Performance Benchmarks](../../Reference/Dialer-Performance-Benchmarks.md).*

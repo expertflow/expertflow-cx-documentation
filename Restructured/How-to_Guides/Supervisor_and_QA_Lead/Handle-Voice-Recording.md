@@ -53,6 +53,6 @@ When CX is integrated with Cisco contact center (Eleveo recordings), specific li
 ## Related Articles
 
 - [As an Evaluator](../../Getting_Started/For_Supervisors_and_QA_Leads/Evaluator-Guide.md)
-- [Conversation View](../../Capabilities/Digital_Channels/Conversation-View.md)
+- [Conversation View](../../Capabilities/Conversation-View.md)
 - [Voice Recording and Compliance Features](../../Platform_Overview/Voice-Recording-and-Compliance-Features.md)
 - [Auditing and Scoring Conversations](Auditing-and-Scoring-Conversations.md)

@@ -31,7 +31,7 @@ Agents can proactively request supervisor help using the **Hand Raise** option. 
 - A notification is sent to the supervisor.
 - The supervisor can join the conversation to guide the agent privately or take over.
 
-See [Agent Hand Raise](../../Capabilities/Digital_Channels/Agent-Hand-Raise.md) for details.
+See [Agent Hand Raise](../Agent/Agent-Hand-Raise.md) for details.
 
 ## SLA Alert Configuration
 

@@ -86,5 +86,5 @@ This reference lists media file format support for the Telegram connector. Forma
 ## Related Articles
 
 - [Telegram Connector Limitations](Telegram-Connector-Limitations.md)
-- [Telegram Channel Overview](Telegram-Channel-Overview.md)
+- [Telegram Channel Overview](index.md)
 - [Telegram Configuration Guide](Telegram-Configuration-Guide.md)

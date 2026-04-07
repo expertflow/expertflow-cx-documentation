@@ -38,7 +38,7 @@ The Conversation List table provides a high-level snapshot of interaction health
 From the Conversation List, you can perform the following actions:
 
 1.  **Assign for Audit:** Right-click an interaction to move it into an Evaluator's "Reviews" queue.
-2.  **View Full Transcript:** Click any entry to open the [Conversation View](../../Capabilities/Digital_Channels/Conversation-View.md).
+2.  **View Full Transcript:** Click any entry to open the [Conversation View](../../Capabilities/Conversation-View.md).
 3.  **Export for Training:** Select multiple interactions to export them as clinical training samples for the Agent Desk.
 
 ---
