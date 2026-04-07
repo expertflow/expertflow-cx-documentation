@@ -102,5 +102,5 @@ If all agents are busy when a customer clicks to call, the customer enters a que
 - [WebRTC for CX](WebRTC-for-CX.md)
 - [Video Customer Support](Video-Customer-Support.md)
 - [Inbound Calls](Inbound-Calls.md)
-- [Customer Widget Features and Capabilities](../Digital_Channels/Customer-Widget-Features-Capabilities.md)
+- [Customer Widget](../Digital_Channels/Customer-Widget-Features-Capabilities.md)
 - [Web App Calls Overview](Web-App-Calls-Overview.md)

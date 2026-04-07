@@ -131,4 +131,4 @@ Business hour timings from a calendar can be displayed on the customer-facing we
 
 - [Business Calendars Limitations](Business-Calendars-Limitations.md)
 - [Configuring the Customer Widget](../../How-to_Guides/Administrator/Configuring-the-Customer-Widget.md)
-- [Customer Widget Features and Capabilities](Customer-Widget-Features-Capabilities.md)
+- [Customer Widget](Customer-Widget-Features-Capabilities.md)

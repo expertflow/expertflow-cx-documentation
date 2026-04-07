@@ -71,4 +71,4 @@ See [Handle WebRTC Calls](Handle-WebRTC-Calls.md) for the full agent guide.
 - [WebRTC to SIP](WebRTC-to-SIP.md)
 - [Website Click-to-Call](Website-Click-to-Call.md)
 - [Video Customer Support](Video-Customer-Support.md)
-- [Customer Widget Features and Capabilities](../Digital_Channels/Customer-Widget-Features-Capabilities.md)
+- [Customer Widget](../Digital_Channels/Customer-Widget-Features-Capabilities.md)

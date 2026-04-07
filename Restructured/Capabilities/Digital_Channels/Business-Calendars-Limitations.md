@@ -49,4 +49,4 @@ This page documents known limitations of the Business Calendars feature in Exper
 ## Related Articles
 
 - [Business Calendars](Business-Calendars.md)
-- [Customer Widget Features and Capabilities](Customer-Widget-Features-Capabilities.md)
+- [Customer Widget](Customer-Widget-Features-Capabilities.md)

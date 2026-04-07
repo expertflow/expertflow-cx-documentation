@@ -147,7 +147,7 @@ Once a Google Analytics tag is configured on your site (via direct embedding or 
 
 ## Related Articles
 
-- [Configuring the Customer Widget](../../How-to_Guides/Administrator/Configuring-the-Customer-Widget.md)
-- [Customer Widget Features and Capabilities](Customer-Widget-Features-Capabilities.md)
-- [Business Calendars](Business-Calendars.md)
-- [Channel and Connector Setup](../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)
+- [Configuring the Customer Widget](../Administrator/Configuring-the-Customer-Widget.md)
+- [Customer Widget](../../Capabilities/Digital_Channels/Customer-Widget-Features-Capabilities.md)
+- [Business Calendars](../../Capabilities/Digital_Channels/Business-Calendars.md)
+- [Channel and Connector Setup](../Administrator/Channel-and-Connector-Setup.md)

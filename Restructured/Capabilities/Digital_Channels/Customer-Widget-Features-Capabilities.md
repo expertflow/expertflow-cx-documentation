@@ -4,7 +4,7 @@ difficulty: beginner
 aliases: []
 ---
 
-# Customer Widget: Features and Capabilities
+# Customer Widget
 
 The Expertflow Customer Widget provides a responsive, customizable interface for customers to engage with the contact center via web chat and voice/video escalation.
 
