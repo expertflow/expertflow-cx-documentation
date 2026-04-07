@@ -40,7 +40,7 @@ The Form APIs provide programmatic access to ExpertFlow CX forms — enabling ex
 
 Full API specifications for all Form endpoints are available in the ExpertFlow CX API documentation:
 
-**API Documentation**: `https://api.expertflow.com`
+**API Documentation**: [Form APIs — ExpertFlow API Reference](https://api.expertflow.com/#61350c0c-9769-4a0a-9464-cbbc412bdf84)
 
 ---
 
@@ -48,5 +48,5 @@ Full API specifications for all Form endpoints are available in the ExpertFlow C
 
 - [Form Builder User Guide](../Administrator/Form-Builder-User-Guide.md)
 - [JavaScript SDK for Customer-Facing Channels](JavaScript-SDK.md)
-- [Customer-Facing SDK for Omnichannel Communication](Customer-Facing-SDK.md)
+- [JavaScript SDK for Customer-Facing Channels](JavaScript-SDK.md)
 - [Routing Engine Developer Guide](Routing-Engine-Developer-Guide.md)

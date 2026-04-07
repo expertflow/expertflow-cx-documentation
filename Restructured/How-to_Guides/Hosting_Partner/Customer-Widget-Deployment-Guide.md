@@ -160,4 +160,3 @@ An optional additional panel can be shown alongside the chat widget. Enable it i
 - [Configuring the Customer Widget](../Administrator/Configuring-the-Customer-Widget.md)
 - [Customer Widget Features and Capabilities](../Administrator/Customer-Widget-Features-Capabilities.md)
 - [JavaScript SDK for Customer-Facing Channels](../Developer_Integrator/JavaScript-SDK.md)
-- [Customer-Facing SDK for Omnichannel Communication](../Developer_Integrator/Customer-Facing-SDK.md)

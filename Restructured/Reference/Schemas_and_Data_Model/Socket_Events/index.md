@@ -77,8 +77,7 @@ These events are **emitted by Agent Manager** and listened to by the Agent Desk.
 
 ### SDK & Integration
 - [AgentManager SDK Integration Guide](../../../How-to_Guides/Developer_Integrator/AgentManager-SDK-Integration-Guide.md)
-- [JavaScript SDK](../../../How-to_Guides/Developer_Integrator/JavaScript-SDK.md)
-- [Customer-Facing SDK](../../../How-to_Guides/Developer_Integrator/Customer-Facing-SDK.md)
+- [JavaScript SDK for Customer-Facing Channels](../../../How-to_Guides/Developer_Integrator/JavaScript-SDK.md)
 
 ### Data Model & Objects
 - [CIM Message Schema](../CIM_Message_Schema/CIM-Messages.md)
