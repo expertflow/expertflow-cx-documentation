@@ -27,7 +27,7 @@ const sections = [
 ];
 
 const roles = [
-  { role: 'Agent handling customer interactions', link: '/docs/cx/Getting_Started/For_Agents/Agent-Quick-Start-Guide', label: 'Agent Quick-Start Guide' },
+  { role: 'Agent handling customer interactions', link: '/docs/cx/Getting_Started/For_Agents/', label: 'Agent Quick-Start Guide' },
   { role: 'Supervisor managing a team', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time', label: 'Monitoring Your Team in Real-Time' },
   { role: 'Solution Admin configuring the platform', link: '/docs/cx/Getting_Started/For_Administrators', label: 'Getting Started for Administrators' },
   { role: 'Quality Manager running QA workflows', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Managing-the-Quality-Assurance-Workflow', label: 'Managing the QA Workflow' },
