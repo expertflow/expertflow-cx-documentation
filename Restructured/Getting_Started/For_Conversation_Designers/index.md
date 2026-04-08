@@ -54,4 +54,4 @@ _Cross-reference: [Conversation Studio Authoring](../../How-to_Guides/Conversati
 ## Next Steps
 
 - [Configuring AI-Powered Quality Audits](../../How-to_Guides/Conversation_Designer/Configuring-AI-Powered-Quality-Audits.md)
-- [Conversation Designer How-to Guides](../../How-to_Guides/Conversation_Designer/)
+- [Conversation Designer How-to Guides](../../How-to_Guides/Conversation_Designer/index.md)
