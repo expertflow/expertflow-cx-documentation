@@ -28,17 +28,12 @@ const sections = [
 
 const roles = [
   { role: 'Agent handling customer interactions', link: '/docs/cx/Getting_Started/For_Agents/', label: 'Agent Quick-Start Guide' },
-  { role: 'Supervisor managing a team', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time', label: 'Monitoring Your Team in Real-Time' },
-  { role: 'Solution Admin configuring the platform', link: '/docs/cx/Getting_Started/For_Administrators', label: 'Getting Started for Administrators' },
-  { role: 'Quality Manager running QA workflows', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Managing-the-Quality-Assurance-Workflow', label: 'Managing the QA Workflow' },
-  { role: 'Human Evaluator scoring interactions', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/Evaluator-Guide', label: 'User Guide for Evaluator' },
-  { role: 'Decision Maker / CTO evaluating the platform', link: '/docs/cx/Platform_Overview/Security-and-Compliance-Whitepaper', label: 'Security & Compliance Whitepaper' },
-  { role: 'Frontend Developer building custom UIs', link: '/docs/cx/Reference/API_and_SDK/Agent-Desk-Developer-Guide', label: 'Agent Desk Developer Guide' },
-  { role: 'Conversation Designer building flows', link: '/docs/cx/Getting_Started/For_Conversation_Designers', label: 'Conversation Studio Overview' },
-  { role: 'Integration Specialist connecting systems', link: '/docs/cx/How-to_Guides/Developer_Integrator/Cisco-Contact-Center-Integration-Reference', label: 'Cisco UCCE/X Integration Reference' },
-  { role: 'AI / NLU Specialist tuning AI models', link: '/docs/cx/How-to_Guides/Conversation_Designer/Configuring-AI-Powered-Quality-Audits', label: 'Configuring AI-Powered Quality Audits' },
-  { role: 'Partner deploying the platform', link: '/docs/cx/How-to_Guides/Platform_Operator/Deploying-the-RKE2-Control-Plane', label: 'Deploying the RKE2 Control Plane' },
-  { role: 'Reseller onboarding tenants', link: '/docs/cx/How-to_Guides/Partner/Onboarding-a-New-Tenant', label: 'Onboarding a New Tenant' },
+  { role: 'Administrator configuring the platform', link: '/docs/cx/Getting_Started/For_Administrators/', label: 'Getting Started for Administrators' },
+  { role: 'Supervisor or QA Lead managing a team', link: '/docs/cx/Getting_Started/For_Supervisors_and_QA_Leads/', label: 'For Supervisors & QA Leads' },
+  { role: 'Platform Operator deploying infrastructure', link: '/docs/cx/Getting_Started/For_Platform_Operators/', label: 'Getting Started: Platform Operators' },
+  { role: 'Partner or Reseller onboarding tenants', link: '/docs/cx/Getting_Started/For_Partners/', label: 'Quick Start for Reseller Partners' },
+  { role: 'Conversation Designer or AI Specialist building flows', link: '/docs/cx/Getting_Started/For_Conversation_Designers/', label: 'Quick Start for Conversation Designers' },
+  { role: 'Developer or Integration Specialist', link: '/docs/cx/Getting_Started/For_Developers_and_Integrators/', label: 'Developer & Integrator Quick Start' },
 ];
 
 function SectionCard({icon, title, description, link}) {
