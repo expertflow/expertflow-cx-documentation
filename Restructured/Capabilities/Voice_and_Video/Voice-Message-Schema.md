@@ -52,4 +52,4 @@ The **Voice** message type in the CIM (Customer Interaction Management) platform
 - [CX Dialer Reference](CX-Dialer-Reference.md)
 - [Action Message Bot Communication](../../How-to_Guides/Developer_Integrator/Action-Message-Bot-Communication.md)
 - [Conversation Life Cycle Objects](../../How-to_Guides/Developer_Integrator/Conversation-Life-Cycle-Objects.md)
-- [CIM Message Schema](../../Developer/CIM-Message-Schema/)
+- [CIM Message Schema](../../Reference/Schemas_and_Data_Model/CIM_Message_Schema/)

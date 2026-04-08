@@ -16,8 +16,8 @@ New to ExpertFlow CX? Start with the [Platform Overview](../Platform_Overview/Ex
 
 | Role | First stop |
 | --- | --- |
-| **Agent** — handling customer interactions | [Agent Quick-Start Guide](For_Agents/) |
-| **Supervisor & QA Lead** — monitoring teams and running quality workflows | [Supervisor & QA Lead Quick Start](For_Supervisors_and_QA_Leads/) |
+| **Agent** — handling customer interactions | [Agent Quick-Start Guide](./For_Agents/) |
+| **Supervisor & QA Lead** — monitoring teams and running quality workflows | [Supervisor & QA Lead Quick Start](./For_Supervisors_and_QA_Leads/) |
 
 The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and reporting — previously split across Supervisor, Human Evaluator, and Quality Manager roles.
 
@@ -29,9 +29,9 @@ The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and re
 
 | Role | First stop |
 | --- | --- |
-| **Administrator** — configuring a single-tenant installation | [Unified Admin Guide](For_Administrators/) |
-| **Platform Operator** — deploying and hosting ExpertFlow CX infrastructure | [Platform Operator Quick Start](For_Platform_Operators/) |
-| **Reseller Partner** — selling and provisioning ExpertFlow CX subscriptions | [Reseller Partner Quick Start](For_Partners/) |
+| **Administrator** — configuring a single-tenant installation | [Unified Admin Guide](./For_Administrators/) |
+| **Platform Operator** — deploying and hosting ExpertFlow CX infrastructure | [Platform Operator Quick Start](./For_Platform_Operators/) |
+| **Reseller Partner** — selling and provisioning ExpertFlow CX subscriptions | [Reseller Partner Quick Start](./For_Partners/) |
 
 ---
 
@@ -41,8 +41,8 @@ The Supervisor & QA Lead path covers real-time monitoring, QA evaluation, and re
 
 | Role | First stop |
 | --- | --- |
-| **Conversation Designer / AI Specialist** — building flows and tuning NLU models | [Conversation Designer Quick Start](For_Conversation_Designers/) |
-| **Developer / Integrator** — building custom UIs, SDKs, and system integrations | [Developer & Integrator Quick Start](For_Developers_and_Integrators/) |
+| **Conversation Designer / AI Specialist** — building flows and tuning NLU models | [Conversation Designer Quick Start](./For_Conversation_Designers/) |
+| **Developer / Integrator** — building custom UIs, SDKs, and system integrations | [Developer & Integrator Quick Start](./For_Developers_and_Integrators/) |
 
 ---
 
