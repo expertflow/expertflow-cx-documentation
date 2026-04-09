@@ -38,6 +38,7 @@ SMS channel setup requires connection details from your SMS gateway provider. Fo
 
 ## Related Articles
 
+- [Post-Call SMS Survey](./Post-Call-SMS-Survey.md)
 - [SMPP Configuration Guide](../../../How-to_Guides/Administrator/SMPP-Configuration-Guide.md)
 - [Twilio SMS/MMS Configuration Guide](../../../How-to_Guides/Administrator/Twilio-SMS-MMS-Configuration-Guide.md)
 - [Channel and Connector Setup](../../../How-to_Guides/Administrator/Channel-and-Connector-Setup.md)
