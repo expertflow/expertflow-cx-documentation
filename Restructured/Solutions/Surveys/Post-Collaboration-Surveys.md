@@ -66,5 +66,5 @@ NPS · CSAT (5-star, 1–3 scale) · MCQ · Free text input
 ## Go Deeper
 
 - **Back to:** [Surveys overview](index.md)
-- **Capability docs:** [AI and Automation](../../../Capabilities/AI_and_Automation/index.md) · [Digital Channels](../../../Capabilities/Digital_Channels/index.md) · [Voice and Video](../../../Capabilities/Voice_and_Video/index.md)
-- **Configure it:** [Creating Survey Forms and Flows](../../../How-to_Guides/Conversation_Designer/Creating-Survey-Forms-and-Flows.md) · [Designing a Post-Call SMS Survey Flow](../../../How-to_Guides/Conversation_Designer/Designing-Post-Call-SMS-Survey-Flow.md)
+- **Capability docs:** [AI and Automation](../../Capabilities/AI_and_Automation/index.md) · [Digital Channels](../../Capabilities/Digital_Channels/index.md) · [Voice and Video](../../Capabilities/Voice_and_Video/index.md)
+- **Configure it:** [Creating Survey Forms and Flows](../../How-to_Guides/Conversation_Designer/Creating-Survey-Forms-and-Flows.md) · [Designing a Post-Call SMS Survey Flow](../../How-to_Guides/Conversation_Designer/Designing-Post-Call-SMS-Survey-Flow.md)

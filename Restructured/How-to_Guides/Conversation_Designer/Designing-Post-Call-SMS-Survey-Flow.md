@@ -132,6 +132,6 @@ Survey Init
 ## Related
 
 - **Back to:** [Creating Survey Forms and Flows](Creating-Survey-Forms-and-Flows.md)
-- **Solution context:** [Post-Collaboration Surveys](../../../Solutions/Surveys/Post-Collaboration-Surveys.md)
+- **Solution context:** [Post-Collaboration Surveys](../../Solutions/Surveys/Post-Collaboration-Surveys.md)
 - **Campaign setup:** [Managing Outbound Campaigns](../Administrator/Managing-Outbound-Campaigns.md)
-- **Capability reference:** [AI and Automation](../../../Capabilities/AI_and_Automation/index.md) · [Digital Channels](../../../Capabilities/Digital_Channels/index.md)
+- **Capability reference:** [AI and Automation](../../Capabilities/AI_and_Automation/index.md) · [Digital Channels](../../Capabilities/Digital_Channels/index.md)
