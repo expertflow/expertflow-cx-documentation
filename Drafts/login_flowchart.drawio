@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1400" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===== MAIN COLUMN (center x=540) ===== -->
+
+    <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="480" y="30" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <mxCell id="login_page" value="User Visits Login Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="140" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="enter_creds" value="Enter Username &amp; Password" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="240" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="submit" value="Submit Login Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="340" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- diamond center: x=540, y=475 -->
+    <mxCell id="fields_valid" value="Fields Valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="440" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <mxCell id="authenticate" value="Authenticate Against IdP / DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="570" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- diamond center: x=540, y=705 -->
+    <mxCell id="auth_success" value="Auth Successful?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="670" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- diamond center: x=540, y=835 -->
+    <mxCell id="mfa_required" value="MFA Required?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="800" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <mxCell id="create_session" value="Create Session / Issue JWT Token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="1040" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="redirect" value="Redirect to Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="460" y="1140" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="480" y="1240" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== RIGHT BRANCH (x=760–920) ===== -->
+
+    <!-- x=760, y=445–505 -->
+    <mxCell id="validation_error" value="Show Validation Error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="760" y="445" width="170" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- x=760, y=675–725 -->
+    <mxCell id="incr_failures" value="Increment Failed Attempts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="760" y="675" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- diamond x=760, y=780–850, center x=840,y=815 -->
+    <mxCell id="acct_locked" value="Account Locked?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="760" y="780" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- far right: x=990, y=780–840 -->
+    <mxCell id="lock_acct" value="Lock Account &amp; Notify User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="990" y="780" width="160" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- x=760, y=915–965 -->
+    <mxCell id="show_cred_error" value="Show Invalid Credentials" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="760" y="915" width="160" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- ===== LEFT BRANCH (x=240–410) ===== -->
+
+    <!-- x=240, y=805–855 -->
+    <mxCell id="mfa_challenge" value="Send MFA Challenge (OTP/TOTP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="230" y="805" width="180" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- diamond x=240, y=905–975, center x=320,y=940 -->
+    <mxCell id="mfa_valid" value="MFA Code Valid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="240" y="905" width="160" height="70" as="geometry" />
+    </mxCell>
+
+    <!-- x=40, y=910–960 -->
+    <mxCell id="mfa_error" value="Show MFA Error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="40" y="910" width="150" height="50" as="geometry" />
+    </mxCell>
+
+    <!-- ===== EDGES ===== -->
+
+    <!-- Main flow: vertical spine -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="start" target="login_page" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="login_page" target="enter_creds" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="enter_creds" target="submit" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="submit" target="fields_valid" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- fields_valid Yes (bottom) → authenticate -->
+    <mxCell id="e5_yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="fields_valid" target="authenticate" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- fields_valid No (right) → validation_error -->
+    <mxCell id="e5_no" value="No" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="fields_valid" target="validation_error" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- validation_error → enter_creds (loop-back right, waypoints clear of all shapes) -->
+    <mxCell id="e6" value="Retry" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="validation_error" target="enter_creds" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="990" y="475" />
+          <mxPoint x="990" y="265" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="authenticate" target="auth_success" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- auth_success Yes (bottom) → mfa_required -->
+    <mxCell id="e8_yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="auth_success" target="mfa_required" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- auth_success No (right) → incr_failures -->
+    <mxCell id="e8_no" value="No" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="auth_success" target="incr_failures" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- incr_failures → acct_locked -->
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="incr_failures" target="acct_locked" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- acct_locked Yes (right) → lock_acct -->
+    <mxCell id="e10_yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="acct_locked" target="lock_acct" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- acct_locked No (bottom) → show_cred_error -->
+    <mxCell id="e10_no" value="No" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="acct_locked" target="show_cred_error" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- show_cred_error → enter_creds (loop-back far right, clear of lock_acct right edge at x=1150) -->
+    <mxCell id="e11" value="Retry" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="show_cred_error" target="enter_creds" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1200" y="940" />
+          <mxPoint x="1200" y="265" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- mfa_required Yes (left) → mfa_challenge -->
+    <mxCell id="e12_yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mfa_required" target="mfa_challenge" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- mfa_required No (bottom) → create_session -->
+    <mxCell id="e12_no" value="No" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="mfa_required" target="create_session" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- mfa_challenge → mfa_valid -->
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="mfa_challenge" target="mfa_valid" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- mfa_valid No (left) → mfa_error -->
+    <mxCell id="e14_no" value="No" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mfa_valid" target="mfa_error" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- mfa_error → mfa_challenge (loop-back far left) -->
+    <mxCell id="e15" value="Retry" style="edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mfa_error" target="mfa_challenge" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="10" y="935" />
+          <mxPoint x="10" y="830" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- mfa_valid Yes (right) → create_session (right side, then down) -->
+    <mxCell id="e14_yes" value="Yes" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mfa_valid" target="create_session" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="430" y="940" />
+          <mxPoint x="430" y="1065" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- create_session → redirect → end -->
+    <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="create_session" target="redirect" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="redirect" target="end" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

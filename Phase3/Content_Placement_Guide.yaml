@@ -299,6 +299,47 @@ sections:
         purpose: canonical definitions for all ExpertFlow CX terms
         audience: all
 
+  solutions:
+    path: Solutions/
+    diataxis_type: explanation
+    purpose: >
+      Business-outcome-oriented overviews for pre-sales and evaluation audiences.
+      Each document describes a complete solution built from CX platform components,
+      written from the "what you can achieve" perspective — not how to configure it.
+      Solutions cut across multiple capability domains and cannot be placed cleanly
+      inside any single Capabilities sub-folder.
+    rule: >
+      Lead with the business problem, not the feature. Each solution page covers:
+      the problem it solves, what outcomes it delivers, supported channels or variants,
+      and links to the underlying Capabilities docs and relevant How-to Guides.
+      No step-by-step configuration instructions — those belong in How-to Guides.
+      No detailed feature specs — those belong in Capabilities.
+    not:
+      - platform-level orientation or architecture summaries (→ Platform_Overview)
+      - feature-level explanations organized by capability topic (→ Capabilities)
+      - step-by-step configuration or task guides (→ How-to_Guides)
+    sub_folders:
+      Campaign_Manager:
+        purpose: >
+          Outbound engagement solution — proactive customer outreach via callbacks,
+          IVR blasters, and SMS/WhatsApp campaigns. Built on Conversation Studio,
+          Forms, Voice, and Digital Channels.
+      Surveys:
+        purpose: >
+          Feedback collection solutions — outbound survey campaigns (SMS, WhatsApp,
+          Voice) and post-collaboration surveys (NPS/CSAT after a call or chat).
+          Two distinct sub-solutions with a shared index.
+      Workforce_Management:
+        purpose: >
+          WFM as a business solution — forecasting, scheduling, and adherence
+          for contact center operations. To be developed.
+        status: placeholder
+      Quality_Management:
+        purpose: >
+          QM as a business solution — AI-assisted and human evaluation pipelines,
+          coaching workflows, and CSAT-to-quality feedback loops. To be developed.
+        status: placeholder
+
 ---
 
 edge_cases:
@@ -367,6 +408,94 @@ edge_cases:
     Hosting_Partner: deleted — was renamed; content split between Platform_Operator/ and Partner/
     Reseller_Partner: deleted — renamed to Partner/
     For_Hosting_Partners: deleted — split into For_Platform_Operators/ and For_Partners/
+
+  campaign_manager:
+    solution_overview: Solutions/Campaign_Manager/index.md
+    capability_components:
+      - Capabilities/AI_and_Automation/   # Conversation Studio flows, outbound logic
+      - Capabilities/Voice_and_Video/     # IVR, outbound dialing modes
+      - Capabilities/Digital_Channels/   # SMS, WhatsApp campaign channels
+    how_to: How-to_Guides/Administrator/Managing-Outbound-Campaigns.md
+    reporting: How-to_Guides/Supervisor_and_QA_Lead/Campaign-Performance-Reports.md
+    note: >
+      Campaign Manager is a solution umbrella — callbacks, IVR blasters, and
+      SMS/WhatsApp campaigns are variants, not separate solutions. Present them
+      as variants within the single Campaign_Manager solution page.
+
+  surveys_solution:
+    solution_overview: Solutions/Surveys/index.md
+    sub_solutions:
+      survey_campaigns: Solutions/Surveys/Survey-Campaigns.md
+      post_collaboration: Solutions/Surveys/Post-Collaboration-Surveys.md
+    capability_components:
+      - Capabilities/AI_and_Automation/  # Conversation Studio survey flows, Form Builder
+      - Capabilities/Digital_Channels/  # SMS, WhatsApp, Web delivery channels
+      - Capabilities/Voice_and_Video/   # IVR and voice survey delivery
+    how_to: How-to_Guides/Conversation_Designer/Creating-Survey-Forms-and-Flows.md
+    note: >
+      Surveys split into two sub-solutions with distinct audiences and triggers.
+      Survey Campaigns are business-initiated outbound flows. Post-Collaboration
+      Surveys are triggered by conversation end events. Keep them as separate
+      pages under a shared Surveys/ index.
+
+  workforce_management_solution:
+    solution_overview: Solutions/Workforce_Management/index.md   # placeholder — to be developed
+    capability_components:
+      - Capabilities/Workforce_Management/
+    note: Placeholder — full solution narrative to be written.
+
+  quality_management_solution:
+    solution_overview: Solutions/Quality_Management/index.md   # placeholder — to be developed
+    capability_components:
+      - Capabilities/Quality_Management/
+      - Capabilities/AI_and_Automation/   # AI QM scoring
+    note: Placeholder — full solution narrative to be written.
+
+  index_md_in_sidebar:
+    rule: >
+      When a section or sub-section folder uses its index.md as the Docusaurus
+      category link (link: { type: 'doc', id: '…/index' }), that index.md must
+      NOT also appear as a child item inside items: []. Never use
+      { type: 'autogenerated' } on a directory whose index.md is the category
+      link — autogenerated will surface it as a duplicate child. Always list
+      children explicitly instead.
+    applies_to:
+      - Solutions/ and all sub-folders (Campaign_Manager, Surveys, Workforce_Management, Quality_Management)
+      - Getting_Started/ persona sub-folders
+      - Capabilities/ sub-folders (Digital_Channels, Security_and_Compliance, Customer_Management, etc.)
+      - How-to_Guides/ persona sub-folders
+      - Reference/ sub-folders
+    reason: >
+      index.md serves as the category landing page (clicked on the parent label).
+      Showing it again as a child item creates a confusing duplicate entry in the
+      sidebar — users see the same page listed twice.
+    implementation_note: >
+      Prefer explicit item lists over autogenerated for any directory where
+      index.md is the category link. Use autogenerated only for leaf-level
+      directories where index.md is absent or intentionally listed as a page.
+
+  sidebar_top_level_order:
+    rule: >
+      The canonical order of top-level sections in sidebars.js is fixed.
+      Do not reorder, merge, or insert new top-level sections without updating
+      this rule first.
+    order:
+      1: Getting Started      # role-based entry points; first stop for every persona
+      2: Solutions            # business-outcome overviews; early because evaluators arrive before practitioners
+      3: Platform Overview    # platform-level orientation for anyone evaluating or onboarding
+      4: Capabilities         # feature-domain reference browsing; consulted after orientation
+      5: How-to Guides        # task instructions by persona; reached from Getting Started or Capabilities
+      6: Reference            # technical lookup (specs, APIs, schemas); consulted on demand
+    reason: >
+      The order reflects the natural user journey: understand what the platform
+      does for the business (Solutions) → understand what it is (Platform
+      Overview) → explore features (Capabilities) → execute tasks (How-to
+      Guides) → look up technical detail (Reference). Getting Started is pinned
+      first as the universal onboarding entry point.
+    implementation_note: >
+      Each section maps 1-to-1 to a top-level category block in sidebars.js.
+      Number comments in the file (── 1. Getting Started ──, ── 2. Solutions ──,
+      etc.) must stay in sync with this list.
 
 ---
 
