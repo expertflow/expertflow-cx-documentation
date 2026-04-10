@@ -27,7 +27,7 @@ Each solution is built from underlying platform capabilities. Understanding this
 
 - **Solutions** answer *"what can I achieve?"* — this section.
 - **Capabilities** answer *"what does the platform do?"* — see [Capabilities](../Capabilities/index.md).
-- **How-to Guides** answer *"how do I configure it?"* — see [How-to Guides](../How-to_Guides/).
+- **How-to Guides** answer *"how do I configure it?"* — see [How-to Guides](../How-to_Guides/index.md).
 
 ---
 
