@@ -56,5 +56,5 @@ _3. Set the trigger (call end event, schedule, or manual launch) — the platfor
 ## Go Deeper
 
 - **Back to:** [Surveys overview](index.md)
-- **Capability docs:** [Digital Channels](../../../Capabilities/Digital_Channels/index.md) · [AI and Automation](../../../Capabilities/AI_and_Automation/index.md)
-- **Configure it:** [Creating Survey Forms and Flows](../../../How-to_Guides/Conversation_Designer/Creating-Survey-Forms-and-Flows.md)
+- **Capability docs:** [Digital Channels](../../Capabilities/Digital_Channels/index.md) · [AI and Automation](../../Capabilities/AI_and_Automation/index.md)
+- **Configure it:** [Creating Survey Forms and Flows](../../How-to_Guides/Conversation_Designer/Creating-Survey-Forms-and-Flows.md)
