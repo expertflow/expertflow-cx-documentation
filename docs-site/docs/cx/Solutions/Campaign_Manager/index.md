@@ -35,11 +35,11 @@ Send targeted, personalised text or WhatsApp messages at scale using a "fire and
 
 | Channel | Supported | Notes |
 |---|---|---|
-| Voice (IVR) | Yes | |
-| Voice (Callback) | Yes | |
-| SMS | Yes | |
-| WhatsApp | Yes | |
-| Email | — | |
+| Voice (IVR) | Yes | Supports pre-recorded messages and automated prompts; retries on busy or no-answer |
+| Voice (Callback) | Yes | Schedules and dials customers back when an agent becomes available |
+| SMS | Yes | One-way outbound delivery; no agent required; ideal for alerts, OTPs, and reminders |
+| WhatsApp | Yes | One-way outbound delivery; no agent required; supports personalised messaging at scale |
+| Email | — | Not currently supported |
 
 ## Key Outcomes
 
