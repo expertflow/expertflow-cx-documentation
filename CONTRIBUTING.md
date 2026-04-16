@@ -70,3 +70,29 @@ If you want to preview your changes locally using Docusaurus:
 *   **Markdown:** Use standard GitHub Flavored Markdown.
 *   **Images:** Place images in `docs-site/static/img/` and reference them accordingly.
 *   **Tone:** Maintain a professional, helpful, and concise technical tone.
+
+### FAQ Pages
+
+FAQ pages use the native HTML `<details>` / `<summary>` expand/collapse pattern — the Docusaurus equivalent of the Confluence expand macro. Each question is a `<summary>` and the answer is the body of the `<details>` block.
+
+```md
+## Section Heading
+
+<details>
+<summary>Question goes here?</summary>
+
+Answer goes here. Can include multiple paragraphs, lists, or code blocks.
+</details>
+
+<details>
+<summary>Another question?</summary>
+
+Another answer.
+</details>
+```
+
+Rules:
+*   One `<details>` block per question — do not nest them.
+*   Leave a blank line between the `<summary>` closing tag and the answer body, or Markdown inside the block will not render correctly.
+*   Group questions under H2 headings by topic (e.g. `## Contracts`, `## Troubleshooting`).
+*   Do not use the old grouped-bullet format (`- **Question?** Answer`) for new FAQ pages.
