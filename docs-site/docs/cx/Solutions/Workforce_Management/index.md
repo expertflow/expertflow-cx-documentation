@@ -64,7 +64,7 @@ See [WFM Prerequisites](../../Reference/Architecture_and_Infrastructure/WFM-Prer
 
 ## Go Deeper
 
-- **Capability docs:** [Workforce Management Capabilities](../../Capabilities/Workforce_Management/index.md)
+- **Capability docs:** [Workforce Management Overview](../../Capabilities/Workforce_Management/Workforce-Management-Overview.md)
 - **Deploy it:** [WFM Prerequisites](../../Reference/Architecture_and_Infrastructure/WFM-Prerequisites.md)
 - **Configure and operate it:** [WFM Admin and Supervisor Guide](../../How-to_Guides/Supervisor_and_QA_Lead/WFM-Admin-Supervisor-Guide.md) · [Review Scheduler](../../How-to_Guides/Supervisor_and_QA_Lead/Review-Scheduler.md)
 - **Reference:** [WFM FAQs](../../How-to_Guides/Supervisor_and_QA_Lead/WFM-FAQs.md) · [WFM Compatibility Guide](../../Reference/WFM-Compatibility-Guide.md)
