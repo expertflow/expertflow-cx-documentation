@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "mcp__claude_ai_Atlassian__getConfluencePage",
-      "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources"
+      "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
+      "Bash(npm start *)",
+      "Bash(npm run *)",
+      "Bash(gh run *)",
+      "Bash(rsync -a --exclude='diagrams/' /Users/macm1/ai/Expertflow/DocWithGeminiCLI/Restructured/ /Users/macm1/ai/Expertflow/DocWithGeminiCLI/docs-site/docs/cx/)"
     ]
   }
 }
