@@ -37,17 +37,6 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    function symlinksPlugin() {
-      return {
-        name: 'symlinks-webpack-plugin',
-        configureWebpack() {
-          return { resolve: { symlinks: false } };
-        },
-      };
-    },
-  ],
-
   presets: [
     [
       'classic',
