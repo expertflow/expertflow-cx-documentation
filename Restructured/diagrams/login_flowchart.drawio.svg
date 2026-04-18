@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="1510" viewBox="0 0 820 1510" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+    <marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9673a6"/>
+    </marker>
+  </defs>
+
+  <rect width="820" height="1510" fill="white"/>
+
+  <!-- START -->
+  <ellipse cx="410" cy="45" rx="95" ry="28" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="410" y="50" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">Agent Starts Shift</text>
+
+  <line x1="410" y1="73" x2="410" y2="92" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- STEP 1 LABEL -->
+  <text x="30" y="106" font-size="10" font-weight="bold" fill="#6c8ebf">STEP 1: GETTING IN</text>
+
+  <!-- S1A: Navigate -->
+  <rect x="280" y="95" width="260" height="50" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="410" y="125" text-anchor="middle" font-size="12" fill="#333">Navigate to Agent Desk URL</text>
+
+  <line x1="410" y1="145" x2="410" y2="163" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S1B: Cisco? diamond  top(410,163) right(520,210) bottom(410,257) left(300,210) -->
+  <polygon points="410,163 520,210 410,257 300,210" fill="#fff2cc" stroke="#d6b656" stroke-width="1.5"/>
+  <text x="410" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Cisco Finesse</text>
+  <text x="410" y="221" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">User?</text>
+
+  <!-- Yes left branch -->
+  <polyline points="300,210 165,210 165,293" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="228" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Yes</text>
+
+  <!-- No right branch -->
+  <polyline points="520,210 655,210 655,293" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="592" y="204" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">No</text>
+
+  <!-- S1C: Sign into Finesse -->
+  <rect x="75" y="295" width="180" height="50" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="165" y="325" text-anchor="middle" font-size="12" fill="#333">Sign into Cisco Finesse</text>
+
+  <!-- S1D: Enter credentials -->
+  <rect x="565" y="295" width="180" height="50" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="655" y="318" text-anchor="middle" font-size="12" fill="#333">Enter credentials</text>
+  <text x="655" y="334" text-anchor="middle" font-size="11" fill="#555">(provided by admin)</text>
+
+  <line x1="165" y1="345" x2="165" y2="383" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="655" y1="345" x2="655" y2="383" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S1E: Auto-login -->
+  <rect x="75" y="385" width="180" height="50" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+  <text x="165" y="408" text-anchor="middle" font-size="12" fill="#333">Auto-login to</text>
+  <text x="165" y="424" text-anchor="middle" font-size="12" fill="#333">ExpertFlow CX</text>
+
+  <!-- S1F: Login -->
+  <rect x="565" y="385" width="180" height="50" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+  <text x="655" y="408" text-anchor="middle" font-size="12" fill="#333">Login to</text>
+  <text x="655" y="424" text-anchor="middle" font-size="12" fill="#333">ExpertFlow CX</text>
+
+  <!-- Merge both paths -->
+  <polyline points="165,435 165,460 409,460" fill="none" stroke="#555" stroke-width="1.5"/>
+  <polyline points="655,435 655,460 411,460" fill="none" stroke="#555" stroke-width="1.5"/>
+  <line x1="410" y1="460" x2="410" y2="463" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- STEP 2 LABEL -->
+  <text x="30" y="480" font-size="10" font-weight="bold" fill="#6c8ebf">STEP 2: SET YOUR STATUS</text>
+
+  <!-- S2A: Click Status icon -->
+  <rect x="280" y="465" width="260" height="50" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+  <text x="410" y="495" text-anchor="middle" font-size="12" fill="#333">Click Status icon in toolbar</text>
+
+  <line x1="410" y1="515" x2="410" y2="543" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S2B: Select Ready -->
+  <rect x="280" y="545" width="260" height="50" rx="8" fill="#d5e8d4" stroke="#82b366" stroke-width="1.5"/>
+  <text x="410" y="575" text-anchor="middle" font-size="12" fill="#333">Select "Ready"</text>
+
+  <line x1="410" y1="595" x2="410" y2="623" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- STEP 3 LABEL -->
+  <text x="30" y="638" font-size="10" font-weight="bold" fill="#6c8ebf">STEP 3: HANDLING AN INTERACTION</text>
+
+  <!-- S3A: Notification -->
+  <rect x="280" y="625" width="260" height="55" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+  <text x="410" y="648" text-anchor="middle" font-size="12" fill="#333">Incoming customer</text>
+  <text x="410" y="664" text-anchor="middle" font-size="12" fill="#333">notification appears</text>
+
+  <line x1="410" y1="680" x2="410" y2="703" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S3B: Accept -->
+  <rect x="280" y="705" width="260" height="50" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+  <text x="410" y="735" text-anchor="middle" font-size="12" fill="#333">Click "Accept"</text>
+
+  <line x1="410" y1="755" x2="410" y2="783" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S3C: Conversation View -->
+  <rect x="280" y="785" width="260" height="50" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+  <text x="410" y="815" text-anchor="middle" font-size="12" fill="#333">Conversation View opens</text>
+
+  <line x1="410" y1="835" x2="410" y2="863" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S3D: Communicate -->
+  <rect x="280" y="865" width="260" height="50" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="410" y="888" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Communicate with Customer</text>
+
+  <!-- Fan out to 3 options -->
+  <polyline points="410,915 410,940 130,940 130,948" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polyline points="335,940 335,948" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polyline points="410,940 550,940 550,948" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S3D1: Plain Text -->
+  <rect x="50" y="950" width="160" height="55" rx="8" fill="#f5f5f5" stroke="#666" stroke-width="1.5"/>
+  <text x="130" y="973" text-anchor="middle" font-size="11" fill="#333">Plain Text</text>
+  <text x="130" y="989" text-anchor="middle" font-size="10" fill="#666">(composer at bottom)</text>
+
+  <!-- S3D2: Whisper -->
+  <rect x="248" y="950" width="175" height="55" rx="8" fill="#fff2cc" stroke="#d6b656" stroke-width="1.5"/>
+  <text x="335" y="970" text-anchor="middle" font-size="11" fill="#333">Whisper Tab (yellow)</text>
+  <text x="335" y="986" text-anchor="middle" font-size="10" fill="#666">Internal — supervisor only</text>
+  <text x="335" y="1000" text-anchor="middle" font-size="10" fill="#999">customer cannot see</text>
+
+  <!-- S3D3: Transfer/Conference -->
+  <rect x="470" y="950" width="160" height="55" rx="8" fill="#f5f5f5" stroke="#666" stroke-width="1.5"/>
+  <text x="550" y="973" text-anchor="middle" font-size="11" fill="#333">Transfer / Conference</text>
+  <text x="550" y="989" text-anchor="middle" font-size="10" fill="#666">Bring in another agent</text>
+
+  <!-- Converge 3 options -->
+  <polyline points="130,1005 130,1028 409,1028" fill="none" stroke="#555" stroke-width="1.5"/>
+  <polyline points="335,1005 335,1028 409,1028" fill="none" stroke="#555" stroke-width="1.5"/>
+  <polyline points="550,1005 550,1028 411,1028" fill="none" stroke="#555" stroke-width="1.5"/>
+  <line x1="410" y1="1028" x2="410" y2="1033" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- STEP 4 LABEL -->
+  <text x="30" y="1050" font-size="10" font-weight="bold" fill="#6c8ebf">STEP 4: WRAP UP</text>
+
+  <!-- S4A: Leave/End -->
+  <rect x="280" y="1035" width="260" height="55" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+  <text x="410" y="1058" text-anchor="middle" font-size="12" fill="#333">Issue resolved —</text>
+  <text x="410" y="1074" text-anchor="middle" font-size="12" fill="#333">click "Leave" or "End"</text>
+
+  <line x1="410" y1="1090" x2="410" y2="1113" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S4B: Wrap-up Screen -->
+  <rect x="280" y="1115" width="260" height="50" rx="8" fill="#e1d5e7" stroke="#9673a6" stroke-width="1.5"/>
+  <text x="410" y="1145" text-anchor="middle" font-size="12" fill="#333">Wrap-up Screen appears</text>
+
+  <line x1="410" y1="1165" x2="410" y2="1193" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S4C: Category & Reason -->
+  <rect x="280" y="1195" width="260" height="55" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="410" y="1218" text-anchor="middle" font-size="12" fill="#333">Select Category &amp; Reason</text>
+  <text x="410" y="1234" text-anchor="middle" font-size="11" fill="#666">(e.g. Support &gt; Billing)</text>
+
+  <line x1="410" y1="1250" x2="410" y2="1273" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S4D: Internal Notes -->
+  <rect x="280" y="1275" width="260" height="50" rx="8" fill="#dae8fc" stroke="#6c8ebf" stroke-width="1.5"/>
+  <text x="410" y="1305" text-anchor="middle" font-size="12" fill="#333">Add internal notes for next agent</text>
+
+  <line x1="410" y1="1325" x2="410" y2="1353" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- S4E: Submit -->
+  <rect x="280" y="1355" width="260" height="50" rx="8" fill="#ffe6cc" stroke="#d79b00" stroke-width="1.5"/>
+  <text x="410" y="1385" text-anchor="middle" font-size="12" fill="#333">Click "Submit"</text>
+
+  <line x1="410" y1="1405" x2="410" y2="1433" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- END -->
+  <ellipse cx="410" cy="1462" rx="110" ry="30" fill="#d5e8d4" stroke="#82b366" stroke-width="2"/>
+  <text x="410" y="1467" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">Back to "Ready" State</text>
+
+  <!-- Loop back arrow: end right → up → S3A right -->
+  <polyline points="520,1462 775,1462 775,652 542,652" fill="none" stroke="#9673a6" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrow-purple)"/>
+  <text text-anchor="middle" font-size="10" font-style="italic" fill="#9673a6" transform="translate(789,1060) rotate(-90)">Next interaction</text>
+
+</svg>
