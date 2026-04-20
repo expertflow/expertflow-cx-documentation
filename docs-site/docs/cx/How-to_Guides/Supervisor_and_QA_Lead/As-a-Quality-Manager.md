@@ -24,7 +24,7 @@ As a **Quality Manager** in ExpertFlow CX, you are responsible for designing eva
 
 Create structured evaluation forms with weighted sections and questions used by Evaluators to assess agent interactions.
 
-- Go to **Quality Management → Evaluation Forms**.
+- Go to [**Quality Management → Evaluation Forms**](Designing-Evaluation-Forms.md).
 - Build forms with sections, questions, and scoring weights.
 - See [Designing Evaluation Forms](Designing-Evaluation-Forms.md) for the full guide.
 
@@ -32,7 +32,7 @@ Create structured evaluation forms with weighted sections and questions used by 
 
 Track the overall status of all evaluation jobs across your team.
 
-- Navigate to **Quality Management → Review Screen**.
+- Navigate to [**Quality Management → Review Screen**](Auditing-and-Scoring-Conversations.md).
 - Monitor evaluation statuses: **Pending**, **In Progress**, **Completed**.
 - Ensure evaluations are completed within their deadlines.
 
@@ -40,7 +40,7 @@ Track the overall status of all evaluation jobs across your team.
 
 Assign bulk reviews to Evaluators based on agent activity, teams, and call specifics.
 
-- Navigate to **Quality Management → Review Scheduler**.
+- Navigate to [**Quality Management → Review Scheduler**](Review-Scheduler.md).
 - Apply filters by agent, team, Evaluator, channel, and call properties.
 - Configure **one-time** or **recurring** evaluation schedules with completion deadlines.
 
@@ -48,7 +48,7 @@ Assign bulk reviews to Evaluators based on agent activity, teams, and call speci
 
 Manually assign individual conversations to specific Evaluators for ad-hoc reviews.
 
-- Navigate to **Quality Management → Conversation List**.
+- Navigate to [**Quality Management → Conversation List**](Finding-Conversations-for-Audit.md).
 - Find the target conversation and assign it to an Evaluator.
 
 ### 5. Review Conversations Directly
