@@ -20,7 +20,7 @@ ExpertFlow CX is designed to support your obligations under the **General Data P
 |---|---|---|---|
 | 1 | **Data Encryption** — Protect personal data at rest and in transit using strong encryption. | ✅ Compliant | ExpertFlow CX encrypts all data in transit using TLS. Data at rest is encrypted for messages and call recordings. See [Data Encryption](../../How-to_Guides/Administrator/Encryption-at-Rest-Configuration-Guide.md). |
 | 2 | **Access Controls** — Enforce role-based access to limit personal data exposure to authorized users only. | ✅ Compliant | Role-based access controls (RBAC) and group-based access controls (GBAC) are enforced across the platform. Only authenticated, authorized agents can access conversation data and customer profiles. |
-| 3 | **Anonymization & Pseudonymization** — Implement data masking or tokenization to reduce personal data exposure. | ✅ Compliant | PII data masking is available in two scopes: (1) masking in system logs, and (2) masking of customer attributes in Agent Desk. See [PII Data Masking](../../Reference/Archive-Notice.md). |
+| 3 | **Anonymization & Pseudonymization** — Implement data masking or tokenization to reduce personal data exposure. | ✅ Compliant | PII data masking is available in two scopes: (1) masking in system logs, and (2) masking of customer attributes in Agent Desk. See [PII Data Masking](PII-Data-Masking.md). |
 | 4 | **Audit Logs** — Record all actions related to personal data access, modification, and deletion. Logs must be tamper-proof. | ⚠️ Partial | Event logging for IAM (Keycloak) is available. Centralized audit logging for all CX components is on the 2025 roadmap. |
 | 5 | **Pause-and-Resume Recording** — Allow agents to pause call recordings when sensitive personal data is discussed. | ✅ Compliant | Agents can pause and resume call recordings from Agent Desk during live interactions. |
 
@@ -47,7 +47,7 @@ Contact your ExpertFlow account team for a Data Processing Agreement (DPA) if re
 
 ## Related Articles
 
-- [PII Data Masking](../../Reference/Archive-Notice.md)
+- [PII Data Masking](PII-Data-Masking.md)
 - [HIPAA Compliance](HIPAA-Compliance.md)
 - [PCI DSS Compliance](PCI-DSS-Compliance.md)
 - [Security and Compliance Whitepaper](../../Platform_Overview/Security-and-Compliance-Whitepaper.md)

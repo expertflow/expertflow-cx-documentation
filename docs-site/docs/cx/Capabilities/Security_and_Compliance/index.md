@@ -7,6 +7,7 @@ last-updated: 2026-03-14
 
 # Security & Compliance
 
+- [PII Data Masking](PII-Data-Masking.md) — Masking personal data in logs and Agent Desk
 - [Audit Logging](Audit-Logging.md) — Audit logging configuration and reference
 - [GDPR Compliance](GDPR-Compliance.md) — GDPR compliance posture and controls
 - [HIPAA Compliance](HIPAA-Compliance.md) — HIPAA compliance posture and controls
