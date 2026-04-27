@@ -65,14 +65,14 @@ The platform is composed of loosely coupled services, each owning a specific dom
 
 | Service | Responsibility |
 | ------- | -------------- |
-| **CIM (Customer Interaction Manager)** | Central message broker. All interaction events (incoming, transferred, closed) flow through CIM as structured event objects. |
-| **Routing Engine** | Evaluates routing rules, skill matching, and queue priorities. Operates in push (precision) or pull (list) mode. |
+| [**CIM (Customer Interaction Manager)**](../How-to_Guides/Developer_Integrator/Interaction-Model-Overview) | Central message broker. All interaction events (incoming, transferred, closed) flow through CIM as structured event objects. |
+| [**Routing Engine**](../How-to_Guides/Developer_Integrator/Routing-Engine-Developer-Guide) | Evaluates routing rules, skill matching, and queue priorities. Operates in push (precision) or pull (list) mode. |
 | **Agent Desk / AgentManager** | WebSocket-based real-time UI server. Maintains per-agent session state and pushes events to browser clients. |
 | **AI Orchestrator** | Decoupled reasoning layer. Receives conversation context from CIM and dispatches to configured LLM/NLU providers. Returns enriched results without blocking the interaction flow. |
-| **Keycloak (IAM)** | Identity and access management. Issues JWTs for all service-to-service and user authentication. Each tenant gets an isolated realm. |
+| [**Keycloak (IAM)**](../How-to_Guides/Administrator/IAM-Keycloak-Configuration) | Identity and access management. Issues JWTs for all service-to-service and user authentication. Each tenant gets an isolated realm. |
 | **Unified Admin** | Configuration service. Manages queues, skills, channels, teams, and license assignments. Writes directly to MongoDB config collections. |
-| **Quality Management** | Evaluation pipeline. Receives transcripts from CIM, assigns to human evaluators or AI audit jobs. |
-| **Reporting / CX Analyser** | Reads from MongoDB replica sets and/or OpenSearch indexes to serve real-time dashboards and historical aggregations. |
+| [**Quality Management**](../Capabilities/Quality_Management/) | Evaluation pipeline. Receives transcripts from CIM, assigns to human evaluators or AI audit jobs. |
+| [**Reporting / CX Analyser**](../Capabilities/Reporting_and_Analytics/) | Reads from MongoDB replica sets and/or OpenSearch indexes to serve real-time dashboards and historical aggregations. |
 
 Services communicate over **REST** (synchronous) and **Redis Pub/Sub** (asynchronous event streams). There is no shared database between services — each owns its own collection namespace within MongoDB.
 
