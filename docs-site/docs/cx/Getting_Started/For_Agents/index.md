@@ -70,7 +70,16 @@ If your role involves handling phone calls:
 - Voice conversations may be recorded depending on your administrator's configuration. Recordings are accessible after the conversation ends.
 
 ### Multi-channel Work
-You may receive conversations across multiple channels simultaneously — chat, voice, WhatsApp, and others. Each active channel appears in the **Active Channels Pane** on the right panel. See [How to Handle Multi-channel Chats](../../How-to_Guides/Agent/Accept-a-Conversation.md) for guidance.
+You may receive conversations across multiple channels simultaneously — chat, voice, WhatsApp, and others. Each active channel appears in the **Active Channels Pane** on the right panel.
+
+#### Switching Channels Within a Conversation
+You can switch the channel you use to reply to a customer mid-conversation — for example, if a customer on web chat asks you to follow up on WhatsApp instead.
+
+1. In the **Message Composer**, locate the channel dropdown at the top.
+2. The dropdown lists all channels the customer is currently active on in that conversation.
+3. Select your desired channel, type your message, and send — it will be delivered on that channel.
+
+> **Example:** A customer contacts you via web chat but asks you to send a follow-up to their WhatsApp. Select WhatsApp from the dropdown and send the message without leaving the conversation.
 
 ### Preferences
 - **Language:** Change the interface language at any time in your **Profile Settings**.
