@@ -12,7 +12,9 @@
       "Read(//Users/macm1/.claude/**)",
       "Bash(mkdir -p /Users/macm1/DocWithGeminiCLI/.claude/commands)",
       "Bash(chmod +x /Users/macm1/DocWithGeminiCLI/scripts/commit-sync.sh)",
-      "Bash(zsh -n /Users/macm1/.zshrc)"
+      "Bash(zsh -n /Users/macm1/.zshrc)",
+      "Skill(doc-review)",
+      "Skill(doc-review:*)"
     ],
     "additionalDirectories": [
       "/Users/macm1/DocWithGeminiCLI/.claude",
