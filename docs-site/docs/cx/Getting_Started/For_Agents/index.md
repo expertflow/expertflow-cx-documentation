@@ -31,7 +31,11 @@ When a customer contacts you, a notification will appear in your browser and on 
 - Click **Accept** on the incoming alert.
 - The **Conversation View** will open automatically.
 
-> **Pull-based queues:** Some queues require you to pull work manually rather than wait for an alert. If you are not receiving incoming requests, ask your administrator whether your queue is push or pull-based.
+:::note
+
+**Pull-based queues:** Some queues require you to pull work manually rather than wait for an alert. If you are not receiving incoming requests, ask your administrator whether your queue is push or pull-based.
+
+:::
 
 ### What You Can See
 The Conversation View shows everything you need to handle the interaction:
@@ -45,7 +49,11 @@ The Conversation View shows everything you need to handle the interaction:
 - **Whisper (Internal):** Need help? Click the **Yellow Whisper Tab** to chat with your supervisor. The customer **cannot** see these messages.
 - **Collaborating:** Use the **Transfer** or **Conference** buttons to bring in another agent if needed.
 
-> **Need to reach a customer first?** See [Making an Outbound Contact](../../How-to_Guides/Agent/Making-an-Outbound-Contact.md) for how to initiate voice calls, WhatsApp messages, and SMS.
+:::tip
+
+**Need to reach a customer first?** See [Making an Outbound Contact](../../How-to_Guides/Agent/Making-an-Outbound-Contact.md) for how to initiate voice calls, WhatsApp messages, and SMS.
+
+:::
 
 ## Step 4: Resolving & Wrapping Up
 Once the customer's issue is solved, you must close the interaction properly.
@@ -79,7 +87,11 @@ You can switch the channel you use to reply to a customer mid-conversation — f
 2. The dropdown lists all channels the customer is currently active on in that conversation.
 3. Select your desired channel, type your message, and send — it will be delivered on that channel.
 
-> **Example:** A customer contacts you via web chat but asks you to send a follow-up to their WhatsApp. Select WhatsApp from the dropdown and send the message without leaving the conversation.
+:::tip
+
+**Example:** A customer contacts you via web chat but asks you to send a follow-up to their WhatsApp. Select WhatsApp from the dropdown and send the message without leaving the conversation.
+
+:::
 
 ### Preferences
 - **Language:** Change the interface language at any time in your **Profile Settings**.
