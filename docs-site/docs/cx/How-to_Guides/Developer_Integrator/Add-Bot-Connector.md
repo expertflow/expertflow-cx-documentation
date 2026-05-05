@@ -37,8 +37,12 @@ Before creating channels in ExpertFlow CX, you must have at least one bot config
 
 ## Notes
 
+:::caution
+
 - A bot connector that is associated with a Channel or another component **cannot be deleted** until the association is removed.
 - The **API URL** field appears only when the Bot Type is **Rasa** or **Custom**.
+
+:::
 
 ## Related Articles
 
