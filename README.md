@@ -18,17 +18,18 @@ Restructure project in progress — see [Phase3/Restructure_Project_Plan.md](Pha
 
 ## Navigation Structure
 
-The documentation is organised into 5 top-level sections:
+The documentation is organised into 6 top-level sections (order is fixed — do not change without updating `Phase3/Content_Placement_Guide.yaml`):
 
 | # | Section | Purpose |
 | --- | --- | --- |
 | 1 | **Getting Started** | Role-based entry points — one path per persona |
-| 2 | **Platform Overview** | Evaluation and orientation content |
-| 3 | **Capabilities** | Topic-based browsing — what the platform can do |
-| 4 | **How-to Guides** | Task-based guides organised by persona |
-| 5 | **Reference** | Schemas, APIs, glossary |
+| 2 | **Solutions** | Business-outcome overviews for pre-sales and evaluation audiences |
+| 3 | **Platform Overview** | Evaluation and orientation content |
+| 4 | **Capabilities** | Topic-based browsing — what the platform can do |
+| 5 | **How-to Guides** | Task-based guides organised by persona |
+| 6 | **Reference** | Schemas, APIs, SDKs, hardware sizing, glossary |
 
-Personas: Agent · Administrator · Supervisor & QA Lead · Conversation Designer / AI Specialist · Developer / Integrator · Hosting Partner · Platform Operator (cross-cutting sub-path)
+Personas: Agent · Administrator · Supervisor & QA Lead · Conversation Designer / AI Specialist · Developer / Integrator · Platform Operator · Partner
 
 ## Repository Structure
 
@@ -65,6 +66,62 @@ npm install
 npm run start      # Dev server at http://localhost:3000
 npm run build      # Production build
 ```
+
+## Working with Claude Code
+
+This project uses [Claude Code](https://claude.ai/code) as an AI assistant. Two project-specific files configure how it works.
+
+### CLAUDE.md — always-on project context
+
+[CLAUDE.md](CLAUDE.md) is loaded automatically at the start of every Claude Code session. It tells Claude:
+
+- Where the authoritative rule files live (`Phase3/`)
+- The content structure and section purposes
+- Required frontmatter fields and valid audience tag values
+- The five key rules to apply on every content change
+
+You do not need to do anything to activate it — Claude reads it on startup.
+
+### /doc-review — content review command
+
+Run `/doc-review` in Claude Code to review changed documentation files against the project guidelines before merging.
+
+```bash
+/doc-review              # reviews your current working diff against main
+/doc-review my-branch    # reviews a specific branch
+```
+
+The command checks:
+
+| Check | What it validates |
+| --- | --- |
+| **Frontmatter** | All required fields present, valid `doc-type`, valid `audience` tags, no retired tags |
+| **Content placement** | File is in the correct section and persona subfolder per `Phase3/Content_Placement_Guide.yaml` |
+| **Diátaxis discipline** | Content type matches the section — e.g. no step-by-step instructions inside a Capabilities explanation doc |
+| **Sidebar rules** | `index.md` not duplicated as a child item; correct top-level section order |
+| **Audit triggers** | Any open rule-change alerts that affect the files being changed |
+
+Output is a structured report with **FAIL** (must fix before merge), **WARN** (should fix), and **PASS** items.
+
+### Audit triggers — tracking rule changes
+
+When a content placement rule is updated in `Phase3/Content_Placement_Guide.yaml`, existing files may no longer comply. The `audit_triggers` section at the bottom of that file records:
+
+- Which rule changed and when
+- Which folder needs to be swept (`sweep`)
+- What to check in those files (`check`)
+- Whether the sweep is complete (`status: open` or `closed`)
+
+**If you change a rule**, add an `open` trigger entry at the same time. `/doc-review` will automatically flag non-compliant files as they are touched in future PRs. Set `status: closed` once all affected files have been updated.
+
+### Authoritative rule files
+
+| File | Purpose |
+| --- | --- |
+| [Phase3/Content_Placement_Guide.yaml](Phase3/Content_Placement_Guide.yaml) | Where content goes, frontmatter spec, section rules, edge cases, audit triggers |
+| [Phase3/Persona_Model.md](Phase3/Persona_Model.md) | Persona definitions, clusters, golden paths, valid audience tag values |
+
+---
 
 ## Contributing
 
