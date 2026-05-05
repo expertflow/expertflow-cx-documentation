@@ -2,7 +2,7 @@
 audience: [administrator]
 title: "Solution Admin Guide"
 summary: "Guide for solution admins — initial setup, routing, queues, channels, agent desk, security, reporting, voice, and system operations."
-doc-type: landing
+doc-type: how-to
 last-updated: 2026-03-18
 ---
 
