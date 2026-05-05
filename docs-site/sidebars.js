@@ -12,7 +12,16 @@ const sidebars = {
       items: [
         { type: 'doc', id: 'cx/Getting_Started/For_Agents/index', label: 'For Agents' },
         { type: 'doc', id: 'cx/Getting_Started/For_Administrators/index', label: 'For Administrators' },
-        { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/index', label: 'For Supervisors & QA Leads' },
+        {
+          type: 'category',
+          label: 'For Supervisors & QA Leads',
+          link: { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/index' },
+          items: [
+            { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/Monitoring-Your-Team-in-Real-Time', label: 'Monitoring Your Team in Real Time' },
+            { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/Managing-the-Quality-Assurance-Workflow', label: 'Managing the QA Workflow' },
+            { type: 'doc', id: 'cx/Getting_Started/For_Supervisors_and_QA_Leads/Evaluator-Guide', label: 'Evaluator Guide' },
+          ],
+        },
         {
           type: 'category',
           label: 'For Platform Operators',
