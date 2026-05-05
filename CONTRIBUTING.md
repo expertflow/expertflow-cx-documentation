@@ -96,3 +96,43 @@ Rules:
 *   Leave a blank line between the `<summary>` closing tag and the answer body, or Markdown inside the block will not render correctly.
 *   Group questions under H2 headings by topic (e.g. `## Contracts`, `## Troubleshooting`).
 *   Do not use the old grouped-bullet format (`- **Question?** Answer`) for new FAQ pages.
+
+### Admonitions (Callout Panels)
+
+Use Docusaurus admonitions to highlight important information — the equivalent of Confluence's Note, Warning, Tip, and Info panels. They render as styled, colored panels with an icon and label.
+
+**Syntax:**
+
+```md
+:::note
+
+Content goes here.
+
+:::
+```
+
+**Available types:**
+
+| Type | Color | When to use |
+|---|---|---|
+| `:::note` | Blue | Neutral supplementary information the reader should be aware of. |
+| `:::tip` | Green | Best practices, shortcuts, or helpful suggestions. |
+| `:::caution` | Yellow | Restrictions, conditional behavior, or things that may cause confusion if missed. |
+| `:::danger` | Red | Actions that can cause data loss, system failure, or irreversible consequences. |
+
+**Example:**
+
+```md
+:::caution
+
+- A bot connector that is associated with a Channel **cannot be deleted** until the association is removed.
+- The **API URL** field appears only when the Bot Type is **Rasa** or **Custom**.
+
+:::
+```
+
+Rules:
+*   Choose the type based on content — not preference. Match the severity of the message to the color.
+*   Keep admonition content concise. If it exceeds 3–4 bullet points, consider moving the content into the main body.
+*   Leave a blank line after the opening `:::type` and before the closing `:::`, or Markdown inside will not render correctly.
+*   Do not nest admonitions.
