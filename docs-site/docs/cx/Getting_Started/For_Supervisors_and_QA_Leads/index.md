@@ -4,11 +4,11 @@ title: "Quick Start for Supervisors & QA Leads"
 summary: "Entry point for Supervisors, Quality Managers, and Evaluators — covers real-time monitoring, QA workflow orchestration, and evaluation tasks."
 audience: [supervisor-qa]
 product-area: [reporting, quality-management]
-doc-type: tutorial
+doc-type: landing
 difficulty: beginner
 keywords: ["supervisor", "quality manager", "evaluator", "real-time monitoring", "QA workflow", "quick start"]
 aliases: ["supervisor quick start", "QA lead guide", "evaluator getting started"]
-last-updated: 2026-03-27
+last-updated: 2026-05-05
 ---
 
 # Quick Start for Supervisors & QA Leads
