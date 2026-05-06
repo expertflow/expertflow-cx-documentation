@@ -7,18 +7,8 @@
       "Bash(npm run *)",
       "Bash(gh run *)",
       "Bash(rsync -a --exclude='diagrams/' /Users/macm1/ai/Expertflow/DocWithGeminiCLI/Restructured/ /Users/macm1/ai/Expertflow/DocWithGeminiCLI/docs-site/docs/cx/)",
-      "Bash(gh pr *)",
-      "Bash(find ~/.claude -name \"review*\" -type f 2>/dev/null | head -5)",
-      "Read(//Users/macm1/.claude/**)",
-      "Bash(mkdir -p /Users/macm1/DocWithGeminiCLI/.claude/commands)",
-      "Bash(chmod +x /Users/macm1/DocWithGeminiCLI/scripts/commit-sync.sh)",
-      "Bash(zsh -n /Users/macm1/.zshrc)",
-      "Skill(doc-review)",
-      "Skill(doc-review:*)"
-    ],
-    "additionalDirectories": [
-      "/Users/macm1/DocWithGeminiCLI/.claude",
-      "/Users/macm1"
+      "Bash(gh pr comment 17 --body ' *)",
+      "Bash(gh pr *)"
     ]
   }
 }
