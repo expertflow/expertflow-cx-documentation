@@ -15,7 +15,7 @@ ExpertFlow CX is a cloud-native contact centre platform built on **Kubernetes**.
 
 ## Platform Overview
 
-![CX Platform Architecture](./cx_architecture.svg)
+![CX Platform Architecture](../diagrams/cx_architecture.svg)
 
 | # | Layer | Components |
 |---|-------|------------|

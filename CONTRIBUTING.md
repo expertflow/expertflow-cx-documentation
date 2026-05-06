@@ -1,10 +1,10 @@
 # Contributing to Expertflow CX Documentation
 
-Welcome! We're glad you're here. This guide will help you understand our simple workflow for contributing to the documentation.
+Welcome! We're glad you're here. This guide will help you understand our workflow for contributing to the documentation.
 
 ## GitHub Flow
 
-We follow the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) model. It's a simple, branch-based workflow that supports teams and projects where deployments happen regularly.
+We follow the [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) model — a simple, branch-based workflow where deployments happen on merge to `main`.
 
 ### 1. Create a Branch
 
@@ -14,42 +14,90 @@ Always create a new branch from `main` for your work. Use a descriptive name tha
 git checkout -b docs/update-agent-guide
 ```
 
-*   `docs/` prefix for documentation updates.
-*   `fix/` prefix for correcting errors.
-*   `feature/` prefix for new sections or architectural changes.
+* `docs/` — documentation updates
+* `fix/` — correcting errors
+* `feature/` — new sections or structural changes
 
 ### 2. Make Your Changes
 
-Make your edits to the markdown files. Most of the active documentation is located in:
-*   `Phase4/`: The structured documentation content.
-*   `docs-site/`: The Docusaurus configuration and site structure.
+All active documentation lives under `docs-site/docs/cx/`. The structure is:
 
-### 3. Commit and Push
+```text
+docs-site/docs/cx/
+  Getting_Started/       # tutorial — one quick-start per persona
+  Platform_Overview/     # orientation — evaluation content, no task instructions
+  Capabilities/          # explanation — feature-domain browsing, not persona-based
+  How-to_Guides/         # how-to — task guides, organised by persona subfolder
+  Reference/             # reference — specs, APIs, schemas, hardware sizing
+  Solutions/             # explanation — business-outcome overviews, not config steps
+```
+
+Before placing or moving any file, read the authoritative rule files:
+
+| File | Purpose |
+| --- | --- |
+| `Phase3/Content_Placement_Guide.yaml` | Where content goes, frontmatter spec, section definitions, edge cases |
+| `Phase3/Persona_Model.md` | Persona definitions, audience tag values, and golden paths |
+
+### 3. Frontmatter
+
+Every document requires these frontmatter fields:
+
+```yaml
+---
+title:        # human-readable title shown in the sidebar
+summary:      # one sentence — what this doc covers
+doc-type:     # how-to | tutorial | explanation | reference | landing
+last-updated: # YYYY-MM-DD
+---
+```
+
+`audience` is optional for pure reference content and required for all persona-specific docs. Valid values: `agent`, `supervisor-qa`, `administrator`, `platform-operator`, `partner`, `conversation-designer`, `developer-integrator`.
+
+Never use retired tags: `hosting-partner`, `reseller-partner`, `platform-overview`.
+
+### 4. Key Content Rules
+
+1. **Placement first** — check `Content_Placement_Guide.yaml` sections and `edge_cases` before placing any file.
+2. **No duplication** — multi-audience content lives in the primary persona folder; other personas link to it.
+3. **Diátaxis discipline** — explanation content never contains step-by-step instructions; how-to content never explains why a feature exists.
+4. **Channel naming** — channel overviews must be `Capabilities/Digital_Channels/<ChannelName>/index.md`, never a flat file.
+5. **Sidebar `index.md` rule** — when `index.md` is the category link, it must NOT also appear in `items: []`.
+6. **Sidebar order is fixed** — do not reorder top-level sections (see `sidebar_top_level_order` in the YAML).
+
+### 5. Commit and Push
 
 Commit your changes with clear, concise messages:
 
 ```bash
-git add .
+git add docs-site/docs/cx/path/to/changed-file.md
 git commit -m "docs: add detailed agent desk setup steps"
 git push origin docs/update-agent-guide
 ```
 
-### 4. Open a Pull Request
+### 6. Open a Pull Request
 
 Go to the GitHub repository and open a **Pull Request (PR)** from your branch to `main`.
-*   Provide a clear description of what changed and why.
-*   Link any relevant issues.
-*   The deployment workflow will automatically build your changes upon merge.
 
-### 5. Review and Merge
+* Provide a clear description of what changed and why.
+* Link any relevant issues.
+* The deployment workflow will automatically build your changes upon merge.
 
-Wait for feedback or approval from other collaborators. Once approved, your PR will be merged into `main`, and the documentation site will be updated automatically.
+### 7. Review and Merge
+
+Wait for feedback or approval from other collaborators. Once approved, your PR will be merged into `main` and the documentation site will update automatically.
+
+---
+
+## Reviewing Your Changes
+
+Run `/doc-review` in Claude Code to review a content change (local diff or PR) against the placement and frontmatter guidelines before opening a PR.
 
 ---
 
 ## Local Development (Optional)
 
-If you want to preview your changes locally using Docusaurus:
+To preview your changes locally using Docusaurus:
 
 1.  Navigate to the `docs-site` directory:
     ```bash
