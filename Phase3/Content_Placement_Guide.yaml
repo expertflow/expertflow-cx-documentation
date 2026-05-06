@@ -534,6 +534,29 @@ frontmatter_spec:
         Omit for pure reference content (schemas, hardware specs, glossary)
         that is accessed by whoever needs it rather than persona-specific.
         Do not use retired tags: hosting-partner, reseller-partner, platform-overview.
+    product-area:
+      type: list
+      description: >
+        Feature domains this document relates to (e.g. reporting, quality-management,
+        routing, digital-channels). Used for filtering and cross-linking. Free-form
+        strings — no fixed valid_values list.
+    difficulty:
+      type: string
+      valid_values:
+        - beginner
+        - intermediate
+        - advanced
+      description: Intended experience level of the reader. Omit if not meaningful for the doc type.
+    keywords:
+      type: list
+      description: >
+        Additional search terms and synonyms not already present in the title or summary.
+        Used to improve discoverability in site search.
+    aliases:
+      type: list
+      description: >
+        Alternative names or phrases readers might use to find this document
+        (e.g. former page titles, common shorthand). Used for search and redirects.
 
   retired_audience_tags:
     - hosting-partner    # split into platform-operator and/or partner
