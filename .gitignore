@@ -4,3 +4,4 @@
 .vscode/
 *.log
 docs-site/docs/cx/diagrams/
+*.code-workspace
