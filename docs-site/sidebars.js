@@ -202,7 +202,7 @@ const sidebars = {
           link: { type: 'doc', id: 'cx/Capabilities/AI_and_Automation/index' },
           items: [
             'cx/Capabilities/AI_and_Automation/Customer-Journey-Orchestration',
-            'cx/Capabilities/AI_and_Automation/Campaign-Lifecycle-Management',
+            'cx/Capabilities/AI_and_Automation/Campaign-Run-Window',
           ],
         },
         {

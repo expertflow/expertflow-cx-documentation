@@ -1,5 +1,5 @@
 ---
-title: Campaign Lifecycle Management
+title: Campaign Run Window
 summary: >
   How ExpertFlow CX automatically starts and stops outbound campaigns based on
   a configured date and time window, removing the need for manual supervisor
@@ -22,7 +22,7 @@ keywords:
 last-updated: 2026-06-04
 ---
 
-# Campaign Lifecycle Management
+# Campaign Run Window
 
 ExpertFlow CX lets you define a **Start Date/Time** and **End Date/Time** for
 any outbound campaign. Once set, the platform automatically begins dialing at
