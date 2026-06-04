@@ -52,5 +52,6 @@ _Simple 3-step flow (not a config guide). e.g.: 1. Define your audience. 2. Desi
 ## Go Deeper
 
 - **Capability docs:** [AI and Automation](../../Capabilities/AI_and_Automation/index.md) · [Voice and Video](../../Capabilities/Voice_and_Video/index.md) · [Digital Channels](../../Capabilities/Digital_Channels/index.md)
+- **Campaign scheduling:** [Campaign Lifecycle Management](../../Capabilities/AI_and_Automation/Campaign-Lifecycle-Management.md) — auto-start and auto-stop by date/time
 - **Configure it:** [Managing Outbound Campaigns](../../How-to_Guides/Administrator/Managing-Outbound-Campaigns.md)
 - **Reporting:** [Campaign Performance Reports](../../How-to_Guides/Supervisor_and_QA_Lead/Campaign-Performance-Reports.md)

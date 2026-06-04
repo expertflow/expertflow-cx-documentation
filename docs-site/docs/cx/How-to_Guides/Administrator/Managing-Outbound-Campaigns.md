@@ -24,6 +24,19 @@ Manage your activities from the **Campaigns** dashboard.
 - **Published:** Active and running according to the flow logic.
 - **Stopped:** Permanently archived. Note: Stopped campaigns cannot be republished.
 
+### Set a Campaign Lifecycle Window
+
+You can define a **Start Date/Time** and **End Date/Time** so the campaign starts and stops automatically without manual intervention.
+
+1. Open the campaign and go to the **Schedule** tab.
+2. Enter the **Start Date & Time** (e.g., `2026-06-12 09:00`).
+3. Enter the **End Date & Time** (e.g., `2026-06-15 17:00`).
+4. Save and publish the campaign.
+
+Once published, the START Node evaluates the bounds on every trigger interval and suppresses pulses outside the window. No further action is needed at launch or shutdown.
+
+> To understand how the pulse gating mechanism works, see [Campaign Lifecycle Management](../../Capabilities/AI_and_Automation/Campaign-Lifecycle-Management.md).
+
 ## 3. Designing the Flow
 The **Flow Builder** uses nodes to define logic. Every campaign must start with a **Start Node**.
 

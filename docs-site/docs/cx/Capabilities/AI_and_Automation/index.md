@@ -7,4 +7,6 @@ last-updated: 2026-04-07
 
 AI and automation capabilities within ExpertFlow CX, including conversational bots, agent co-pilot features, and AI-driven quality management.
 
+- [Campaign Lifecycle Management](./Campaign-Lifecycle-Management.md) — automatic start and stop of outbound campaigns by date/time window
+
 > Content for this section is in progress.
