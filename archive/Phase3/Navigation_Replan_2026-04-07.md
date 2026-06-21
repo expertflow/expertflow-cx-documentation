@@ -286,6 +286,6 @@ Phase 4 is the final cleanup step.
 | `Phase3/Persona_Model.md` | Authoritative persona and structure spec — start here |
 | `Phase3/Navigation_Replan_2026-04-07.md` | This document |
 | `Phase3/Content_Placement_Guide.yaml` | AI agent placement rulebook (to be created in Phase 3) |
-| `DocWithGeminiCLI/Restructured/` | Authoritative content folder |
+| `expertflow-cx-documentation/Restructured/` | Authoritative content folder |
 | `docs-site/sidebars.js` | Live Docusaurus navigation config |
 | `Phase3/archive/Final_Navigation_Tree_v11.yaml` | Retired nav tree (to be archived in Phase 4) |

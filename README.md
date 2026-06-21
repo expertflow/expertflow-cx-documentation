@@ -34,7 +34,7 @@ Personas: Agent · Administrator · Supervisor & QA Lead · Conversation Designe
 ## Repository Structure
 
 ```text
-DocWithGeminiCLI/
+expertflow-cx-documentation/
 ├── Restructured/          # Live content — source of truth for the docs site
 │   ├── Getting_Started/
 │   ├── Platform_Overview/

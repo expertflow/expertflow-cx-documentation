@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/expertflow/expertflow-cx-documentation/tree/main/DocWithGeminiCLI/',
+            'https://github.com/expertflow/expertflow-cx-documentation/tree/main/expertflow-cx-documentation/',
         },
         blog: false,
         theme: {
