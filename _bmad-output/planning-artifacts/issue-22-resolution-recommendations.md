@@ -54,7 +54,7 @@ For users who navigate by product (e.g., "I need the WFM docs"), a lightweight `
 | Layer | Owner | Mechanism |
 |---|---|---|
 | Infrastructure (repo, GitHub Pages, CI/CD) | Platform / DevOps team | GitHub Actions pipeline |
-| Content framework (Diátaxis rules, `Content_Placement_Guide.yaml`, persona model) | CX documentation team | Org-standard governance files in root of new repo |
+| Content framework (Diátaxis rules, `Content_Placement_Guide.yaml`, persona model) | CX documentation team | Org-standard governance files already in this repo root |
 | Content per product area | Each product team | PRs reviewed against the shared framework |
 | Migration project management | Designated docs lead (cross-team) | Tracking issue per phase |
 
@@ -64,56 +64,56 @@ For users who navigate by product (e.g., "I need the WFM docs"), a lightweight `
 
 ### Q3 — Where does the strategy live?
 
-**Recommendation: Create a new `expertflow/expertflow-docs` repo. The strategy document moves there.**
+**Recommendation: Rename this repo to `expertflow/expertflow-docs` and expand its scope. No new repo needed.**
 
-The current `expertflow-cx-documentation` repo is correctly scoped to CX. An org-wide strategy document has no business living in it — which is exactly why PR #20 was parked.
+The original recommendation was to create a new repo. That was an overcorrection. The simpler and correct path is to rename this repo — GitHub automatically redirects all existing URLs (GitHub Pages, clone URLs, web URLs) to the new name, so nothing breaks.
 
-**Proposed repo structure:**
+The `docs-site/` Docusaurus installation already exists, the governance files are already in place, and the CX content is already live. Expanding scope here avoids a content migration exercise that adds no value.
+
+**Revised repo structure (in-place expansion):**
 
 ```
-expertflow/expertflow-docs
-  docs/cx/                          ← CX content (ported from current repo)
-  docs/connectors/                  ← CRM connector content (Phase 3)
-  docs/wfm/                         ← WFM (Phase 4)
-  docs/voice-recording/             ← Voice Recording (Phase 4)
+expertflow/expertflow-docs              ← renamed from expertflow-cx-documentation
+  docs-site/
+    docs/cx/                            ← unchanged — CX content stays exactly here
+    docs/connectors/                    ← added: Phase 3 CRM connector content
+    docs/wfm/                           ← added: Phase 4 WFM content
+    docs/voice-recording/               ← added: Phase 4 Voice Recording content
+    docusaurus.config.js                ← extended with dual-plugin config from PR #20
+    sidebars-cx.js                      ← renamed from sidebars.js
+    sidebars-connectors.js              ← added
   _strategy/
-    migration-strategy.md           ← PR #20's document, re-raised here
-    issue-22-resolution.md          ← this document
-  CLAUDE.md                         ← org-wide content governance
-  Content_Placement_Guide.yaml      ← elevated from CX-only to org standard
-  Persona_Model.md                  ← elevated from CX-only to org standard
+    migration-strategy.md               ← PR #20's document, merged here
+    issue-22-resolution.md              ← this document
+  CLAUDE.md                             ← scope updated from CX-only to org-wide
+  Content_Placement_Guide.yaml          ← scope updated from CX-only to org-wide
+  Persona_Model.md                      ← unchanged, already applicable org-wide
 ```
 
-**URL continuity:** The existing CX GitHub Pages URL (`expertflow.github.io/expertflow-cx-documentation/`) must not break silently. The plan:
-
-1. The old repo stays live and publicly accessible during the transition (it is not deleted, only eventually archived).
-2. A redirect notice is added to the old site's homepage pointing to the new URL.
-3. The new repo publishes to a new GitHub Pages URL (e.g., `expertflow.github.io/expertflow-docs/`).
-4. Once the new site is stable and indexed, the old repo is archived with a static redirect in place.
-
-SEO note: GitHub Pages does not support HTTP 301 redirects natively. A JavaScript meta-redirect in the old site's `index.html` is the practical option, or a custom domain with redirect rules if a custom domain is in use.
+**URL continuity:** GitHub handles this natively. On repo rename, all existing URLs — `github.com/expertflow/expertflow-cx-documentation`, the GitHub Pages URL, and all clone remotes — automatically redirect to the new name. No manual redirect setup required.
 
 ---
 
 ### Q4 — Retrofit CX into the new model, or leave it?
 
-**Recommendation: Move CX content as-is. No content rewrite required.**
+**Recommendation: Leave CX exactly where it is. Zero content migration required.**
 
-The CX folder structure (`Getting_Started/`, `Platform_Overview/`, `Capabilities/`, `How-to_Guides/`, `Reference/`, `Solutions/`) already matches the architecture proposed in PR #20. The strategy document's folder tree uses `docs/cx/…` — it was designed with CX as a sub-path of a larger site.
+The CX content at `docs-site/docs/cx/` does not move. The folder structure already matches the architecture in PR #20 — it was designed with CX as a sub-path of a larger site. No Diátaxis re-classification, no link changes, no content rewriting.
 
-**What the move actually involves** (not zero effort, but bounded):
+**What actually needs doing** (bounded, one-time setup):
 
-| Artifact | Action |
-|---|---|
-| `docs-site/docs/cx/` | Copy to `docs/cx/` in new repo — no content changes |
-| `docusaurus.config.js` | Port and extend with dual-plugin config from PR #20 |
-| `sidebars.js` | Port as-is; rename to `sidebars-cx.js` |
-| `CLAUDE.md` | Port to repo root; update paths to reflect new structure |
-| `Content_Placement_Guide.yaml` | Port to repo root; remove CX-specific scope language |
-| `Persona_Model.md` | Port to repo root |
-| GitHub Actions CI/CD | Recreate in new repo (currently not set up in either repo) |
+| Artifact | Action | Effort |
+|---|---|---|
+| `docs-site/docs/cx/` | No change — stays exactly where it is | None |
+| `docusaurus.config.js` | Extend with dual-plugin config from PR #20 | ~2 hours |
+| `sidebars.js` | Rename to `sidebars-cx.js`; add `sidebars-connectors.js` | ~30 minutes |
+| `CLAUDE.md` | Update scope language from CX-only to org-wide | ~1 hour |
+| `Content_Placement_Guide.yaml` | Update scope language from CX-only to org-wide | ~1 hour |
+| `Persona_Model.md` | No change — already applicable org-wide | None |
+| Repo rename | GitHub Settings → rename to `expertflow-docs` | ~5 minutes |
+| GitHub Actions CI/CD | Set up (not currently configured in this repo) | ~2 hours |
 
-Estimated effort: 1–2 days of setup work for an engineer familiar with Docusaurus, before any new content migration begins.
+**Total estimated effort: half a day of setup**, before any new product content migration begins. This is significantly less than the originally proposed new-repo approach.
 
 ---
 
@@ -122,11 +122,12 @@ Estimated effort: 1–2 days of setup work for an engineer familiar with Docusau
 | Step | Action | Owner | Prerequisite |
 |---|---|---|---|
 | 1 | Ratify direction in issue #22 | @jawadbokhari | This document approved |
-| 2 | Create `expertflow/expertflow-docs` repo | Platform / DevOps | Step 1 |
-| 3 | Re-raise @navira-zainab's strategy doc as `_strategy/migration-strategy.md` in new repo | @navira-zainab | Step 2 |
-| 4 | Port CX content + all config and governance files to new repo | CX docs team | Step 3 |
-| 5 | Add redirect notice to `expertflow-cx-documentation`; archive repo | @jawadbokhari | Step 4 verified live |
-| 6 | Execute migration phases 2–5 (Knowledgebase → Connectors → Add-ons → Legacy) | Per-product teams against shared framework | Step 5 |
+| 2 | Rename repo to `expertflow-docs` via GitHub Settings | @jawadbokhari | Step 1 |
+| 3 | Extend `docusaurus.config.js` with dual-plugin config; rename `sidebars.js` → `sidebars-cx.js` | CX docs team | Step 2 |
+| 4 | Update `CLAUDE.md` and `Content_Placement_Guide.yaml` scope from CX-only to org-wide | CX docs team | Step 3 |
+| 5 | Add CODEOWNERS file; set up GitHub Actions CI/CD | Platform / DevOps | Step 3 |
+| 6 | Re-raise @navira-zainab's strategy doc as `_strategy/migration-strategy.md` in this repo | @navira-zainab | Step 4 |
+| 7 | Execute migration phases 2–5 (Knowledgebase → Connectors → Add-ons → Legacy) | Per-product teams against shared framework | Step 6 |
 
 ---
 
@@ -158,7 +159,7 @@ The single-site path is the stronger recommendation. But if org alignment is not
 
 > Do you approve the single org-wide Docusaurus site direction as described above?
 
-If **yes**: Step 1 is complete. Step 2 (create `expertflow/expertflow-docs`) can begin immediately.
+If **yes**: Step 1 is complete. Step 2 (rename this repo to `expertflow-docs`) can begin immediately — it takes five minutes in GitHub Settings.
 
 If **no** or **partial**: please comment with which recommendation(s) need revision and this document will be updated before any implementation work starts.
 
