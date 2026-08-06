@@ -42,29 +42,9 @@ last-updated: # YYYY-MM-DD
 Valid audience tags: `agent`, `supervisor-qa`, `administrator`, `platform-operator`, `partner`, `conversation-designer`, `developer-integrator`.
 Retired tags (never use): `hosting-partner`, `reseller-partner`, `platform-overview`.
 
-## Tone and writing style — apply when generating or editing content
+## Writing style and formatting
 
-- Professional, helpful, and concise. Write for a technical audience who needs to act, not be impressed.
-- Task-first: lead with what the reader needs to do or know, not background history.
-- Active voice ("Click Save", not "The Save button should be clicked").
-- Second person — address the reader as "you".
-- No marketing language — avoid superlatives ("powerful", "seamless", "world-class"); describe what the platform does, not how great it is.
-- Format: standard GitHub Flavored Markdown. Images go in `docs-site/static/img/`, referenced with a relative path.
-
-## Formatting patterns
-
-**Admonitions** — use Docusaurus admonitions to highlight information; choose the type by severity, not preference:
-
-| Type | When to use |
-|---|---|
-| `:::note` | Neutral supplementary information the reader should be aware of |
-| `:::tip` | Best practices, shortcuts, or helpful suggestions |
-| `:::caution` | Restrictions, conditional behavior, or things that may cause confusion if missed |
-| `:::danger` | Actions that can cause data loss, system failure, or irreversible consequences |
-
-Leave a blank line after the opening `:::type` and before the closing `:::`, or Markdown inside will not render. Keep content concise — if it exceeds 3–4 bullet points, move it into the main body. Do not nest admonitions.
-
-**FAQ pages** — use the native `<details>`/`<summary>` pattern, one block per question, grouped under `##` headings by topic. Leave a blank line between `<summary>` and the answer body, or Markdown inside will not render. Do not use the old grouped-bullet format (`- **Question?** Answer`) for new FAQ pages.
+Tone, voice, and formatting patterns (admonitions, FAQ blocks) live in **`Style_Guide.md`** — a standalone reference so it can be passed to any agent or skill preparing a feature doc without pulling in unrelated project setup. Read it before generating or editing content.
 
 ## Key rules to apply on every content change
 
